@@ -1,0 +1,23 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/Library
+/Temp
+/Logs
+/obj
+/.vs
+/.idea
+Assets/Editor.meta
+Assets/Editor/x64.meta
+Assets/Editor/x64/Bakery.meta
+Assets/Editor/x64/Bakery/cudart32_91.dll
+Assets/Editor/x64/Bakery/cudart32_91.dll.meta
+Assets/Editor/x64/Bakery/cudart64_90.dll
+Assets/Editor/x64/Bakery/cudart64_90.dll.meta
+Assets/Editor/x64/Bakery/cudart64_91.dll
+Assets/Editor/x64/Bakery/cudart64_91.dll.meta
+Assets/Editor/x64/Bakery/cudnn64_7.dll
+Assets/Editor/x64/Bakery/cudnn64_7.dll.meta
+Assets/Tools/VolumetricFog/Demos/StandardAssets.unitypackage
+Assets/Tools/VolumetricFog/Demos/StandardAssets.unitypackage.meta
