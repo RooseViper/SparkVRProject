@@ -103,10 +103,12 @@
     <Compile Include="Assets\_Course Library\Scripts\Actions\TranslateObject.cs" />
     <Compile Include="Assets\_Course Library\Scripts\Controls\XRJoystick.cs" />
     <Compile Include="Assets\_Course Library\Scripts\Actions\ToggleRay.cs" />
+    <Compile Include="Assets\Scripts\VideoInfo.cs" />
     <Compile Include="Assets\_Course Library\Scripts\Actions\ConvertValueToHue.cs" />
     <Compile Include="Assets\Scripts\Cube.cs" />
     <Compile Include="Assets\_Course Library\Scripts\Actions\RemoveObjectsWithTag.cs" />
     <Compile Include="Assets\_Course Library\Scripts\Testing\TeleportAreaWithFade.cs" />
+    <Compile Include="Assets\Scripts\VideoManager.cs" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
