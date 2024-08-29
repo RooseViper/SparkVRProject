@@ -3004,6 +3004,21 @@ PrefabInstance:
       propertyPath: m_TargetTexture
       value: 
       objectReference: {fileID: 8400000, guid: 4e66a329bfe676543ab13287b6e832fa, type: 2}
+    - target: {fileID: 1204657979787183573, guid: 73e24fe19a67e4f43af042d6d005313f,
+        type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1204657979787183573, guid: 73e24fe19a67e4f43af042d6d005313f,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1204657979787183573, guid: 73e24fe19a67e4f43af042d6d005313f,
+        type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1808177883962056493, guid: 73e24fe19a67e4f43af042d6d005313f,
         type: 3}
       propertyPath: m_Name
@@ -3014,6 +3029,11 @@ PrefabInstance:
       propertyPath: m_Camera
       value: 
       objectReference: {fileID: 920921514}
+    - target: {fileID: 2834327594940115732, guid: 73e24fe19a67e4f43af042d6d005313f,
+        type: 3}
+      propertyPath: m_PresetInfoIsWorld
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2920507720176139157, guid: 73e24fe19a67e4f43af042d6d005313f,
         type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -3070,6 +3090,16 @@ PrefabInstance:
       propertyPath: loadedVideos.Array.data[2].videoName
       value: Kendrick - Cartoons
       objectReference: {fileID: 0}
+    - target: {fileID: 4072348621445952977, guid: 73e24fe19a67e4f43af042d6d005313f,
+        type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4072348621445952977, guid: 73e24fe19a67e4f43af042d6d005313f,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5103597810796205052, guid: 73e24fe19a67e4f43af042d6d005313f,
         type: 3}
       propertyPath: m_Pivot.x
@@ -3113,7 +3143,7 @@ PrefabInstance:
     - target: {fileID: 5103597810796205052, guid: 73e24fe19a67e4f43af042d6d005313f,
         type: 3}
       propertyPath: m_SizeDelta.y
-      value: 1239.9407
+      value: 1525.9929
       objectReference: {fileID: 0}
     - target: {fileID: 5103597810796205052, guid: 73e24fe19a67e4f43af042d6d005313f,
         type: 3}
@@ -3153,12 +3183,12 @@ PrefabInstance:
     - target: {fileID: 5103597810796205052, guid: 73e24fe19a67e4f43af042d6d005313f,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -9.01599
+      value: -9.016
       objectReference: {fileID: 0}
     - target: {fileID: 5103597810796205052, guid: 73e24fe19a67e4f43af042d6d005313f,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0.018
+      value: -0.1215
       objectReference: {fileID: 0}
     - target: {fileID: 5103597810796205052, guid: 73e24fe19a67e4f43af042d6d005313f,
         type: 3}
@@ -3295,7 +3325,7 @@ PrefabInstance:
     - target: {fileID: 5435491550280416864, guid: 10bc0b30d7d1f1a499f7d50cff817811,
         type: 3}
       propertyPath: m_SizeDelta.y
-      value: 283.8501
+      value: 349.3339
       objectReference: {fileID: 0}
     - target: {fileID: 5435491550280416864, guid: 10bc0b30d7d1f1a499f7d50cff817811,
         type: 3}
@@ -3340,7 +3370,7 @@ PrefabInstance:
     - target: {fileID: 5435491550280416864, guid: 10bc0b30d7d1f1a499f7d50cff817811,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -0.107
+      value: -0.2753
       objectReference: {fileID: 0}
     - target: {fileID: 5435491550280416864, guid: 10bc0b30d7d1f1a499f7d50cff817811,
         type: 3}
@@ -9303,6 +9333,21 @@ PrefabInstance:
       propertyPath: m_TargetTexture
       value: 
       objectReference: {fileID: 8400000, guid: 8202fdf0e1fdb5f4f9346887dbd3f5e2, type: 2}
+    - target: {fileID: 1204657979787183573, guid: 73e24fe19a67e4f43af042d6d005313f,
+        type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1204657979787183573, guid: 73e24fe19a67e4f43af042d6d005313f,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1204657979787183573, guid: 73e24fe19a67e4f43af042d6d005313f,
+        type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1808177883962056493, guid: 73e24fe19a67e4f43af042d6d005313f,
         type: 3}
       propertyPath: m_Name
@@ -9313,6 +9358,11 @@ PrefabInstance:
       propertyPath: m_Camera
       value: 
       objectReference: {fileID: 920921514}
+    - target: {fileID: 2834327594940115732, guid: 73e24fe19a67e4f43af042d6d005313f,
+        type: 3}
+      propertyPath: m_PresetInfoIsWorld
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2920507720176139157, guid: 73e24fe19a67e4f43af042d6d005313f,
         type: 3}
       propertyPath: m_LocalPosition.z
@@ -9391,6 +9441,16 @@ PrefabInstance:
       propertyPath: loadedVideos.Array.data[3].videoName
       value: Chance The Rapper
       objectReference: {fileID: 0}
+    - target: {fileID: 4072348621445952977, guid: 73e24fe19a67e4f43af042d6d005313f,
+        type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4072348621445952977, guid: 73e24fe19a67e4f43af042d6d005313f,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5103597810796205052, guid: 73e24fe19a67e4f43af042d6d005313f,
         type: 3}
       propertyPath: m_Pivot.x
@@ -9434,7 +9494,7 @@ PrefabInstance:
     - target: {fileID: 5103597810796205052, guid: 73e24fe19a67e4f43af042d6d005313f,
         type: 3}
       propertyPath: m_SizeDelta.y
-      value: 1239.9407
+      value: 1525.9929
       objectReference: {fileID: 0}
     - target: {fileID: 5103597810796205052, guid: 73e24fe19a67e4f43af042d6d005313f,
         type: 3}
@@ -9479,7 +9539,7 @@ PrefabInstance:
     - target: {fileID: 5103597810796205052, guid: 73e24fe19a67e4f43af042d6d005313f,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0.018
+      value: -0.1215
       objectReference: {fileID: 0}
     - target: {fileID: 5103597810796205052, guid: 73e24fe19a67e4f43af042d6d005313f,
         type: 3}
@@ -20250,6 +20310,21 @@ PrefabInstance:
       propertyPath: m_TargetTexture
       value: 
       objectReference: {fileID: 8400000, guid: b810f84e94db7dc468dfd23024883d19, type: 2}
+    - target: {fileID: 1204657979787183573, guid: 73e24fe19a67e4f43af042d6d005313f,
+        type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1204657979787183573, guid: 73e24fe19a67e4f43af042d6d005313f,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1204657979787183573, guid: 73e24fe19a67e4f43af042d6d005313f,
+        type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1808177883962056493, guid: 73e24fe19a67e4f43af042d6d005313f,
         type: 3}
       propertyPath: m_Name
@@ -20260,6 +20335,11 @@ PrefabInstance:
       propertyPath: m_Camera
       value: 
       objectReference: {fileID: 920921514}
+    - target: {fileID: 2834327594940115732, guid: 73e24fe19a67e4f43af042d6d005313f,
+        type: 3}
+      propertyPath: m_PresetInfoIsWorld
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2920507720176139157, guid: 73e24fe19a67e4f43af042d6d005313f,
         type: 3}
       propertyPath: m_LocalPosition.z
@@ -20304,6 +20384,16 @@ PrefabInstance:
       propertyPath: loadedVideos.Array.data[1].videoName
       value: Nas- Nas is Like
       objectReference: {fileID: 0}
+    - target: {fileID: 4072348621445952977, guid: 73e24fe19a67e4f43af042d6d005313f,
+        type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4072348621445952977, guid: 73e24fe19a67e4f43af042d6d005313f,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5103597810796205052, guid: 73e24fe19a67e4f43af042d6d005313f,
         type: 3}
       propertyPath: m_Pivot.x
@@ -20347,7 +20437,7 @@ PrefabInstance:
     - target: {fileID: 5103597810796205052, guid: 73e24fe19a67e4f43af042d6d005313f,
         type: 3}
       propertyPath: m_SizeDelta.y
-      value: 1239.9407
+      value: 1525.9929
       objectReference: {fileID: 0}
     - target: {fileID: 5103597810796205052, guid: 73e24fe19a67e4f43af042d6d005313f,
         type: 3}
@@ -20392,7 +20482,7 @@ PrefabInstance:
     - target: {fileID: 5103597810796205052, guid: 73e24fe19a67e4f43af042d6d005313f,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0.018
+      value: -0.1215
       objectReference: {fileID: 0}
     - target: {fileID: 5103597810796205052, guid: 73e24fe19a67e4f43af042d6d005313f,
         type: 3}
@@ -21121,6 +21211,27 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2083792472}
     m_Modifications:
+    - target: {fileID: 151574214730047781, guid: 73e24fe19a67e4f43af042d6d005313f,
+        type: 3}
+      propertyPath: m_VideoClip
+      value: 
+      objectReference: {fileID: 32900000, guid: 50e4dcc9e4fd95b459d811b80fcef50d,
+        type: 3}
+    - target: {fileID: 1204657979787183573, guid: 73e24fe19a67e4f43af042d6d005313f,
+        type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1204657979787183573, guid: 73e24fe19a67e4f43af042d6d005313f,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1204657979787183573, guid: 73e24fe19a67e4f43af042d6d005313f,
+        type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1808177883962056493, guid: 73e24fe19a67e4f43af042d6d005313f,
         type: 3}
       propertyPath: m_Name
@@ -21131,11 +21242,94 @@ PrefabInstance:
       propertyPath: m_Camera
       value: 
       objectReference: {fileID: 920921514}
+    - target: {fileID: 2834327594940115732, guid: 73e24fe19a67e4f43af042d6d005313f,
+        type: 3}
+      propertyPath: m_PresetInfoIsWorld
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3228672597682789642, guid: 73e24fe19a67e4f43af042d6d005313f,
+        type: 3}
+      propertyPath: loadedVideos.Array.data[0].clip
+      value: 
+      objectReference: {fileID: 32900000, guid: 50e4dcc9e4fd95b459d811b80fcef50d,
+        type: 3}
+    - target: {fileID: 3228672597682789642, guid: 73e24fe19a67e4f43af042d6d005313f,
+        type: 3}
+      propertyPath: loadedVideos.Array.data[1].clip
+      value: 
+      objectReference: {fileID: 32900000, guid: ca4ab431473f315428b27b694990277a,
+        type: 3}
+    - target: {fileID: 3228672597682789642, guid: 73e24fe19a67e4f43af042d6d005313f,
+        type: 3}
+      propertyPath: loadedVideos.Array.data[2].clip
+      value: 
+      objectReference: {fileID: 32900000, guid: 8682977bb2492ee47a548e610825af4d,
+        type: 3}
+    - target: {fileID: 3228672597682789642, guid: 73e24fe19a67e4f43af042d6d005313f,
+        type: 3}
+      propertyPath: loadedVideos.Array.data[3].clip
+      value: 
+      objectReference: {fileID: 32900000, guid: 7c2703d24fa32494aa508e0c03ef2dc0,
+        type: 3}
+    - target: {fileID: 3228672597682789642, guid: 73e24fe19a67e4f43af042d6d005313f,
+        type: 3}
+      propertyPath: loadedVideos.Array.data[0].thumbnail
+      value: 
+      objectReference: {fileID: 21300000, guid: 4dc0b2be7cf806a43ab342b586de1fb3,
+        type: 3}
+    - target: {fileID: 3228672597682789642, guid: 73e24fe19a67e4f43af042d6d005313f,
+        type: 3}
+      propertyPath: loadedVideos.Array.data[0].videoName
+      value: Africacomicade Gamathon
+      objectReference: {fileID: 0}
+    - target: {fileID: 3228672597682789642, guid: 73e24fe19a67e4f43af042d6d005313f,
+        type: 3}
+      propertyPath: loadedVideos.Array.data[1].thumbnail
+      value: 
+      objectReference: {fileID: 21300000, guid: 920ed0bef56da944cb5f3644960adde4,
+        type: 3}
+    - target: {fileID: 3228672597682789642, guid: 73e24fe19a67e4f43af042d6d005313f,
+        type: 3}
+      propertyPath: loadedVideos.Array.data[1].videoName
+      value: Africacomicade-francais
+      objectReference: {fileID: 0}
+    - target: {fileID: 3228672597682789642, guid: 73e24fe19a67e4f43af042d6d005313f,
+        type: 3}
+      propertyPath: loadedVideos.Array.data[2].thumbnail
+      value: 
+      objectReference: {fileID: 21300000, guid: 784f3ebf6f3b2ff48abf10fd037805bb,
+        type: 3}
+    - target: {fileID: 3228672597682789642, guid: 73e24fe19a67e4f43af042d6d005313f,
+        type: 3}
+      propertyPath: loadedVideos.Array.data[2].videoName
+      value: Africacomicade Fellowship
+      objectReference: {fileID: 0}
+    - target: {fileID: 3228672597682789642, guid: 73e24fe19a67e4f43af042d6d005313f,
+        type: 3}
+      propertyPath: loadedVideos.Array.data[3].thumbnail
+      value: 
+      objectReference: {fileID: 21300000, guid: f020b78d148dea54ca9996144b18374e,
+        type: 3}
+    - target: {fileID: 3228672597682789642, guid: 73e24fe19a67e4f43af042d6d005313f,
+        type: 3}
+      propertyPath: loadedVideos.Array.data[3].videoName
+      value: ARK Pitch 2023 Mobile Showcase
+      objectReference: {fileID: 0}
     - target: {fileID: 3927887593690911286, guid: 73e24fe19a67e4f43af042d6d005313f,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 212347258}
+    - target: {fileID: 4072348621445952977, guid: 73e24fe19a67e4f43af042d6d005313f,
+        type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4072348621445952977, guid: 73e24fe19a67e4f43af042d6d005313f,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5103597810796205052, guid: 73e24fe19a67e4f43af042d6d005313f,
         type: 3}
       propertyPath: m_Pivot.x
@@ -21179,7 +21373,7 @@ PrefabInstance:
     - target: {fileID: 5103597810796205052, guid: 73e24fe19a67e4f43af042d6d005313f,
         type: 3}
       propertyPath: m_SizeDelta.y
-      value: 1239.9407
+      value: 1525.9929
       objectReference: {fileID: 0}
     - target: {fileID: 5103597810796205052, guid: 73e24fe19a67e4f43af042d6d005313f,
         type: 3}
@@ -21219,12 +21413,12 @@ PrefabInstance:
     - target: {fileID: 5103597810796205052, guid: 73e24fe19a67e4f43af042d6d005313f,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -9.009991
+      value: -9.01
       objectReference: {fileID: 0}
     - target: {fileID: 5103597810796205052, guid: 73e24fe19a67e4f43af042d6d005313f,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0.018
+      value: -0.1215
       objectReference: {fileID: 0}
     - target: {fileID: 5103597810796205052, guid: 73e24fe19a67e4f43af042d6d005313f,
         type: 3}
@@ -21240,6 +21434,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6954206183019610576, guid: 73e24fe19a67e4f43af042d6d005313f,
+        type: 3}
+      propertyPath: m_text
+      value: Africacomicade - Panel
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -21317,7 +21516,7 @@ PrefabInstance:
     - target: {fileID: 5435491550280416864, guid: 10bc0b30d7d1f1a499f7d50cff817811,
         type: 3}
       propertyPath: m_SizeDelta.y
-      value: 283.8501
+      value: 349.3339
       objectReference: {fileID: 0}
     - target: {fileID: 5435491550280416864, guid: 10bc0b30d7d1f1a499f7d50cff817811,
         type: 3}
@@ -21362,7 +21561,7 @@ PrefabInstance:
     - target: {fileID: 5435491550280416864, guid: 10bc0b30d7d1f1a499f7d50cff817811,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -0.107
+      value: -0.2753
       objectReference: {fileID: 0}
     - target: {fileID: 5435491550280416864, guid: 10bc0b30d7d1f1a499f7d50cff817811,
         type: 3}

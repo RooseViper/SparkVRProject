@@ -11,6 +11,7 @@ public class VideoManager : MonoBehaviour
 {
     [SerializeField] private Transform panel;
     [SerializeField] private Button expandButton;
+    [SerializeField] private AudioSource audioSource;
     [SerializeField]private List<VideoInfo> loadedVideos;
     [SerializeField] private Image[] displayImages;
     private VideoPlayer videoPlayer;
@@ -54,6 +55,27 @@ public class VideoManager : MonoBehaviour
         }
         expandButton.interactable = false;
     }
-
+    
+    public void SkipForward()
+    {
+        if (videoPlayer == null || !videoPlayer.canSetTime) return;
+        var newTime = videoPlayer.time + 10.0;
+        videoPlayer.time = newTime < videoPlayer.length ? newTime : videoPlayer.length; // Set to the end if skipping past the video's length
+    }
+    
+    public void SkipBackward()
+    {
+        if (videoPlayer == null || !videoPlayer.canSetTime) return;
+        var newTime = videoPlayer.time - 10.0;
+        if (newTime > 0) // Ensure we don't skip before the start of the video
+        {
+            videoPlayer.time = newTime;
+        }
+        else
+        {
+            videoPlayer.time = 0; // Set to the start if skipping past the beginning
+        }
+    }
+    public void SetVolume(Slider slider) => audioSource.volume = slider.value;
     private void ReachedEnd() => expandButton.interactable = true;
 }
