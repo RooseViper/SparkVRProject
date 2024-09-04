@@ -94,6 +94,7 @@ GameObject:
   - component: {fileID: 5762349686118021892}
   - component: {fileID: 8671717465818592417}
   - component: {fileID: 6898624431874769003}
+  - component: {fileID: 3378227292570746590}
   m_Layer: 0
   m_Name: Model_Left
   m_TagString: Untagged
@@ -132,7 +133,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4952880071453286846}
-  m_Enabled: 0
+  m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -167,6 +168,19 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &3378227292570746590
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4952880071453286846}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b5fabe20570a7e34eb39a37573054f89, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  handObject: {fileID: 428944907850585304}
 --- !u!1 &6742014582427155052
 GameObject:
   m_ObjectHideFlags: 0
@@ -211,6 +225,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Oculus Left Controller
+      objectReference: {fileID: 0}
+    - target: {fileID: 699332230841611825, guid: f995c3f182727a1418916cc2b9deba36,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7675518071308526262, guid: f995c3f182727a1418916cc2b9deba36,
         type: 3}
@@ -291,6 +310,12 @@ PrefabInstance:
       addedObject: {fileID: 4595105483156034824}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f995c3f182727a1418916cc2b9deba36, type: 3}
+--- !u!1 &428944907850585304 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 699332230841611825, guid: f995c3f182727a1418916cc2b9deba36,
+    type: 3}
+  m_PrefabInstance: {fileID: 884796710368191209}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &7404910575404286047 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7675518071308526262, guid: f995c3f182727a1418916cc2b9deba36,

@@ -45,155 +45,158 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.3.4f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Tools\SensorToolkit\Integrations\PlayMaker\Actions\SetFOVCollider2D.cs" />
+    <Compile Include="Assets\Tools\LeanTween\Testing\Testing246.cs" />
     <Compile Include="Assets\_Course Library\Scripts\Actions\LaunchProjectile.cs" />
-    <Compile Include="Assets\LeanTween\Examples\Scripts\GeneralCameraShake.cs" />
+    <Compile Include="Assets\Tools\Youtube Player\3.3.1\PlayVideo\VideoPlayerProgress.cs" />
+    <Compile Include="Assets\Tools\SensorToolkit\Integrations\PlayMaker\Actions\SensorGetLineOfSightResult.cs" />
+    <Compile Include="Assets\Tools\SensorToolkit\Integrations\PlayMaker\Actions\SensorGetDetectionRayHit.cs" />
     <Compile Include="Assets\_Course Library\Scripts\Actions\ScaleObject.cs" />
     <Compile Include="Assets\_Course Library\Scripts\Actions\StickToObject.cs" />
     <Compile Include="Assets\_Course Library\Scripts\Actions\SetVolume.cs" />
-    <Compile Include="Assets\LeanTween\Framework\LeanTest.cs" />
+    <Compile Include="Assets\Tools\LeanTween\Framework\LTDescr.cs" />
+    <Compile Include="Assets\Tools\LeanTween\Testing\TestingDescr.cs" />
+    <Compile Include="Assets\Tools\LeanTween\Examples\Scripts\Following.cs" />
     <Compile Include="Assets\_Course Library\Scripts\Controls\XRKnob.cs" />
+    <Compile Include="Assets\Tools\LeanTween\Examples\Scripts\PathSplineTrack.cs" />
     <Compile Include="Assets\_Course Library\Scripts\Actions\ToggleInterface.cs" />
-    <Compile Include="Assets\LeanTween\Testing\TestingDescr.cs" />
+    <Compile Include="Assets\Tools\Youtube Player\3.3.1\PlayFromScript\PlayFromScript.cs" />
     <Compile Include="Assets\_Course Library\Scripts\Actions\ToggleLight.cs" />
     <Compile Include="Assets\_Course Library\Scripts\Conditions\OnJoystickMove.cs" />
-    <Compile Include="Assets\Youtube Player\3.3.1\Three60EquiRectangular\PanoramicSkyboxVideo.cs" />
+    <Compile Include="Assets\Tools\LeanTween\Examples\Scripts\PathBezier2d.cs" />
+    <Compile Include="Assets\Tools\LeanTween\Testing\TestingIssue2.cs" />
+    <Compile Include="Assets\Tools\Youtube Player\3.3.1\Three60Mesh\SimpleCameraController.cs" />
+    <Compile Include="Assets\Tools\LeanTween\Testing\Testing240.cs" />
+    <Compile Include="Assets\Tools\LeanTween\Examples\Scripts\PathSpline.cs" />
+    <Compile Include="Assets\Tools\SensorToolkit\Integrations\PlayMaker\Actions\SteeringSensorSeek.cs" />
     <Compile Include="Assets\_Course Library\Scripts\Testing\DisplayFPS.cs" />
     <Compile Include="Assets\_Course Library\Scripts\Actions\RotateObject.cs" />
-    <Compile Include="Assets\LeanTween\Examples\Scripts\GeneralBasics2d.cs" />
-    <Compile Include="Assets\LeanTween\Examples\Scripts\PathSplineTrack.cs" />
+    <Compile Include="Assets\Tools\LeanTween\Testing\TestingColorTweening.cs" />
+    <Compile Include="Assets\Tools\LeanTween\Testing\Testing248.cs" />
     <Compile Include="Assets\Scripts\SkyboxObject.cs" />
     <Compile Include="Assets\_Course Library\Scripts\Actions\ManuallySelectObject.cs" />
-    <Compile Include="Assets\SensorToolkit\Integrations\PlayMaker\Actions\SensorPulse.cs" />
+    <Compile Include="Assets\Tools\LeanTween\Testing\FollowingTests.cs" />
     <Compile Include="Assets\_Course Library\Scripts\Actions\ToggleVisibility.cs" />
-    <Compile Include="Assets\SensorToolkit\Integrations\PlayMaker\Actions\SensorGetDetectionRayHit.cs" />
-    <Compile Include="Assets\LeanTween\Examples\Scripts\PathSpline.cs" />
     <Compile Include="Assets\_Course Library\Scripts\Actions\SetParticleRate.cs" />
+    <Compile Include="Assets\Tools\LeanTween\Examples\Scripts\GeneralCameraShake.cs" />
     <Compile Include="Assets\_Course Library\Scripts\Controls\XRSlider.cs" />
-    <Compile Include="Assets\LeanTween\Testing\TestingSequencer.cs" />
+    <Compile Include="Assets\Tools\LeanTween\Testing\TestingOptionalCancel.cs" />
+    <Compile Include="Assets\Tools\SensorToolkit\Integrations\PlayMaker\Actions\SteeringSensorStrafe.cs" />
     <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
-    <Compile Include="Assets\LeanTween\Examples\Scripts\TestingZLegacy.cs" />
-    <Compile Include="Assets\LeanTween\Examples\Scripts\LogoCinematic.cs" />
-    <Compile Include="Assets\Youtube Player\3.3.1\PlayVideo\DownloadVideoButton.cs" />
-    <Compile Include="Assets\LeanTween\Examples\Scripts\GeneralAdvancedTechniques.cs" />
-    <Compile Include="Assets\Youtube Player\3.3.1\PlayVideo\PrepareVideoButton.cs" />
+    <Compile Include="Assets\Tools\LeanTween\Testing\Scripts\LeanPool.cs" />
+    <Compile Include="Assets\Tools\SensorToolkit\Integrations\PlayMaker\Actions\SensorGetDetections.cs" />
+    <Compile Include="Assets\Tools\LeanTween\Examples\Scripts\GeneralEventsListeners.cs" />
+    <Compile Include="Assets\Scripts\RightHandGetter.cs" />
     <Compile Include="Assets\Scripts\CountdownTimer.cs" />
-    <Compile Include="Assets\SensorToolkit\Integrations\PlayMaker\Actions\SensorListenDetectionEvents.cs" />
     <Compile Include="Assets\_Course Library\Scripts\Conditions\OnButtonPress.cs" />
-    <Compile Include="Assets\LeanTween\Testing\TestingSceneSwitching.cs" />
     <Compile Include="Assets\_Course Library\Scripts\Controls\XRButton.cs" />
-    <Compile Include="Assets\SensorToolkit\Integrations\PlayMaker\Actions\SensorGetLineOfSightResult.cs" />
-    <Compile Include="Assets\LeanTween\Examples\Scripts\GeneralSequencer.cs" />
-    <Compile Include="Assets\SensorToolkit\Integrations\PlayMaker\Actions\SensorGetDetections.cs" />
-    <Compile Include="Assets\LeanTween\Examples\Scripts\GeneralEventsListeners.cs" />
+    <Compile Include="Assets\Tools\SensorToolkit\Integrations\PlayMaker\Actions\SensorToolkitAction.cs" />
+    <Compile Include="Assets\Tools\Youtube Player\3.3.1\Three60EquiRectangular\SimpleCameraController.cs" />
+    <Compile Include="Assets\Tools\SensorToolkit\Integrations\PlayMaker\Actions\SensorToolkitAction3DOr2D.cs" />
+    <Compile Include="Assets\Tools\LeanTween\Examples\Scripts\TestingZLegacyExt.cs" />
     <Compile Include="Assets\_Course Library\Scripts\Testing\TeleportAnchorWithFade.cs" />
     <Compile Include="Assets\_Course Library\Scripts\Actions\SpawnObject.cs" />
-    <Compile Include="Assets\LeanTween\Examples\Scripts\PathBezier2d.cs" />
     <Compile Include="Assets\_Course Library\Scripts\Actions\DestroyObject.cs" />
     <Compile Include="Assets\Scripts\AudioManager.cs" />
-    <Compile Include="Assets\SensorToolkit\Integrations\PlayMaker\Actions\SteeringSensorStrafe.cs" />
-    <Compile Include="Assets\SensorToolkit\Integrations\PlayMaker\Actions\SetFOVCollider.cs" />
-    <Compile Include="Assets\SensorToolkit\Integrations\PlayMaker\Actions\SteeringSensorSeek.cs" />
-    <Compile Include="Assets\LeanTween\Examples\Scripts\PathSplinePerformance.cs" />
-    <Compile Include="Assets\LeanTween\Examples\Scripts\GeneralEasingTypes.cs" />
-    <Compile Include="Assets\LeanTween\Framework\LeanTweenExt.cs" />
     <Compile Include="Assets\_Course Library\Scripts\Actions\ToggleParticle.cs" />
     <Compile Include="Assets\_Course Library\Scripts\Testing\Notes.cs" />
-    <Compile Include="Assets\SensorToolkit\Integrations\PlayMaker\Actions\SetFOVCollider2D.cs" />
+    <Compile Include="Assets\Tools\LeanTween\Examples\Scripts\TestingZLegacy.cs" />
     <Compile Include="Assets\_Course Library\Scripts\Controls\XRLever.cs" />
-    <Compile Include="Assets\LeanTween\Framework\LeanAudio.cs" />
-    <Compile Include="Assets\LeanTween\Framework\LTDescrOptional.cs" />
+    <Compile Include="Assets\Tools\LeanTween\Examples\Scripts\GeneralUISpace.cs" />
+    <Compile Include="Assets\Tools\SensorToolkit\Integrations\PlayMaker\Actions\SensorConfigurePulseRoutine.cs" />
     <Compile Include="Assets\_Course Library\Scripts\Actions\MoveWithVelocity.cs" />
     <Compile Include="Assets\_Course Library\Scripts\Actions\SetMaterialColor.cs" />
     <Compile Include="Assets\_Course Library\Scripts\Actions\CreateTrail.cs" />
-    <Compile Include="Assets\LeanTween\Testing\TestingIssue.cs" />
     <Compile Include="Assets\_Course Library\Scripts\Actions\TeleportPlayer.cs" />
     <Compile Include="Assets\Scripts\CubeEater.cs" />
-    <Compile Include="Assets\LeanTween\Testing\FollowingTests.cs" />
-    <Compile Include="Assets\Youtube Player\3.3.1\Three60Mesh\CubedSphereMesh.cs" />
-    <Compile Include="Assets\SensorToolkit\Integrations\PlayMaker\Actions\SensorToolkitAction3DOr2D.cs" />
+    <Compile Include="Assets\Tools\LeanTween\Framework\LeanTest.cs" />
+    <Compile Include="Assets\Tools\LeanTween\Examples\Scripts\TestingUnitTests.cs" />
+    <Compile Include="Assets\Tools\LeanTween\Testing\TestingSequencer.cs" />
     <Compile Include="Assets\_Course Library\Scripts\Actions\PlaySoundsFromList.cs" />
+    <Compile Include="Assets\Tools\LeanTween\Framework\LeanSmooth.cs" />
     <Compile Include="Assets\_Course Library\Scripts\Actions\ShowMessageFromList.cs" />
-    <Compile Include="Assets\LeanTween\Testing\TestingOptionalCancel.cs" />
-    <Compile Include="Assets\LeanTween\Examples\Scripts\TestingUnitTests.cs" />
+    <Compile Include="Assets\Tools\Youtube Player\3.3.1\VideoInfo\PrintVideoInfo.cs" />
+    <Compile Include="Assets\Tools\SensorToolkit\Integrations\PlayMaker\Actions\SensorGetObstructionRayHit.cs" />
     <Compile Include="Assets\_Course Library\Scripts\Actions\SetLightIntensity.cs" />
-    <Compile Include="Assets\LeanTween\Framework\LTDescr.cs" />
+    <Compile Include="Assets\Tools\LeanTween\Testing\TestingSceneSwitching.cs" />
     <Compile Include="Assets\_Course Library\Scripts\Conditions\OnSceneLoad.cs" />
     <Compile Include="Assets\_Course Library\Scripts\Actions\ChangeMaterial.cs" />
     <Compile Include="Assets\_Course Library\Scripts\Actions\MatchRotation.cs" />
     <Compile Include="Assets\_Course Library\Scripts\Actions\LoadScene.cs" />
-    <Compile Include="Assets\SensorToolkit\Integrations\PlayMaker\Actions\SensorToolkitAction.cs" />
-    <Compile Include="Assets\LeanTween\Testing\TestingIssue2.cs" />
-    <Compile Include="Assets\LeanTween\Testing\Testing248.cs" />
-    <Compile Include="Assets\LeanTween\Testing\TestingColorTweening.cs" />
-    <Compile Include="Assets\Youtube Player\3.3.1\Three60EquiRectangular\SimpleCameraController.cs" />
-    <Compile Include="Assets\LeanTween\Examples\Scripts\GeneralSimpleUI.cs" />
+    <Compile Include="Assets\Tools\LeanTween\Framework\LeanTweenExt.cs" />
+    <Compile Include="Assets\Tools\LeanTween\Framework\LeanAudio.cs" />
+    <Compile Include="Assets\Tools\LeanTween\Examples\Scripts\GeneralSequencer.cs" />
+    <Compile Include="Assets\Tools\LeanTween\Examples\Scripts\GeneralBasics2d.cs" />
     <Compile Include="Assets\_Course Library\Scripts\Actions\FadeCanvasOnOverlap.cs" />
+    <Compile Include="Assets\Scripts\HandGetter.cs" />
+    <Compile Include="Assets\Tools\Youtube Player\3.3.1\PlayVideo\PrepareVideoButton.cs" />
+    <Compile Include="Assets\Tools\SensorToolkit\Integrations\PlayMaker\Actions\SetFOVCollider.cs" />
+    <Compile Include="Assets\Scripts\HandMesh.cs" />
     <Compile Include="Assets\_Course Library\Scripts\Conditions\OnTimedInterval.cs" />
-    <Compile Include="Assets\LeanTween\Examples\Scripts\PathSplineEndless.cs" />
+    <Compile Include="Assets\Tools\LeanTween\Framework\LeanTween.cs" />
     <Compile Include="Assets\_Course Library\Scripts\Conditions\OnCollision.cs" />
-    <Compile Include="Assets\LeanTween\Examples\Scripts\Following.cs" />
+    <Compile Include="Assets\Tools\LeanTween\Examples\Scripts\PathSplinePerformance.cs" />
     <Compile Include="Assets\_Course Library\Scripts\Actions\ApplyPhysics.cs" />
-    <Compile Include="Assets\LeanTween\Testing\TestingRotate.cs" />
-    <Compile Include="Assets\LeanTween\Testing\Testing243.cs" />
+    <Compile Include="Assets\Tools\LeanTween\Examples\Scripts\PathSplineEndless.cs" />
+    <Compile Include="Assets\Tools\SensorToolkit\Integrations\PlayMaker\Actions\SensorGetSignal.cs" />
+    <Compile Include="Assets\Tools\LeanTween\Examples\Scripts\PathBezier.cs" />
     <Compile Include="Assets\_Course Library\Scripts\Actions\PlayVideo.cs" />
-    <Compile Include="Assets\Youtube Player\3.3.1\PlayVideo\VideoPlayerProgress.cs" />
-    <Compile Include="Assets\LeanTween\Examples\Scripts\PathBezier.cs" />
-    <Compile Include="Assets\LeanTween\Testing\Testing240.cs" />
+    <Compile Include="Assets\Tools\LeanTween\Framework\LTSeq.cs" />
+    <Compile Include="Assets\Tools\LeanTween\Examples\Scripts\PathSplines.cs" />
+    <Compile Include="Assets\Tools\LeanTween\Testing\PerformanceTests.cs" />
     <Compile Include="Assets\_Course Library\Scripts\Conditions\OnPull.cs" />
-    <Compile Include="Assets\LeanTween\Testing\Scripts\LeanPool.cs" />
+    <Compile Include="Assets\Tools\LeanTween\Framework\LTDescrOptional.cs" />
+    <Compile Include="Assets\Tools\LeanTween\Testing\TestingIssue.cs" />
+    <Compile Include="Assets\Tools\LeanTween\Testing\TestingRotate.cs" />
     <Compile Include="Assets\_Course Library\Scripts\Actions\PlayQuickSound.cs" />
-    <Compile Include="Assets\SensorToolkit\Integrations\PlayMaker\Actions\SensorGetSignal.cs" />
+    <Compile Include="Assets\Tools\LeanTween\Testing\Testing243.cs" />
+    <Compile Include="Assets\Tools\LeanTween\Examples\Scripts\PathSpline2d.cs" />
     <Compile Include="Assets\_Course Library\Scripts\Conditions\OnTrigger.cs" />
-    <Compile Include="Assets\LeanTween\Testing\PerformanceTests.cs" />
     <Compile Include="Assets\_Course Library\Scripts\Actions\PlayContinuousSound.cs" />
+    <Compile Include="Assets\Tools\LeanTween\Testing\TestingMaxTweens.cs" />
     <Compile Include="Assets\_Course Library\Scripts\Actions\SetInteractionLayer.cs" />
     <Compile Include="Assets\_Course Library\Scripts\Actions\PlayAnimation.cs" />
     <Compile Include="Assets\Scripts\GameManager.cs" />
+    <Compile Include="Assets\Tools\Youtube Player\3.3.1\Three60Mesh\CubedSphereMesh.cs" />
     <Compile Include="Assets\_Course Library\Scripts\Actions\VibrateController.cs" />
+    <Compile Include="Assets\Tools\SensorToolkit\Integrations\PlayMaker\Actions\SensorListenDetectionEvents.cs" />
     <Compile Include="Assets\_Course Library\Scripts\Actions\LookAtPlayer.cs" />
-    <Compile Include="Assets\LeanTween\Testing\Testing246.cs" />
+    <Compile Include="Assets\Tools\LeanTween\Examples\Scripts\GeneralSimpleUI.cs" />
+    <Compile Include="Assets\Tools\Youtube Player\3.3.1\Three60EquiRectangular\PanoramicSkyboxVideo.cs" />
     <Compile Include="Assets\_Course Library\Scripts\Actions\FadeCanvas.cs" />
+    <Compile Include="Assets\Tools\SensorToolkit\Integrations\PlayMaker\Actions\SensorPulse.cs" />
     <Compile Include="Assets\_Course Library\Scripts\Actions\SetLightColor.cs" />
-    <Compile Include="Assets\LeanTween\Examples\Scripts\TestingZLegacyExt.cs" />
-    <Compile Include="Assets\SensorToolkit\Integrations\PlayMaker\Actions\SensorClear.cs" />
     <Compile Include="Assets\_Course Library\Scripts\Conditions\OnTilt.cs" />
-    <Compile Include="Assets\Youtube Player\3.3.1\VideoInfo\PrintVideoInfo.cs" />
-    <Compile Include="Assets\SensorToolkit\Integrations\PlayMaker\Actions\SensorConfigurePulseRoutine.cs" />
-    <Compile Include="Assets\SensorToolkit\Integrations\PlayMaker\Actions\SteeringSensorConfigure.cs" />
-    <Compile Include="Assets\SensorToolkit\Integrations\PlayMaker\Actions\SensorGetObstructionRayHit.cs" />
-    <Compile Include="Assets\LeanTween\Examples\Scripts\PathSpline2d.cs" />
+    <Compile Include="Assets\Tools\LeanTween\Examples\Scripts\GeneralAdvancedTechniques.cs" />
     <Compile Include="Assets\_Course Library\Scripts\Actions\SpawnFromList.cs" />
-    <Compile Include="Assets\LeanTween\Framework\LTSeq.cs" />
     <Compile Include="Assets\_Course Library\Scripts\Conditions\OnVelocity.cs" />
     <Compile Include="Assets\_Course Library\Scripts\Actions\TranslateObject.cs" />
-    <Compile Include="Assets\Youtube Player\3.3.1\Three60Mesh\SimpleCameraController.cs" />
-    <Compile Include="Assets\LeanTween\Framework\LeanTween.cs" />
     <Compile Include="Assets\_Course Library\Scripts\Controls\XRJoystick.cs" />
     <Compile Include="Assets\_Course Library\Scripts\Actions\ToggleRay.cs" />
     <Compile Include="Assets\Scripts\VideoInfo.cs" />
+    <Compile Include="Assets\Tools\LeanTween\Examples\Scripts\GeneralEasingTypes.cs" />
     <Compile Include="Assets\_Course Library\Scripts\Actions\ConvertValueToHue.cs" />
-    <Compile Include="Assets\LeanTween\Framework\LeanSmooth.cs" />
-    <Compile Include="Assets\Youtube Player\3.3.1\PlayVideo\PlayVideoButton.cs" />
+    <Compile Include="Assets\Tools\SensorToolkit\Integrations\PlayMaker\Actions\SteeringSensorConfigure.cs" />
+    <Compile Include="Assets\Tools\SensorToolkit\Integrations\PlayMaker\Actions\SensorClear.cs" />
+    <Compile Include="Assets\Tools\Youtube Player\3.3.1\PlayVideo\DownloadVideoButton.cs" />
     <Compile Include="Assets\Scripts\Cube.cs" />
-    <Compile Include="Assets\Youtube Player\3.3.1\PlayFromScript\PlayFromScript.cs" />
-    <Compile Include="Assets\LeanTween\Testing\TestingMaxTweens.cs" />
+    <Compile Include="Assets\Tools\Youtube Player\3.3.1\PlayVideo\PlayVideoButton.cs" />
     <Compile Include="Assets\_Course Library\Scripts\Actions\RemoveObjectsWithTag.cs" />
-    <Compile Include="Assets\LeanTween\Examples\Scripts\GeneralUISpace.cs" />
     <Compile Include="Assets\_Course Library\Scripts\Testing\TeleportAreaWithFade.cs" />
     <Compile Include="Assets\Scripts\VideoManager.cs" />
-    <Compile Include="Assets\LeanTween\Examples\Scripts\GeneralBasic.cs" />
-    <Compile Include="Assets\LeanTween\Examples\Scripts\PathSplines.cs" />
+    <Compile Include="Assets\Tools\LeanTween\Examples\Scripts\LogoCinematic.cs" />
+    <Compile Include="Assets\Tools\LeanTween\Examples\Scripts\GeneralBasic.cs" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
-    <None Include="Assets\LeanTween\ReadMe.txt" />
-    <None Include="Assets\JMO Assets\Cartoon FX Remaster\CFXR Assets\Shaders\CFXR_SETTINGS.cginc" />
+    <None Include="Assets\Tools\LeanTween\ReadMe.txt" />
+    <None Include="Assets\Tools\JMO Assets\Cartoon FX Remaster\CFXR Assets\Shaders\CFXR_SETTINGS.cginc" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
     <None Include="Packages\com.ibicha.youtube-player\package.json" />
-    <None Include="Assets\JMO Assets\Cartoon FX Remaster\CFXR Assets\Shaders\CFXR.cginc" />
+    <None Include="Assets\Tools\JMO Assets\Cartoon FX Remaster\CFXR Assets\Shaders\CFXR.cginc" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
-    <None Include="Assets\LeanTween\License.txt" />
+    <None Include="Assets\Tools\LeanTween\License.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
-    <None Include="Assets\SensorToolkit\README.txt" />
+    <None Include="Assets\Tools\SensorToolkit\README.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
     <None Include="Assets\Resources\BillingMode.json" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface.shader" />
@@ -204,15 +207,15 @@
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Properties.cginc" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
-    <None Include="Assets\JMO Assets\Cartoon FX Remaster\CFXR Prefabs\Texts\_Make your own text effect.txt" />
-    <None Include="Assets\JMO Assets\Cartoon FX Remaster\CFXR Assets\Shaders\CFXR_PASSES.cginc" />
+    <None Include="Assets\Tools\JMO Assets\Cartoon FX Remaster\CFXR Prefabs\Texts\_Make your own text effect.txt" />
+    <None Include="Assets\Tools\JMO Assets\Cartoon FX Remaster\CFXR Assets\Shaders\CFXR_PASSES.cginc" />
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
     <None Include="Assets\_Course Library\Licenses.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
     <None Include="Assets\Texturing\SkySeries Freebie\Hdri setup.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader" />
-    <None Include="Assets\JMO Assets\Cartoon FX Remaster\CFXR Assets\Shaders\CFXR_URP.cginc" />
+    <None Include="Assets\Tools\JMO Assets\Cartoon FX Remaster\CFXR Assets\Shaders\CFXR_URP.cginc" />
     <None Include="Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader" />
     <None Include="Assets\TextMesh Pro\Sprites\EmojiOne.json" />
@@ -1042,17 +1045,13 @@
       <Project>{cb64e919-caa6-07e0-162e-d4542afcbfda}</Project>
       <Name>YoutubePlayer</Name>
     </ProjectReference>
-    <ProjectReference Include="ToonyColorsPro.Demo.Editor.csproj">
-      <Project>{2ac2a9a2-8d90-dc40-8836-65b295806046}</Project>
-      <Name>ToonyColorsPro.Demo.Editor</Name>
+    <ProjectReference Include="Micosmo.SensorToolkit.csproj">
+      <Project>{a40f6c06-2a4e-eda3-6364-7e1fa4fcfab1}</Project>
+      <Name>Micosmo.SensorToolkit</Name>
     </ProjectReference>
-    <ProjectReference Include="CFXRRuntime.csproj">
-      <Project>{91c164f0-f9ee-d53c-66e5-ac4017ff44fa}</Project>
-      <Name>CFXRRuntime</Name>
-    </ProjectReference>
-    <ProjectReference Include="CFXRDemo.csproj">
-      <Project>{d20cb5a7-a6df-dcec-7c2c-b736c8f5961b}</Project>
-      <Name>CFXRDemo</Name>
+    <ProjectReference Include="Micosmo.SensorToolkit.Editor.csproj">
+      <Project>{2e04222a-bd03-05b6-6b06-4eeb8762702b}</Project>
+      <Name>Micosmo.SensorToolkit.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.XR.Interaction.Toolkit.Samples.StarterAssets.Editor.csproj">
       <Project>{fc72a0ab-c57c-ee00-3a74-172ba78ac922}</Project>
@@ -1062,29 +1061,33 @@
       <Project>{8c50bddb-72aa-80da-aaa7-7fb498efe88e}</Project>
       <Name>Unity.XR.Interaction.Toolkit.Samples.DeviceSimulator</Name>
     </ProjectReference>
+    <ProjectReference Include="CFXRRuntime.csproj">
+      <Project>{91c164f0-f9ee-d53c-66e5-ac4017ff44fa}</Project>
+      <Name>CFXRRuntime</Name>
+    </ProjectReference>
+    <ProjectReference Include="ToonyColorsPro.Demo.Editor.csproj">
+      <Project>{2ac2a9a2-8d90-dc40-8836-65b295806046}</Project>
+      <Name>ToonyColorsPro.Demo.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="CFXRDemo.csproj">
+      <Project>{d20cb5a7-a6df-dcec-7c2c-b736c8f5961b}</Project>
+      <Name>CFXRDemo</Name>
+    </ProjectReference>
     <ProjectReference Include="CFXR.WelcomeScreen.csproj">
       <Project>{22c155ad-d468-0205-4ae3-e695d5bb34e0}</Project>
       <Name>CFXR.WelcomeScreen</Name>
     </ProjectReference>
-    <ProjectReference Include="Micosmo.SensorToolkit.csproj">
-      <Project>{a40f6c06-2a4e-eda3-6364-7e1fa4fcfab1}</Project>
-      <Name>Micosmo.SensorToolkit</Name>
+    <ProjectReference Include="Unity.XR.Interaction.Toolkit.Samples.StarterAssets.csproj">
+      <Project>{c0a801c9-e204-14b1-3298-3ad1dcc856e1}</Project>
+      <Name>Unity.XR.Interaction.Toolkit.Samples.StarterAssets</Name>
     </ProjectReference>
     <ProjectReference Include="KinoBloom.Runtime.csproj">
       <Project>{0886d628-fd70-2d52-1e7d-3019a2c8034f}</Project>
       <Name>KinoBloom.Runtime</Name>
     </ProjectReference>
-    <ProjectReference Include="Micosmo.SensorToolkit.Editor.csproj">
-      <Project>{2e04222a-bd03-05b6-6b06-4eeb8762702b}</Project>
-      <Name>Micosmo.SensorToolkit.Editor</Name>
-    </ProjectReference>
     <ProjectReference Include="CFXREditor.csproj">
       <Project>{c9bb1e1c-c4b6-e1c2-9ffd-749d35894ab8}</Project>
       <Name>CFXREditor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.XR.Interaction.Toolkit.Samples.StarterAssets.csproj">
-      <Project>{c0a801c9-e204-14b1-3298-3ad1dcc856e1}</Project>
-      <Name>Unity.XR.Interaction.Toolkit.Samples.StarterAssets</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
