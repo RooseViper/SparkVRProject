@@ -16,8 +16,8 @@ public class GameManager : MonoBehaviour
     private int skyBoxIndex;
     private bool shadowsOn = true;
     private Vector3 defaultInstructionsCanvasSize;
-    private bool instructionCanvasIsExpanded;
-    private bool instructionCanvasExpanding;
+    private bool isExpandedInstructions, isExpandedInstructionsVideo;
+    private bool isExpandingInstructions, isExpandingInstructionsVideo;
     private VideoPlayer intructionsVideoPlayer;
     private void Awake()
     {
@@ -52,9 +52,9 @@ public class GameManager : MonoBehaviour
 
     public void ChangeInstructionsCanvasState()
     {
-        if(instructionCanvasExpanding)return;
-        instructionCanvasIsExpanded = !instructionCanvasIsExpanded;
-        if (instructionCanvasIsExpanded)
+        if(isExpandingInstructions)return;
+        isExpandedInstructions = !isExpandedInstructions;
+        if (isExpandedInstructions)
         {
             LeanTween.scale(instructionsCanvas.gameObject, defaultInstructionsCanvasSize, 0.5f).setEaseInOutSine().setOnComplete(ReachedEnd);
         }
@@ -62,10 +62,10 @@ public class GameManager : MonoBehaviour
         {
             LeanTween.scale(instructionsCanvas.gameObject, Vector3.zero, 0.5f).setEaseInOutSine().setOnComplete(ReachedEnd);
         }
-        instructionCanvasExpanding = true;
+        isExpandingInstructions = true;
     }
 
-    private void ReachedEnd() => instructionCanvasExpanding = false;
+    private void ReachedEnd() => isExpandingInstructions = false;
 
 
 
