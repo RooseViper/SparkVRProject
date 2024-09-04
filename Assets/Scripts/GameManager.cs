@@ -15,7 +15,7 @@ public class GameManager : MonoBehaviour
     private static GameManager _instance;
     private int skyBoxIndex;
     private bool shadowsOn = true;
-    private Vector3 defaultInstructionsCanvasSize;
+    private Vector3 defaultInstructionsCanvasSize, defaultInstructionsVideoCanvasSize;
     private bool isExpandedInstructions, isExpandedInstructionsVideo;
     private bool isExpandingInstructions, isExpandingInstructionsVideo;
     private VideoPlayer intructionsVideoPlayer;
@@ -28,7 +28,9 @@ public class GameManager : MonoBehaviour
     private void Start()
     {
         defaultInstructionsCanvasSize = instructionsCanvas.localScale;
+        defaultInstructionsVideoCanvasSize = videosInstructionsCanvas.localScale;
         instructionsCanvas.localScale = Vector3.zero;
+        videosInstructionsCanvas.localScale = Vector3.zero;
     }
 
     public void ChangeSkyBox()
@@ -56,18 +58,33 @@ public class GameManager : MonoBehaviour
         isExpandedInstructions = !isExpandedInstructions;
         if (isExpandedInstructions)
         {
-            LeanTween.scale(instructionsCanvas.gameObject, defaultInstructionsCanvasSize, 0.5f).setEaseInOutSine().setOnComplete(ReachedEnd);
+            LeanTween.scale(instructionsCanvas.gameObject, defaultInstructionsCanvasSize, 0.5f).setEaseInOutSine().setOnComplete(ReachedEndInstructions);
         }
         else
         {
-            LeanTween.scale(instructionsCanvas.gameObject, Vector3.zero, 0.5f).setEaseInOutSine().setOnComplete(ReachedEnd);
+            LeanTween.scale(instructionsCanvas.gameObject, Vector3.zero, 0.5f).setEaseInOutSine().setOnComplete(ReachedEndInstructions);
         }
         isExpandingInstructions = true;
     }
+    
+    public void ChangeInstructionsVideosCanvasState()
+    {
+        if(isExpandingInstructionsVideo)return;
+        isExpandedInstructionsVideo = !isExpandedInstructionsVideo;
+        if (isExpandedInstructionsVideo)
+        {
+            LeanTween.scale(videosInstructionsCanvas.gameObject, defaultInstructionsVideoCanvasSize, 0.5f).setEaseInOutSine().setOnComplete(ReachedEndInstructionsVideo);
+        }
+        else
+        {
+            LeanTween.scale(videosInstructionsCanvas.gameObject, Vector3.zero, 0.5f).setEaseInOutSine().setOnComplete(ReachedEndInstructionsVideo);
+        }
+        isExpandingInstructionsVideo = true;
+    }
 
-    private void ReachedEnd() => isExpandingInstructions = false;
+    private void ReachedEndInstructions() => isExpandingInstructions = false;
 
-
+    private void ReachedEndInstructionsVideo() => isExpandingInstructionsVideo = false;
 
 
 }
