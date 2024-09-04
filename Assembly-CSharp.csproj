@@ -164,6 +164,7 @@
     <Compile Include="Assets\Tools\LeanTween\Examples\Scripts\GeneralSimpleUI.cs" />
     <Compile Include="Assets\Tools\Youtube Player\3.3.1\Three60EquiRectangular\PanoramicSkyboxVideo.cs" />
     <Compile Include="Assets\_Course Library\Scripts\Actions\FadeCanvas.cs" />
+    <Compile Include="Assets\Scripts\Painting.cs" />
     <Compile Include="Assets\Tools\SensorToolkit\Integrations\PlayMaker\Actions\SensorPulse.cs" />
     <Compile Include="Assets\_Course Library\Scripts\Actions\SetLightColor.cs" />
     <Compile Include="Assets\_Course Library\Scripts\Conditions\OnTilt.cs" />
