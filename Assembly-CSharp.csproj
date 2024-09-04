@@ -145,8 +145,8 @@
     <Compile Include="Assets\Tools\LeanTween\Examples\Scripts\PathSplines.cs" />
     <Compile Include="Assets\Tools\LeanTween\Testing\PerformanceTests.cs" />
     <Compile Include="Assets\_Course Library\Scripts\Conditions\OnPull.cs" />
-    <Compile Include="Assets\Tools\LeanTween\Framework\LTDescrOptional.cs" />
     <Compile Include="Assets\Tools\LeanTween\Testing\TestingIssue.cs" />
+    <Compile Include="Assets\Tools\LeanTween\Framework\LTDescrOptional.cs" />
     <Compile Include="Assets\Tools\LeanTween\Testing\TestingRotate.cs" />
     <Compile Include="Assets\_Course Library\Scripts\Actions\PlayQuickSound.cs" />
     <Compile Include="Assets\Tools\LeanTween\Testing\Testing243.cs" />

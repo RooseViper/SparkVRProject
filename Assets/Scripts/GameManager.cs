@@ -31,6 +31,7 @@ public class GameManager : MonoBehaviour
         defaultInstructionsVideoCanvasSize = videosInstructionsCanvas.localScale;
         instructionsCanvas.localScale = Vector3.zero;
         videosInstructionsCanvas.localScale = Vector3.zero;
+        intructionsVideoPlayer = videosInstructionsCanvas.GetComponentInChildren<VideoPlayer>();
     }
 
     public void ChangeSkyBox()
@@ -73,6 +74,8 @@ public class GameManager : MonoBehaviour
         isExpandedInstructionsVideo = !isExpandedInstructionsVideo;
         if (isExpandedInstructionsVideo)
         {
+            intructionsVideoPlayer.Stop();
+            intructionsVideoPlayer.Play();
             LeanTween.scale(videosInstructionsCanvas.gameObject, defaultInstructionsVideoCanvasSize, 0.5f).setEaseInOutSine().setOnComplete(ReachedEndInstructionsVideo);
         }
         else
@@ -86,5 +89,9 @@ public class GameManager : MonoBehaviour
 
     private void ReachedEndInstructionsVideo() => isExpandingInstructionsVideo = false;
 
+    public void QuitExperience()
+    {
+        Application.Quit();
+    }
 
 }

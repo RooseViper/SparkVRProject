@@ -130,8 +130,8 @@
     <Compile Include="Assets\Tools\SensorToolkit\Examples\assets\Developer\TestRecursivePulse\TestRecursivePulse.cs" />
     <Compile Include="Assets\Tools\SensorToolkit\Sensors\ArcSensor.cs" />
     <Compile Include="Assets\Tools\SensorToolkit\Sensors\src\SteerBehaviours\SteerDecision.cs" />
-    <Compile Include="Assets\Tools\SensorToolkit\Sensors\TriggerSensor2D.cs" />
     <Compile Include="Assets\Tools\SensorToolkit\Sensors\src\Gizmos\SensorGizmoUtils.cs" />
+    <Compile Include="Assets\Tools\SensorToolkit\Sensors\TriggerSensor2D.cs" />
     <Compile Include="Assets\Tools\SensorToolkit\Examples\assets\common\Scripts\Holder.cs" />
     <Compile Include="Assets\Tools\SensorToolkit\Sensors\src\LOS\MovingAverageFilter.cs" />
     <Compile Include="Assets\Tools\SensorToolkit\Sensors\FOVCollider.cs" />
@@ -139,8 +139,8 @@
     <Compile Include="Assets\Tools\SensorToolkit\Examples\assets\common\Scripts\Lifetime.cs" />
     <Compile Include="Assets\Tools\SensorToolkit\Examples\assets\common\Scripts\Comment.cs" />
     <Compile Include="Assets\Tools\SensorToolkit\Sensors\src\SteerBehaviours\LocomotionSystem.cs" />
-    <Compile Include="Assets\Tools\SensorToolkit\Sensors\src\SteerBehaviours\SphereGrid.cs" />
     <Compile Include="Assets\Tools\SensorToolkit\Sensors\src\LOS\Edge2D.cs" />
+    <Compile Include="Assets\Tools\SensorToolkit\Sensors\src\SteerBehaviours\SphereGrid.cs" />
     <Compile Include="Assets\Tools\SensorToolkit\Sensors\src\BasePulsableSensor.cs" />
     <Compile Include="Assets\Tools\SensorToolkit\Sensors\src\RenderFOVCollider2D.cs" />
     <Compile Include="Assets\Tools\SensorToolkit\Examples\assets\common\Scripts\TeamMember.cs" />
@@ -150,11 +150,11 @@
     <Compile Include="Assets\Tools\SensorToolkit\Examples\assets\common\Scripts\FilterExampleTagProcessor.cs" />
     <Compile Include="Assets\Tools\SensorToolkit\Sensors\LOSColliderOwner.cs" />
     <Compile Include="Assets\Tools\SensorToolkit\Examples\assets\ArenaShooter\SoldierAI.cs" />
+    <Compile Include="Assets\Tools\SensorToolkit\Sensors\TriggerSensor.cs" />
     <Compile Include="Assets\Tools\SensorToolkit\Sensors\LOSSensor.cs" />
     <Compile Include="Assets\Tools\SensorToolkit\Examples\assets\common\Scripts\BoxSpawner.cs" />
-    <Compile Include="Assets\Tools\SensorToolkit\Sensors\TriggerSensor.cs" />
-    <Compile Include="Assets\Tools\SensorToolkit\Sensors\src\LOS\LOSTest2D.cs" />
     <Compile Include="Assets\Tools\SensorToolkit\Sensors\SignalProcessors\IgnoreProcessor.cs" />
+    <Compile Include="Assets\Tools\SensorToolkit\Sensors\src\LOS\LOSTest2D.cs" />
     <None Include="Assets\Tools\SensorToolkit\Extras\Micosmo.SensorToolkit.asmref" />
     <None Include="Assets\Tools\SensorToolkit\Examples\assets\Micosmo.SensorToolkit.asmref" />
     <None Include="Assets\Tools\SensorToolkit\Sensors\Micosmo.SensorToolkit.asmdef" />
