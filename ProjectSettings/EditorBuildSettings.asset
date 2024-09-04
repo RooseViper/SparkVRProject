@@ -6,8 +6,8 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Lab 2 - Roosevelt Mwandira.unity
-    guid: 5e13ca55bb698e241a9428697749ee19
+    path: Assets/Scenes/Active Citizen.unity
+    guid: b8dbc430786f88a4d97686fdaf0e9f37
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: ed72be55522c8448bae8b0d66fa21adf,
       type: 2}
