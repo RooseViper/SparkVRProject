@@ -16,8 +16,6 @@ public class GameManager : MonoBehaviour
     private int skyBoxIndex;
     private bool shadowsOn = true;
     private Vector3 defaultInstructionsCanvasSize, defaultInstructionsVideoCanvasSize;
-    private bool isExpandedInstructions, isExpandedInstructionsVideo;
-    private bool isExpandingInstructions, isExpandingInstructionsVideo;
     private VideoPlayer intructionsVideoPlayer;
     private void Awake()
     {
@@ -53,41 +51,39 @@ public class GameManager : MonoBehaviour
         directionalLight.shadows = shadowsOn ? LightShadows.Soft : LightShadows.None;
     }
 
-    public void ChangeInstructionsCanvasState()
+    public void ChangeInstructionsCanvasState(bool expand)
     {
-        if(isExpandingInstructions)return;
-        isExpandedInstructions = !isExpandedInstructions;
-        if (isExpandedInstructions)
+        if (LeanTween.isTweening(instructionsCanvas.gameObject))
         {
-            LeanTween.scale(instructionsCanvas.gameObject, defaultInstructionsCanvasSize, 0.5f).setEaseInOutSine().setOnComplete(ReachedEndInstructions);
+            LeanTween.cancel(instructionsCanvas.gameObject);
+        }
+        if (expand)
+        {
+            LeanTween.scale(instructionsCanvas.gameObject, defaultInstructionsCanvasSize, 0.5f).setEaseInOutSine();
         }
         else
         {
-            LeanTween.scale(instructionsCanvas.gameObject, Vector3.zero, 0.5f).setEaseInOutSine().setOnComplete(ReachedEndInstructions);
+            LeanTween.scale(instructionsCanvas.gameObject, Vector3.zero, 0.5f).setEaseInOutSine();
         }
-        isExpandingInstructions = true;
     }
     
-    public void ChangeInstructionsVideosCanvasState()
+    public void ChangeInstructionsVideosCanvasState(bool expand)
     {
-        if(isExpandingInstructionsVideo)return;
-        isExpandedInstructionsVideo = !isExpandedInstructionsVideo;
-        if (isExpandedInstructionsVideo)
+        if (LeanTween.isTweening(videosInstructionsCanvas.gameObject))
+        {
+            LeanTween.cancel(videosInstructionsCanvas.gameObject);
+        }
+        if (expand)
         {
             intructionsVideoPlayer.Stop();
             intructionsVideoPlayer.Play();
-            LeanTween.scale(videosInstructionsCanvas.gameObject, defaultInstructionsVideoCanvasSize, 0.5f).setEaseInOutSine().setOnComplete(ReachedEndInstructionsVideo);
+            LeanTween.scale(videosInstructionsCanvas.gameObject, defaultInstructionsVideoCanvasSize, 0.5f).setEaseInOutSine();
         }
         else
         {
-            LeanTween.scale(videosInstructionsCanvas.gameObject, Vector3.zero, 0.5f).setEaseInOutSine().setOnComplete(ReachedEndInstructionsVideo);
+            LeanTween.scale(videosInstructionsCanvas.gameObject, Vector3.zero, 0.5f).setEaseInOutSine();
         }
-        isExpandingInstructionsVideo = true;
     }
-
-    private void ReachedEndInstructions() => isExpandingInstructions = false;
-
-    private void ReachedEndInstructionsVideo() => isExpandingInstructionsVideo = false;
 
     public void QuitExperience()
     {
