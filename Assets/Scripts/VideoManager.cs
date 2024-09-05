@@ -29,6 +29,7 @@ public class VideoManager : MonoBehaviour
         }
         expandButton.onClick.AddListener(ChangePanelSize);
         videoPlayer.Play();
+        audioSource.mute = true;
     }
 
     public void PlayVideo(int index)
