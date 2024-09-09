@@ -298,7 +298,7 @@ MonoBehaviour:
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
-  m_HorizontalAlignment: 1
+  m_HorizontalAlignment: 2
   m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0
@@ -577,5 +577,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 91be43e3328cd1c40adf9d4e2f7bc7ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  paintingImage: {fileID: 2034790165000114892}
   textShown: {fileID: 3374890527696698823}
   expandButton: {fileID: 8909424654842282766}

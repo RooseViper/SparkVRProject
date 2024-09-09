@@ -11,6 +11,13 @@ public class GameManager : MonoBehaviour
     [SerializeField] private Transform instructionsCanvas, videosInstructionsCanvas;
     [SerializeField] private Image displaySkyboxImage;
     [SerializeField] private Light directionalLight;
+
+    public enum Theme
+    {
+        Political,
+        Tourism
+    }
+    public Theme theme;
     public static GameManager Instance => _instance;
     private static GameManager _instance;
     private int skyBoxIndex;
@@ -30,6 +37,17 @@ public class GameManager : MonoBehaviour
         instructionsCanvas.localScale = Vector3.zero;
         videosInstructionsCanvas.localScale = Vector3.zero;
         intructionsVideoPlayer = videosInstructionsCanvas.GetComponentInChildren<VideoPlayer>();
+        LoadGame();
+    }
+
+    public void LoadGame()
+    {
+        StartCoroutine(LoadGameCoroutine());
+    }
+    private IEnumerator LoadGameCoroutine()
+    {
+        yield return new WaitForEndOfFrame();
+        PaintingManager.Instance.LoadPaitnings();
     }
 
     public void ChangeSkyBox()
