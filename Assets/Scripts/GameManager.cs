@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 using UnityEngine.Video;
 
@@ -92,9 +93,8 @@ public class GameManager : MonoBehaviour
         }
     }
 
-    public void QuitExperience()
-    {
-        Application.Quit();
-    }
+    public void QuitExperience()=> Application.Quit();
+
+    public void RestartExperience() => SceneManager.LoadScene(0);
 
 }

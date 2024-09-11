@@ -22,14 +22,31 @@ public class VideoManager : MonoBehaviour
         expandPosition = panel.localScale;
         panel.localScale = Vector3.zero;
         videoPlayer = GetComponent<VideoPlayer>();
+        LoadImageVideos();
+        expandButton.onClick.AddListener(ChangePanelSize);
+        audioSource.mute = true;
+    }
+
+    public void SetVideos(List<VideoInfo> videoInfos)
+    {
+        for (var i = 0; i < videoInfos.Count; i++)
+        {
+            loadedVideos[i].videoName = videoInfos[i].videoName;
+            loadedVideos[i].thumbnail = videoInfos[i].thumbnail;
+            loadedVideos[i].clip =  videoInfos[i].clip;
+        }
+        videoPlayer.clip = loadedVideos.First().clip;
+        LoadImageVideos();
+    }
+
+    private void LoadImageVideos()
+    {
         for (var i = 0; i < loadedVideos.Count; i++)
         {
             displayImages[i].sprite = loadedVideos[i].thumbnail;
             displayImages[i].GetComponentInChildren<TextMeshProUGUI>().text = loadedVideos[i].videoName;
         }
-        expandButton.onClick.AddListener(ChangePanelSize);
         videoPlayer.Play();
-        audioSource.mute = true;
     }
 
     public void PlayVideo(int index)

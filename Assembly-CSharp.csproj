@@ -165,6 +165,7 @@
     <Compile Include="Assets\Tools\SensorToolkit\Integrations\PlayMaker\Actions\SensorListenDetectionEvents.cs" />
     <Compile Include="Assets\_Course Library\Scripts\Actions\LookAtPlayer.cs" />
     <Compile Include="Assets\Tools\LeanTween\Examples\Scripts\GeneralSimpleUI.cs" />
+    <Compile Include="Assets\Scripts\VideoScreen.cs" />
     <Compile Include="Assets\Tools\Youtube Player\3.3.1\Three60EquiRectangular\PanoramicSkyboxVideo.cs" />
     <Compile Include="Assets\_Course Library\Scripts\Actions\FadeCanvas.cs" />
     <Compile Include="Assets\Scripts\Painting.cs" />
