@@ -6,6 +6,7 @@ using UnityEngine;
 public class PaintingManager : MonoBehaviour
 {
     [SerializeField] private Sprite[] touristPictures;
+    [SerializeField] private Sprite[] politicalPictures;
     private Painting[] paintings;
     public static PaintingManager Instance => _instance;
     private static PaintingManager _instance;
@@ -23,9 +24,16 @@ public class PaintingManager : MonoBehaviour
     {
         if (GameManager.Instance.theme == GameManager.Theme.Tourism)
         {
-            for (int i = 0; i < touristPictures.Length; i++)
+            for (var i = 0; i < touristPictures.Length; i++)
             {
                 paintings[i].SetPainting(touristPictures[i]);
+            }
+        }
+        else
+        {
+            for (var i = 0; i < politicalPictures.Length; i++)
+            {
+                paintings[i].SetPainting(politicalPictures[i]);
             }
         }
     }

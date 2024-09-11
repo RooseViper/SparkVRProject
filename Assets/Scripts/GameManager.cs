@@ -37,19 +37,8 @@ public class GameManager : MonoBehaviour
         instructionsCanvas.localScale = Vector3.zero;
         videosInstructionsCanvas.localScale = Vector3.zero;
         intructionsVideoPlayer = videosInstructionsCanvas.GetComponentInChildren<VideoPlayer>();
-        LoadGame();
     }
-
-    public void LoadGame()
-    {
-        StartCoroutine(LoadGameCoroutine());
-    }
-    private IEnumerator LoadGameCoroutine()
-    {
-        yield return new WaitForEndOfFrame();
-        PaintingManager.Instance.LoadPaitnings();
-    }
-
+ 
     public void ChangeSkyBox()
     {
         skyBoxIndex++;

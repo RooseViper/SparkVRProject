@@ -47,6 +47,7 @@
   <ItemGroup>
     <Compile Include="Assets\Tools\SensorToolkit\Integrations\PlayMaker\Actions\SetFOVCollider2D.cs" />
     <Compile Include="Assets\Tools\LeanTween\Testing\Testing246.cs" />
+    <Compile Include="Assets\Scripts\ThemeManager.cs" />
     <Compile Include="Assets\_Course Library\Scripts\Actions\LaunchProjectile.cs" />
     <Compile Include="Assets\Tools\Youtube Player\3.3.1\PlayVideo\VideoPlayerProgress.cs" />
     <Compile Include="Assets\Tools\SensorToolkit\Integrations\PlayMaker\Actions\SensorGetLineOfSightResult.cs" />
@@ -142,6 +143,7 @@
     <Compile Include="Assets\Tools\SensorToolkit\Integrations\PlayMaker\Actions\SensorGetSignal.cs" />
     <Compile Include="Assets\Tools\LeanTween\Examples\Scripts\PathBezier.cs" />
     <Compile Include="Assets\_Course Library\Scripts\Actions\PlayVideo.cs" />
+    <Compile Include="Assets\Scripts\PlayerManager.cs" />
     <Compile Include="Assets\Tools\LeanTween\Framework\LTSeq.cs" />
     <Compile Include="Assets\Tools\LeanTween\Examples\Scripts\PathSplines.cs" />
     <Compile Include="Assets\Tools\LeanTween\Testing\PerformanceTests.cs" />
