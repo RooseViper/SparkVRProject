@@ -9,7 +9,6 @@ public class ThemeManager : MonoBehaviour
     [SerializeField] private VideoScreen[] videoScreens;
     [SerializeField] private VideoPlayer[] constantVideoPlayers;
     [SerializeField] private VideoClip[] constantPoliticalClips, constantTourismClips;
-    [SerializeField] private Transform teleportTransform;
     [SerializeField] private ToggleRay[] toggleRays; 
     private AudioSource audioSource;
     // Start is called before the first frame update
@@ -28,8 +27,10 @@ public class ThemeManager : MonoBehaviour
         {
             constantVideoPlayers[i].clip = isPolitical ? constantPoliticalClips[i] : constantTourismClips[i];
         }
-        PlayerManager.Instance.playerRig.SetLocalPositionAndRotation(teleportTransform.position, Quaternion.Euler(teleportTransform.eulerAngles));
+        PlayerManager.Instance.Teleport();
         toggleRays.ToList().ForEach(ray=> ray.DeactivateRay());
         audioSource.Play();
     }
+
+
 }

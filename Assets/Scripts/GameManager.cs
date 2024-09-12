@@ -1,6 +1,8 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
+using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
@@ -9,8 +11,8 @@ using UnityEngine.Video;
 public class GameManager : MonoBehaviour
 {
     [SerializeField]private SkyboxObject[] skyboxObjects;
-    [SerializeField] private Transform instructionsCanvas, videosInstructionsCanvas;
-    [SerializeField] private Image displaySkyboxImage;
+    [SerializeField] private Transform instructionsCanvas, videosInstructionsCanvas, portableMenuCanvas;
+    [SerializeField] private Image[] displaySkyboxImages;
     [SerializeField] private Light directionalLight;
 
     public enum Theme
@@ -23,7 +25,7 @@ public class GameManager : MonoBehaviour
     private static GameManager _instance;
     private int skyBoxIndex;
     private bool shadowsOn = true;
-    private Vector3 defaultInstructionsCanvasSize, defaultInstructionsVideoCanvasSize;
+    private Vector3 defaultInstructionsCanvasSize, defaultInstructionsVideoCanvasSize, defaultPortableMenuCanvasSize;
     private VideoPlayer intructionsVideoPlayer;
     private void Awake()
     {
@@ -35,8 +37,10 @@ public class GameManager : MonoBehaviour
     {
         defaultInstructionsCanvasSize = instructionsCanvas.localScale;
         defaultInstructionsVideoCanvasSize = videosInstructionsCanvas.localScale;
+        defaultPortableMenuCanvasSize = portableMenuCanvas.localScale;
         instructionsCanvas.localScale = Vector3.zero;
         videosInstructionsCanvas.localScale = Vector3.zero;
+        portableMenuCanvas.localScale = Vector3.zero;
         intructionsVideoPlayer = videosInstructionsCanvas.GetComponentInChildren<VideoPlayer>();
     }
  
@@ -48,7 +52,7 @@ public class GameManager : MonoBehaviour
             skyBoxIndex = 0;
         }
         directionalLight.color = skyboxObjects[skyBoxIndex].color;
-        displaySkyboxImage.sprite = skyboxObjects[skyBoxIndex].sprite;
+        displaySkyboxImages.ToList().ForEach(image=> image.sprite = skyboxObjects[skyBoxIndex].sprite);
         RenderSettings.skybox = skyboxObjects[skyBoxIndex].material;
         RenderSettings.ambientSkyColor = skyboxObjects[skyBoxIndex].color;
     }
@@ -58,6 +62,7 @@ public class GameManager : MonoBehaviour
         shadowsOn = !shadowsOn;
         directionalLight.shadows = shadowsOn ? LightShadows.Soft : LightShadows.None;
     }
+    public void EnableDisableFPSCounter(TextMeshProUGUI textMeshProUGUI)=>textMeshProUGUI.gameObject.SetActive(!textMeshProUGUI.gameObject.activeInHierarchy);
 
     public void ChangeInstructionsCanvasState(bool expand)
     {
@@ -90,6 +95,21 @@ public class GameManager : MonoBehaviour
         else
         {
             LeanTween.scale(videosInstructionsCanvas.gameObject, Vector3.zero, 0.5f).setEaseInOutSine();
+        }
+    }
+    public void ChangePortableCanvasCanvasState(bool expand)
+    {
+        if (LeanTween.isTweening(portableMenuCanvas.gameObject))
+        {
+            LeanTween.cancel(portableMenuCanvas.gameObject);
+        }
+        if (expand)
+        {
+            LeanTween.scale(portableMenuCanvas.gameObject, defaultPortableMenuCanvasSize, 0.25f).setEaseInOutSine();
+        }
+        else
+        {
+            LeanTween.scale(portableMenuCanvas.gameObject, Vector3.zero, 0.5f).setEaseInOutSine();
         }
     }
 
