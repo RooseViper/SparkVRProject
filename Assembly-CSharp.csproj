@@ -126,6 +126,7 @@
     <Compile Include="Assets\_Course Library\Scripts\Actions\MatchRotation.cs" />
     <Compile Include="Assets\_Course Library\Scripts\Actions\LoadScene.cs" />
     <Compile Include="Assets\Tools\LeanTween\Framework\LeanTweenExt.cs" />
+    <Compile Include="Assets\Scripts\DisplayScreen.cs" />
     <Compile Include="Assets\Tools\LeanTween\Framework\LeanAudio.cs" />
     <Compile Include="Assets\Tools\LeanTween\Examples\Scripts\GeneralSequencer.cs" />
     <Compile Include="Assets\Tools\LeanTween\Examples\Scripts\GeneralBasics2d.cs" />
