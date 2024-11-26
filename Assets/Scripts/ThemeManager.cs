@@ -32,7 +32,7 @@ public class ThemeManager : MonoBehaviour
 
     public void Teleport(bool isPolitical)
     {
-        GameManager.Instance.theme = isPolitical ? GameManager.Theme.Political : GameManager.Theme.Tourism;
+  //      GameManager.Instance.theme = isPolitical ? GameManager.Theme.Political : GameManager.Theme.Tourism;
         PaintingManager.Instance.LoadPaitnings();
         displayScreens.ToList().ForEach(isPolitical ? screen=> screen.TurnOn() : screen=> screen.TurnOff());
         videoScreens.ToList().ForEach(vScreen=> vScreen.SetVideo(isPolitical));
