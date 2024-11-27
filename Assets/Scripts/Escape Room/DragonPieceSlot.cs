@@ -1,3 +1,4 @@
+using System.Linq;
 using UnityEngine;
 using UnityEngine.XR.Interaction.Toolkit;
 
@@ -5,7 +6,8 @@ namespace Escape_Room
 {
     public class DragonPieceSlot : MonoBehaviour
     {
-        [SerializeField] private int index;
+        public int index;
+        public DragonPiece DragonPiece => dragonPiece;
         private DragonPiece dragonPiece;
         private XRSocketInteractor xrSocketInteractor;
         // Start is called before the first frame update
@@ -21,7 +23,13 @@ namespace Escape_Room
             var attachedDragonPiece = xrSocketInteractor.firstInteractableSelected.transform.GetComponent<DragonPiece>();
             if (attachedDragonPiece != null)
             {
-                
+                dragonPiece = attachedDragonPiece;
+            }
+            var dragonSlots = transform.parent.GetComponentsInChildren<DragonPieceSlot>();
+            var allPiecesMatched = dragonSlots.All(slot => slot.index == slot.dragonPiece.index);
+            if (allPiecesMatched)
+            {
+                Debug.Log("Open Door");
             }
         }
 
