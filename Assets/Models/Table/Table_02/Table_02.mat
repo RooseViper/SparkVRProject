@@ -280,7 +280,7 @@ Material:
     - _SSRefractionProjectionModel: 0
     - _ShiverDirectionality: 0.5
     - _ShiverDrag: 0.2
-    - _Smoothness: 0.2
+    - _Smoothness: 0.065
     - _SmoothnessRemapMax: 0.99999994
     - _SmoothnessRemapMin: 0
     - _SmoothnessTextureChannel: 0
