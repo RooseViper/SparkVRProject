@@ -61,8 +61,10 @@
     <Compile Include="Assets\_Course Library\Scripts\Controls\XRKnob.cs" />
     <Compile Include="Assets\Tools\LeanTween\Examples\Scripts\PathSplineTrack.cs" />
     <Compile Include="Assets\_Course Library\Scripts\Actions\ToggleInterface.cs" />
+    <Compile Include="Assets\Scripts\Escape Room\Audio\MusicFader.cs" />
     <Compile Include="Assets\Tools\Youtube Player\3.3.1\PlayFromScript\PlayFromScript.cs" />
     <Compile Include="Assets\_Course Library\Scripts\Actions\ToggleLight.cs" />
+    <Compile Include="Assets\Scripts\Escape Room\Audio\GameAudioSource.cs" />
     <Compile Include="Assets\_Course Library\Scripts\Conditions\OnJoystickMove.cs" />
     <Compile Include="Assets\Tools\LeanTween\Examples\Scripts\PathBezier2d.cs" />
     <Compile Include="Assets\Tools\LeanTween\Testing\TestingIssue2.cs" />
@@ -88,6 +90,7 @@
     <Compile Include="Assets\Tools\LeanTween\Testing\Scripts\LeanPool.cs" />
     <Compile Include="Assets\Tools\SensorToolkit\Integrations\PlayMaker\Actions\SensorGetDetections.cs" />
     <Compile Include="Assets\Tools\LeanTween\Examples\Scripts\GeneralEventsListeners.cs" />
+    <Compile Include="Assets\Scripts\Escape Room\Audio\Sound.cs" />
     <Compile Include="Assets\Scripts\RightHandGetter.cs" />
     <Compile Include="Assets\Scripts\CountdownTimer.cs" />
     <Compile Include="Assets\_Course Library\Scripts\Conditions\OnButtonPress.cs" />
@@ -132,6 +135,7 @@
     <Compile Include="Assets\Tools\LeanTween\Framework\LeanAudio.cs" />
     <Compile Include="Assets\Tools\LeanTween\Examples\Scripts\GeneralSequencer.cs" />
     <Compile Include="Assets\Tools\LeanTween\Examples\Scripts\GeneralBasics2d.cs" />
+    <Compile Include="Assets\Scripts\Escape Room\Audio\AudioManager.cs" />
     <Compile Include="Assets\_Course Library\Scripts\Actions\FadeCanvasOnOverlap.cs" />
     <Compile Include="Assets\Scripts\HandGetter.cs" />
     <Compile Include="Assets\Tools\Youtube Player\3.3.1\PlayVideo\PrepareVideoButton.cs" />
@@ -161,6 +165,7 @@
     <Compile Include="Assets\_Course Library\Scripts\Actions\PlayContinuousSound.cs" />
     <Compile Include="Assets\Tools\LeanTween\Testing\TestingMaxTweens.cs" />
     <Compile Include="Assets\_Course Library\Scripts\Actions\SetInteractionLayer.cs" />
+    <Compile Include="Assets\Scripts\Escape Room\Audio\AudioSourcePlayer.cs" />
     <Compile Include="Assets\_Course Library\Scripts\Actions\PlayAnimation.cs" />
     <Compile Include="Assets\Scripts\GameManager.cs" />
     <Compile Include="Assets\Tools\Youtube Player\3.3.1\Three60Mesh\CubedSphereMesh.cs" />
@@ -190,6 +195,7 @@
     <Compile Include="Assets\Scripts\Cube.cs" />
     <Compile Include="Assets\Tools\Youtube Player\3.3.1\PlayVideo\PlayVideoButton.cs" />
     <Compile Include="Assets\_Course Library\Scripts\Actions\RemoveObjectsWithTag.cs" />
+    <Compile Include="Assets\Scripts\Escape Room\Door.cs" />
     <Compile Include="Assets\_Course Library\Scripts\Testing\TeleportAreaWithFade.cs" />
     <Compile Include="Assets\Scripts\VideoManager.cs" />
     <Compile Include="Assets\Tools\LeanTween\Examples\Scripts\LogoCinematic.cs" />
