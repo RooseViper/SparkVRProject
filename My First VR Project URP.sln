@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{d0df82dc-17e1-918f-2a24-519c051341dd}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BakeryEditorAssembly", "BakeryEditorAssembly.csproj", "{43f2f54b-4013-14f1-4bd0-f15624ea0d0b}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YoutubePlayer", "YoutubePlayer.csproj", "{cb64e919-caa6-07e0-162e-d4542afcbfda}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CFXRDemo", "CFXRDemo.csproj", "{d20cb5a7-a6df-dcec-7c2c-b736c8f5961b}"
@@ -12,6 +14,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.XR.Interaction.Toolkit.Samples.DeviceSimulator", "Unity.XR.Interaction.Toolkit.Samples.DeviceSimulator.csproj", "{8c50bddb-72aa-80da-aaa7-7fb498efe88e}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Micosmo.SensorToolkit.Editor", "Micosmo.SensorToolkit.Editor.csproj", "{2e04222a-bd03-05b6-6b06-4eeb8762702b}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BakeryRuntimeAssembly", "BakeryRuntimeAssembly.csproj", "{0183c091-5891-8f3e-550a-da080260a150}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CFXR.WelcomeScreen", "CFXR.WelcomeScreen.csproj", "{22c155ad-d468-0205-4ae3-e695d5bb34e0}"
 EndProject
@@ -40,6 +44,8 @@ Global
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{d0df82dc-17e1-918f-2a24-519c051341dd}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{d0df82dc-17e1-918f-2a24-519c051341dd}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43f2f54b-4013-14f1-4bd0-f15624ea0d0b}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43f2f54b-4013-14f1-4bd0-f15624ea0d0b}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{cb64e919-caa6-07e0-162e-d4542afcbfda}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{cb64e919-caa6-07e0-162e-d4542afcbfda}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{d20cb5a7-a6df-dcec-7c2c-b736c8f5961b}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -50,6 +56,8 @@ Global
 		{8c50bddb-72aa-80da-aaa7-7fb498efe88e}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2e04222a-bd03-05b6-6b06-4eeb8762702b}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{2e04222a-bd03-05b6-6b06-4eeb8762702b}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0183c091-5891-8f3e-550a-da080260a150}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0183c091-5891-8f3e-550a-da080260a150}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{22c155ad-d468-0205-4ae3-e695d5bb34e0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{22c155ad-d468-0205-4ae3-e695d5bb34e0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{b3171b86-c65d-6a46-e060-daccdd275a6c}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
