@@ -1,0 +1,211 @@
+2024-11-28
+Rendering UV GBuffer for Escape Room_LM0 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Escape Room_LMA1 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Escape Room_VLM 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Done
+Done
+Running ftraceRTX fixpos12 "C:\Users\Lenovo\AppData\Local\Temp\frender" "uvpos_Escape Room_LM0.lz4" 2 0 0 0
+Running ftraceRTX fixpos12 "C:\Users\Lenovo\AppData\Local\Temp\frender" "uvpos_Escape Room_LMA1.lz4" 2 0 1 0
+Running ftraceRTX batchpointlightshlegacy "C:\Users\Lenovo\AppData\Local\Temp\frender" "PointBatch_2_0_2" 1924 0 2 batchpointlight_2_0_2.bin
+Running ftraceRTX addmul "C:\Users\Lenovo\AppData\Local\Temp\frender" "Escape Room_VLM" 4 0 2 comp_2.bin
+Running ftraceRTX batchpointlightshlegacy "C:\Users\Lenovo\AppData\Local\Temp\frender" "PointBatch_0_0_2" 1924 0 0 batchpointlight_0_0_2.bin
+Running ftraceRTX addmul "C:\Users\Lenovo\AppData\Local\Temp\frender" "Escape Room_LM0" 4 0 0 comp_0.bin
+Running ftraceRTX batchpointlightshlegacy "C:\Users\Lenovo\AppData\Local\Temp\frender" "PointBatch_1_0_2" 1924 0 1 batchpointlight_1_0_2.bin
+Running ftraceRTX addmul "C:\Users\Lenovo\AppData\Local\Temp\frender" "Escape Room_LMA1" 4 0 1 comp_1.bin
+Running ftraceRTX texgi "C:\Users\Lenovo\AppData\Local\Temp\frender" "Escape Room_VLM_diffuse" 4 16 2 "gi_Escape Room_VLM0.bin" "Escape Room_VLM_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Lenovo\AppData\Local\Temp\frender" "Escape Room_LM0_diffuse" 4 16 0 "gi_Escape Room_LM00.bin" "Escape Room_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Lenovo\AppData\Local\Temp\frender" "Escape Room_LMA1_diffuse" 4 16 1 "gi_Escape Room_LMA10.bin" "Escape Room_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Lenovo\AppData\Local\Temp\frender" "Escape Room_VLM_diffuse" 4 16 2 "gi_Escape Room_VLM1.bin" "Escape Room_VLM_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Lenovo\AppData\Local\Temp\frender" "Escape Room_LM0_diffuse" 4 16 0 "gi_Escape Room_LM01.bin" "Escape Room_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Lenovo\AppData\Local\Temp\frender" "Escape Room_LMA1_diffuse" 4 16 1 "gi_Escape Room_LMA11.bin" "Escape Room_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Lenovo\AppData\Local\Temp\frender" "Escape Room_VLM_diffuse" 4 16 2 "gi_Escape Room_VLM2.bin" "Escape Room_VLM_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Lenovo\AppData\Local\Temp\frender" "Escape Room_LM0_diffuse" 4 16 0 "gi_Escape Room_LM02.bin" "Escape Room_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Lenovo\AppData\Local\Temp\frender" "Escape Room_LMA1_diffuse" 4 16 1 "gi_Escape Room_LMA12.bin" "Escape Room_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Lenovo\AppData\Local\Temp\frender" "Escape Room_VLM_diffuse" 4 16 2 "gi_Escape Room_VLM3.bin" "Escape Room_VLM_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Lenovo\AppData\Local\Temp\frender" "Escape Room_LM0_diffuse" 4 16 0 "gi_Escape Room_LM03.bin" "Escape Room_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Lenovo\AppData\Local\Temp\frender" "Escape Room_LMA1_diffuse" 4 16 1 "gi_Escape Room_LMA13.bin" "Escape Room_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgish "C:\Users\Lenovo\AppData\Local\Temp\frender" "Escape Room_VLM_final" 1924 16 2 "gi_Escape Room_VLM4.bin" "Escape Room_VLM_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgish "C:\Users\Lenovo\AppData\Local\Temp\frender" "Escape Room_LM0_final" 1924 16 0 "gi_Escape Room_LM04.bin" "Escape Room_LM0_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgish "C:\Users\Lenovo\AppData\Local\Temp\frender" "Escape Room_LMA1_final" 1924 16 1 "gi_Escape Room_LMA14.bin" "Escape Room_LMA1_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX addsh "C:\Users\Lenovo\AppData\Local\Temp\frender" "Escape Room_LM0_final_" 4 0 0 shcomp_0.bin
+Running denoiserOIDN2 s "C:\Users\Lenovo\AppData\Local\Temp\frender/Escape Room_LM0_final_L0.lz4" "C:\Users\Lenovo\AppData\Local\Temp\frender/Escape Room_LM0_final_L1x.lz4" "C:\Users\Lenovo\AppData\Local\Temp\frender/Escape Room_LM0_final_L1y.lz4" "C:\Users\Lenovo\AppData\Local\Temp\frender/Escape Room_LM0_final_L1z.lz4" 512 0
+Running seamfixer "C:\Users\Lenovo\AppData\Local\Temp\frender" "0" "Escape Room_LM0_final_L0.lz4" "Escape Room_LM0_final_L1x.lz4" "Escape Room_LM0_final_L1y.lz4" "Escape Room_LM0_final_L1z.lz4"
+Running ftraceRTX addsh "C:\Users\Lenovo\AppData\Local\Temp\frender" "Escape Room_LMA1_final_" 4 0 1 shcomp_1.bin
+Running denoiserOIDN2 s "C:\Users\Lenovo\AppData\Local\Temp\frender/Escape Room_LMA1_final_L0.lz4" "C:\Users\Lenovo\AppData\Local\Temp\frender/Escape Room_LMA1_final_L1x.lz4" "C:\Users\Lenovo\AppData\Local\Temp\frender/Escape Room_LMA1_final_L1y.lz4" "C:\Users\Lenovo\AppData\Local\Temp\frender/Escape Room_LMA1_final_L1z.lz4" 256 0
+Running seamfixer "C:\Users\Lenovo\AppData\Local\Temp\frender" "1" "Escape Room_LMA1_final_L0.lz4" "Escape Room_LMA1_final_L1x.lz4" "Escape Room_LMA1_final_L1y.lz4" "Escape Room_LMA1_final_L1z.lz4"
+Running halffloat2hdr "C:\Users\Lenovo\AppData\Local\Temp\frender/Escape Room_LM0_final_L0.lz4" "C:/Users/Lenovo/My First VR Project URP/Assets/BakeryLightmaps/Escape Room_LM0_L0.hdr" 1024
+Running rgba2tga "C:\Users\Lenovo\AppData\Local\Temp\frender/Escape Room_LM0_final_L1x.lz4" "C:/Users/Lenovo/My First VR Project URP/Assets/BakeryLightmaps/Escape Room_LM0_L1x.tga" 
+Running rgba2tga "C:\Users\Lenovo\AppData\Local\Temp\frender/Escape Room_LM0_final_L1y.lz4" "C:/Users/Lenovo/My First VR Project URP/Assets/BakeryLightmaps/Escape Room_LM0_L1y.tga" 
+Running rgba2tga "C:\Users\Lenovo\AppData\Local\Temp\frender/Escape Room_LM0_final_L1z.lz4" "C:/Users/Lenovo/My First VR Project URP/Assets/BakeryLightmaps/Escape Room_LM0_L1z.tga" 
+Running halffloat2hdr "C:\Users\Lenovo\AppData\Local\Temp\frender/Escape Room_LMA1_final_L0.lz4" "C:/Users/Lenovo/My First VR Project URP/Assets/BakeryLightmaps/Escape Room_LMA1_L0.hdr" 1024
+Running rgba2tga "C:\Users\Lenovo\AppData\Local\Temp\frender/Escape Room_LMA1_final_L1x.lz4" "C:/Users/Lenovo/My First VR Project URP/Assets/BakeryLightmaps/Escape Room_LMA1_L1x.tga" 
+Running rgba2tga "C:\Users\Lenovo\AppData\Local\Temp\frender/Escape Room_LMA1_final_L1y.lz4" "C:/Users/Lenovo/My First VR Project URP/Assets/BakeryLightmaps/Escape Room_LMA1_L1y.tga" 
+Running rgba2tga "C:\Users\Lenovo\AppData\Local\Temp\frender/Escape Room_LMA1_final_L1z.lz4" "C:/Users/Lenovo/My First VR Project URP/Assets/BakeryLightmaps/Escape Room_LMA1_L1z.tga" 
+
+=================================================================
+	Native Crash Reporting
+=================================================================
+Got a UNKNOWN while executing native code. This usually indicates
+a fatal error in the mono runtime or one of the native libraries 
+used by your application.
+=================================================================
+
+=================================================================
+	Managed Stacktrace:
+=================================================================
+=================================================================
+2024-11-28
+Rendering UV GBuffer for Escape Room_LM0 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Escape Room_LMA1 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for probes 256
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV GBuffer for Escape Room_VLM 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Done
+Done
+Running ftraceRTX fixpos12 "C:\Users\Lenovo\AppData\Local\Temp\frender" "uvpos_Escape Room_LM0.lz4" 2 0 0 0
+Running ftraceRTX fixpos12 "C:\Users\Lenovo\AppData\Local\Temp\frender" "uvpos_Escape Room_LMA1.lz4" 2 0 1 0
+Running ftraceRTX batchpointlightprobeshlegacy "C:\Users\Lenovo\AppData\Local\Temp\frender" "PointBatch_2_0_2" 1924 0 2 batchpointlight_2_0_2.bin
+Running ftraceRTX addmul "C:\Users\Lenovo\AppData\Local\Temp\frender" "probes" 4 0 2 comp_2.bin
+Running ftraceRTX batchpointlightshlegacy "C:\Users\Lenovo\AppData\Local\Temp\frender" "PointBatch_3_0_2" 1924 0 3 batchpointlight_3_0_2.bin
+Running ftraceRTX addmul "C:\Users\Lenovo\AppData\Local\Temp\frender" "Escape Room_VLM" 4 0 3 comp_3.bin
+Running ftraceRTX batchpointlightshlegacy "C:\Users\Lenovo\AppData\Local\Temp\frender" "PointBatch_0_0_2" 1924 0 0 batchpointlight_0_0_2.bin
+Running ftraceRTX addmul "C:\Users\Lenovo\AppData\Local\Temp\frender" "Escape Room_LM0" 4 0 0 comp_0.bin
+Running ftraceRTX batchpointlightshlegacy "C:\Users\Lenovo\AppData\Local\Temp\frender" "PointBatch_1_0_2" 1924 0 1 batchpointlight_1_0_2.bin
+Running ftraceRTX addmul "C:\Users\Lenovo\AppData\Local\Temp\frender" "Escape Room_LMA1" 4 0 1 comp_1.bin
+Running ftraceRTX texgi "C:\Users\Lenovo\AppData\Local\Temp\frender" "Escape Room_VLM_diffuse" 4 16 3 "gi_Escape Room_VLM0.bin" "Escape Room_VLM_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Lenovo\AppData\Local\Temp\frender" "Escape Room_LM0_diffuse" 4 16 0 "gi_Escape Room_LM00.bin" "Escape Room_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Lenovo\AppData\Local\Temp\frender" "Escape Room_LMA1_diffuse" 4 16 1 "gi_Escape Room_LMA10.bin" "Escape Room_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Lenovo\AppData\Local\Temp\frender" "Escape Room_VLM_diffuse" 4 16 3 "gi_Escape Room_VLM1.bin" "Escape Room_VLM_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Lenovo\AppData\Local\Temp\frender" "Escape Room_LM0_diffuse" 4 16 0 "gi_Escape Room_LM01.bin" "Escape Room_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Lenovo\AppData\Local\Temp\frender" "Escape Room_LMA1_diffuse" 4 16 1 "gi_Escape Room_LMA11.bin" "Escape Room_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Lenovo\AppData\Local\Temp\frender" "Escape Room_VLM_diffuse" 4 16 3 "gi_Escape Room_VLM2.bin" "Escape Room_VLM_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Lenovo\AppData\Local\Temp\frender" "Escape Room_LM0_diffuse" 4 16 0 "gi_Escape Room_LM02.bin" "Escape Room_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Lenovo\AppData\Local\Temp\frender" "Escape Room_LMA1_diffuse" 4 16 1 "gi_Escape Room_LMA12.bin" "Escape Room_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Lenovo\AppData\Local\Temp\frender" "Escape Room_VLM_diffuse" 4 16 3 "gi_Escape Room_VLM3.bin" "Escape Room_VLM_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Lenovo\AppData\Local\Temp\frender" "Escape Room_LM0_diffuse" 4 16 0 "gi_Escape Room_LM03.bin" "Escape Room_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Lenovo\AppData\Local\Temp\frender" "Escape Room_LMA1_diffuse" 4 16 1 "gi_Escape Room_LMA13.bin" "Escape Room_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgiprobesh "C:\Users\Lenovo\AppData\Local\Temp\frender" "probes_final" 1924 16 2 "gi_probes4.bin" "probes_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgish "C:\Users\Lenovo\AppData\Local\Temp\frender" "Escape Room_VLM_final" 1924 16 3 "gi_Escape Room_VLM4.bin" "Escape Room_VLM_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgish "C:\Users\Lenovo\AppData\Local\Temp\frender" "Escape Room_LM0_final" 1924 16 0 "gi_Escape Room_LM04.bin" "Escape Room_LM0_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgish "C:\Users\Lenovo\AppData\Local\Temp\frender" "Escape Room_LMA1_final" 1924 16 1 "gi_Escape Room_LMA14.bin" "Escape Room_LMA1_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX addsh "C:\Users\Lenovo\AppData\Local\Temp\frender" "probes_final_" 4 0 2 shcomp_2.bin
+Running ftraceRTX addsh "C:\Users\Lenovo\AppData\Local\Temp\frender" "Escape Room_LM0_final_" 4 0 0 shcomp_0.bin
+Running denoiserOIDN2 s "C:\Users\Lenovo\AppData\Local\Temp\frender/Escape Room_LM0_final_L0.lz4" "C:\Users\Lenovo\AppData\Local\Temp\frender/Escape Room_LM0_final_L1x.lz4" "C:\Users\Lenovo\AppData\Local\Temp\frender/Escape Room_LM0_final_L1y.lz4" "C:\Users\Lenovo\AppData\Local\Temp\frender/Escape Room_LM0_final_L1z.lz4" 512 0
+Running seamfixer "C:\Users\Lenovo\AppData\Local\Temp\frender" "0" "Escape Room_LM0_final_L0.lz4" "Escape Room_LM0_final_L1x.lz4" "Escape Room_LM0_final_L1y.lz4" "Escape Room_LM0_final_L1z.lz4"
+Running ftraceRTX addsh "C:\Users\Lenovo\AppData\Local\Temp\frender" "Escape Room_LMA1_final_" 4 0 1 shcomp_1.bin
+Running denoiserOIDN2 s "C:\Users\Lenovo\AppData\Local\Temp\frender/Escape Room_LMA1_final_L0.lz4" "C:\Users\Lenovo\AppData\Local\Temp\frender/Escape Room_LMA1_final_L1x.lz4" "C:\Users\Lenovo\AppData\Local\Temp\frender/Escape Room_LMA1_final_L1y.lz4" "C:\Users\Lenovo\AppData\Local\Temp\frender/Escape Room_LMA1_final_L1z.lz4" 256 0
+Running seamfixer "C:\Users\Lenovo\AppData\Local\Temp\frender" "1" "Escape Room_LMA1_final_L0.lz4" "Escape Room_LMA1_final_L1x.lz4" "Escape Room_LMA1_final_L1y.lz4" "Escape Room_LMA1_final_L1z.lz4"
+Running halffloat2hdr "C:\Users\Lenovo\AppData\Local\Temp\frender/Escape Room_LM0_final_L0.lz4" "C:/Users/Lenovo/My First VR Project URP/Assets/BakeryLightmaps/Escape Room_LM0_L0.hdr" 1024
+Running rgba2tga "C:\Users\Lenovo\AppData\Local\Temp\frender/Escape Room_LM0_final_L1x.lz4" "C:/Users/Lenovo/My First VR Project URP/Assets/BakeryLightmaps/Escape Room_LM0_L1x.tga" 
+Running rgba2tga "C:\Users\Lenovo\AppData\Local\Temp\frender/Escape Room_LM0_final_L1y.lz4" "C:/Users/Lenovo/My First VR Project URP/Assets/BakeryLightmaps/Escape Room_LM0_L1y.tga" 
+Running rgba2tga "C:\Users\Lenovo\AppData\Local\Temp\frender/Escape Room_LM0_final_L1z.lz4" "C:/Users/Lenovo/My First VR Project URP/Assets/BakeryLightmaps/Escape Room_LM0_L1z.tga" 
+Running halffloat2hdr "C:\Users\Lenovo\AppData\Local\Temp\frender/Escape Room_LMA1_final_L0.lz4" "C:/Users/Lenovo/My First VR Project URP/Assets/BakeryLightmaps/Escape Room_LMA1_L0.hdr" 1024
+Running rgba2tga "C:\Users\Lenovo\AppData\Local\Temp\frender/Escape Room_LMA1_final_L1x.lz4" "C:/Users/Lenovo/My First VR Project URP/Assets/BakeryLightmaps/Escape Room_LMA1_L1x.tga" 
+Running rgba2tga "C:\Users\Lenovo\AppData\Local\Temp\frender/Escape Room_LMA1_final_L1y.lz4" "C:/Users/Lenovo/My First VR Project URP/Assets/BakeryLightmaps/Escape Room_LMA1_L1y.tga" 
+Running rgba2tga "C:\Users\Lenovo\AppData\Local\Temp\frender/Escape Room_LMA1_final_L1z.lz4" "C:/Users/Lenovo/My First VR Project URP/Assets/BakeryLightmaps/Escape Room_LMA1_L1z.tga" 
+Symbol file LoadedFromMemory is not a mono symbol file
+[OVRPlugin][INFO] CompositorOpenXR::PreInitialize(activity = 0000000000000000, apiType = 0, preinitializeFlags=0x0)[OVRPlugin][INFO] Support Non-Oculus runtime: NO[OVRPlugin][INFO]  -- Set xrGetInstanceProcAddr to OpenXR Loader[OVRPlugin][INFO] Available Extensions: (39)[OVRPlugin][INFO]  Name=XR_KHR_D3D11_enable SpecVersion=9[OVRPlugin][INFO]  Name=XR_KHR_D3D12_enable SpecVersion=9[OVRPlugin][INFO]  Name=XR_KHR_opengl_enable SpecVersion=10[OVRPlugin][INFO]  Name=XR_KHR_vulkan_enable SpecVersion=8[OVRPlugin][INFO]  Name=XR_KHR_vulkan_enable2 SpecVersion=2[OVRPlugin][INFO]  Name=XR_KHR_composition_layer_depth SpecVersion=6[OVRPlugin][INFO]  Name=XR_KHR_win32_convert_performance_counter_time SpecVersion=1[OVRPlugin][INFO]  Name=XR_KHR_convert_timespec_time SpecVersion=1[OVRPlugin][INFO]  Name=XR_KHR_composition_layer_cube SpecVersion=8[OVRPlugin][INFO]  Name=XR_KHR_composition_layer_cylinder SpecVersion=4[OVRPlugin][INFO]  Name=XR_KHR_composition_layer_equirect SpecVersion=3[OVRPlugin][INFO]  Name=XR_KHR_visibility_mask SpecVersion=2[OVRPlugin][INFO]  Name=XR_KHR_composition_layer_color_scale_bias SpecVersion=5[OVRPlugin][INFO]  Name=XR_EXT_win32_appcontainer_compatible SpecVersion=1[OVRPlugin][INFO]  Name=XR_EXT_debug_utils SpecVersion=5[OVRPlugin][INFO]  Name=XR_OCULUS_recenter_event SpecVersion=1[OVRPlugin][INFO]  Name=XR_OCULUS_audio_device_guid SpecVersion=1[OVRPlugin][INFO]  Name=XR_FB_color_space SpecVersion=3[OVRPlugin][INFO]  Name=XR_FB_display_refresh_rate SpecVersion=1[OVRPlugin][INFO]  Name=XR_META_performance_metrics SpecVersion=2[OVRPlugin][INFO]  Name=XR_META_headset_id SpecVersion=2[OVRPlugin][INFO]  Name=XR_OCULUS_ovrsession_handle SpecVersion=1[OVRPlugin][INFO]  Name=XR_EXT_hand_interaction SpecVersion=1[OVRPlugin][INFO]  Name=XR_EXT_hand_tracking SpecVersion=4[OVRPlugin][INFO]  Name=XR_FB_hand_tracking_aim SpecVersion=2[OVRPlugin][INFO]  Name=XR_FB_hand_tracking_capsules SpecVersion=3[OVRPlugin][INFO]  Name=XR_FB_hand_tracking_mesh SpecVersion=3[OVRPlugin][INFO]  Name=XR_EXT_hand_tracking_data_source SpecVersion=1[OVRPlugin][INFO]  Name=XR_META_simultaneous_hands_and_controllers SpecVersion=1[OVRPlugin][INFO]  Name=XR_EXT_local_floor SpecVersion=1[OVRPlugin][INFO]  Name=XR_EXT_active_action_set_priority SpecVersion=1[OVRPlugin][INFO]  Name=XR_FB_haptic_amplitude_envelope SpecVersion=1[OVRPlugin][INFO]  Name=XR_FB_haptic_pcm SpecVersion=1[OVRPlugin][INFO]  Name=XR_FB_touch_controller_pro SpecVersion=1[OVRPlugin][INFO]  Name=XR_META_touch_controller_plus SpecVersion=1[OVRPlugin][INFO]  Name=XR_FB_touch_controller_proximity SpecVersion=1[OVRPlugin][INFO]  Name=XR_OCULUS_external_camera SpecVersion=1[OVRPlugin][INFO]  Name=XR_META_detached_controllers SpecVersion=1[OVRPlugin][INFO]  Name=XR_LOGITECH_mx_ink_stylus_interaction SpecVersion=1[OVRPlugin][INFO] Unavailable OpenXR extension: XR_EXT_performance_settings[OVRPlugin][INFO] Unavailable OpenXR extension: XR_FB_swapchain_update_state[OVRPlugin][INFO] Unavailable OpenXR extension: XR_FB_swapchain_update_state_vulkan[OVRPlugin][INFO] Unavailable OpenXR extension: XR_FB_foveation[OVRPlugin][INFO] Unavailable OpenXR extension: XR_FB_foveation_configuration[OVRPlugin][INFO] Unavailable OpenXR extension: XR_FB_foveation_vulkan[OVRPlugin][INFO] Unavailable OpenXR extension: XR_META_vulkan_swapchain_create_info[OVRPlugin][INFO] Unavailable OpenXR extension: XR_META_foveation_eye_tracked[OVRPlugin][INFO] Unavailable OpenXR extension: XR_KHR_composition_layer_equirect2[OVRPlugin][INFO] Unavailable OpenXR extension: XR_FB_passthrough[OVRPlugin][INFO] Unavailable OpenXR extension: XR_FB_triangle_mesh[OVRPlugin][INFO] Unavailable OpenXR extension: XR_FB_passthrough_keyboard_hands[OVRPlugin][INFO] Unavailable OpenXR extension: XR_FB_render_model[OVRPlugin][INFO] Unavailable OpenXR extension: XR_FB_keyboard_tracking[OVRPlugin][INFO] Unavailable OpenXR extension: XR_METAX1_virtual_keyboard[OVRPlugin][INFO] Unavailable OpenXR extension: XR_FB_scene[OVRPlugin][INFO] Unavailable OpenXR extension: XR_FB_spatial_entity[OVRPlugin][INFO] Unavailable OpenXR extension: XR_FB_spatial_entity_container[OVRPlugin][INFO] Unavailable OpenXR extension: XR_FB_spatial_entity_query[OVRPlugin][INFO] Unavailable OpenXR extension: XR_FB_spatial_entity_storage[OVRPlugin][INFO] Unavailable OpenXR extension: XR_FB_spatial_entity_storage_batch[OVRPlugin][INFO] Unavailable OpenXR extension: XR_FB_spatial_entity_sharing[OVRPlugin][INFO] Unavailable OpenXR extension: XR_FB_spatial_entity_user[OVRPlugin][INFO] Unavailable OpenXR extension: XR_FB_face_tracking[OVRPlugin][INFO] Unavailable OpenXR extension: XR_FB_eye_tracking_social[OVRPlugin][INFO] Unavailable OpenXR extension: XR_FB_body_tracking[OVRPlugin][INFO] Available Layers: (0)[OVRPlugin][INFO] Preinitialize: xrCreateInstance() succeeded[OVRPlugin][INFO] OpenXR runtime name: Oculus, version 1.103.0[OVRPlugin][INFO] Preinitialize: xrGetSystem() succeeded. xrSystemId 20[OVRPlugin][INFO] VkInstanceExtensions:[OVRPlugin][INFO]   VK_KHR_surface[OVRPlugin][INFO]   VK_KHR_external_memory_capabilities[OVRPlugin][INFO]   VK_KHR_win32_surface[OVRPlugin][INFO]   VK_KHR_external_fence_capabilities[OVRPlugin][INFO]   VK_KHR_external_semaphore_capabilities[OVRPlugin][INFO]   VK_KHR_get_physical_device_properties2[OVRPlugin][INFO] VkDeviceExtensions:[OVRPlugin][INFO]   VK_KHR_swapchain[OVRPlugin][INFO]   VK_KHR_external_memory[OVRPlugin][INFO]   VK_KHR_external_memory_win32[OVRPlugin][INFO]   VK_KHR_external_fence[OVRPlugin][INFO]   VK_KHR_external_fence_win32[OVRPlugin][INFO]   VK_KHR_external_semaphore[OVRPlugin][INFO]   VK_KHR_external_semaphore_win32[OVRPlugin][INFO]   VK_KHR_get_memory_requirements2[OVRPlugin][INFO]   VK_KHR_dedicated_allocation[OVRPlugin][INFO] Preinitialize: xrDestroyInstance() succeeded[OVRPlugin][INFO] ProfilerSystem: verbose mode 0[OVRPlugin][INFO] OVRPlugin 1.83.0 ... preinitialized[OVRPlugin][INFO] OpenXR SDK version 1.0.26[OVRPlugin][INFO] Available Extensions: (39)[OVRPlugin][INFO]  Name=XR_KHR_D3D11_enable SpecVersion=9[OVRPlugin][INFO]  Name=XR_KHR_D3D12_enable SpecVersion=9[OVRPlugin][INFO]  Name=XR_KHR_opengl_enable SpecVersion=10[OVRPlugin][INFO]  Name=XR_KHR_vulkan_enable SpecVersion=8[OVRPlugin][INFO]  Name=XR_KHR_vulkan_enable2 SpecVersion=2[OVRPlugin][INFO]  Name=XR_KHR_composition_layer_depth SpecVersion=6[OVRPlugin][INFO]  Name=XR_KHR_win32_convert_performance_counter_time SpecVersion=1[OVRPlugin][INFO]  Name=XR_KHR_convert_timespec_time SpecVersion=1[OVRPlugin][INFO]  Name=XR_KHR_composition_layer_cube SpecVersion=8[OVRPlugin][INFO]  Name=XR_KHR_composition_layer_cylinder SpecVersion=4[OVRPlugin][INFO]  Name=XR_KHR_composition_layer_equirect SpecVersion=3[OVRPlugin][INFO]  Name=XR_KHR_visibility_mask SpecVersion=2[OVRPlugin][INFO]  Name=XR_KHR_composition_layer_color_scale_bias SpecVersion=5[OVRPlugin][INFO]  Name=XR_EXT_win32_appcontainer_compatible SpecVersion=1[OVRPlugin][INFO]  Name=XR_EXT_debug_utils SpecVersion=5[OVRPlugin][INFO]  Name=XR_OCULUS_recenter_event SpecVersion=1[OVRPlugin][INFO]  Name=XR_OCULUS_audio_device_guid SpecVersion=1[OVRPlugin][INFO]  Name=XR_FB_color_space SpecVersion=3[OVRPlugin][INFO]  Name=XR_FB_display_refresh_rate SpecVersion=1[OVRPlugin][INFO]  Name=XR_META_performance_metrics SpecVersion=2[OVRPlugin][INFO]  Name=XR_META_headset_id SpecVersion=2[OVRPlugin][INFO]  Name=XR_OCULUS_ovrsession_handle SpecVersion=1[OVRPlugin][INFO]  Name=XR_EXT_hand_interaction SpecVersion=1[OVRPlugin][INFO]  Name=XR_EXT_hand_tracking SpecVersion=4[OVRPlugin][INFO]  Name=XR_FB_hand_tracking_aim SpecVersion=2[OVRPlugin][INFO]  Name=XR_FB_hand_tracking_capsules SpecVersion=3[OVRPlugin][INFO]  Name=XR_FB_hand_tracking_mesh SpecVersion=3[OVRPlugin][INFO]  Name=XR_EXT_hand_tracking_data_source SpecVersion=1[OVRPlugin][INFO]  Name=XR_META_simultaneous_hands_and_controllers SpecVersion=1[OVRPlugin][INFO]  Name=XR_EXT_local_floor SpecVersion=1[OVRPlugin][INFO]  Name=XR_EXT_active_action_set_priority SpecVersion=1[OVRPlugin][INFO]  Name=XR_FB_haptic_amplitude_envelope SpecVersion=1[OVRPlugin][INFO]  Name=XR_FB_haptic_pcm SpecVersion=1[OVRPlugin][INFO]  Name=XR_FB_touch_controller_pro SpecVersion=1[OVRPlugin][INFO]  Name=XR_META_touch_controller_plus SpecVersion=1[OVRPlugin][INFO]  Name=XR_FB_touch_controller_proximity SpecVersion=1[OVRPlugin][INFO]  Name=XR_OCULUS_external_camera SpecVersion=1[OVRPlugin][INFO]  Name=XR_META_detached_controllers SpecVersion=1[OVRPlugin][INFO]  Name=XR_LOGITECH_mx_ink_stylus_interaction SpecVersion=1[OVRPlugin][INFO] Unavailable OpenXR extension: XR_EXT_performance_settings[OVRPlugin][INFO] Unavailable OpenXR extension: XR_FB_swapchain_update_state[OVRPlugin][INFO] Unavailable OpenXR extension: XR_FB_swapchain_update_state_vulkan[OVRPlugin][INFO] Unavailable OpenXR extension: XR_FB_foveation[OVRPlugin][INFO] Unavailable OpenXR extension: XR_FB_foveation_configuration[OVRPlugin][INFO] Unavailable OpenXR extension: XR_FB_foveation_vulkan[OVRPlugin][INFO] Unavailable OpenXR extension: XR_META_vulkan_swapchain_create_info[OVRPlugin][INFO] Unavailable OpenXR extension: XR_META_foveation_eye_tracked[OVRPlugin][INFO] Unavailable OpenXR extension: XR_KHR_composition_layer_equirect2[OVRPlugin][INFO] Unavailable OpenXR extension: XR_FB_passthrough[OVRPlugin][INFO] Unavailable OpenXR extension: XR_FB_triangle_mesh[OVRPlugin][INFO] Unavailable OpenXR extension: XR_FB_passthrough_keyboard_hands[OVRPlugin][INFO] Unavailable OpenXR extension: XR_FB_render_model[OVRPlugin][INFO] Unavailable OpenXR extension: XR_FB_keyboard_tracking[OVRPlugin][INFO] Unavailable OpenXR extension: XR_METAX1_virtual_keyboard[OVRPlugin][INFO] Unavailable OpenXR extension: XR_FB_scene[OVRPlugin][INFO] Unavailable OpenXR extension: XR_FB_spatial_entity[OVRPlugin][INFO] Unavailable OpenXR extension: XR_FB_spatial_entity_container[OVRPlugin][INFO] Unavailable OpenXR extension: XR_FB_spatial_entity_query[OVRPlugin][INFO] Unavailable OpenXR extension: XR_FB_spatial_entity_storage[OVRPlugin][INFO] Unavailable OpenXR extension: XR_FB_spatial_entity_storage_batch[OVRPlugin][INFO] Unavailable OpenXR extension: XR_FB_spatial_entity_sharing[OVRPlugin][INFO] Unavailable OpenXR extension: XR_FB_spatial_entity_user[OVRPlugin][INFO] Unavailable OpenXR extension: XR_FB_face_tracking[OVRPlugin][INFO] Unavailable OpenXR extension: XR_FB_eye_tracking_social[OVRPlugin][INFO] Unavailable OpenXR extension: XR_FB_body_tracking[OVRPlugin][INFO] Initialize: xrCreateInstance() succeeded[OVRPlugin][INFO] OpenXR runtime name: Oculus, version 1.103.0[OVRPlugin][INFO] xrGetSystem() succeeded. xrSystemId 20[OVRPlugin][INFO] OpenXR system properties:
+  venderId 4294955582, systemName Oculus Quest2, maxSwapchainImage(4096, 4096), maxLayerCount 16, orientationTracking 1, positionTracking 1[OVRPlugin][INFO] OpenXR hand tracking system properties:
+  hand tracking supported 1[OVRPlugin][INFO] xrEnumerateViewConfigurationViews() found 2 views[OVRPlugin][INFO]   View: Recommended Width=2080 Height=2096 SampleCount=1 Maximum Width=4160 Height=4192 SampleCount=4[OVRPlugin][INFO]   View: Recommended Width=2080 Height=2096 SampleCount=1 Maximum Width=4160 Height=4192 SampleCount=4[OVRPlugin][INFO] [XR_SESSION] XrEventDataSessionStateChanged: state XR_SESSION_STATE_UNKNOWN->XR_SESSION_STATE_IDLE session=72158611668729857 time=14618845195400[OVRPlugin][INFO] [XR_SESSION] XrEventDataSessionStateChanged: state XR_SESSION_STATE_IDLE->XR_SESSION_STATE_READY session=72158611668729857 time=14618845210900[OVRPlugin][INFO] Supported Performance Metrics: /perfmetrics_meta/app/cpu_frametime[OVRPlugin][INFO] Supported Performance Metrics: /perfmetrics_meta/app/gpu_frametime[OVRPlugin][INFO] Supported Performance Metrics: /perfmetrics_meta/compositor/cpu_frametime[OVRPlugin][INFO] Supported Performance Metrics: /perfmetrics_meta/compositor/gpu_frametime[OVRPlugin][INFO] Supported Performance Metrics: /perfmetrics_meta/compositor/dropped_frame_count[OVRPlugin][INFO] Supported Performance Metrics: /perfmetrics_meta/compositor/spacewarp_mode[OVRPlugin][INFO] CompositorOpenXR::Initialize() - succeeded[OVRPlugin][INFO] OVRPlugin 1.83.0 ... initialized[OVRPlugin][INFO] [CompositorOpenXR::SetClientColorDesc] Change colorspace from 0 to 4[OVRPlugin][INFO] ovrp_GetSystemCpuLevel2() deprecated, please use ovrp_GetSuggestedCpuPerformanceLevel()[OVRPlugin][INFO] ovrp_GetSystemGpuLevel2() deprecated, please use ovrp_GetSuggestedGpuPerformanceLevel()[OVRPlugin][INFO] [XR_SESSION] XrEventDataSessionStateChanged: state XR_SESSION_STATE_READY->XR_SESSION_STATE_SYNCHRONIZED session=72158611668729857 time=14619852526100[OVRPlugin][INFO] [XR_SESSION] XrEventDataSessionStateChanged: state XR_SESSION_STATE_SYNCHRONIZED->XR_SESSION_STATE_VISIBLE session=72158611668729857 time=14620697417399[OVRPlugin][INFO] [XR_SESSION] XrEventDataSessionStateChanged: state XR_SESSION_STATE_VISIBLE->XR_SESSION_STATE_FOCUSED session=72158611668729857 time=14620697453199[OVRPlugin][INFO] [XR_SESSION] XrEventDataSessionStateChanged: state XR_SESSION_STATE_FOCUSED->XR_SESSION_STATE_VISIBLE session=72158611668729857 time=14654173819500[OVRPlugin][INFO] [XR_SESSION] XrEventDataSessionStateChanged: state XR_SESSION_STATE_VISIBLE->XR_SESSION_STATE_SYNCHRONIZED session=72158611668729857 time=14654173830000[OVRPlugin][INFO] [XR_SESSION] XrEventDataSessionStateChanged: state XR_SESSION_STATE_SYNCHRONIZED->XR_SESSION_STATE_STOPPING session=72158611668729857 time=14654173894300[OVRPlugin][INFO] [XR_SESSION] XrEventDataSessionStateChanged: state XR_SESSION_STATE_STOPPING->XR_SESSION_STATE_IDLE session=72158611668729857 time=14654173989400Done
+Done
+Done
+Done
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+initScene done
+Done
+Rendering UV GBuffer for Escape Room_LM0 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Escape Room_LMA1 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for probes 256
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV GBuffer for Escape Room_VLM 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Done
+Done
+Running ftraceRTX fixpos12 "C:\Users\Lenovo\AppData\Local\Temp\frender" "uvpos_Escape Room_LM0.lz4" 2 0 0 0
+Running ftraceRTX fixpos12 "C:\Users\Lenovo\AppData\Local\Temp\frender" "uvpos_Escape Room_LMA1.lz4" 2 0 1 0
+Running ftraceRTX batchpointlightprobeshlegacy "C:\Users\Lenovo\AppData\Local\Temp\frender" "PointBatch_2_0_4" 1924 0 2 batchpointlight_2_0_4.bin
+Running ftraceRTX addmul "C:\Users\Lenovo\AppData\Local\Temp\frender" "probes" 4 0 2 comp_2.bin
+Running ftraceRTX batchpointlightshlegacy "C:\Users\Lenovo\AppData\Local\Temp\frender" "PointBatch_3_0_4" 1924 0 3 batchpointlight_3_0_4.bin
+Running ftraceRTX addmul "C:\Users\Lenovo\AppData\Local\Temp\frender" "Escape Room_VLM" 4 0 3 comp_3.bin
+Running ftraceRTX batchpointlightshlegacy "C:\Users\Lenovo\AppData\Local\Temp\frender" "PointBatch_0_0_4" 1924 0 0 batchpointlight_0_0_4.bin
+Running ftraceRTX addmul "C:\Users\Lenovo\AppData\Local\Temp\frender" "Escape Room_LM0" 4 0 0 comp_0.bin
+Running ftraceRTX batchpointlightshlegacy "C:\Users\Lenovo\AppData\Local\Temp\frender" "PointBatch_1_0_4" 1924 0 1 batchpointlight_1_0_4.bin
+Running ftraceRTX addmul "C:\Users\Lenovo\AppData\Local\Temp\frender" "Escape Room_LMA1" 4 0 1 comp_1.bin
+Running ftraceRTX texgi "C:\Users\Lenovo\AppData\Local\Temp\frender" "Escape Room_VLM_diffuse" 4 16 3 "gi_Escape Room_VLM0.bin" "Escape Room_VLM_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Lenovo\AppData\Local\Temp\frender" "Escape Room_LM0_diffuse" 4 16 0 "gi_Escape Room_LM00.bin" "Escape Room_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Lenovo\AppData\Local\Temp\frender" "Escape Room_LMA1_diffuse" 4 16 1 "gi_Escape Room_LMA10.bin" "Escape Room_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Lenovo\AppData\Local\Temp\frender" "Escape Room_VLM_diffuse" 4 16 3 "gi_Escape Room_VLM1.bin" "Escape Room_VLM_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Lenovo\AppData\Local\Temp\frender" "Escape Room_LM0_diffuse" 4 16 0 "gi_Escape Room_LM01.bin" "Escape Room_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Lenovo\AppData\Local\Temp\frender" "Escape Room_LMA1_diffuse" 4 16 1 "gi_Escape Room_LMA11.bin" "Escape Room_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Lenovo\AppData\Local\Temp\frender" "Escape Room_VLM_diffuse" 4 16 3 "gi_Escape Room_VLM2.bin" "Escape Room_VLM_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Lenovo\AppData\Local\Temp\frender" "Escape Room_LM0_diffuse" 4 16 0 "gi_Escape Room_LM02.bin" "Escape Room_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Lenovo\AppData\Local\Temp\frender" "Escape Room_LMA1_diffuse" 4 16 1 "gi_Escape Room_LMA12.bin" "Escape Room_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Lenovo\AppData\Local\Temp\frender" "Escape Room_VLM_diffuse" 4 16 3 "gi_Escape Room_VLM3.bin" "Escape Room_VLM_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Lenovo\AppData\Local\Temp\frender" "Escape Room_LM0_diffuse" 4 16 0 "gi_Escape Room_LM03.bin" "Escape Room_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Lenovo\AppData\Local\Temp\frender" "Escape Room_LMA1_diffuse" 4 16 1 "gi_Escape Room_LMA13.bin" "Escape Room_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgiprobesh "C:\Users\Lenovo\AppData\Local\Temp\frender" "probes_final" 1924 16 2 "gi_probes4.bin" "probes_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgish "C:\Users\Lenovo\AppData\Local\Temp\frender" "Escape Room_VLM_final" 1924 16 3 "gi_Escape Room_VLM4.bin" "Escape Room_VLM_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgish "C:\Users\Lenovo\AppData\Local\Temp\frender" "Escape Room_LM0_final" 1924 16 0 "gi_Escape Room_LM04.bin" "Escape Room_LM0_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgish "C:\Users\Lenovo\AppData\Local\Temp\frender" "Escape Room_LMA1_final" 1924 16 1 "gi_Escape Room_LMA14.bin" "Escape Room_LMA1_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX addsh "C:\Users\Lenovo\AppData\Local\Temp\frender" "probes_final_" 4 0 2 shcomp_2.bin
+Running ftraceRTX addsh "C:\Users\Lenovo\AppData\Local\Temp\frender" "Escape Room_LM0_final_" 4 0 0 shcomp_0.bin
+Running denoiserOIDN2 s "C:\Users\Lenovo\AppData\Local\Temp\frender/Escape Room_LM0_final_L0.lz4" "C:\Users\Lenovo\AppData\Local\Temp\frender/Escape Room_LM0_final_L1x.lz4" "C:\Users\Lenovo\AppData\Local\Temp\frender/Escape Room_LM0_final_L1y.lz4" "C:\Users\Lenovo\AppData\Local\Temp\frender/Escape Room_LM0_final_L1z.lz4" 512 0
+Running seamfixer "C:\Users\Lenovo\AppData\Local\Temp\frender" "0" "Escape Room_LM0_final_L0.lz4" "Escape Room_LM0_final_L1x.lz4" "Escape Room_LM0_final_L1y.lz4" "Escape Room_LM0_final_L1z.lz4"
+Running ftraceRTX addsh "C:\Users\Lenovo\AppData\Local\Temp\frender" "Escape Room_LMA1_final_" 4 0 1 shcomp_1.bin
+Running denoiserOIDN2 s "C:\Users\Lenovo\AppData\Local\Temp\frender/Escape Room_LMA1_final_L0.lz4" "C:\Users\Lenovo\AppData\Local\Temp\frender/Escape Room_LMA1_final_L1x.lz4" "C:\Users\Lenovo\AppData\Local\Temp\frender/Escape Room_LMA1_final_L1y.lz4" "C:\Users\Lenovo\AppData\Local\Temp\frender/Escape Room_LMA1_final_L1z.lz4" 256 0
+Running seamfixer "C:\Users\Lenovo\AppData\Local\Temp\frender" "1" "Escape Room_LMA1_final_L0.lz4" "Escape Room_LMA1_final_L1x.lz4" "Escape Room_LMA1_final_L1y.lz4" "Escape Room_LMA1_final_L1z.lz4"
+Running halffloat2hdr "C:\Users\Lenovo\AppData\Local\Temp\frender/Escape Room_LM0_final_L0.lz4" "C:/Users/Lenovo/My First VR Project URP/Assets/BakeryLightmaps/Escape Room_LM0_L0.hdr" 1024
+Running rgba2tga "C:\Users\Lenovo\AppData\Local\Temp\frender/Escape Room_LM0_final_L1x.lz4" "C:/Users/Lenovo/My First VR Project URP/Assets/BakeryLightmaps/Escape Room_LM0_L1x.tga" 
+Running rgba2tga "C:\Users\Lenovo\AppData\Local\Temp\frender/Escape Room_LM0_final_L1y.lz4" "C:/Users/Lenovo/My First VR Project URP/Assets/BakeryLightmaps/Escape Room_LM0_L1y.tga" 
+Running rgba2tga "C:\Users\Lenovo\AppData\Local\Temp\frender/Escape Room_LM0_final_L1z.lz4" "C:/Users/Lenovo/My First VR Project URP/Assets/BakeryLightmaps/Escape Room_LM0_L1z.tga" 
+Running halffloat2hdr "C:\Users\Lenovo\AppData\Local\Temp\frender/Escape Room_LMA1_final_L0.lz4" "C:/Users/Lenovo/My First VR Project URP/Assets/BakeryLightmaps/Escape Room_LMA1_L0.hdr" 1024
+Running rgba2tga "C:\Users\Lenovo\AppData\Local\Temp\frender/Escape Room_LMA1_final_L1x.lz4" "C:/Users/Lenovo/My First VR Project URP/Assets/BakeryLightmaps/Escape Room_LMA1_L1x.tga" 
+Running rgba2tga "C:\Users\Lenovo\AppData\Local\Temp\frender/Escape Room_LMA1_final_L1y.lz4" "C:/Users/Lenovo/My First VR Project URP/Assets/BakeryLightmaps/Escape Room_LMA1_L1y.tga" 
+Running rgba2tga "C:\Users\Lenovo\AppData\Local\Temp\frender/Escape Room_LMA1_final_L1z.lz4" "C:/Users/Lenovo/My First VR Project URP/Assets/BakeryLightmaps/Escape Room_LMA1_L1z.tga" 
+Total cache size 268405468
+Total cache size after purge 268405468
+Symbol file LoadedFromMemory is not a mono symbol file

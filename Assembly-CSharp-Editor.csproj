@@ -950,6 +950,14 @@
       <Project>{2e04222a-bd03-05b6-6b06-4eeb8762702b}</Project>
       <Name>Micosmo.SensorToolkit.Editor</Name>
     </ProjectReference>
+    <ProjectReference Include="OmniShade.csproj">
+      <Project>{b12c67d4-b896-5703-0d4e-bea139ca9c48}</Project>
+      <Name>OmniShade</Name>
+    </ProjectReference>
+    <ProjectReference Include="OmniShade.Editor.csproj">
+      <Project>{dd4396bb-0288-3167-0dd3-3fd64da90181}</Project>
+      <Name>OmniShade.Editor</Name>
+    </ProjectReference>
     <ProjectReference Include="BakeryEditorAssembly.csproj">
       <Project>{43f2f54b-4013-14f1-4bd0-f15624ea0d0b}</Project>
       <Name>BakeryEditorAssembly</Name>

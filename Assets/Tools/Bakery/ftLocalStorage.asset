@@ -14,4 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   modifiedAssetPathList:
   - Assets/Bakery/examples/content/sponza/sponza.FBX
-  modifiedAssetPaddingHash: d6a958ff
+  - Assets/_Course Library/Source Files/Models/Mat_A_1.fbx
+  modifiedAssetPaddingHash: d6a958ffb84608c8

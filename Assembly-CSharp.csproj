@@ -202,10 +202,13 @@
     <Compile Include="Assets\Tools\LeanTween\Examples\Scripts\GeneralBasic.cs" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
+    <None Include="Assets\OmniShade\Shaders\OmniShadeCore.cginc" />
     <None Include="Assets\Tools\LeanTween\ReadMe.txt" />
     <None Include="Assets\Tools\JMO Assets\Cartoon FX Remaster\CFXR Assets\Shaders\CFXR_SETTINGS.cginc" />
+    <None Include="Assets\OmniShade\Shaders\OmniShade.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
     <None Include="Packages\com.ibicha.youtube-player\package.json" />
+    <None Include="Assets\OmniShade\Shaders\OmniShade URP.shader" />
     <None Include="Assets\Tools\JMO Assets\Cartoon FX Remaster\CFXR Assets\Shaders\CFXR.cginc" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
     <None Include="Assets\Tools\LeanTween\License.txt" />
@@ -215,11 +218,13 @@
     <None Include="Assets\Resources\BillingMode.json" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface.shader" />
     <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
+    <None Include="Assets\OmniShade\Shaders\OmniShadeURP.cginc" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile SSD.shader" />
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Properties.cginc" />
+    <None Include="Assets\OmniShade\Shaders\OmniShade Triplanar URP.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
     <None Include="Assets\Tools\JMO Assets\Cartoon FX Remaster\CFXR Prefabs\Texts\_Make your own text effect.txt" />
     <None Include="Assets\Tools\JMO Assets\Cartoon FX Remaster\CFXR Assets\Shaders\CFXR_PASSES.cginc" />
@@ -231,7 +236,9 @@
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader" />
     <None Include="Assets\Tools\JMO Assets\Cartoon FX Remaster\CFXR Assets\Shaders\CFXR_URP.cginc" />
     <None Include="Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
+    <None Include="Assets\OmniShade\Shaders\ShaderLibrary\FoveatedRenderingKeywords.hlsl" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader" />
+    <None Include="Assets\OmniShade\Shaders\OmniShade Triplanar.shader" />
     <None Include="Assets\TextMesh Pro\Sprites\EmojiOne.json" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Sprite.shader" />
     <Reference Include="UnityEngine">
@@ -1070,6 +1077,14 @@
     <ProjectReference Include="Micosmo.SensorToolkit.Editor.csproj">
       <Project>{2e04222a-bd03-05b6-6b06-4eeb8762702b}</Project>
       <Name>Micosmo.SensorToolkit.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="OmniShade.csproj">
+      <Project>{b12c67d4-b896-5703-0d4e-bea139ca9c48}</Project>
+      <Name>OmniShade</Name>
+    </ProjectReference>
+    <ProjectReference Include="OmniShade.Editor.csproj">
+      <Project>{dd4396bb-0288-3167-0dd3-3fd64da90181}</Project>
+      <Name>OmniShade.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="BakeryEditorAssembly.csproj">
       <Project>{43f2f54b-4013-14f1-4bd0-f15624ea0d0b}</Project>
