@@ -9,7 +9,7 @@ namespace Escape_Room
     {
         public int index;
         [SerializeField] private XRGrabInteractable startingPieceInteractable;
-        private DragonPiece dragonPiece;
+        private Item item;
         private bool HasPiece => xrSocketInteractor.hasSelection;
         private XRSocketInteractor xrSocketInteractor;
         // Start is called before the first frame update
@@ -42,18 +42,17 @@ namespace Escape_Room
         
         private void SetDragonPiece(SelectEnterEventArgs selectEnterEventArgs)
         {
-            var attachedDragonPiece = xrSocketInteractor.firstInteractableSelected.transform.GetComponent<DragonPiece>();
+            var attachedDragonPiece = xrSocketInteractor.firstInteractableSelected.transform.GetComponent<Item>();
             if (attachedDragonPiece != null)
             {
-                dragonPiece = attachedDragonPiece;
-                dragonPiece.MakeKinematic();
+                item = attachedDragonPiece;
+                item.MakeKinematic();
             }
             var dragonPieceSlots = transform.parent.GetComponentsInChildren<DragonPieceSlot>();
             var allSlotsFilled = dragonPieceSlots.All(slot => slot.HasPiece);
             if (allSlotsFilled)
             {
-                Debug.Log("All Slots filled");
-                var allPiecesMatched = dragonPieceSlots.All(slot => slot.index == slot.dragonPiece.index);
+                var allPiecesMatched = dragonPieceSlots.All(slot => slot.index == slot.item.index);
                 if (allPiecesMatched)
                 {
                     var door = GetComponentInParent<Door>();
@@ -64,8 +63,8 @@ namespace Escape_Room
 
         private void RemoveDragonPiece(SelectExitEventArgs selectExitEventArgs)
         {
-            dragonPiece.MakeUnKinematic();
-            dragonPiece = null;
+            item.MakeUnKinematic();
+            item = null;
         }
     }
 }

@@ -53,11 +53,13 @@
     <Compile Include="Assets\Tools\Youtube Player\3.3.1\PlayVideo\VideoPlayerProgress.cs" />
     <Compile Include="Assets\Tools\SensorToolkit\Integrations\PlayMaker\Actions\SensorGetLineOfSightResult.cs" />
     <Compile Include="Assets\Tools\SensorToolkit\Integrations\PlayMaker\Actions\SensorGetDetectionRayHit.cs" />
+    <Compile Include="Assets\Scripts\Escape Room\GlassBox.cs" />
     <Compile Include="Assets\_Course Library\Scripts\Actions\ScaleObject.cs" />
     <Compile Include="Assets\_Course Library\Scripts\Actions\StickToObject.cs" />
     <Compile Include="Assets\_Course Library\Scripts\Actions\SetVolume.cs" />
     <Compile Include="Assets\Tools\LeanTween\Framework\LTDescr.cs" />
     <Compile Include="Assets\Tools\LeanTween\Testing\TestingDescr.cs" />
+    <Compile Include="Assets\Scripts\Escape Room\Item.cs" />
     <Compile Include="Assets\Tools\LeanTween\Examples\Scripts\Following.cs" />
     <Compile Include="Assets\_Course Library\Scripts\Controls\XRKnob.cs" />
     <Compile Include="Assets\Tools\LeanTween\Examples\Scripts\PathSplineTrack.cs" />
@@ -120,7 +122,6 @@
     <Compile Include="Assets\Scripts\CubeEater.cs" />
     <Compile Include="Assets\Tools\LeanTween\Framework\LeanTest.cs" />
     <Compile Include="Assets\Tools\LeanTween\Examples\Scripts\TestingUnitTests.cs" />
-    <Compile Include="Assets\Scripts\Escape Room\DragonPiece.cs" />
     <Compile Include="Assets\Tools\LeanTween\Testing\TestingSequencer.cs" />
     <Compile Include="Assets\_Course Library\Scripts\Actions\PlaySoundsFromList.cs" />
     <Compile Include="Assets\Tools\LeanTween\Framework\LeanSmooth.cs" />

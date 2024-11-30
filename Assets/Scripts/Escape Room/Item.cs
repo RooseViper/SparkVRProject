@@ -4,7 +4,7 @@ using UnityEngine.XR.Interaction.Toolkit;
 
 namespace Escape_Room
 {
-    public class DragonPiece : MonoBehaviour
+    public class Item : MonoBehaviour
     {
         public int index;
         private Rigidbody rb;

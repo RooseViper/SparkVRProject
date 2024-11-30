@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 
 namespace Escape_Room
@@ -5,9 +6,13 @@ namespace Escape_Room
     public class Door : MonoBehaviour
     {
         [SerializeField] private float openAngle;
+        [SerializeField] private float speed;
+
         public void Open()
         {
-            LeanTween.rotateLocal(gameObject, new Vector3(0f, openAngle, 0f), 5f).setEaseInOutSine();
+            var currentVector3 = transform.localEulerAngles;
+            currentVector3.y = openAngle;
+            LeanTween.rotateLocal(gameObject, currentVector3, speed).setEaseInOutSine();
         }
     }
 }
