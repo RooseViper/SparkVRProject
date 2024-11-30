@@ -9,7 +9,7 @@ namespace Escape_Room
     {
         public int index;
         [SerializeField] private XRGrabInteractable startingPieceInteractable;
-        public DragonPiece dragonPiece;
+        private DragonPiece dragonPiece;
         private bool HasPiece => xrSocketInteractor.hasSelection;
         private XRSocketInteractor xrSocketInteractor;
         // Start is called before the first frame update

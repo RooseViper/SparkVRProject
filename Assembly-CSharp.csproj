@@ -49,6 +49,7 @@
     <Compile Include="Assets\Tools\LeanTween\Testing\Testing246.cs" />
     <Compile Include="Assets\Scripts\ThemeManager.cs" />
     <Compile Include="Assets\_Course Library\Scripts\Actions\LaunchProjectile.cs" />
+    <Compile Include="Assets\Fast Color Grading\URP_Cg\ColorGradingUrp.cs" />
     <Compile Include="Assets\Tools\Youtube Player\3.3.1\PlayVideo\VideoPlayerProgress.cs" />
     <Compile Include="Assets\Tools\SensorToolkit\Integrations\PlayMaker\Actions\SensorGetLineOfSightResult.cs" />
     <Compile Include="Assets\Tools\SensorToolkit\Integrations\PlayMaker\Actions\SensorGetDetectionRayHit.cs" />
@@ -71,6 +72,7 @@
     <Compile Include="Assets\Tools\Youtube Player\3.3.1\Three60Mesh\SimpleCameraController.cs" />
     <Compile Include="Assets\Tools\LeanTween\Testing\Testing240.cs" />
     <Compile Include="Assets\Tools\LeanTween\Examples\Scripts\PathSpline.cs" />
+    <Compile Include="Assets\Fast Color Grading\URP_Cg\ColorGradingUrpPass.cs" />
     <Compile Include="Assets\Tools\SensorToolkit\Integrations\PlayMaker\Actions\SteeringSensorSeek.cs" />
     <Compile Include="Assets\_Course Library\Scripts\Testing\DisplayFPS.cs" />
     <Compile Include="Assets\Scripts\Escape Room\DragonPieceSlot.cs" />
@@ -80,6 +82,7 @@
     <Compile Include="Assets\Scripts\SkyboxObject.cs" />
     <Compile Include="Assets\_Course Library\Scripts\Actions\ManuallySelectObject.cs" />
     <Compile Include="Assets\Tools\LeanTween\Testing\FollowingTests.cs" />
+    <Compile Include="Assets\Scripts\Escape Room\ArtifactSlot.cs" />
     <Compile Include="Assets\_Course Library\Scripts\Actions\ToggleVisibility.cs" />
     <Compile Include="Assets\_Course Library\Scripts\Actions\SetParticleRate.cs" />
     <Compile Include="Assets\Tools\LeanTween\Examples\Scripts\GeneralCameraShake.cs" />
@@ -157,6 +160,7 @@
     <Compile Include="Assets\_Course Library\Scripts\Conditions\OnPull.cs" />
     <Compile Include="Assets\Tools\LeanTween\Testing\TestingIssue.cs" />
     <Compile Include="Assets\Tools\LeanTween\Framework\LTDescrOptional.cs" />
+    <Compile Include="Assets\Fast Color Grading\URP_Cg\EditValues.cs" />
     <Compile Include="Assets\Tools\LeanTween\Testing\TestingRotate.cs" />
     <Compile Include="Assets\_Course Library\Scripts\Actions\PlayQuickSound.cs" />
     <Compile Include="Assets\Tools\LeanTween\Testing\Testing243.cs" />
@@ -167,6 +171,7 @@
     <Compile Include="Assets\_Course Library\Scripts\Actions\SetInteractionLayer.cs" />
     <Compile Include="Assets\Scripts\Escape Room\Audio\AudioSourcePlayer.cs" />
     <Compile Include="Assets\_Course Library\Scripts\Actions\PlayAnimation.cs" />
+    <Compile Include="Assets\Fast Color Grading\ColorGrading.cs" />
     <Compile Include="Assets\Scripts\GameManager.cs" />
     <Compile Include="Assets\Tools\Youtube Player\3.3.1\Three60Mesh\CubedSphereMesh.cs" />
     <Compile Include="Assets\_Course Library\Scripts\Actions\VibrateController.cs" />
@@ -215,12 +220,14 @@
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
     <None Include="Assets\Tools\SensorToolkit\README.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
+    <None Include="Assets\Fast Color Grading\URP_Cg\ColorGradingURP.shader" />
     <None Include="Assets\Resources\BillingMode.json" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface.shader" />
     <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
     <None Include="Assets\OmniShade\Shaders\OmniShadeURP.cginc" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF.shader" />
+    <None Include="Assets\Fast Color Grading\ColorGrading.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile SSD.shader" />
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Properties.cginc" />

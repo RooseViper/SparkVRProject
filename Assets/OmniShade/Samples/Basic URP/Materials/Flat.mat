@@ -9,6 +9,8 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: Flat
   m_Shader: {fileID: 4800000, guid: a2a06e22c08354d9699356710b69ca9c, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
   - AMBIENT
   - ANIME_SOFT
@@ -46,6 +48,7 @@ Material:
   stringTagMap: {}
   disabledShaderPasses:
   - SRPDEFAULTUNLIT
+  m_LockedProperties: 
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
@@ -165,6 +168,7 @@ Material:
     - _Cull: 2
     - _Cutoff: 0.5
     - _Cutout: 0
+    - _CutoutCutoff: 0.5
     - _DestBlend: 0
     - _DetailBlend: 0
     - _DetailBrightness: 1
@@ -225,10 +229,15 @@ Material:
     - _OptPointLights: 0
     - _OptShadow: 0
     - _Outline: 0
+    - _OutlineComp: 8
+    - _OutlineGroup: 0
+    - _OutlinePass: 0
     - _OutlineWidth: 0.002
+    - _OutlineWidthIndependent: 0
     - _Parallax: 0.02
     - _Plant: 0
     - _PlantBaseHeight: 0
+    - _PlantLocal: 0
     - _PlantPhaseVariation: 0.3
     - _PlantSwayAmount: 0.15
     - _PlantSwaySpeed: 1
@@ -264,6 +273,24 @@ Material:
     - _TransparencyMaskAmount: 1
     - _TransparencyMaskContrast: 1
     - _UVSec: 0
+    - _UVTile: 0
+    - _UVTileDiscardUV: 1
+    - _UVTileV0U0: 0
+    - _UVTileV0U1: 0
+    - _UVTileV0U2: 0
+    - _UVTileV0U3: 0
+    - _UVTileV1U0: 0
+    - _UVTileV1U1: 0
+    - _UVTileV1U2: 0
+    - _UVTileV1U3: 0
+    - _UVTileV2U0: 0
+    - _UVTileV2U1: 0
+    - _UVTileV2U2: 0
+    - _UVTileV2U3: 0
+    - _UVTileV3U0: 0
+    - _UVTileV3U1: 0
+    - _UVTileV3U2: 0
+    - _UVTileV3U3: 0
     - _VertexColors: 0
     - _VertexColorsAmount: 1
     - _VertexColorsContrast: 1
