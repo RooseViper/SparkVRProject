@@ -99,7 +99,7 @@ LightmapSettings:
     m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 112000000, guid: fb4900b3d4c0a73479bd6a71c16ade16,
     type: 2}
-  m_LightingSettings: {fileID: 1141086564}
+  m_LightingSettings: {fileID: 1442735843}
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -124,7 +124,7 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1 &300897297
+--- !u!1 &1379524731
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -132,8 +132,8 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 300897299}
-  - component: {fileID: 300897298}
+  - component: {fileID: 1379524733}
+  - component: {fileID: 1379524732}
   m_Layer: 0
   m_Name: New Game Object
   m_TagString: Untagged
@@ -141,13 +141,13 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!220 &300897298
+--- !u!220 &1379524732
 LightProbeGroup:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 300897297}
+  m_GameObject: {fileID: 1379524731}
   m_Enabled: 1
   m_SourcePositions:
   - {x: 5.6264358, y: 3.4670417, z: 28.72643}
@@ -427,13 +427,13 @@ LightProbeGroup:
   - {x: 1.3093778, y: 0.58560824, z: 26.954483}
   - {x: 1.3093778, y: -0.8869891, z: 26.954483}
   m_Dering: 1
---- !u!4 &300897299
+--- !u!4 &1379524733
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 300897297}
+  m_GameObject: {fileID: 1379524731}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 16.507, y: 2.671, z: -41}
   m_LocalScale: {x: 0.5175549, y: 0.5175549, z: 0.5175549}
@@ -442,7 +442,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!850595691 &1141086564
+--- !u!850595691 &1442735843
 LightingSettings:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -506,7 +506,7 @@ LightingSettings:
   m_PVRTiledBaking: 0
   m_NumRaysToShootPerTexel: -1
   m_RespectSceneVisibilityWhenBakingGI: 0
---- !u!1 &1364111147
+--- !u!1 &1755534630
 GameObject:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -514,8 +514,8 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 1364111149}
-  - component: {fileID: 1364111148}
+  - component: {fileID: 1755534632}
+  - component: {fileID: 1755534631}
   m_Layer: 0
   m_Name: '!ftraceLightmaps'
   m_TagString: Untagged
@@ -523,13 +523,13 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1364111148
+--- !u!114 &1755534631
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1364111147}
+  m_GameObject: {fileID: 1755534630}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b7fa80e7116296f4eb4f49ec1544ee22, type: 3}
@@ -668,13 +668,13 @@ MonoBehaviour:
   sectors: []
   prevBakedProbes: []
   prevBakedProbePos: []
---- !u!4 &1364111149
+--- !u!4 &1755534632
 Transform:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1364111147}
+  m_GameObject: {fileID: 1755534630}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}

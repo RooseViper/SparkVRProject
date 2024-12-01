@@ -11,8 +11,7 @@ using UnityEngine.Video;
 public class GameManager : MonoBehaviour
 {
     [SerializeField] private Transform portableMenuCanvas;
-    [SerializeField] private Light directionalLight;
-
+    [SerializeField ]private float fogRate = 0.05f;
     public static GameManager Instance => _instance;
     private static GameManager _instance;
     private int skyBoxIndex;
@@ -29,12 +28,12 @@ public class GameManager : MonoBehaviour
     {
         defaultPortableMenuCanvasSize = portableMenuCanvas.localScale;
         portableMenuCanvas.localScale = Vector3.zero;
+        
     }
     
     public void ChangeShadowState()
     {
         shadowsOn = !shadowsOn;
-        directionalLight.shadows = shadowsOn ? LightShadows.Soft : LightShadows.None;
     }
     public void EnableDisableFPSCounter(TextMeshProUGUI textMeshProUGUI)=>textMeshProUGUI.gameObject.SetActive(!textMeshProUGUI.gameObject.activeInHierarchy);
 
@@ -52,6 +51,23 @@ public class GameManager : MonoBehaviour
         {
             LeanTween.scale(portableMenuCanvas.gameObject, Vector3.zero, 0.5f).setEaseInOutSine();
         }
+    }
+    public void IncreaseFog()=>   StartCoroutine(IncreaseFogDensity(1f, 5f));
+    private IEnumerator IncreaseFogDensity(float target, float time)
+    {
+        var startDensity = RenderSettings.fogDensity; // Current fog density
+        var elapsed = 0f;
+
+        // Gradually increase the fog density
+        while (elapsed < time)
+        {
+            elapsed += Time.deltaTime;
+            RenderSettings.fogDensity = Mathf.Lerp(startDensity, target, elapsed / time);
+            yield return null; // Wait for the next frame
+        }
+        // Ensure the final density is exactly the target
+        RenderSettings.fogDensity = target;
+        RestartExperience();
     }
 
     public void QuitExperience()=> Application.Quit();

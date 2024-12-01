@@ -37,6 +37,7 @@ namespace Escape_Room
             audioManager.Play("Fireworks");
             yield return new WaitForSeconds(1.55f);
             sparksPs.gameObject.SetActive(false);
+            GameManager.Instance.IncreaseFog();
         }
     }
 }
