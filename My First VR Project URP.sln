@@ -1,6 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OmniShade", "OmniShade.csproj", "{b12c67d4-b896-5703-0d4e-bea139ca9c48}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{d0df82dc-17e1-918f-2a24-519c051341dd}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BakeryEditorAssembly", "BakeryEditorAssembly.csproj", "{43f2f54b-4013-14f1-4bd0-f15624ea0d0b}"
@@ -19,7 +21,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BakeryRuntimeAssembly", "Ba
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CFXR.WelcomeScreen", "CFXR.WelcomeScreen.csproj", "{22c155ad-d468-0205-4ae3-e695d5bb34e0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OmniShade", "OmniShade.csproj", "{b12c67d4-b896-5703-0d4e-bea139ca9c48}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OmniShade.Editor", "OmniShade.Editor.csproj", "{dd4396bb-0288-3167-0dd3-3fd64da90181}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-Editor", "Assembly-CSharp-Editor.csproj", "{b3171b86-c65d-6a46-e060-daccdd275a6c}"
 EndProject
@@ -28,8 +30,6 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CFXRRuntime", "CFXRRuntime.csproj", "{91c164f0-f9ee-d53c-66e5-ac4017ff44fa}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CFXREditor", "CFXREditor.csproj", "{c9bb1e1c-c4b6-e1c2-9ffd-749d35894ab8}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OmniShade.Editor", "OmniShade.Editor.csproj", "{dd4396bb-0288-3167-0dd3-3fd64da90181}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.XR.Interaction.Toolkit.Samples.StarterAssets", "Unity.XR.Interaction.Toolkit.Samples.StarterAssets.csproj", "{c0a801c9-e204-14b1-3298-3ad1dcc856e1}"
 EndProject
@@ -46,6 +46,8 @@ Global
 		Debug|Any CPU = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{b12c67d4-b896-5703-0d4e-bea139ca9c48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{b12c67d4-b896-5703-0d4e-bea139ca9c48}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{d0df82dc-17e1-918f-2a24-519c051341dd}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{d0df82dc-17e1-918f-2a24-519c051341dd}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{43f2f54b-4013-14f1-4bd0-f15624ea0d0b}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -64,8 +66,8 @@ Global
 		{0183c091-5891-8f3e-550a-da080260a150}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{22c155ad-d468-0205-4ae3-e695d5bb34e0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{22c155ad-d468-0205-4ae3-e695d5bb34e0}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{b12c67d4-b896-5703-0d4e-bea139ca9c48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{b12c67d4-b896-5703-0d4e-bea139ca9c48}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{dd4396bb-0288-3167-0dd3-3fd64da90181}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{dd4396bb-0288-3167-0dd3-3fd64da90181}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{b3171b86-c65d-6a46-e060-daccdd275a6c}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{b3171b86-c65d-6a46-e060-daccdd275a6c}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{fc72a0ab-c57c-ee00-3a74-172ba78ac922}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -74,8 +76,6 @@ Global
 		{91c164f0-f9ee-d53c-66e5-ac4017ff44fa}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{c9bb1e1c-c4b6-e1c2-9ffd-749d35894ab8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{c9bb1e1c-c4b6-e1c2-9ffd-749d35894ab8}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{dd4396bb-0288-3167-0dd3-3fd64da90181}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{dd4396bb-0288-3167-0dd3-3fd64da90181}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{c0a801c9-e204-14b1-3298-3ad1dcc856e1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{c0a801c9-e204-14b1-3298-3ad1dcc856e1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{267f814f-3fc4-5c34-ce1f-e313dafb06ef}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
