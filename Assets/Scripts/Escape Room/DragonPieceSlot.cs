@@ -12,10 +12,12 @@ namespace Escape_Room
         private Item item;
         private bool HasPiece => xrSocketInteractor.hasSelection;
         private XRSocketInteractor xrSocketInteractor;
+        private AudioSource doorAudioSource;
         // Start is called before the first frame update
         private void Start()
         {
             xrSocketInteractor = GetComponent<XRSocketInteractor>();
+            doorAudioSource = GetComponentInParent<AudioSource>();
             if (startingPieceInteractable != null)
             {
                 StartCoroutine(InitializeCoruotine());
@@ -55,10 +57,19 @@ namespace Escape_Room
                 var allPiecesMatched = dragonPieceSlots.All(slot => slot.index == slot.item.index);
                 if (allPiecesMatched)
                 {
-                    var door = GetComponentInParent<Door>();
-                    door.Open();
+                    StartCoroutine(OpenDoorCoroutine());
                 }
             }
+        }
+
+        private IEnumerator OpenDoorCoroutine()
+        {
+            yield return new WaitForSeconds(1f);
+            Escape_Room.Audio.AudioManager.Instance.Play("Door Unlock", doorAudioSource);
+            yield return new WaitForSeconds(1f);
+            var door = GetComponentInParent<Door>();
+            door.Open();
+            Escape_Room.Audio.AudioManager.Instance.Play("Creaky Door", doorAudioSource);
         }
 
         private void RemoveDragonPiece(SelectExitEventArgs selectExitEventArgs)

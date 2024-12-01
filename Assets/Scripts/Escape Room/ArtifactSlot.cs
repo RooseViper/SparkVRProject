@@ -11,11 +11,13 @@ namespace Escape_Room
         private XRSocketInteractor xrSocketInteractor;
         private Item item;
         private GlassBox glassBox;
+        private AudioSource audioSource;
         // Start is called before the first frame update
         private void Start()
         {
             xrSocketInteractor = GetComponent<XRSocketInteractor>();
             glassBox = GetComponentInParent<GlassBox>();
+            audioSource = glassBox.GetComponent<AudioSource>();
             xrSocketInteractor.selectEntered.AddListener(SetArtifactPiece);
             xrSocketInteractor.selectExited.AddListener(RemoveArtifactPiece);
         }
@@ -37,10 +39,12 @@ namespace Escape_Room
                 {
                     var door = transform.parent.GetComponentInChildren<Door>();
                     door.Open();
+                    Escape_Room.Audio.AudioManager.Instance.Play("Glassbox Open", audioSource);
                     glassBox.MakePieceInteractable();
                 }
             }
         }
+        
 
         private void RemoveArtifactPiece(SelectExitEventArgs selectExitEventArgs)
         {

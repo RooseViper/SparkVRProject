@@ -409,7 +409,8 @@ MonoBehaviour:
   - Assets/Models/Door/Door_02_Frame.fbx
   - Assets/Models/Table/Table_02.fbx
   - Assets/Models/Chest/model.blend
-  uvOverlapAssetList: 00000000ffffffff00000000000000000000000001010000
+  - Assets/Art/Audio/Example Mesh/Example Mesh.obj
+  uvOverlapAssetList: 00000000ffffffff0000000000000000000000000101000001010000
   xatlasWarningShown: 0
   foundCompatibleSetup: 1
   gpuName: NVIDIA GeForce RTX 3070 Laptop GPU

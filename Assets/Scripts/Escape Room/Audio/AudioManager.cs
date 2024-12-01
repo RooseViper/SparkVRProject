@@ -7,8 +7,6 @@ namespace Escape_Room.Audio
     public class AudioManager : MonoBehaviour
     {
         public Sound[] sounds;
-        public GameAudioSource[] soundFXAudioSources;
-        public AudioSource[] musicAudioSources;
         public static AudioManager Instance => _instance;
         private static AudioManager _instance;
         

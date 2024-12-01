@@ -64,6 +64,7 @@
     <Compile Include="Assets\Tools\LeanTween\Examples\Scripts\PathSplineTrack.cs" />
     <Compile Include="Assets\Tools\Fast Color Grading\URP_Cg\ColorGradingUrp.cs" />
     <Compile Include="Assets\_Course Library\Scripts\Actions\ToggleInterface.cs" />
+    <Compile Include="Assets\Tools\_Creepy_Cat\3D Games Effects Pack Free\Example_02\InstanceExample.cs" />
     <Compile Include="Assets\Scripts\Escape Room\Audio\MusicFader.cs" />
     <Compile Include="Assets\Tools\Youtube Player\3.3.1\PlayFromScript\PlayFromScript.cs" />
     <Compile Include="Assets\_Course Library\Scripts\Actions\ToggleLight.cs" />
@@ -198,6 +199,7 @@
     <Compile Include="Assets\Tools\SensorToolkit\Integrations\PlayMaker\Actions\SteeringSensorConfigure.cs" />
     <Compile Include="Assets\Tools\SensorToolkit\Integrations\PlayMaker\Actions\SensorClear.cs" />
     <Compile Include="Assets\Tools\Youtube Player\3.3.1\PlayVideo\DownloadVideoButton.cs" />
+    <Compile Include="Assets\Scripts\Escape Room\Chest.cs" />
     <Compile Include="Assets\Scripts\Cube.cs" />
     <Compile Include="Assets\Tools\Youtube Player\3.3.1\PlayVideo\PlayVideoButton.cs" />
     <Compile Include="Assets\_Course Library\Scripts\Actions\RemoveObjectsWithTag.cs" />
@@ -222,6 +224,7 @@
     <None Include="Assets\Tools\SensorToolkit\README.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
     <None Include="Assets\Tools\Fast Color Grading\URP_Cg\ColorGradingURP.shader" />
+    <None Include="Assets\Tools\_Creepy_Cat\3D Games Effects Pack Free\Example_02\Help Readme SOS.txt" />
     <None Include="Assets\Resources\BillingMode.json" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface.shader" />
     <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
@@ -238,6 +241,7 @@
     <None Include="Assets\Tools\JMO Assets\Cartoon FX Remaster\CFXR Assets\Shaders\CFXR_PASSES.cginc" />
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
     <None Include="Assets\_Course Library\Licenses.txt" />
+    <None Include="Assets\Tools\_Creepy_Cat\3D Games Effects Pack Free\_FAQ - Informations\Help Readme SOS.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
     <None Include="Assets\Texturing\SkySeries Freebie\Hdri setup.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />
