@@ -14942,15 +14942,15 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 341256224}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 31.170177, y: 26.306023, z: 8.244121}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 32.54845, y: 23.913973, z: 11.859988}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 383874765}
   - {fileID: 965973550}
-  m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_Father: {fileID: 1306225749}
+  m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &365941549
 PrefabInstance:
@@ -17257,7 +17257,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 17
+  m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &383874765 stripped
 Transform:
@@ -17546,7 +17546,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 20
+  m_RootOrder: 19
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
 --- !u!1 &395799925
 GameObject:
@@ -19672,6 +19672,18 @@ MonoBehaviour:
   - soundName: Creaky Door
     clip: {fileID: 8300000, guid: 3771f6ecf7efaeb48a1971349ac955a1, type: 3}
     volume: 1
+    audioSource: {fileID: 0}
+  - soundName: Chest Open
+    clip: {fileID: 8300000, guid: 1cbccc502cc96b24da5dc7483a3d4d84, type: 3}
+    volume: 1
+    audioSource: {fileID: 0}
+  - soundName: Fireworks
+    clip: {fileID: 8300000, guid: 4d46efac35bedd248b1d639eb16dbd6d, type: 3}
+    volume: 0.5
+    audioSource: {fileID: 0}
+  - soundName: Celebration
+    clip: {fileID: 8300000, guid: 50c6f3877a4fbbd40b5e4a2405580c36, type: 3}
+    volume: 0.5
     audioSource: {fileID: 0}
 --- !u!1 &566351965
 GameObject:
@@ -42475,7 +42487,7 @@ Transform:
   - {fileID: 1852309742}
   - {fileID: 1812714486}
   m_Father: {fileID: 0}
-  m_RootOrder: 22
+  m_RootOrder: 21
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &566351972
 MonoBehaviour:
@@ -52436,7 +52448,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 18
+  m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &667872533
 GameObject:
@@ -55087,7 +55099,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 19
+  m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!43 &713368527
 Mesh:
@@ -56545,7 +56557,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: d8c9055dc6b653c4587bcad023363114,
         type: 3}
       propertyPath: m_RootOrder
-      value: 23
+      value: 22
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: d8c9055dc6b653c4587bcad023363114,
         type: 3}
@@ -60796,7 +60808,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   index: 6
-  startingPieceInteractable: {fileID: 218547353}
+  startingPieceInteractable: {fileID: 1748197447}
 --- !u!65 &895458988
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -70754,7 +70766,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 14
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1155266321
 GameObject:
@@ -71577,7 +71589,7 @@ Transform:
   - {fileID: 1312652293}
   - {fileID: 7671726332079421756}
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1306225748
 GameObject:
@@ -71609,6 +71621,7 @@ Transform:
   m_Children:
   - {fileID: 96605249}
   - {fileID: 991746079}
+  - {fileID: 341256225}
   - {fileID: 511388270}
   m_Father: {fileID: 0}
   m_RootOrder: 8
@@ -83541,7 +83554,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 13
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1503078864
 MonoBehaviour:
@@ -86929,7 +86942,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 16
+  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1576440127
 GameObject:
@@ -100813,7 +100826,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: d8c9055dc6b653c4587bcad023363114,
         type: 3}
       propertyPath: m_RootOrder
-      value: 21
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: d8c9055dc6b653c4587bcad023363114,
         type: 3}
@@ -107173,7 +107186,7 @@ Transform:
   m_Children:
   - {fileID: 1451072749}
   m_Father: {fileID: 0}
-  m_RootOrder: 12
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1948099167
 GameObject:
@@ -107204,7 +107217,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 15
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
 --- !u!1 &1950897634
 GameObject:
@@ -112606,6 +112619,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7671726332079421756}
   - component: {fileID: 8135955180545766263}
+  - component: {fileID: 8135955180545766264}
   m_Layer: 0
   m_Name: Chest
   m_TagString: Untagged
@@ -112627,6 +112641,111 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   chestDoorObject: {fileID: 1608401062507179422}
   sparksPs: {fileID: 913055550}
+--- !u!82 &8135955180545766264
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8135955180545766262}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 0
+  MinDistance: 1
+  MaxDistance: 10
+  Pan2D: 0
+  rolloffMode: 2
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0.002
+      value: 1
+      inSlope: -2.974121
+      outSlope: -2.974121
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.56093204
+    - serializedVersion: 3
+      time: 0.29990497
+      value: 0.45783412
+      inSlope: -1.0020039
+      outSlope: -1.0020039
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: -0.3189363
+      outSlope: -0.3189363
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33982462
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &8526367763792575121
 GameObject:
   m_ObjectHideFlags: 0
