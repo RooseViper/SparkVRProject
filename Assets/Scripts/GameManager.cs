@@ -28,7 +28,7 @@ public class GameManager : MonoBehaviour
     {
         defaultPortableMenuCanvasSize = portableMenuCanvas.localScale;
         portableMenuCanvas.localScale = Vector3.zero;
-        
+        ftLightmaps.RefreshFull();
     }
     
     public void ChangeShadowState()
