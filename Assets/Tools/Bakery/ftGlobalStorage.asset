@@ -15,7 +15,8 @@ MonoBehaviour:
   modifiedAssetPathList:
   - Assets/Bakery/examples/content/sponza/sponza.FBX
   - Assets/_Course Library/Source Files/Models/Mat_A_1.fbx
-  modifiedAssetPaddingHash: d6a958ffb84608c8
+  - Assets/Models/Ceiling Fan/Sketchfab_2023_02_21_11_08_44.blend
+  modifiedAssetPaddingHash: d6a958ffb84608c8ecc12491
   modifiedMeshList: []
   modifiedMeshPaddingList: 
   modifiedAssets:
@@ -402,6 +403,10 @@ MonoBehaviour:
     - Mat_A_1
     padding: 73000000
     unwrapper: 00000000
+  - meshName:
+    - Cone
+    padding: 00010000
+    unwrapper: 00000000
   assetList:
   - Assets/Bakery/examples/content/sponza/bush.FBX
   - Assets/Bakery/examples/content/floor_lamp.FBX
@@ -412,7 +417,9 @@ MonoBehaviour:
   - Assets/Art/Audio/Example Mesh/Example Mesh.obj
   - Assets/Samples/XR Hands/1.2.1/HandVisualizer/Models/RightHand.fbx
   - Assets/Samples/XR Hands/1.2.1/HandVisualizer/Models/LeftHand.fbx
-  uvOverlapAssetList: 00000000ffffffff00000000000000000000000001010000010100000000000000000000
+  - Assets/Models/FAN.fbx
+  - Assets/Models/Ceiling Fan/Sketchfab_2023_02_21_11_08_44.blend
+  uvOverlapAssetList: 00000000ffffffff000000000000000000000000010100000101000000000000000000000101000000000000
   xatlasWarningShown: 0
   foundCompatibleSetup: 1
   gpuName: NVIDIA GeForce RTX 3070 Laptop GPU
@@ -504,5 +511,5 @@ MonoBehaviour:
   renderSettingsRTPVWidth: 640
   renderSettingsRTPVHeight: 360
   tagOverrides: []
-  modifiedMeshPaddingArray: 73000000
+  modifiedMeshPaddingArray: 00010000
   modifiedMeshUnwrapperArray: 00000000
