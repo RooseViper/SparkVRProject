@@ -16,4 +16,5 @@ MonoBehaviour:
   - Assets/Bakery/examples/content/sponza/sponza.FBX
   - Assets/_Course Library/Source Files/Models/Mat_A_1.fbx
   - Assets/Models/Ceiling Fan/Sketchfab_2023_02_21_11_08_44.blend
-  modifiedAssetPaddingHash: d6a958ffb84608c8ecc12491
+  - Assets/Models/unseen-wall-lamp/2ndFlr_Walllamp.fbx
+  modifiedAssetPaddingHash: d6a958ffb84608c8ecc12491ecc12491
