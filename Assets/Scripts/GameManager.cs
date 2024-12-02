@@ -52,7 +52,7 @@ public class GameManager : MonoBehaviour
             LeanTween.scale(portableMenuCanvas.gameObject, Vector3.zero, 0.5f).setEaseInOutSine();
         }
     }
-    public void IncreaseFog()=>   StartCoroutine(IncreaseFogDensity(1f, 5f));
+    public void IncreaseFog()=>   StartCoroutine(IncreaseFogDensity(1f, 12.5f));
     private IEnumerator IncreaseFogDensity(float target, float time)
     {
         var startDensity = RenderSettings.fogDensity; // Current fog density
