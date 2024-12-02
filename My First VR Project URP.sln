@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BakeryRuntimeAssembly", "Ba
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CFXR.WelcomeScreen", "CFXR.WelcomeScreen.csproj", "{22c155ad-d468-0205-4ae3-e695d5bb34e0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.XR.Hands.Samples.VisualizerSample", "Unity.XR.Hands.Samples.VisualizerSample.csproj", "{f2ccd8bc-88dc-ce0a-b2b5-8b6ba3379dd5}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OmniShade.Editor", "OmniShade.Editor.csproj", "{dd4396bb-0288-3167-0dd3-3fd64da90181}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-Editor", "Assembly-CSharp-Editor.csproj", "{b3171b86-c65d-6a46-e060-daccdd275a6c}"
@@ -66,6 +68,8 @@ Global
 		{0183c091-5891-8f3e-550a-da080260a150}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{22c155ad-d468-0205-4ae3-e695d5bb34e0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{22c155ad-d468-0205-4ae3-e695d5bb34e0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{f2ccd8bc-88dc-ce0a-b2b5-8b6ba3379dd5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{f2ccd8bc-88dc-ce0a-b2b5-8b6ba3379dd5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{dd4396bb-0288-3167-0dd3-3fd64da90181}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{dd4396bb-0288-3167-0dd3-3fd64da90181}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{b3171b86-c65d-6a46-e060-daccdd275a6c}.Debug|Any CPU.ActiveCfg = Debug|Any CPU

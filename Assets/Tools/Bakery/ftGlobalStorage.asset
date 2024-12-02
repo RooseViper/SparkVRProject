@@ -410,7 +410,9 @@ MonoBehaviour:
   - Assets/Models/Table/Table_02.fbx
   - Assets/Models/Chest/model.blend
   - Assets/Art/Audio/Example Mesh/Example Mesh.obj
-  uvOverlapAssetList: 00000000ffffffff0000000000000000000000000101000001010000
+  - Assets/Samples/XR Hands/1.2.1/HandVisualizer/Models/RightHand.fbx
+  - Assets/Samples/XR Hands/1.2.1/HandVisualizer/Models/LeftHand.fbx
+  uvOverlapAssetList: 00000000ffffffff00000000000000000000000001010000010100000000000000000000
   xatlasWarningShown: 0
   foundCompatibleSetup: 1
   gpuName: NVIDIA GeForce RTX 3070 Laptop GPU
