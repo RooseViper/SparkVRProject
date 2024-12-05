@@ -1847,3 +1847,7 @@ Running halffloat2hdr "C:\Users\Lenovo\AppData\Local\Temp\frender/Escape Room_LM
 Running rgba2tga "C:\Users\Lenovo\AppData\Local\Temp\frender/Escape Room_LMA1_final_L1x.lz4" "C:/Users/Lenovo/My First VR Project URP/Assets/BakeryLightmaps/Escape Room_LMA1_L1x.tga" 
 Running rgba2tga "C:\Users\Lenovo\AppData\Local\Temp\frender/Escape Room_LMA1_final_L1y.lz4" "C:/Users/Lenovo/My First VR Project URP/Assets/BakeryLightmaps/Escape Room_LMA1_L1y.tga" 
 Running rgba2tga "C:\Users\Lenovo\AppData\Local\Temp\frender/Escape Room_LMA1_final_L1z.lz4" "C:/Users/Lenovo/My First VR Project URP/Assets/BakeryLightmaps/Escape Room_LMA1_L1z.tga" 
+Done
+Done
+Done
+Done
