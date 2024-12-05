@@ -196,6 +196,7 @@
     <Compile Include="Assets\Scripts\VideoInfo.cs" />
     <Compile Include="Assets\Tools\LeanTween\Examples\Scripts\GeneralEasingTypes.cs" />
     <Compile Include="Assets\_Course Library\Scripts\Actions\ConvertValueToHue.cs" />
+    <Compile Include="Assets\Scripts\Escape Room\PlayerSpawn.cs" />
     <Compile Include="Assets\Tools\SensorToolkit\Integrations\PlayMaker\Actions\SteeringSensorConfigure.cs" />
     <Compile Include="Assets\Tools\SensorToolkit\Integrations\PlayMaker\Actions\SensorClear.cs" />
     <Compile Include="Assets\Tools\Youtube Player\3.3.1\PlayVideo\DownloadVideoButton.cs" />
