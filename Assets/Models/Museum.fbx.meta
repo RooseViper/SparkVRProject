@@ -3,7 +3,117 @@ guid: 0f9d41edb46184645973dab9e0176551
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ADFrame_Mat
+    second: {fileID: 2100000, guid: a2010317cae263d40b19fcea01b1b7d0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Ceiling_Mat
+    second: {fileID: 2100000, guid: 7b6c65fdd4fb39a4b8d28ed57970cbd7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CenterAd_Mat
+    second: {fileID: 2100000, guid: 60e342a17b655e14db50df8430c9f00f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Floor2_Mat
+    second: {fileID: 2100000, guid: a86f1f3f019d80946a5bde7f24ba0cd9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Floor_Mat
+    second: {fileID: 2100000, guid: 7403227a891420c4babd2644986f0fae, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Glass_Mat
+    second: {fileID: 2100000, guid: cfbec84c8dfb71947a8edba94b099480, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Light_tes
+    second: {fileID: 2100000, guid: a5950e84d23d4b747b8dd35470e36498, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wall_Mat
+    second: {fileID: 2100000, guid: edf0ff08f65c30749b9fa22213f77cfb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: holoBas_Mat
+    second: {fileID: 2100000, guid: fd092a63b33287640bf4dc2d0ff40aa0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: holo_Mat
+    second: {fileID: 2100000, guid: 5883b089a9f7e444aafaccd0351cde84, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: holo_table_Mat
+    second: {fileID: 2100000, guid: 01ee2a2fab96c5b47aaa07152f54dcfa, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: CenterAd-01
+    second: {fileID: 2800000, guid: 4f489364609e0784ea587a5e926c0da4, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: HoloBaseBasCol
+    second: {fileID: 2800000, guid: c97baa195946d0742a72ffa55dfccdbc, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: HoloBaseOpacity-01
+    second: {fileID: 2800000, guid: da70578e1137089488b8dc042ae3c4c1, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Table_Base_Color
+    second: {fileID: 2800000, guid: c0babb3d59b486442b784d4385ff8b12, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Table_Emissive
+    second: {fileID: 2800000, guid: 3f46d90c86d5ec94b9bccad45f9504ec, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Table_Metallic
+    second: {fileID: 2800000, guid: 301b127b5a006e74bb16230a3c9fbd8a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Table_Normal_DirectX
+    second: {fileID: 2800000, guid: b20afdd91edb3444abde3e651abe8d56, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Table_Opacity
+    second: {fileID: 2800000, guid: 3a7e922b1d47e3346b6ea1c7b0d2fcfd, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Table_Roughness
+    second: {fileID: 2800000, guid: a57fc757e9fb9ac40b096a983dea527e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: holo_scrinBas-01
+    second: {fileID: 2800000, guid: 5b130ae27e463ad48a031816c56d55c0, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: holo_scrinopacity-01-01
+    second: {fileID: 2800000, guid: 4b6b83d2df0927949b3dd36d6a58b61c, type: 3}
   materials:
     materialImportMode: 2
     materialName: 0
