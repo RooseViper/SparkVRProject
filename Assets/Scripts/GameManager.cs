@@ -35,13 +35,13 @@ public class GameManager : MonoBehaviour
     // Start is called before the first frame update
     private void Start()
     {
-        defaultInstructionsCanvasSize = instructionsCanvas.localScale;
-        defaultInstructionsVideoCanvasSize = videosInstructionsCanvas.localScale;
-        defaultPortableMenuCanvasSize = portableMenuCanvas.localScale;
-        instructionsCanvas.localScale = Vector3.zero;
-        videosInstructionsCanvas.localScale = Vector3.zero;
-        portableMenuCanvas.localScale = Vector3.zero;
-        intructionsVideoPlayer = videosInstructionsCanvas.GetComponentInChildren<VideoPlayer>();
+      //  defaultInstructionsCanvasSize = instructionsCanvas.localScale;
+     //   defaultInstructionsVideoCanvasSize = videosInstructionsCanvas.localScale;
+      //  defaultPortableMenuCanvasSize = portableMenuCanvas.localScale;
+     //   instructionsCanvas.localScale = Vector3.zero;
+     //   videosInstructionsCanvas.localScale = Vector3.zero;
+     //   portableMenuCanvas.localScale = Vector3.zero;
+      //  intructionsVideoPlayer = videosInstructionsCanvas.GetComponentInChildren<VideoPlayer>();
     }
  
     public void ChangeSkyBox()
