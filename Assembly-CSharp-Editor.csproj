@@ -340,6 +340,9 @@
     <Reference Include="Unity.VisualScripting.TextureAssets">
       <HintPath>C:\Users\Lenovo\My First VR Project URP\Library\PackageCache\com.unity.visualscripting@1.9.1\Editor\VisualScripting.Core\EditorAssetResources\Unity.VisualScripting.TextureAssets.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.Collections.LowLevel.ILSupport">
+      <HintPath>C:\Users\Lenovo\My First VR Project URP\Library\PackageCache\com.unity.collections@1.2.4\Unity.Collections.LowLevel.ILSupport\Unity.Collections.LowLevel.ILSupport.dll</HintPath>
+    </Reference>
     <Reference Include="nunit.framework">
       <HintPath>C:\Users\Lenovo\My First VR Project URP\Library\PackageCache\com.unity.ext.nunit@1.0.6\net35\unity-custom\nunit.framework.dll</HintPath>
     </Reference>
@@ -787,6 +790,9 @@
     <Reference Include="Unity.XR.Management.Editor">
       <HintPath>C:\Users\Lenovo\My First VR Project URP\Library\ScriptAssemblies\Unity.XR.Management.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.Collections">
+      <HintPath>C:\Users\Lenovo\My First VR Project URP\Library\ScriptAssemblies\Unity.Collections.dll</HintPath>
+    </Reference>
     <Reference Include="PPv2URPConverters">
       <HintPath>C:\Users\Lenovo\My First VR Project URP\Library\ScriptAssemblies\PPv2URPConverters.dll</HintPath>
     </Reference>
@@ -928,6 +934,10 @@
       <Project>{d0df82dc-17e1-918f-2a24-519c051341dd}</Project>
       <Name>Assembly-CSharp</Name>
     </ProjectReference>
+    <ProjectReference Include="Nova.csproj">
+      <Project>{6197b9fb-1809-9e26-aeeb-34cf9476883e}</Project>
+      <Name>Nova</Name>
+    </ProjectReference>
     <ProjectReference Include="YoutubePlayer.csproj">
       <Project>{cb64e919-caa6-07e0-162e-d4542afcbfda}</Project>
       <Name>YoutubePlayer</Name>
@@ -935,6 +945,10 @@
     <ProjectReference Include="Micosmo.SensorToolkit.csproj">
       <Project>{a40f6c06-2a4e-eda3-6364-7e1fa4fcfab1}</Project>
       <Name>Micosmo.SensorToolkit</Name>
+    </ProjectReference>
+    <ProjectReference Include="Nova.UIControls.csproj">
+      <Project>{cdb72048-9be5-9091-78bd-019391aea089}</Project>
+      <Name>Nova.UIControls</Name>
     </ProjectReference>
     <ProjectReference Include="Micosmo.SensorToolkit.Editor.csproj">
       <Project>{2e04222a-bd03-05b6-6b06-4eeb8762702b}</Project>
@@ -951,6 +965,10 @@
     <ProjectReference Include="CFXRRuntime.csproj">
       <Project>{91c164f0-f9ee-d53c-66e5-ac4017ff44fa}</Project>
       <Name>CFXRRuntime</Name>
+    </ProjectReference>
+    <ProjectReference Include="Nova.UIControls.Editor.csproj">
+      <Project>{bbfc60d7-bd2c-82b0-284a-d6222fb4eb88}</Project>
+      <Name>Nova.UIControls.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="ToonyColorsPro.Demo.Editor.csproj">
       <Project>{2ac2a9a2-8d90-dc40-8836-65b295806046}</Project>
@@ -975,6 +993,10 @@
     <ProjectReference Include="CFXREditor.csproj">
       <Project>{c9bb1e1c-c4b6-e1c2-9ffd-749d35894ab8}</Project>
       <Name>CFXREditor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Nova.Editor.csproj">
+      <Project>{575c7b32-bcee-814d-a6e6-b1db7153489b}</Project>
+      <Name>Nova.Editor</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

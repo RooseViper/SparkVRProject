@@ -193,37 +193,77 @@
     <Compile Include="Assets\Tools\LeanTween\Examples\Scripts\LogoCinematic.cs" />
     <Compile Include="Assets\Tools\LeanTween\Examples\Scripts\GeneralBasic.cs" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
+    <None Include="Assets\Tools\Nova\Shaders\Resources\NovaDropShadowUnlit.shader" />
+    <None Include="Assets\Tools\Nova\Shaders\Resources\NovaTextBlockStandardSpecularTransparent.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
+    <None Include="Assets\Tools\Nova\Shaders\Generated\UIBlock2D.g.cginc" />
+    <None Include="Assets\Tools\Nova\Shaders\Resources\NovaDropShadowStandardSpecularTransparent.shader" />
     <None Include="Assets\Tools\LeanTween\ReadMe.txt" />
     <None Include="Assets\Tools\JMO Assets\Cartoon FX Remaster\CFXR Assets\Shaders\CFXR_SETTINGS.cginc" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
+    <None Include="Assets\Tools\Nova\Shaders\Resources\NovaUIBlock3DBlinnPhongTransparent.shader" />
+    <None Include="Assets\Tools\Nova\Shaders\Resources\NovaTextBlockBlinnPhongTransparent.shader" />
     <None Include="Packages\com.ibicha.youtube-player\package.json" />
+    <None Include="Assets\Tools\Nova\Shaders\Resources\NovaUIBlock2DStandardSpecularTransparent.shader" />
+    <None Include="Assets\Tools\Nova\Shaders\DropShadow.cginc" />
     <None Include="Assets\Tools\JMO Assets\Cartoon FX Remaster\CFXR Assets\Shaders\CFXR.cginc" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
     <None Include="Assets\Tools\LeanTween\License.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
+    <None Include="Assets\Tools\Nova\Shaders\NovaPostV2F.cginc" />
     <None Include="Assets\Tools\SensorToolkit\README.txt" />
+    <None Include="Assets\Tools\Nova\Shaders\Resources\NovaUIBlock3DStandardTransparent.shader" />
+    <None Include="Assets\Tools\Nova\Shaders\Resources\NovaUIBlock2DLambertTransparent.shader" />
+    <None Include="Assets\Tools\Nova\Shaders\Resources\NovaUIBlock3DStandardSpecularOpaque.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
+    <None Include="Assets\Tools\Nova\Shaders\Resources\NovaTextBlockUnlit.shader" />
+    <None Include="Assets\Tools\Nova\Shaders\Resources\NovaTextBlockStandardTransparent.shader" />
+    <None Include="Assets\Tools\Nova\Shaders\Resources\NovaUIBlock3DLambertOpaque.shader" />
+    <None Include="Assets\Tools\Nova\Shaders\NovaDataStructures.cginc" />
+    <None Include="Assets\Tools\Nova\Shaders\Resources\NovaUIBlock2DUnlit.shader" />
     <None Include="Assets\Resources\BillingMode.json" />
+    <None Include="Assets\Tools\Nova\Shaders\Nova.cginc" />
+    <None Include="Assets\Tools\Nova\Shaders\Resources\NovaUIBlock3DUnlit.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface.shader" />
     <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF.shader" />
+    <None Include="Assets\Tools\Nova\Shaders\Resources\NovaUIBlock2DBlinnPhongTransparent.shader" />
+    <None Include="Assets\Tools\Nova\Shaders\NovaPreV2F.cginc" />
+    <None Include="Assets\Tools\Nova\Shaders\Resources\NovaUIBlock3DBlinnPhongOpaque.shader" />
+    <None Include="Assets\Tools\Nova\Shaders\TextBlock.cginc" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile SSD.shader" />
+    <None Include="Assets\Tools\Nova\ThirdPartyNotices.txt" />
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
+    <None Include="Assets\Tools\Nova\Shaders\Resources\NovaDropShadowStandardTransparent.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Properties.cginc" />
+    <None Include="Assets\Tools\Nova\Shaders\NovaTMPProperties.cginc" />
+    <None Include="Assets\Tools\Nova\Shaders\Generated\TextBlock.g.cginc" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
+    <None Include="Assets\Tools\Nova\Shaders\Resources\NovaDropShadowLambertTransparent.shader" />
     <None Include="Assets\Tools\JMO Assets\Cartoon FX Remaster\CFXR Prefabs\Texts\_Make your own text effect.txt" />
     <None Include="Assets\Tools\JMO Assets\Cartoon FX Remaster\CFXR Assets\Shaders\CFXR_PASSES.cginc" />
+    <None Include="Assets\Tools\Nova\Shaders\UIBlock3D.cginc" />
+    <None Include="Assets\Tools\Nova\Shaders\UIBlock2D.cginc" />
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
     <None Include="Assets\_Course Library\Licenses.txt" />
+    <None Include="Assets\Tools\Nova\Shaders\Resources\NovaUIBlock3DStandardSpecularTransparent.shader" />
+    <None Include="Assets\Tools\Nova\Shaders\Generated\DropShadow.g.cginc" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
+    <None Include="Assets\Tools\Nova\Shaders\Generated\NovaDataTypes.g.cginc" />
+    <None Include="Assets\Tools\Nova\Shaders\Resources\NovaUIBlock3DLambertTransparent.shader" />
+    <None Include="Assets\Tools\Nova\Shaders\Resources\NovaDropShadowBlinnPhongTransparent.shader" />
     <None Include="Assets\Texturing\SkySeries Freebie\Hdri setup.txt" />
+    <None Include="Assets\Tools\Nova\Shaders\Generated\UIBlock3D.g.cginc" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader" />
     <None Include="Assets\Tools\JMO Assets\Cartoon FX Remaster\CFXR Assets\Shaders\CFXR_URP.cginc" />
     <None Include="Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
+    <None Include="Assets\Tools\Nova\Shaders\Resources\NovaUIBlock3DStandardOpaque.shader" />
+    <None Include="Assets\Tools\Nova\Shaders\Resources\NovaTextBlockLambertTransparent.shader" />
+    <None Include="Assets\Tools\Nova\Shaders\Resources\NovaUIBlock2DStandardTransparent.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader" />
+    <None Include="Assets\Tools\Nova\Shaders\NovaMath.cginc" />
     <None Include="Assets\TextMesh Pro\Sprites\EmojiOne.json" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Sprite.shader" />
     <Reference Include="UnityEngine">
@@ -480,6 +520,9 @@
     </Reference>
     <Reference Include="Newtonsoft.Json">
       <HintPath>C:\Users\Lenovo\My First VR Project URP\Library\PackageCache\com.unity.nuget.newtonsoft-json@3.2.1\Runtime\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Collections.LowLevel.ILSupport">
+      <HintPath>C:\Users\Lenovo\My First VR Project URP\Library\PackageCache\com.unity.collections@1.2.4\Unity.Collections.LowLevel.ILSupport\Unity.Collections.LowLevel.ILSupport.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Android.Types">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.4f1\Editor\Data\PlaybackEngines\AndroidPlayer\Unity.Android.Types.dll</HintPath>
@@ -910,6 +953,9 @@
     <Reference Include="Unity.XR.Management.Editor">
       <HintPath>C:\Users\Lenovo\My First VR Project URP\Library\ScriptAssemblies\Unity.XR.Management.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.Collections">
+      <HintPath>C:\Users\Lenovo\My First VR Project URP\Library\ScriptAssemblies\Unity.Collections.dll</HintPath>
+    </Reference>
     <Reference Include="PPv2URPConverters">
       <HintPath>C:\Users\Lenovo\My First VR Project URP\Library\ScriptAssemblies\PPv2URPConverters.dll</HintPath>
     </Reference>
@@ -1047,6 +1093,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="Nova.csproj">
+      <Project>{6197b9fb-1809-9e26-aeeb-34cf9476883e}</Project>
+      <Name>Nova</Name>
+    </ProjectReference>
     <ProjectReference Include="YoutubePlayer.csproj">
       <Project>{cb64e919-caa6-07e0-162e-d4542afcbfda}</Project>
       <Name>YoutubePlayer</Name>
@@ -1054,6 +1104,10 @@
     <ProjectReference Include="Micosmo.SensorToolkit.csproj">
       <Project>{a40f6c06-2a4e-eda3-6364-7e1fa4fcfab1}</Project>
       <Name>Micosmo.SensorToolkit</Name>
+    </ProjectReference>
+    <ProjectReference Include="Nova.UIControls.csproj">
+      <Project>{cdb72048-9be5-9091-78bd-019391aea089}</Project>
+      <Name>Nova.UIControls</Name>
     </ProjectReference>
     <ProjectReference Include="Micosmo.SensorToolkit.Editor.csproj">
       <Project>{2e04222a-bd03-05b6-6b06-4eeb8762702b}</Project>
@@ -1070,6 +1124,10 @@
     <ProjectReference Include="CFXRRuntime.csproj">
       <Project>{91c164f0-f9ee-d53c-66e5-ac4017ff44fa}</Project>
       <Name>CFXRRuntime</Name>
+    </ProjectReference>
+    <ProjectReference Include="Nova.UIControls.Editor.csproj">
+      <Project>{bbfc60d7-bd2c-82b0-284a-d6222fb4eb88}</Project>
+      <Name>Nova.UIControls.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="ToonyColorsPro.Demo.Editor.csproj">
       <Project>{2ac2a9a2-8d90-dc40-8836-65b295806046}</Project>
@@ -1094,6 +1152,10 @@
     <ProjectReference Include="CFXREditor.csproj">
       <Project>{c9bb1e1c-c4b6-e1c2-9ffd-749d35894ab8}</Project>
       <Name>CFXREditor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Nova.Editor.csproj">
+      <Project>{575c7b32-bcee-814d-a6e6-b1db7153489b}</Project>
+      <Name>Nova.Editor</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

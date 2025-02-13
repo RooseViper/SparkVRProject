@@ -1,9 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nova", "Nova.csproj", "{6197b9fb-1809-9e26-aeeb-34cf9476883e}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{d0df82dc-17e1-918f-2a24-519c051341dd}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nova.UIControls", "Nova.UIControls.csproj", "{cdb72048-9be5-9091-78bd-019391aea089}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YoutubePlayer", "YoutubePlayer.csproj", "{cb64e919-caa6-07e0-162e-d4542afcbfda}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nova.Editor", "Nova.Editor.csproj", "{575c7b32-bcee-814d-a6e6-b1db7153489b}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CFXRDemo", "CFXRDemo.csproj", "{d20cb5a7-a6df-dcec-7c2c-b736c8f5961b}"
 EndProject
@@ -23,6 +29,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CFXRRuntime", "CFXRRuntime.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CFXREditor", "CFXREditor.csproj", "{c9bb1e1c-c4b6-e1c2-9ffd-749d35894ab8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nova.UIControls.Editor", "Nova.UIControls.Editor.csproj", "{bbfc60d7-bd2c-82b0-284a-d6222fb4eb88}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.XR.Interaction.Toolkit.Samples.StarterAssets", "Unity.XR.Interaction.Toolkit.Samples.StarterAssets.csproj", "{c0a801c9-e204-14b1-3298-3ad1dcc856e1}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YoutubePlayer.Tests", "YoutubePlayer.Tests.csproj", "{267f814f-3fc4-5c34-ce1f-e313dafb06ef}"
@@ -38,10 +46,16 @@ Global
 		Debug|Any CPU = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6197b9fb-1809-9e26-aeeb-34cf9476883e}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6197b9fb-1809-9e26-aeeb-34cf9476883e}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{d0df82dc-17e1-918f-2a24-519c051341dd}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{d0df82dc-17e1-918f-2a24-519c051341dd}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{cdb72048-9be5-9091-78bd-019391aea089}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{cdb72048-9be5-9091-78bd-019391aea089}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{cb64e919-caa6-07e0-162e-d4542afcbfda}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{cb64e919-caa6-07e0-162e-d4542afcbfda}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{575c7b32-bcee-814d-a6e6-b1db7153489b}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{575c7b32-bcee-814d-a6e6-b1db7153489b}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{d20cb5a7-a6df-dcec-7c2c-b736c8f5961b}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{d20cb5a7-a6df-dcec-7c2c-b736c8f5961b}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{a40f6c06-2a4e-eda3-6364-7e1fa4fcfab1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -60,6 +74,8 @@ Global
 		{91c164f0-f9ee-d53c-66e5-ac4017ff44fa}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{c9bb1e1c-c4b6-e1c2-9ffd-749d35894ab8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{c9bb1e1c-c4b6-e1c2-9ffd-749d35894ab8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{bbfc60d7-bd2c-82b0-284a-d6222fb4eb88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{bbfc60d7-bd2c-82b0-284a-d6222fb4eb88}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{c0a801c9-e204-14b1-3298-3ad1dcc856e1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{c0a801c9-e204-14b1-3298-3ad1dcc856e1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{267f814f-3fc4-5c34-ce1f-e313dafb06ef}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
