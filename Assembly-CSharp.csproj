@@ -123,6 +123,7 @@
     <Compile Include="Assets\Tools\SensorToolkit\Integrations\PlayMaker\Actions\SensorGetObstructionRayHit.cs" />
     <Compile Include="Assets\_Course Library\Scripts\Actions\SetLightIntensity.cs" />
     <Compile Include="Assets\Tools\LeanTween\Testing\TestingSceneSwitching.cs" />
+    <Compile Include="Assets\Scripts\SightSensor.cs" />
     <Compile Include="Assets\_Course Library\Scripts\Conditions\OnSceneLoad.cs" />
     <Compile Include="Assets\_Course Library\Scripts\Actions\ChangeMaterial.cs" />
     <Compile Include="Assets\_Course Library\Scripts\Actions\MatchRotation.cs" />

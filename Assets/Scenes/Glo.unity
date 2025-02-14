@@ -2541,7 +2541,8 @@ GameObject:
   m_Component:
   - component: {fileID: 447949046}
   - component: {fileID: 447949047}
-  m_Layer: 0
+  - component: {fileID: 447949048}
+  m_Layer: 20
   m_Name: RaySensor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2598,17 +2599,18 @@ MonoBehaviour:
     Height: 1
   signalFilter:
     IgnoreList: []
-    EnableTagFilter: 0
-    AllowedTags: []
+    EnableTagFilter: 1
+    AllowedTags:
+    - DisplayScreen
   Length: 3.5
   Direction: {x: 0, y: 0, z: 1}
   WorldSpace: 0
   DetectsOnLayers:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 2097152
   ObstructedByLayers:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 6291456
   DetectionMode: 0
   IgnoreTriggerColliders: 0
   MinimumSlopeAngle: 0
@@ -2625,6 +2627,18 @@ MonoBehaviour:
   onClear:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &447949048
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 447949045}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3f4356cd914b9de47a76d736395730f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &513229568
 GameObject:
   m_ObjectHideFlags: 0
@@ -2858,6 +2872,37 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   m_IsOn: 1
+--- !u!1 &592003474
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 592003475}
+  m_Layer: 0
+  m_Name: InteractionManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &592003475
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 592003474}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1306225749}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &617476175
 GameObject:
   m_ObjectHideFlags: 0
@@ -6683,6 +6728,7 @@ Transform:
   - {fileID: 96605249}
   - {fileID: 991746079}
   - {fileID: 2017225133}
+  - {fileID: 592003475}
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -12852,6 +12898,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalPosition.y
       value: 0.08400001
+      objectReference: {fileID: 0}
+    - target: {fileID: 8255758930573662941, guid: 748782111ca89ec4b82a406fe85160f3,
+        type: 3}
+      propertyPath: Loop
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8255758930573662941, guid: 748782111ca89ec4b82a406fe85160f3,
+        type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 8255758930573662941, guid: 748782111ca89ec4b82a406fe85160f3,
+        type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8520678170036307664, guid: 748782111ca89ec4b82a406fe85160f3,
         type: 3}
