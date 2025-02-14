@@ -2017,6 +2017,11 @@ PrefabInstance:
       propertyPath: m_text
       value: TELEGRAM
       objectReference: {fileID: 0}
+    - target: {fileID: 1056871289035978007, guid: 748782111ca89ec4b82a406fe85160f3,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.03405
+      objectReference: {fileID: 0}
     - target: {fileID: 1066819768502453585, guid: 748782111ca89ec4b82a406fe85160f3,
         type: 3}
       propertyPath: m_text
@@ -2247,6 +2252,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_text
       value: 1871
+      objectReference: {fileID: 0}
+    - target: {fileID: 7132597211796148212, guid: 748782111ca89ec4b82a406fe85160f3,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.02962
+      objectReference: {fileID: 0}
+    - target: {fileID: 7132597211796148212, guid: 748782111ca89ec4b82a406fe85160f3,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.01688
       objectReference: {fileID: 0}
     - target: {fileID: 7408893255187875937, guid: 748782111ca89ec4b82a406fe85160f3,
         type: 3}
@@ -6572,6 +6587,7 @@ Transform:
   m_Children:
   - {fileID: 96605249}
   - {fileID: 991746079}
+  - {fileID: 2017225133}
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -7679,6 +7695,11 @@ PrefabInstance:
       propertyPath: m_text
       value: '2007 '
       objectReference: {fileID: 0}
+    - target: {fileID: 6326427556051610171, guid: 748782111ca89ec4b82a406fe85160f3,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6650755612241895893, guid: 748782111ca89ec4b82a406fe85160f3,
         type: 3}
       propertyPath: m_text
@@ -8446,7 +8467,6 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 742428171}
-  - {fileID: 1719846129}
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -9038,143 +9058,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1719846128
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1719846129}
-  - component: {fileID: 1719846130}
-  m_Layer: 0
-  m_Name: Birds Audio Source
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1719846129
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1719846128}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -11.39, y: 3.4, z: -29.6}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1625777877}
-  m_RootOrder: -1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!82 &1719846130
-AudioSource:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1719846128}
-  m_Enabled: 1
-  serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 28e0735174c1c4ed683675c57b4d07a2, type: 3}
-  m_PlayOnAwake: 1
-  m_Volume: 0.451
-  m_Pitch: 1
-  Loop: 1
-  Mute: 0
-  Spatialize: 0
-  SpatializePostEffects: 0
-  Priority: 128
-  DopplerLevel: 1
-  MinDistance: 1
-  MaxDistance: 12.866526
-  Pan2D: 0
-  rolloffMode: 2
-  BypassEffects: 0
-  BypassListenerEffects: 0
-  BypassReverbZones: 0
-  rolloffCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0.056306306
-      value: 1
-      inSlope: -4.8909388
-      outSlope: -4.8909388
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0
-      outWeight: 0.1583469
-    - serializedVersion: 3
-      time: 0.251161
-      value: 0.4322999
-      inSlope: -1.0596659
-      outSlope: -1.0596659
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    - serializedVersion: 3
-      time: 1
-      value: 0
-      inSlope: -0.36515749
-      outSlope: -0.36515749
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.13097523
-      outWeight: 0
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  panLevelCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  spreadCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  reverbZoneMixCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
 --- !u!1 &1763490899
 GameObject:
   m_ObjectHideFlags: 0
@@ -10256,6 +10139,238 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
+--- !u!1 &2017225132
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2017225133}
+  - component: {fileID: 2017225134}
+  m_Layer: 0
+  m_Name: ContentManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2017225133
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2017225132}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1306225749}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2017225134
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2017225132}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5cb0cde1bb3b887409c2ff7351845bca, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  contentTypes:
+  - type: CommunicationHistory
+    contents:
+    - title: TIN CAN TELEPHONE
+      year: 1667
+      message: Attributed to British physicist Robert Hooke and one of the earliest
+        methods used to enable voice communication over longer-than-normal distances.
+      sprite: {fileID: 21300000, guid: c4fc577fca948f84a936561554ecfbd3, type: 3}
+      audioClip: {fileID: 8300000, guid: dfe2c92350eb50d4c83515818f799490, type: 3}
+    - title: MORSE CODE
+      year: 1830s
+      message: Samuel Morse was the first to invent a code system using dots, dashes,
+        and spaces. The most famous signal is "SOS" which in Morse Code is dot-dot-dot,
+        dash-dash-dash, dot-dot-dot.
+      sprite: {fileID: 21300000, guid: b4bf6695527ebe743a3e6f029a5f4264, type: 3}
+      audioClip: {fileID: 8300000, guid: 16765c34856c38e43b6555f2f6baa32e, type: 3}
+    - title: TELEGRAM
+      year: 1844
+      message: Telegram transformed long-distance communication by using electrical
+        signals and code. Considered the foundation for later communications like
+        the telephone, fax machine, and even the Internet.
+      sprite: {fileID: 21300000, guid: aa9d1dc78c7dc5847a2a23e24fe3ca7d, type: 3}
+      audioClip: {fileID: 8300000, guid: 7b9723e78ccdc264abf785963674e8f6, type: 3}
+    - title: TELEPHONE
+      year: 1871
+      message: Invented by Alexander Graham Bell and Anton Meucci. The first-ever
+        telephone call took place on March 10, 1876 when Bell called his assistant,
+        Thomas Watson and said "Mr. Watson, come here, I want to see you".
+      sprite: {fileID: 21300000, guid: b94d72d1f5034ad44a1660e53eb66cee, type: 3}
+      audioClip: {fileID: 8300000, guid: 60326caa24ffa9344ba055d2ec3597c5, type: 3}
+    - title: ROTARY PHONES
+      year: 1919
+      message: The first patent for a rotary dial was granted to Almon Brown Strowger
+        on November 29, 1892. It remained in common usage until it was gradually
+        replaced by phones with push-button keypads from the 1980s onwards.
+      sprite: {fileID: 21300000, guid: 7399e3620a1c8084291ee356e3411525, type: 3}
+      audioClip: {fileID: 8300000, guid: bc41020874312414ca232cbd19876fee, type: 3}
+    - title: TELEX
+      year: 1933
+      message: "Developed by the German postal service before World War II.\r\nIt
+        became the first common standard for international communications and for
+        a long time was the go-to communication system in armies.\r"
+      sprite: {fileID: 21300000, guid: c627b5c6bb7320c43862f9b3961a40d7, type: 3}
+      audioClip: {fileID: 8300000, guid: abb402ae7e649ae4a9855d43a92dbc63, type: 3}
+    - title: ARTIFICIAL INTELLIGENCE (AI)
+      year: 1933
+      message: Alan Turing was one of the first to produce a scientific paper on
+        artificial intelligence, although the concept had been in existence for a
+        while.
+      sprite: {fileID: 21300000, guid: 144e29a19cc8a8c4bb3d5bcdcefd2899, type: 3}
+      audioClip: {fileID: 8300000, guid: 4991a6a14f532b341b7dfb9fbed3ac41, type: 3}
+    - title: BIG DATA
+      year: 1951
+      message: 'Who: Isaac Asimov first outlined the concept of Big Data with his
+        science fiction books in the Foundation trilogy. Today, it  is a reality
+        because of the sheer number and variety of data shared online.'
+      sprite: {fileID: 21300000, guid: 39f769c9ba3950e48af90d10ffd5ec12, type: 3}
+      audioClip: {fileID: 8300000, guid: 83279da01d0daa84990c2185f6cdd326, type: 3}
+    - title: PAGERS
+      year: 1959
+      message: Created by Motorola. They have largely been replaced by smartphones,
+        but they are still widely used in hospitals as radio signals can reach screened
+        areas that phone signals cannot. The first telephone pager patent was made
+        in 1949 by Al Gross.
+      sprite: {fileID: 21300000, guid: bbd8048f63b456642802be0e98b2c4a1, type: 3}
+      audioClip: {fileID: 8300000, guid: 91a9a5bc45c28ab4185288d04b3529d4, type: 3}
+    - title: VIRTUAL REALITY (VR)
+      year: 1962
+      message: The first 3D movie machine was patented by Morton Heilig in 1962.
+        It refers to anything that immerses someone in their senses. This means that
+        everything from 3D movies to today's immersive head-mounted displays are
+        manifestations of virtual reality.
+      sprite: {fileID: 21300000, guid: ce1ff6aa14752754080eb51441d07353, type: 3}
+      audioClip: {fileID: 8300000, guid: a539f10b511b96247b8ed85f6697e1eb, type: 3}
+    - title: FAX
+      year: 1964
+      message: Earliest fax machine is credited to Scottish mechanic, Alexander Bain
+        in 1843, but fax machines as we know them originated from AT&T  in the 1920s.
+        Used to send scanned printed material over telephone lines.
+      sprite: {fileID: 21300000, guid: 72f1469bb73f0f24fa9c3cfa492c2072, type: 3}
+      audioClip: {fileID: 8300000, guid: 7e909f11f8af8f041953f5981ed6d870, type: 3}
+    - title: PERSONAL COMPUTER
+      year: 1971
+      message: The first personal computer was designed by John Blankenbaker. Blankenbaker's
+        Kenbak-1 featured small and medium integrated circuits and offered 256 bytes
+        of memory. In 1973, the first personal computer using a microprocessor or
+        microchip was invented by Micral.
+      sprite: {fileID: 21300000, guid: 5d217b613cdd1e148a3af867e12e7841, type: 3}
+      audioClip: {fileID: 8300000, guid: f51bb697aedfe0147b250b31516166e1, type: 3}
+    - title: EMAIL
+      year: 1973
+      message: Ray Tomlinson was the creator of email as part of a programme for
+        the ARPANET network in 1971.It is estimated that the average office worker
+        receives around 90 emails per day, about double they send. The first email
+        ever sent was sent by Tomlinson to himself as a test.
+      sprite: {fileID: 21300000, guid: da3eac36be4fb294382f2080d0b3a085, type: 3}
+      audioClip: {fileID: 8300000, guid: a2201195dc75a994aadf85a6abd453d0, type: 3}
+    - title: CHATROOMS
+      year: 1978
+      message: Roy Trubshaw computer programme was called MUD (Multi-User Dungeon)
+        and it enabled users to join a fantasy game from their home computers. More
+        people created their own MUDs, and chatrooms eventually became precursors
+        to social media platforms.
+      sprite: {fileID: 21300000, guid: bc73eec10e34b1d47a9d9771bd00f439, type: 3}
+      audioClip: {fileID: 8300000, guid: 2e13c64706df6f44eb5d91aa3828145f, type: 3}
+    - title: THE INTERNET
+      year: 1983
+      message: ARPANET first introduced the internet with TCP/IP, the rules needed
+        to govern connecting computer systems to a central information network. These
+        rules set up the foundation for the internet as we know it.
+      sprite: {fileID: 21300000, guid: 9dd35aec7567431439c534109d39b386, type: 3}
+      audioClip: {fileID: 8300000, guid: 933847652c613ee46afb720272163704, type: 3}
+    - title: MOBILE PHONES
+      year: 1983
+      message: "Motorola released the first commercial mobile phone.\r\nIt looked
+        very different to what we know today. Some early models came in their own
+        briefcases! The DynaTAC 8000x weighed 790g and was 25cm tall. Today's basic
+        feature phones only weigh 10% of that.\r"
+      sprite: {fileID: 21300000, guid: a4e1aa51fff78d146913557ea5dceb0d, type: 3}
+      audioClip: {fileID: 8300000, guid: f1efa071ce4d67f42a51532b88434ed7, type: 3}
+    - title: PDAS
+      year: 1984
+      message: Personal Digital Assistant was first described by Utah student, Alan
+        Kay in the 1970s. The first commercially available model was the PSION Organiser
+        in 1984, although the term "PDA" was not coined until 1992. PDAs were the
+        precursors of today's tablets.
+      sprite: {fileID: 21300000, guid: 891731b42aacb9b4c878aad9a5126b7c, type: 3}
+      audioClip: {fileID: 8300000, guid: 41ba92a98b72f524f8451cd2b3b3f6ea, type: 3}
+    - title: SEARCH ENGINES
+      year: 1990
+      message: "Alan Emtage, Bill Heelan, and Peter Deutsch invented Archie, the
+        first internet search engine. It gathered results from publicly available
+        files but lacked indexing due to limited data. Today, Google, Yahoo, and
+        Firefox dominate the search engine market, with Google\u2019s net worth surpassing
+        $300 billion in September 2020."
+      sprite: {fileID: 21300000, guid: 35fcaa13a87de5544a93f48fa80adf0e, type: 3}
+      audioClip: {fileID: 8300000, guid: ca053f94bafbec54ea87100cbd09ece3, type: 3}
+    - title: SMART PHONES
+      year: 1992
+      message: "The IBM Simon Personal Computer, the first commercial smartphone,
+        was released in 1992. Initially priced at $1100 each, it was developed from
+        PDAs and offered call, email, and fax capabilities. Today\u2019s smartphones
+        possess over 100,000 times the processing power of the computers on the Apollo
+        moon landing mission in 1969."
+      sprite: {fileID: 21300000, guid: a4e1aa51fff78d146913557ea5dceb0d, type: 3}
+      audioClip: {fileID: 8300000, guid: 74171aec21eb0964da5ab68ac0b9331e, type: 3}
+    - title: TEXT MESSAGES
+      year: 1993
+      message: "Friedhelm Hillebrand developed the 160-character protocol in 1984.
+        Today, half the world\u2019s population sends SMS messages, which have revolutionised
+        communication by introducing linguistic shortcuts and anagrams like IMO,
+        LOL, and BTW."
+      sprite: {fileID: 21300000, guid: 1bcc79c7f23eecb4f8b8f0bfb7fd94ed, type: 3}
+      audioClip: {fileID: 8300000, guid: 07a0271824f5278488d83f269bb7f686, type: 3}
+    - title: VIDEO CONFERENCING
+      year: 1995
+      message: The first commercial webcam, QuickCam, was compatible with Mac computers.
+        In 1992, Cornell University introduced video conferencing software that year.
+        HD, real-time video conferencing has made business travel unnecessary and
+        allowed loved ones to see each other despite distance.
+      sprite: {fileID: 21300000, guid: 3053ccf480d17c548b6fbf6f3960cfb2, type: 3}
+      audioClip: {fileID: 8300000, guid: b7a7af0502c6c5d499f9fe4a725dd572, type: 3}
+    - title: SOCIAL NETWORKS
+      year: 2003
+      message: "Six Degrees and Friendster were the first social media sites, followed
+        by platforms like Myspace, LinkedIn, Facebook, Twitter, Instagram, Snapchat,
+        and Weibo. Social networks, built on chatrooms, paved the way for personal
+        online profiles.\r"
+      sprite: {fileID: 21300000, guid: 3ebb32f548120e64f96e9235f3cb4746, type: 3}
+      audioClip: {fileID: 8300000, guid: 357280b021fdc564c8354388d7e14623, type: 3}
+    - title: FACEBOOK
+      year: 2004
+      message: "Facebook, founded by Mark Zuckerberg, is one of the \u201CBig Four\u201D
+        social media companies. Initially a college site called \u201CFacemash,\u201D
+        it later became a social networking service. In 2020, Facebook boasts over
+        1 billion unique monthly users, with an average daily user engagement of
+        35 minutes, amounting to over 18 months of lifetime usage."
+      sprite: {fileID: 21300000, guid: 464284be77928de4e83190b36d429d08, type: 3}
+      audioClip: {fileID: 8300000, guid: cb49193f053389044bb6efa39fa0fd96, type: 3}
+    - title: YOUTUBE
+      year: 2005
+      message: An online video-sharing platform created by Chad Hurley, Steve Chen,
+        and Jawed Karim. Google acquired it in 2006. As the second most popular website,
+        it uploads an estimated 500 hours of new video content every minute, expanding
+        at a rate 30,000 times faster than real time.
+      sprite: {fileID: 21300000, guid: ac1147d1e4ed17941a33046dbdc21d3a, type: 3}
+      audioClip: {fileID: 8300000, guid: 7dd72da6aa812da48b98341ff9079054, type: 3}
+  type: CommunicationHistory
 --- !u!850595691 &2052418703
 LightingSettings:
   m_ObjectHideFlags: 0
@@ -11637,6 +11752,7 @@ GameObject:
   - component: {fileID: 39802961701734341}
   - component: {fileID: 2343248893655810086}
   - component: {fileID: 2682865617530600029}
+  - component: {fileID: 4894807661024850582}
   m_Layer: 0
   m_Name: Door2
   m_TagString: Untagged
@@ -11644,6 +11760,27 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!65 &4894807661024850582
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4894807661024850581}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.5501252, y: 1.9889874, z: 0.045753814}
+  m_Center: {x: 0, y: -0.00000023841858, z: 0}
 --- !u!33 &5037391579586460139
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -12494,6 +12631,11 @@ PrefabInstance:
       propertyPath: m_text
       value: 1933
       objectReference: {fileID: 0}
+    - target: {fileID: 6326427556051610171, guid: 748782111ca89ec4b82a406fe85160f3,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6650755612241895893, guid: 748782111ca89ec4b82a406fe85160f3,
         type: 3}
       propertyPath: m_text
@@ -12804,6 +12946,7 @@ GameObject:
   - component: {fileID: 376645144175467905}
   - component: {fileID: 3617243911623377876}
   - component: {fileID: 2626583868827556702}
+  - component: {fileID: 8471226029899210475}
   m_Layer: 0
   m_Name: Door1
   m_TagString: Untagged
@@ -12811,6 +12954,27 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!65 &8471226029899210475
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8471226029899210474}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.56274164, y: 1.9889874, z: 0.05199221}
+  m_Center: {x: 0.00000011920929, y: -0.00000023841858, z: 0.0000038146973}
 --- !u!1 &8543434012290840440
 GameObject:
   m_ObjectHideFlags: 0

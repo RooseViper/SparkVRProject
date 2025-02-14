@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 1717854071971904665}
   - component: {fileID: 3642174817665625107}
   - component: {fileID: 8498522034090805493}
+  - component: {fileID: 6036903924886525347}
   m_Layer: 0
   m_Name: TextContainerUIBlock2D
   m_TagString: Untagged
@@ -296,6 +297,22 @@ MonoBehaviour:
     FillEnabled: 1
   texture: {fileID: 0}
   sprite: {fileID: 0}
+--- !u!114 &6036903924886525347
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 661008718567406544}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 654d1a825b28961428d7931e72ee8490, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  title: {fileID: 4162196472365738134}
+  year: {fileID: 3220140541905808057}
+  message: {fileID: 6867310159452215342}
+  displayUiBlock: {fileID: 3960843987517990022}
 --- !u!1 &2094383607649830353
 GameObject:
   m_ObjectHideFlags: 0

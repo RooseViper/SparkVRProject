@@ -51,8 +51,8 @@
     <Compile Include="Assets\Tools\Nova\Scripts\Internal\Rendering\DrawCallArbitrationJob.cs" />
     <Compile Include="Assets\Tools\Nova\Scripts\Internal\Layouts\LayoutsCalculateBounds.cs" />
     <Compile Include="Assets\Tools\Nova\Scripts\Internal\Rendering\RotationSet.cs" />
-    <Compile Include="Assets\Tools\Nova\Scripts\Internal\IEventTarget.cs" />
     <Compile Include="Assets\Tools\Nova\Scripts\Internal\Rendering\RenderEngineJobsInit.cs" />
+    <Compile Include="Assets\Tools\Nova\Scripts\Internal\IEventTarget.cs" />
     <Compile Include="Assets\Tools\Nova\Scripts\Internal\Rendering\CoplanarSpaceBoundsJob.cs" />
     <Compile Include="Assets\Tools\Nova\Scripts\Internal\Surface.Internal.cs" />
     <Compile Include="Assets\Tools\Nova\Scripts\Internal\Rendering\AccessWrapper.cs" />
@@ -178,8 +178,8 @@
     <Compile Include="Assets\Tools\Nova\Scripts\Public\Animations\AnimationHandle.cs" />
     <Compile Include="Assets\Tools\Nova\Scripts\Internal\Rendering\Shapes.cs" />
     <Compile Include="Assets\Tools\Nova\Scripts\Internal\Input\Scrolling\FrictionSimulation.cs" />
-    <Compile Include="Assets\Tools\Nova\Scripts\Internal\SceneViewUtils.cs" />
     <Compile Include="Assets\Tools\Nova\Scripts\Internal\Rendering\BlockDataValidation.cs" />
+    <Compile Include="Assets\Tools\Nova\Scripts\Internal\SceneViewUtils.cs" />
     <Compile Include="Assets\Tools\Nova\Scripts\Internal\AutoLayout.Internal.cs" />
     <Compile Include="Assets\Tools\Nova\Scripts\Internal\Length.Internal.cs" />
     <Compile Include="Assets\Tools\Nova\Scripts\Public\DataBinding\GridSlice.cs" />
@@ -213,8 +213,8 @@
     <Compile Include="Assets\Tools\Nova\Scripts\Public\DataTypes\MinMaxRect.cs" />
     <Compile Include="Assets\Tools\Nova\Scripts\Internal\Rendering\RenderingJobsDataStore.cs" />
     <Compile Include="Assets\Tools\Nova\Scripts\Public\DataTypes\MinMax3.cs" />
-    <Compile Include="Assets\Tools\Nova\Scripts\Internal\Layouts\LayoutDataStore.cs" />
     <Compile Include="Assets\Tools\Nova\Scripts\Internal\Rendering\CameraSortingTypes.cs" />
+    <Compile Include="Assets\Tools\Nova\Scripts\Internal\Layouts\LayoutDataStore.cs" />
     <Compile Include="Assets\Tools\Nova\Scripts\Internal\Rendering\RenderOrderJob.cs" />
     <Compile Include="Assets\Tools\Nova\Scripts\Internal\Rendering\RootFromBlockMatrixJob.cs" />
     <Compile Include="Assets\Tools\Nova\Scripts\Internal\Rendering\OverlapJob.cs" />
@@ -249,8 +249,8 @@
     <Compile Include="Assets\Tools\Nova\Scripts\Internal\Rendering\UIBlock2DDataStore.cs" />
     <Compile Include="Assets\Tools\Nova\Scripts\Internal\Rendering\AABB.cs" />
     <Compile Include="Assets\Tools\Nova\Scripts\Public\Settings\NovaSettings.cs" />
-    <Compile Include="Assets\Tools\Nova\Scripts\AssemblyInfo.cs" />
     <Compile Include="Assets\Tools\Nova\Scripts\Public\DataTypes\RadialFill.cs" />
+    <Compile Include="Assets\Tools\Nova\Scripts\AssemblyInfo.cs" />
     <Compile Include="Assets\Tools\Nova\Scripts\Internal\Rendering\ImageTrackingRunner.cs" />
     <Compile Include="Assets\Tools\Nova\Scripts\Internal\AnimationEngineProxy.cs" />
     <Compile Include="Assets\Tools\Nova\Scripts\Internal\Rendering\CommonData.cs" />
@@ -304,8 +304,8 @@
     <Compile Include="Assets\Tools\Nova\Scripts\Internal\Layouts\LayoutsProcessHierarchy.cs" />
     <Compile Include="Assets\Tools\Nova\Scripts\Internal\Rendering\QuadGenerationJob.cs" />
     <Compile Include="Assets\Tools\Nova\Scripts\Internal\Rendering\ShaderBuffer.cs" />
-    <Compile Include="Assets\Tools\Nova\Scripts\Internal\Rendering\SubQuadShaderDataJob.cs" />
     <Compile Include="Assets\Tools\Nova\Scripts\Internal\Rendering\CameraSortRunner.cs" />
+    <Compile Include="Assets\Tools\Nova\Scripts\Internal\Rendering\SubQuadShaderDataJob.cs" />
     <Compile Include="Assets\Tools\Nova\Scripts\Internal\Utilities\DestroyUtils.cs" />
     <Compile Include="Assets\Tools\Nova\Scripts\Internal\Layouts\LayoutsAutoLayout.cs" />
     <Compile Include="Assets\Tools\Nova\Scripts\Internal\Layout.Internal.cs" />
@@ -337,8 +337,8 @@
     <Compile Include="Assets\Tools\Nova\Scripts\Internal\Utilities\Extensions\ArrayExtensions.cs" />
     <Compile Include="Assets\Tools\Nova\Scripts\Internal\Utilities\Extensions\ListExtensions.cs" />
     <Compile Include="Assets\Tools\Nova\Scripts\Internal\RawPtrArrayWrapper.cs" />
-    <Compile Include="Assets\Tools\Nova\Scripts\Internal\Input\Scrolling\BouncingScrollEffect.cs" />
     <Compile Include="Assets\Tools\Nova\Scripts\Internal\Rendering\ImageTracker.cs" />
+    <Compile Include="Assets\Tools\Nova\Scripts\Internal\Input\Scrolling\BouncingScrollEffect.cs" />
     <Compile Include="Assets\Tools\Nova\Scripts\Internal\RadialGradient.Internal.cs" />
     <Compile Include="Assets\Tools\Nova\Scripts\Internal\Rendering\DrawCallSummary.cs" />
     <Compile Include="Assets\Tools\Nova\Scripts\Internal\Rendering\MaterialCacheTypes.cs" />
@@ -348,9 +348,9 @@
     <Compile Include="Assets\Tools\Nova\Scripts\Public\DataTypes\NavNode.cs" />
     <Compile Include="Assets\Tools\Nova\Scripts\Public\Components\UIBlock3D.cs" />
     <Compile Include="Assets\Tools\Nova\Scripts\Internal\Collections\ArrayBuffer.cs" />
+    <Compile Include="Assets\Tools\Nova\Scripts\Internal\Utilities\Extensions\DictionaryExtensions.cs" />
     <Compile Include="Assets\Tools\Nova\Scripts\Public\DataTypes\Alignment.cs" />
     <Compile Include="Assets\Tools\Nova\Scripts\Internal\Utilities\Extensions\NativeReferenceExtensions.cs" />
-    <Compile Include="Assets\Tools\Nova\Scripts\Internal\Utilities\Extensions\DictionaryExtensions.cs" />
     <Compile Include="Assets\Tools\Nova\Scripts\Internal\PrefabStageUtilsImpl.cs" />
     <Compile Include="Assets\Tools\Nova\Scripts\Public\DataBinding\UIBlockExtensions.cs" />
     <Compile Include="Assets\Tools\Nova\Scripts\Internal\Input\SphereToBounds.cs" />
@@ -613,6 +613,9 @@
     <Reference Include="Unity.VisualScripting.YamlDotNet">
       <HintPath>C:\Users\Lenovo\My First VR Project URP\Library\PackageCache\com.unity.visualscripting@1.9.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.Collections.LowLevel.ILSupport">
+      <HintPath>C:\Users\Lenovo\My First VR Project URP\Library\PackageCache\com.unity.collections@1.2.4\Unity.Collections.LowLevel.ILSupport\Unity.Collections.LowLevel.ILSupport.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.Plastic.Antlr3.Runtime">
       <HintPath>C:\Users\Lenovo\My First VR Project URP\Library\PackageCache\com.unity.collab-proxy@2.2.0\Lib\Editor\PlasticSCM\Unity.Plastic.Antlr3.Runtime.dll</HintPath>
     </Reference>
@@ -636,9 +639,6 @@
     </Reference>
     <Reference Include="Unity.VisualScripting.TextureAssets">
       <HintPath>C:\Users\Lenovo\My First VR Project URP\Library\PackageCache\com.unity.visualscripting@1.9.1\Editor\VisualScripting.Core\EditorAssetResources\Unity.VisualScripting.TextureAssets.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Collections.LowLevel.ILSupport">
-      <HintPath>C:\Users\Lenovo\My First VR Project URP\Library\PackageCache\com.unity.collections@1.2.4\Unity.Collections.LowLevel.ILSupport\Unity.Collections.LowLevel.ILSupport.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Android.Types">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.4f1\Editor\Data\PlaybackEngines\AndroidPlayer\Unity.Android.Types.dll</HintPath>

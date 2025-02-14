@@ -47,8 +47,8 @@
   <ItemGroup>
     <Compile Include="Assets\Tools\SensorToolkit\Integrations\PlayMaker\Actions\SetFOVCollider2D.cs" />
     <Compile Include="Assets\Tools\LeanTween\Testing\Testing246.cs" />
-    <Compile Include="Assets\Scripts\ThemeManager.cs" />
     <Compile Include="Assets\_Course Library\Scripts\Actions\LaunchProjectile.cs" />
+    <Compile Include="Assets\Scripts\ThemeManager.cs" />
     <Compile Include="Assets\Tools\Youtube Player\3.3.1\PlayVideo\VideoPlayerProgress.cs" />
     <Compile Include="Assets\Tools\SensorToolkit\Integrations\PlayMaker\Actions\SensorGetLineOfSightResult.cs" />
     <Compile Include="Assets\Tools\SensorToolkit\Integrations\PlayMaker\Actions\SensorGetDetectionRayHit.cs" />
@@ -62,6 +62,7 @@
     <Compile Include="Assets\Tools\LeanTween\Examples\Scripts\PathSplineTrack.cs" />
     <Compile Include="Assets\_Course Library\Scripts\Actions\ToggleInterface.cs" />
     <Compile Include="Assets\Tools\Youtube Player\3.3.1\PlayFromScript\PlayFromScript.cs" />
+    <Compile Include="Assets\Scripts\Content\Glo\ContentManager.cs" />
     <Compile Include="Assets\_Course Library\Scripts\Actions\ToggleLight.cs" />
     <Compile Include="Assets\_Course Library\Scripts\Conditions\OnJoystickMove.cs" />
     <Compile Include="Assets\Tools\LeanTween\Examples\Scripts\PathBezier2d.cs" />
@@ -73,6 +74,7 @@
     <Compile Include="Assets\_Course Library\Scripts\Testing\DisplayFPS.cs" />
     <Compile Include="Assets\_Course Library\Scripts\Actions\RotateObject.cs" />
     <Compile Include="Assets\Tools\LeanTween\Testing\TestingColorTweening.cs" />
+    <Compile Include="Assets\Scripts\Content\Glo\TableContent.cs" />
     <Compile Include="Assets\Tools\LeanTween\Testing\Testing248.cs" />
     <Compile Include="Assets\Scripts\SkyboxObject.cs" />
     <Compile Include="Assets\_Course Library\Scripts\Actions\ManuallySelectObject.cs" />
@@ -167,8 +169,8 @@
     <Compile Include="Assets\_Course Library\Scripts\Actions\LookAtPlayer.cs" />
     <Compile Include="Assets\Tools\LeanTween\Examples\Scripts\GeneralSimpleUI.cs" />
     <Compile Include="Assets\Scripts\VideoScreen.cs" />
-    <Compile Include="Assets\Tools\Youtube Player\3.3.1\Three60EquiRectangular\PanoramicSkyboxVideo.cs" />
     <Compile Include="Assets\_Course Library\Scripts\Actions\FadeCanvas.cs" />
+    <Compile Include="Assets\Tools\Youtube Player\3.3.1\Three60EquiRectangular\PanoramicSkyboxVideo.cs" />
     <Compile Include="Assets\Scripts\Painting.cs" />
     <Compile Include="Assets\Tools\SensorToolkit\Integrations\PlayMaker\Actions\SensorPulse.cs" />
     <Compile Include="Assets\_Course Library\Scripts\Actions\SetLightColor.cs" />
@@ -177,8 +179,10 @@
     <Compile Include="Assets\_Course Library\Scripts\Actions\SpawnFromList.cs" />
     <Compile Include="Assets\_Course Library\Scripts\Conditions\OnVelocity.cs" />
     <Compile Include="Assets\_Course Library\Scripts\Actions\TranslateObject.cs" />
+    <Compile Include="Assets\Scripts\ShowcaseTable.cs" />
     <Compile Include="Assets\_Course Library\Scripts\Controls\XRJoystick.cs" />
     <Compile Include="Assets\_Course Library\Scripts\Actions\ToggleRay.cs" />
+    <Compile Include="Assets\Scripts\Content\Glo\ContentType.cs" />
     <Compile Include="Assets\Scripts\VideoInfo.cs" />
     <Compile Include="Assets\Tools\LeanTween\Examples\Scripts\GeneralEasingTypes.cs" />
     <Compile Include="Assets\_Course Library\Scripts\Actions\ConvertValueToHue.cs" />
@@ -188,6 +192,7 @@
     <Compile Include="Assets\Scripts\Cube.cs" />
     <Compile Include="Assets\Tools\Youtube Player\3.3.1\PlayVideo\PlayVideoButton.cs" />
     <Compile Include="Assets\_Course Library\Scripts\Actions\RemoveObjectsWithTag.cs" />
+    <Compile Include="Assets\Scripts\Content\Glo\Content.cs" />
     <Compile Include="Assets\_Course Library\Scripts\Testing\TeleportAreaWithFade.cs" />
     <Compile Include="Assets\Scripts\VideoManager.cs" />
     <Compile Include="Assets\Tools\LeanTween\Examples\Scripts\LogoCinematic.cs" />
@@ -506,14 +511,14 @@
     <Reference Include="UnityEditor.UnityConnectModule">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.4f1\Editor\Data\Managed\UnityEngine\UnityEditor.UnityConnectModule.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.Collections.LowLevel.ILSupport">
+      <HintPath>C:\Users\Lenovo\My First VR Project URP\Library\PackageCache\com.unity.collections@1.2.4\Unity.Collections.LowLevel.ILSupport\Unity.Collections.LowLevel.ILSupport.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
       <HintPath>C:\Users\Lenovo\My First VR Project URP\Library\PackageCache\com.unity.visualscripting@1.9.1\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Newtonsoft.Json">
       <HintPath>C:\Users\Lenovo\My First VR Project URP\Library\PackageCache\com.unity.nuget.newtonsoft-json@3.2.1\Runtime\Newtonsoft.Json.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Collections.LowLevel.ILSupport">
-      <HintPath>C:\Users\Lenovo\My First VR Project URP\Library\PackageCache\com.unity.collections@1.2.4\Unity.Collections.LowLevel.ILSupport\Unity.Collections.LowLevel.ILSupport.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Android.Types">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.4f1\Editor\Data\PlaybackEngines\AndroidPlayer\Unity.Android.Types.dll</HintPath>
