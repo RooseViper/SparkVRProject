@@ -3696,7 +3696,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 742428170}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.17, y: 5.091964, z: 0.36}
+  m_LocalPosition: {x: 1.8091727, y: -1.03, z: -60.69}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3713,15 +3713,15 @@ AudioReverbZone:
   m_Enabled: 1
   m_MinDistance: 18.027111
   m_MaxDistance: 21.857296
-  m_ReverbPreset: 19
+  m_ReverbPreset: 3
   m_Room: -1000
-  m_RoomHF: -1000
-  m_DecayTime: 1.49
+  m_RoomHF: -454
+  m_DecayTime: 0.4
   m_DecayHFRatio: 0.83
-  m_Reflections: -10000
-  m_ReflectionsDelay: 0.061
-  m_Reverb: 500
-  m_ReverbDelay: 0.025
+  m_Reflections: -1646
+  m_ReflectionsDelay: 0.002
+  m_Reverb: 53
+  m_ReverbDelay: 0.003
   m_HFReference: 5000
   m_Diffusion: 100
   m_Density: 100
