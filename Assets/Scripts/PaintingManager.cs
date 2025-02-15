@@ -22,7 +22,7 @@ public class PaintingManager : MonoBehaviour
 
     public void LoadPaitnings()
     {
-        if (GameManager.Instance.theme == GameManager.Theme.Tourism)
+        /*if (GameManager.Instance.theme == GameManager.Theme.Tourism)
         {
             for (var i = 0; i < touristPictures.Length; i++)
             {
@@ -35,6 +35,6 @@ public class PaintingManager : MonoBehaviour
             {
                 paintings[i].SetPainting(politicalPictures[i]);
             }
-        }
+        }*/
     }
 }

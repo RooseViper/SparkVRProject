@@ -13,13 +13,6 @@ public class GameManager : MonoBehaviour
     [SerializeField]private SkyboxObject[] skyboxObjects;
     [SerializeField] private Transform instructionsCanvas, videosInstructionsCanvas, portableMenuCanvas;
     [SerializeField] private Image[] displaySkyboxImages;
-
-    public enum Theme
-    {
-        Political,
-        Tourism
-    }
-    public Theme theme;
     public static GameManager Instance => _instance;
     private static GameManager _instance;
     private int skyBoxIndex;
@@ -34,6 +27,7 @@ public class GameManager : MonoBehaviour
     // Start is called before the first frame update
     private void Start()
     {
+        Application.targetFrameRate = 60;
        defaultInstructionsCanvasSize = instructionsCanvas.localScale;
        defaultInstructionsVideoCanvasSize = videosInstructionsCanvas.localScale;
        defaultPortableMenuCanvasSize = portableMenuCanvas.localScale;
