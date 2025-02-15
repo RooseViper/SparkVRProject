@@ -5,6 +5,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nova", "Nova.csproj", "{619
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{d0df82dc-17e1-918f-2a24-519c051341dd}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BakeryEditorAssembly", "BakeryEditorAssembly.csproj", "{43f2f54b-4013-14f1-4bd0-f15624ea0d0b}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nova.UIControls", "Nova.UIControls.csproj", "{cdb72048-9be5-9091-78bd-019391aea089}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YoutubePlayer", "YoutubePlayer.csproj", "{cb64e919-caa6-07e0-162e-d4542afcbfda}"
@@ -26,6 +28,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-Editor", "Assembly-CSharp-Editor.csproj", "{b3171b86-c65d-6a46-e060-daccdd275a6c}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.XR.Interaction.Toolkit.Samples.StarterAssets.Editor", "Unity.XR.Interaction.Toolkit.Samples.StarterAssets.Editor.csproj", "{fc72a0ab-c57c-ee00-3a74-172ba78ac922}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BakeryRuntimeAssembly", "BakeryRuntimeAssembly.csproj", "{0183c091-5891-8f3e-550a-da080260a150}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CFXRRuntime", "CFXRRuntime.csproj", "{91c164f0-f9ee-d53c-66e5-ac4017ff44fa}"
 EndProject
@@ -52,6 +56,8 @@ Global
 		{6197b9fb-1809-9e26-aeeb-34cf9476883e}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{d0df82dc-17e1-918f-2a24-519c051341dd}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{d0df82dc-17e1-918f-2a24-519c051341dd}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43f2f54b-4013-14f1-4bd0-f15624ea0d0b}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43f2f54b-4013-14f1-4bd0-f15624ea0d0b}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{cdb72048-9be5-9091-78bd-019391aea089}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{cdb72048-9be5-9091-78bd-019391aea089}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{cb64e919-caa6-07e0-162e-d4542afcbfda}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -74,6 +80,8 @@ Global
 		{b3171b86-c65d-6a46-e060-daccdd275a6c}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{fc72a0ab-c57c-ee00-3a74-172ba78ac922}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{fc72a0ab-c57c-ee00-3a74-172ba78ac922}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0183c091-5891-8f3e-550a-da080260a150}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0183c091-5891-8f3e-550a-da080260a150}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{91c164f0-f9ee-d53c-66e5-ac4017ff44fa}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{91c164f0-f9ee-d53c-66e5-ac4017ff44fa}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{c9bb1e1c-c4b6-e1c2-9ffd-749d35894ab8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
