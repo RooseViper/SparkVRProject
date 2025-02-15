@@ -383,15 +383,15 @@ AudioSource:
     - serializedVersion: 3
       time: 0.056306306
       value: 1
-      inSlope: -5.3222685
-      outSlope: -5.3222685
+      inSlope: -0.2404924
+      outSlope: -0.2404924
       tangentMode: 0
       weightedMode: 0
       inWeight: 0
-      outWeight: 0.16874492
+      outWeight: 0.19265401
     - serializedVersion: 3
-      time: 0.251161
-      value: 0.4322999
+      time: 0.6047529
+      value: 0.70968944
       inSlope: -1.2261574
       outSlope: -1.2261574
       tangentMode: 0
@@ -1539,12 +1539,12 @@ PrefabInstance:
     - target: {fileID: 1717854071971904665, guid: b5527610f78f95742ae142e1c19461f8,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.02958
+      value: 0.03008
       objectReference: {fileID: 0}
     - target: {fileID: 1717854071971904665, guid: b5527610f78f95742ae142e1c19461f8,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.01686
+      value: -0.01715
       objectReference: {fileID: 0}
     - target: {fileID: 1717854071971904665, guid: b5527610f78f95742ae142e1c19461f8,
         type: 3}

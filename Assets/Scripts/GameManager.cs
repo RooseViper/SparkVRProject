@@ -13,7 +13,6 @@ public class GameManager : MonoBehaviour
     [SerializeField]private SkyboxObject[] skyboxObjects;
     [SerializeField] private Transform instructionsCanvas, videosInstructionsCanvas, portableMenuCanvas;
     [SerializeField] private Image[] displaySkyboxImages;
-    [SerializeField] private Light directionalLight;
 
     public enum Theme
     {
@@ -35,13 +34,13 @@ public class GameManager : MonoBehaviour
     // Start is called before the first frame update
     private void Start()
     {
-      //  defaultInstructionsCanvasSize = instructionsCanvas.localScale;
-     //   defaultInstructionsVideoCanvasSize = videosInstructionsCanvas.localScale;
-      //  defaultPortableMenuCanvasSize = portableMenuCanvas.localScale;
-     //   instructionsCanvas.localScale = Vector3.zero;
-     //   videosInstructionsCanvas.localScale = Vector3.zero;
-     //   portableMenuCanvas.localScale = Vector3.zero;
-      //  intructionsVideoPlayer = videosInstructionsCanvas.GetComponentInChildren<VideoPlayer>();
+       defaultInstructionsCanvasSize = instructionsCanvas.localScale;
+       defaultInstructionsVideoCanvasSize = videosInstructionsCanvas.localScale;
+       defaultPortableMenuCanvasSize = portableMenuCanvas.localScale;
+       instructionsCanvas.localScale = Vector3.zero;
+       videosInstructionsCanvas.localScale = Vector3.zero;
+       portableMenuCanvas.localScale = Vector3.zero;
+       intructionsVideoPlayer = videosInstructionsCanvas.GetComponentInChildren<VideoPlayer>();
     }
  
     public void ChangeSkyBox()
@@ -51,7 +50,6 @@ public class GameManager : MonoBehaviour
         {
             skyBoxIndex = 0;
         }
-        directionalLight.color = skyboxObjects[skyBoxIndex].color;
         displaySkyboxImages.ToList().ForEach(image=> image.sprite = skyboxObjects[skyBoxIndex].sprite);
         RenderSettings.skybox = skyboxObjects[skyBoxIndex].material;
         RenderSettings.ambientSkyColor = skyboxObjects[skyBoxIndex].color;
@@ -60,7 +58,8 @@ public class GameManager : MonoBehaviour
     public void ChangeShadowState()
     {
         shadowsOn = !shadowsOn;
-        directionalLight.shadows = shadowsOn ? LightShadows.Soft : LightShadows.None;
+        var pointLights = FindObjectsOfType<Light>().ToList();
+        pointLights.ForEach(l=> l.shadows = shadowsOn ? LightShadows.Soft : LightShadows.None);
     }
     public void EnableDisableFPSCounter(TextMeshProUGUI textMeshProUGUI)=>textMeshProUGUI.gameObject.SetActive(!textMeshProUGUI.gameObject.activeInHierarchy);
 

@@ -11,8 +11,19 @@ namespace Content.Glo
         // Start is called before the first frame update
         private void Start()
         {
+            LoadContent(type);
+        }
+
+        public void Load(string contentType)
+        {
+            LoadContent(contentType);
+            PlayerManager.Instance.Teleport();
+        }
+
+        private void LoadContent(string contentType)
+        {
             var tableContents = FindObjectsOfType<TableContent>();
-            var chosenContent = contentTypes.Find(cType => cType.type == type);
+            var chosenContent = contentTypes.Find(cType => cType.type == contentType);
             for (var i = 0; i < tableContents.Length; i++)
             {
                 tableContents[i].SetTitle(chosenContent.contents[i].title);
@@ -22,5 +33,6 @@ namespace Content.Glo
                 tableContents[i].SetAudioClip(chosenContent.contents[i].audioClip);
             }
         }
+
     }
 }
