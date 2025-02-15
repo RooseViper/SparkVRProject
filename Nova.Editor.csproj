@@ -101,8 +101,8 @@
     <Compile Include="Assets\Tools\Nova\Scripts\Editor\HandleUtils.cs" />
     <Compile Include="Assets\Tools\Nova\Scripts\Editor\UIBlockEditor.cs" />
     <Compile Include="Assets\Tools\Nova\Scripts\Editor\LayoutEdgeSnapHandle.cs" />
-    <Compile Include="Assets\Tools\Nova\Scripts\Editor\SortGroupEditor.cs" />
     <Compile Include="Assets\Tools\Nova\Scripts\Editor\ScreenSpaceEditor.cs" />
+    <Compile Include="Assets\Tools\Nova\Scripts\Editor\SortGroupEditor.cs" />
     <Compile Include="Assets\Tools\Nova\Scripts\Editor\AddObjectMenus.cs" />
     <Compile Include="Assets\Tools\Nova\Scripts\Editor\UIBlockTool.cs" />
     <Compile Include="Assets\Tools\Nova\Scripts\Editor\SpacingTool.cs" />

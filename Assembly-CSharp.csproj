@@ -914,6 +914,9 @@
     <Reference Include="Unity.Burst.Editor">
       <HintPath>C:\Users\Lenovo\My First VR Project URP\Library\ScriptAssemblies\Unity.Burst.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.XR.Hands">
+      <HintPath>C:\Users\Lenovo\My First VR Project URP\Library\ScriptAssemblies\Unity.XR.Hands.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.ProBuilder.AddOns.Editor">
       <HintPath>C:\Users\Lenovo\My First VR Project URP\Library\ScriptAssemblies\Unity.ProBuilder.AddOns.Editor.dll</HintPath>
     </Reference>
@@ -1031,6 +1034,9 @@
     <Reference Include="UnityEngine.UI">
       <HintPath>C:\Users\Lenovo\My First VR Project URP\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.XR.Hands.Editor">
+      <HintPath>C:\Users\Lenovo\My First VR Project URP\Library\ScriptAssemblies\Unity.XR.Hands.Editor.dll</HintPath>
+    </Reference>
     <Reference Include="UnityEditor.XR.LegacyInputHelpers">
       <HintPath>C:\Users\Lenovo\My First VR Project URP\Library\ScriptAssemblies\UnityEditor.XR.LegacyInputHelpers.dll</HintPath>
     </Reference>
@@ -1133,6 +1139,10 @@
     <ProjectReference Include="CFXRDemo.csproj">
       <Project>{d20cb5a7-a6df-dcec-7c2c-b736c8f5961b}</Project>
       <Name>CFXRDemo</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.XR.Hands.Samples.VisualizerSample.csproj">
+      <Project>{f2ccd8bc-88dc-ce0a-b2b5-8b6ba3379dd5}</Project>
+      <Name>Unity.XR.Hands.Samples.VisualizerSample</Name>
     </ProjectReference>
     <ProjectReference Include="CFXR.WelcomeScreen.csproj">
       <Project>{22c155ad-d468-0205-4ae3-e695d5bb34e0}</Project>
