@@ -51,8 +51,8 @@
     <Compile Include="Assets\Tools\Nova\Scripts\Internal\Rendering\DrawCallArbitrationJob.cs" />
     <Compile Include="Assets\Tools\Nova\Scripts\Internal\Layouts\LayoutsCalculateBounds.cs" />
     <Compile Include="Assets\Tools\Nova\Scripts\Internal\Rendering\RotationSet.cs" />
-    <Compile Include="Assets\Tools\Nova\Scripts\Internal\IEventTarget.cs" />
     <Compile Include="Assets\Tools\Nova\Scripts\Internal\Rendering\RenderEngineJobsInit.cs" />
+    <Compile Include="Assets\Tools\Nova\Scripts\Internal\IEventTarget.cs" />
     <Compile Include="Assets\Tools\Nova\Scripts\Internal\Rendering\CoplanarSpaceBoundsJob.cs" />
     <Compile Include="Assets\Tools\Nova\Scripts\Internal\Surface.Internal.cs" />
     <Compile Include="Assets\Tools\Nova\Scripts\Internal\Rendering\AccessWrapper.cs" />
@@ -249,8 +249,8 @@
     <Compile Include="Assets\Tools\Nova\Scripts\Internal\Rendering\UIBlock2DDataStore.cs" />
     <Compile Include="Assets\Tools\Nova\Scripts\Internal\Rendering\AABB.cs" />
     <Compile Include="Assets\Tools\Nova\Scripts\Public\Settings\NovaSettings.cs" />
-    <Compile Include="Assets\Tools\Nova\Scripts\AssemblyInfo.cs" />
     <Compile Include="Assets\Tools\Nova\Scripts\Public\DataTypes\RadialFill.cs" />
+    <Compile Include="Assets\Tools\Nova\Scripts\AssemblyInfo.cs" />
     <Compile Include="Assets\Tools\Nova\Scripts\Internal\Rendering\ImageTrackingRunner.cs" />
     <Compile Include="Assets\Tools\Nova\Scripts\Internal\AnimationEngineProxy.cs" />
     <Compile Include="Assets\Tools\Nova\Scripts\Internal\Rendering\CommonData.cs" />
@@ -308,8 +308,8 @@
     <Compile Include="Assets\Tools\Nova\Scripts\Internal\Rendering\SubQuadShaderDataJob.cs" />
     <Compile Include="Assets\Tools\Nova\Scripts\Internal\Utilities\DestroyUtils.cs" />
     <Compile Include="Assets\Tools\Nova\Scripts\Internal\Layouts\LayoutsAutoLayout.cs" />
-    <Compile Include="Assets\Tools\Nova\Scripts\Internal\VirtualUIBlock.cs" />
     <Compile Include="Assets\Tools\Nova\Scripts\Internal\Layout.Internal.cs" />
+    <Compile Include="Assets\Tools\Nova\Scripts\Internal\VirtualUIBlock.cs" />
     <Compile Include="Assets\Tools\Nova\Scripts\Public\Animations\IAnimation.cs" />
     <Compile Include="Assets\Tools\Nova\Scripts\Internal\Rendering\UIBlock3DDataStore.cs" />
     <Compile Include="Assets\Tools\Nova\Scripts\Public\Components\UIBlock2D.cs" />
@@ -348,9 +348,9 @@
     <Compile Include="Assets\Tools\Nova\Scripts\Public\DataTypes\NavNode.cs" />
     <Compile Include="Assets\Tools\Nova\Scripts\Public\Components\UIBlock3D.cs" />
     <Compile Include="Assets\Tools\Nova\Scripts\Internal\Collections\ArrayBuffer.cs" />
+    <Compile Include="Assets\Tools\Nova\Scripts\Internal\Utilities\Extensions\DictionaryExtensions.cs" />
     <Compile Include="Assets\Tools\Nova\Scripts\Public\DataTypes\Alignment.cs" />
     <Compile Include="Assets\Tools\Nova\Scripts\Internal\Utilities\Extensions\NativeReferenceExtensions.cs" />
-    <Compile Include="Assets\Tools\Nova\Scripts\Internal\Utilities\Extensions\DictionaryExtensions.cs" />
     <Compile Include="Assets\Tools\Nova\Scripts\Internal\PrefabStageUtilsImpl.cs" />
     <Compile Include="Assets\Tools\Nova\Scripts\Public\DataBinding\UIBlockExtensions.cs" />
     <Compile Include="Assets\Tools\Nova\Scripts\Internal\Input\SphereToBounds.cs" />

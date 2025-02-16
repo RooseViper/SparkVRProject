@@ -18,7 +18,7 @@ MonoBehaviour:
   - Assets/Models/Screen_geo.fbx
   - Assets/Models/Lights.fbx
   - Assets/Models/Wall_Frame.fbx
-  modifiedAssetPaddingHash: d6a958ff75f23a06c3f7fc9af166e2a85bc2a693
+  modifiedAssetPaddingHash: d6a958ff75f23a06c3f7fc9af166e2a8df4dfff0
   modifiedMeshList: []
   modifiedMeshPaddingList: 
   modifiedAssets:
@@ -416,7 +416,7 @@ MonoBehaviour:
     unwrapper: 00000000
   - meshName:
     - Wall_Frame_1
-    padding: 3b000000
+    padding: 30000000
     unwrapper: 00000000
   assetList:
   - Assets/Bakery/examples/content/sponza/bush.FBX
@@ -514,5 +514,5 @@ MonoBehaviour:
   renderSettingsRTPVWidth: 640
   renderSettingsRTPVHeight: 360
   tagOverrides: []
-  modifiedMeshPaddingArray: 3b000000
+  modifiedMeshPaddingArray: 30000000
   modifiedMeshUnwrapperArray: 00000000

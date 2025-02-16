@@ -324,3 +324,1185 @@ Running seamfixer "C:\Users\Lenovo\AppData\Local\Temp\frender" "2" "Glo_LMA2_fin
 Running halffloat2hdr "C:\Users\Lenovo\AppData\Local\Temp\frender/Glo_LM0_final_HDR.lz4" "C:/Users/Lenovo/My First VR Project URP/Assets/BakeryLightmaps/Glo_LM0_final.hdr" 1024
 Running halffloat2hdr "C:\Users\Lenovo\AppData\Local\Temp\frender/Glo_LMA1_final_HDR.lz4" "C:/Users/Lenovo/My First VR Project URP/Assets/BakeryLightmaps/Glo_LMA1_final.hdr" 1024
 Running halffloat2hdr "C:\Users\Lenovo\AppData\Local\Temp\frender/Glo_LMA2_final_HDR.lz4" "C:/Users/Lenovo/My First VR Project URP/Assets/BakeryLightmaps/Glo_LMA2_final.hdr" 1024
+C:\build\output\Unity-Technologies\mono\mono\eglib\gpath.c:115: assertion 'filename != NULL' failed
+
+Total cache size 268430884
+Total cache size after purge 268430884
+Symbol file LoadedFromMemory is not a mono symbol file
+C:\build\output\Unity-Technologies\mono\mono\eglib\gpath.c:115: assertion 'filename != NULL' failed
+
+Total cache size 268430884
+Total cache size after purge 268430884
+Total cache size 268430884
+Total cache size after purge 268430884
+Total cache size 268430884
+Total cache size after purge 268430884
+Symbol file LoadedFromMemory is not a mono symbol file
+Total cache size 268430884
+Total cache size after purge 268430884
+Total cache size 284970404
+Total cache size after purge 267772588
+Rebuilding DAG because FileSignature timestamp changed: Library/Bee/Player242cb03d-inputdata.json
+*** Tundra requires additional run (0.12 seconds), 0 items updated, 0 evaluated
+Finished compiling graph: 2218 nodes, 6202 flattened edges (6195 ToBuild, 11 ToUse), maximum node priority 1701
+[  17/2210  0s] WriteResponseFile Library/Bee/artifacts/rsp/12586308652526172903.rsp
+[ 462/2210  0s] WriteText Library/Bee/artifacts/csharpactions/boot.config_x4e9.info
+[ 494/2210  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/bin/Data/ScriptingAssemblies.json
+[ 495/2210  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/bin/Data/RuntimeInitializeOnLoads.json
+[ 496/2210  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/bin/Data/sharedassets0.resource
+[ 497/2210  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/bin/Data/data.unity3d
+[ 498/2210  0s] AddBootConfigGUID Library/Bee/artifacts/Android/boot.config
+[ 499/2210  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/bin/Data/boot.config
+[BUSY       6s] UnityLinker C:/Users/Lenovo/My First VR Project URP/Library/Bee/artifacts/unitylinker_xy1a.traceevents
+[ 500/2210  8s] UnityLinker C:/Users/Lenovo/My First VR Project URP/Library/Bee/artifacts/unitylinker_xy1a.traceevents
+C:\Program Files\Unity\Hub\Editor\2022.3.4f1\Editor\Data\il2cpp\build\deploy\UnityLinker.exe @Library\Bee\artifacts\rsp\12586308652526172903.rsp
+*** Tundra requires additional run (8.95 seconds), 9 items updated, 2210 evaluated
+*** Additional run caused by: contents change of Library/Bee/artifacts/Android/ManagedStripped
+Finished compiling graph: 2235 nodes, 6252 flattened edges (6245 ToBuild, 11 ToUse), maximum node priority 1713
+[ 128/2227  0s] WriteResponseFile Library/Bee/artifacts/rsp/13330983016929506736.rsp
+[ 472/2227  0s] WriteText Library/Bee/artifacts/csharpactions/BakeryRuntimeAssembly-FeaturesChecked.txt_0qnq.info
+[ 483/2227  0s] WriteText Library/Bee/artifacts/csharpactions/Unity.XR.Hands-FeaturesChecked.txt_t4g1.info
+[ 501/2227  0s] WriteText Library/Bee/artifacts/csharpactions/UnityEngine.TerrainModule-FeaturesChecked.txt_wybo.info
+[ 504/2227  0s] WriteText Library/Bee/artifacts/csharpactions/Unity.XR.Hands.Samples.VisualizerSample-FeaturesChecked.txt_stya.info
+[ 505/2227  0s] WriteText Library/Bee/artifacts/csharpactions/LauncherManifestDiag.txt_zvqu.info
+[ 517/2227  0s] ExtractUsedFeatures Library/Bee/artifacts/Android/Features/UnityEngine-FeaturesChecked.txt
+[ 524/2227  0s] ExtractUsedFeatures Library/Bee/artifacts/Android/Features/UnityEngine.CoreModule-FeaturesChecked.txt
+[ 525/2227  0s] ExtractUsedFeatures Library/Bee/artifacts/Android/Features/Unity.RenderPipeline.Universal.ShaderLibrary-FeaturesChecked.txt
+[ 528/2227  0s] ExtractUsedFeatures Library/Bee/artifacts/Android/Features/Unity.XR.OpenXR.Features.ConformanceAutomation-FeaturesChecked.txt
+[ 529/2227  0s] ExtractUsedFeatures Library/Bee/artifacts/Android/Features/Unity.XR.Hands.Samples.VisualizerSample-FeaturesChecked.txt
+[ 532/2227  0s] ExtractUsedFeatures Library/Bee/artifacts/Android/Features/Unity.XR.Interaction.Toolkit.Samples.DeviceSimulator-FeaturesChecked.txt
+[ 533/2227  0s] ExtractUsedFeatures Library/Bee/artifacts/Android/Features/Unity.XR.Management-FeaturesChecked.txt
+[ 534/2227  0s] ExtractUsedFeatures Library/Bee/artifacts/Android/Features/UnityEngine.SpatialTracking-FeaturesChecked.txt
+[ 535/2227  0s] ExtractUsedFeatures Library/Bee/artifacts/Android/Features/CFXRRuntime-FeaturesChecked.txt
+[ 536/2227  0s] ExtractUsedFeatures Library/Bee/artifacts/Android/Features/Unity.XR.OpenXR.Features.MetaQuestSupport-FeaturesChecked.txt
+[ 538/2227  0s] ExtractUsedFeatures Library/Bee/artifacts/Android/Features/Unity.Burst-FeaturesChecked.txt
+[ 541/2227  0s] ExtractUsedFeatures Library/Bee/artifacts/Android/Features/Unity.RenderPipelines.Universal.Runtime-FeaturesChecked.txt
+[ 543/2227  0s] ExtractUsedFeatures Library/Bee/artifacts/Android/Features/Unity.XR.Interaction.Toolkit-FeaturesChecked.txt
+[ 544/2227  0s] ICallRegistrationGenerator C:/Users/Lenovo/My First VR Project URP/Library/Bee/artifacts/Android/il2cppOutput/UnityICallRegistration.cpp
+[ 545/2227  0s] ExtractUsedFeatures Library/Bee/artifacts/Android/Features/Unity.XR.OpenXR.Features.OculusQuestSupport-FeaturesChecked.txt
+[ 546/2227  0s] ExtractUsedFeatures Library/Bee/artifacts/Android/Features/Unity.XR.OpenXR.Features.MockRuntime-FeaturesChecked.txt
+[ 548/2227  0s] ClassRegistrationGenerator C:/Users/Lenovo/My First VR Project URP/Library/Bee/artifacts/Android/il2cppOutput/UnityClassRegistration.cpp
+[ 549/2227  0s] ExtractUsedFeatures Library/Bee/artifacts/Android/Features/Unity.XR.Oculus-FeaturesChecked.txt
+[ 550/2227  0s] ExtractUsedFeatures Library/Bee/artifacts/Android/Features/Unity.XR.OpenXR-FeaturesChecked.txt
+[ 552/2227  0s] ExtractUsedFeatures Library/Bee/artifacts/Android/Features/Unity.XR.Interaction.Toolkit.Samples.StarterAssets-FeaturesChecked.txt
+[ 554/2227  0s] ExtractUsedFeatures Library/Bee/artifacts/Android/Features/YoutubePlayer-FeaturesChecked.txt
+[ 556/2227  0s] ExtractUsedFeatures Library/Bee/artifacts/Android/Features/Nova.UIControls-FeaturesChecked.txt
+[ 557/2227  0s] ExtractUsedFeatures Library/Bee/artifacts/Android/Features/Assembly-CSharp-FeaturesChecked.txt
+[ 558/2227  0s] ExtractUsedFeatures Library/Bee/artifacts/Android/Features/Newtonsoft.Json-FeaturesChecked.txt
+[ 559/2227  0s] ExtractUsedFeatures Library/Bee/artifacts/Android/Features/BakeryRuntimeAssembly-FeaturesChecked.txt
+[ 560/2227  0s] ExtractUsedFeatures Library/Bee/artifacts/Android/Features/Unity.RenderPipelines.Core.Runtime-FeaturesChecked.txt
+[ 561/2227  0s] ExtractUsedFeatures Library/Bee/artifacts/Android/Features/Unity.XR.Hands-FeaturesChecked.txt
+[ 562/2227  0s] ExtractUsedFeatures Library/Bee/artifacts/Android/Features/Nova-FeaturesChecked.txt
+[ 565/2227  0s] ExtractUsedFeatures Library/Bee/artifacts/Android/Features/Unity.XR.OpenXR.Features.RuntimeDebugger-FeaturesChecked.txt
+[ 570/2227  0s] ExtractUsedFeatures Library/Bee/artifacts/Android/Features/Micosmo.SensorToolkit-FeaturesChecked.txt
+[ 573/2227  0s] ExtractUsedFeatures Library/Bee/artifacts/Android/Features/CFXRDemo-FeaturesChecked.txt
+[ 580/2227  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Newtonsoft.Json.pdb
+[ 581/2227  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Newtonsoft.Json.dll
+[ 589/2227  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.Mathematics.pdb
+[ 590/2227  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.TextMeshPro.pdb
+[ 591/2227  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.InputSystem.pdb
+[ 592/2227  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.Collections.pdb
+[ 593/2227  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.Mathematics.dll
+[ 594/2227  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.InputSystem.dll
+[ 595/2227  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.Collections.dll
+[ 596/2227  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.TextMeshPro.dll
+[ 597/2227  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityLinkerToEditorData.json
+[ 601/2227  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.SubsystemsModule.dll
+[ 602/2227  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.XR.Interaction.Toolkit.pdb
+[ 604/2227  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.XR.Interaction.Toolkit.dll
+[ 605/2227  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.SubsystemsModule.pdb
+[ 612/2227  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.XR.Oculus.dll
+[ 613/2227  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.XR.OpenXR.dll
+[ 614/2227  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.XR.OpenXR.pdb
+[ 615/2227  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.XR.Oculus.pdb
+[ 616/2227  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.UI.pdb
+[ 617/2227  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.XR.Hands.dll
+[ 618/2227  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.XR.Hands.pdb
+[ 619/2227  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.UI.dll
+[ 620/2227  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.dll
+[ 621/2227  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.Burst.dll
+[ 622/2227  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.Burst.pdb
+[ 623/2227  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.pdb
+[ 637/2227  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.XR.CoreUtils.dll
+[ 638/2227  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.XR.CoreUtils.pdb
+[ 649/2227  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.CoreModule.pdb
+[ 651/2227  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.CoreModule.dll
+[ 652/2227  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.XR.Management.pdb
+[ 653/2227  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.XR.Management.dll
+[ 656/2227  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.TerrainModule.pdb
+[ 659/2227  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.TerrainModule.dll
+[ 663/2227  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.SpatialTracking.dll
+[ 664/2227  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.SpatialTracking.pdb
+[ 665/2227  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.XR.OpenXR.Features.MetaQuestSupport.pdb
+[ 667/2227  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.XR.OpenXR.Features.RuntimeDebugger.pdb
+[ 668/2227  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.XR.OpenXR.Features.RuntimeDebugger.dll
+[ 671/2227  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Micosmo.SensorToolkit.pdb
+[ 672/2227  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.RenderPipeline.Universal.ShaderLibrary.pdb
+[ 673/2227  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.RenderPipeline.Universal.ShaderLibrary.dll
+[ 674/2227  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Micosmo.SensorToolkit.dll
+[ 675/2227  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.XR.Interaction.Toolkit.Samples.StarterAssets.pdb
+[ 677/2227  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.XR.OpenXR.Features.ConformanceAutomation.dll
+[ 678/2227  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.XR.OpenXR.Features.ConformanceAutomation.pdb
+[ 679/2227  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Nova.pdb
+[ 680/2227  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Nova.dll
+[ 681/2227  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Assembly-CSharp.dll
+[ 683/2227  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.RenderPipelines.Core.Runtime.pdb
+[ 684/2227  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.RenderPipelines.Core.Runtime.dll
+[ 688/2227  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/YoutubePlayer.pdb
+[ 690/2227  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Nova.UIControls.pdb
+[ 691/2227  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Nova.UIControls.dll
+[ 692/2227  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/BakeryRuntimeAssembly.dll
+[ 693/2227  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/BakeryRuntimeAssembly.pdb
+[ 695/2227  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.XR.OpenXR.Features.MockRuntime.dll
+[ 698/2227  0s] ExtractUsedFeatures Library/Bee/artifacts/Android/Features/Unity.XR.CoreUtils-FeaturesChecked.txt
+[ 699/2227  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.XR.OpenXR.Features.MockRuntime.pdb
+[ 702/2227  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/CFXRDemo.pdb
+[ 703/2227  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.XR.Interaction.Toolkit.Samples.DeviceSimulator.dll
+[ 704/2227  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/CFXRDemo.dll
+[ 705/2227  0s] ExtractUsedFeatures Library/Bee/artifacts/Android/Features/UnityEngine.TerrainModule-FeaturesChecked.txt
+[ 706/2227  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/CFXRRuntime.pdb
+[ 707/2227  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/CFXRRuntime.dll
+[ 708/2227  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.XR.Hands.Samples.VisualizerSample.dll
+[ 709/2227  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.XR.Hands.Samples.VisualizerSample.pdb
+[ 711/2227  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.RenderPipelines.Universal.Runtime.dll
+[ 712/2227  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.RenderPipelines.Universal.Runtime.pdb
+[ 713/2227  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.XR.OpenXR.Features.OculusQuestSupport.dll
+[ 714/2227  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.XR.OpenXR.Features.OculusQuestSupport.pdb
+[ 715/2227  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Assembly-CSharp.pdb
+[ 716/2227  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.XR.Interaction.Toolkit.Samples.DeviceSimulator.pdb
+[ 717/2227  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/analytics.json
+[ 718/2227  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.XR.Interaction.Toolkit.Samples.StarterAssets.dll
+[ 719/2227  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.XR.OpenXR.Features.MetaQuestSupport.dll
+[ 720/2227  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/KinoBloom.Runtime.pdb
+[ 721/2227  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/YoutubePlayer.dll
+[ 722/2227  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/KinoBloom.Runtime.dll
+[ 723/2227  0s] ExtractUsedFeatures Library/Bee/artifacts/Android/Features/Unity.Mathematics-FeaturesChecked.txt
+[ 724/2227  0s] ExtractUsedFeatures Library/Bee/artifacts/Android/Features/KinoBloom.Runtime-FeaturesChecked.txt
+[ 725/2227  0s] ExtractUsedFeatures Library/Bee/artifacts/Android/Features/Unity.Collections-FeaturesChecked.txt
+[ 726/2227  0s] Compile UnityClassRegistration Library/Bee/artifacts/Android/libunity/arm64-v8a/UnityClassRegistration.o
+[ 727/2227  0s] Compile UnityClassRegistration Library/Bee/artifacts/Android/libunity/armeabi-v7a/UnityClassRegistration.o
+[ 728/2227  0s] ExtractUsedFeatures Library/Bee/artifacts/Android/Features/Unity.TextMeshPro-FeaturesChecked.txt
+[ 729/2227  0s] ExtractUsedFeatures Library/Bee/artifacts/Android/Features/UnityEngine.UI-FeaturesChecked.txt
+[ 730/2227  0s] ExtractUsedFeatures Library/Bee/artifacts/Android/Features/Unity.InputSystem-FeaturesChecked.txt
+[ 731/2227  0s] ExtractUsedFeatures Library/Bee/artifacts/Android/Features/UnityEngine.SubsystemsModule-FeaturesChecked.txt
+[ 732/2227  0s] Compile UnityICallRegistration Library/Bee/artifacts/Android/libunity/arm64-v8a/UnityICallRegistration.o
+[ 733/2227  0s] Compile UnityICallRegistration Library/Bee/artifacts/Android/libunity/armeabi-v7a/UnityICallRegistration.o
+[ 734/2227  0s] Generate Manifests Library/Bee/artifacts/Android/Manifest/LauncherManifestDiag.txt (+3 others)
+[ 735/2227  2s] Link libunity Library/Bee/artifacts/Android/libunity/arm64-v8a/unstripped/libunity.so
+[ 736/2227  2s] Link libunity Library/Bee/artifacts/Android/libunity/armeabi-v7a/unstripped/libunity.so
+[ 737/2227  0s] Stripping Library/Bee/artifacts/Android/libunity/arm64-v8a/unstripped/libunity.so -> Library/Bee/artifacts/Android/libunity/arm64-v8a/stripped/libunity.so Library/Bee/artifacts/Android/libunity/arm64-v8a/stripped/libunity.so
+[ 738/2227  0s] Generate Library/Bee/artifacts/Android/libunity/arm64-v8a/libunity.dbg.so from Library/Bee/artifacts/Android/libunity/arm64-v8a/unstripped/libunity.so Library/Bee/artifacts/Android/libunity/arm64-v8a/libunity.dbg.so
+[ 739/2227  0s] Stripping Library/Bee/artifacts/Android/libunity/armeabi-v7a/unstripped/libunity.so -> Library/Bee/artifacts/Android/libunity/armeabi-v7a/stripped/libunity.so Library/Bee/artifacts/Android/libunity/armeabi-v7a/stripped/libunity.so
+[ 740/2227  0s] Generate Library/Bee/artifacts/Android/libunity/armeabi-v7a/libunity.dbg.so from Library/Bee/artifacts/Android/libunity/armeabi-v7a/unstripped/libunity.so Library/Bee/artifacts/Android/libunity/armeabi-v7a/libunity.dbg.so
+[ 741/2227  0s] Generate Library/Bee/artifacts/Android/libunity/arm64-v8a/libunity.sym.so from Library/Bee/artifacts/Android/libunity/arm64-v8a/libunity.dbg.so Library/Bee/artifacts/Android/libunity/arm64-v8a/libunity.sym.so
+[ 742/2227  0s] Adding note Library/Bee/artifacts/Android/libunity/arm64-v8a/stripped/libunity.so -> C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/jniLibs/arm64-v8a/libunity.so C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/jniLibs/arm64-v8a/libunity.so
+[ 743/2227  0s] Generate Library/Bee/artifacts/Android/libunity/armeabi-v7a/libunity.sym.so from Library/Bee/artifacts/Android/libunity/armeabi-v7a/libunity.dbg.so Library/Bee/artifacts/Android/libunity/armeabi-v7a/libunity.sym.so
+[ 744/2227  0s] Adding note Library/Bee/artifacts/Android/libunity/armeabi-v7a/stripped/libunity.so -> C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/jniLibs/armeabi-v7a/libunity.so C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/jniLibs/armeabi-v7a/libunity.so
+[BUSY       9s] IL2CPP_CodeGen C:/Users/Lenovo/My First VR Project URP/Library/Bee/artifacts/il2cpp_conv_ack2.traceevents
+[ 745/2227 13s] IL2CPP_CodeGen C:/Users/Lenovo/My First VR Project URP/Library/Bee/artifacts/il2cpp_conv_ack2.traceevents
+C:\Program Files\Unity\Hub\Editor\2022.3.4f1\Editor\Data\il2cpp\build\deploy\il2cpp.exe @Library\Bee\artifacts\rsp\13330983016929506736.rsp
+[ 746/2227 112s] GenerateNativePluginsForAssemblies Library/Bee/artifacts/Android/AsyncPluginsFromLinker
+[ 747/2227  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/jniLibs/armeabi-v7a/lib_burst_generated.so
+[ 748/2227  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/jniLibs/arm64-v8a/lib_burst_generated.so
+*** Tundra requires additional run (113.34 seconds - 0:01:53), 143 items updated, 2227 evaluated
+*** Additional run caused by: contents change of C:/Users/Lenovo/My First VR Project URP/Library/Bee/artifacts/Android/il2cppOutput/cpp
+Finished compiling graph: 2266 nodes, 6345 flattened edges (6338 ToBuild, 11 ToUse), maximum node priority 1744
+[ 428/2258  0s] WriteResponseFile Library/Bee/artifacts/rsp/8926815466332706443.rsp
+[ 496/2258  0s] WriteResponseFile Library/Bee/artifacts/rsp/12438370367218343051.rsp
+[ 748/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/icallsummary.txt
+[ 759/2258  0s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/em4qsroamyqd.o
+[ 760/2258  0s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/psgi5ho7xqef.o
+[ 761/2258  0s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/ungg9y0ywkf1.o
+[ 763/2258  0s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/0dd17ey7n7we.o
+[ 764/2258  0s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/wvp9vuse2yd0.o
+[ 766/2258  0s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/4a9nwr907aai.o
+[ 767/2258  0s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/65llk5jcurhy.o
+[ 770/2258  0s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/huoz3rhlpfjd.o
+[ 771/2258  4s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/y3ibnhkwlluk.o
+[ 772/2258  5s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/bs4so714kgpe.o
+[ 773/2258  5s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/4od088sbb2kw.o
+[ 778/2258  5s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/d63gafmbno94.o
+[ 783/2258  0s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/rch3h0xxbx63.o
+[ 784/2258  5s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/g7wypk9zvi8k.o
+[ 785/2258  0s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/5wrz7wef8oyj.o
+[ 786/2258  5s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/drttkqzb9b0z.o
+[ 789/2258  6s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/xmdh0l3u8wl1.o
+[ 790/2258  6s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/juczy9hd3nwd.o
+[ 791/2258  7s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/83xi869e61vy.o
+[ 793/2258  7s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/hpwjn2kazbni.o
+[ 797/2258  0s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/kodann5to2sl.o
+[ 799/2258  7s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/4e68a7teldcr.o
+[ 801/2258  0s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/zdn0a2gl7z38.o
+[ 802/2258  7s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/iln16gvgwsti.o
+[ 804/2258  0s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/e1r2hai39wx8.o
+[ 805/2258  0s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/4dy3mhsktv1q.o
+[ 807/2258  7s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/nh9ah8onmngr.o
+[ 809/2258  9s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/fzci54s1rgr5.o
+[ 810/2258  7s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/5olnaoj3q4s0.o
+[ 811/2258  9s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/0msz3ex5i4b0.o
+[ 813/2258  5s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/xfsxoww0r6hd.o
+[ 814/2258  5s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/l3j530id6itr.o
+[ 815/2258  5s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/32880cc3dzfc.o
+[ 816/2258  5s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/8475cnbmvs0y.o
+[ 817/2258  4s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/5gvmrl6a7k3w.o
+[ 819/2258  0s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/yn7zps9qnxk0.o
+[ 821/2258  2s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/ecxws9lie3sz.o
+[ 825/2258  0s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/nq9avf61tdkz.o
+[ 826/2258  6s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/r35ok14f2l70.o
+[ 827/2258  7s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/yf0kqbns78ph.o
+[ 830/2258  8s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/bdt8tfiik6vm.o
+[ 831/2258  0s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/q97ckcmpmxr7.o
+[ 832/2258  1s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/7978fcuzt6pl.o
+[ 833/2258  7s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/jt7hrwbf0uay.o
+[ 834/2258  6s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/m8xkphpcbcuo.o
+[ 836/2258  1s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/yk7njehs3b59.o
+[ 837/2258  7s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/schfcs4qdxt3.o
+[ 841/2258  7s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/rbii31umqlgc.o
+[ 842/2258  0s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/cvjdvv222x8y.o
+[ 843/2258  7s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/i2g5fvhsblxk.o
+[ 845/2258  6s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/cldpevygo8c2.o
+[ 846/2258  1s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/tyvae4jsu0zi.o
+[ 848/2258  6s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/ynce9bdzv8ys.o
+[ 849/2258  0s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/6s1ecf3m6yid.o
+[ 852/2258 12s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/xe1nhldokxcq.o
+[ 853/2258  7s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/k155befzzg85.o
+[ 855/2258  0s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/aeiunazid77k.o
+[ 856/2258  3s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/ahla2ymac4kt.o
+[ 858/2258  5s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/mgae8hfjzb3z.o
+[ 859/2258  1s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/mu4k02f2qie2.o
+[ 865/2258  0s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/54h73noernl3.o
+[ 871/2258 10s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/82680vq2ysqb.o
+[ 872/2258  8s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/l1dtdt5qfjga.o
+[ 873/2258  0s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/vsp6nv63f137.o
+[ 878/2258  6s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/4atplss1h1wr.o
+[ 879/2258  6s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/y6wh0zd9b0bj.o
+[ 880/2258  0s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/byyh24y3b5uv.o
+[ 883/2258 12s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/dyedwf65p23n.o
+[ 885/2258  2s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/92ew2ahuevyf.o
+[ 887/2258  0s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/clbiei7n1mof.o
+[ 888/2258  7s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/m9ouws8oilzb.o
+[ 890/2258 10s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/5xoq0zsmmd7y.o
+[ 893/2258  0s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/5s50kqje2g6t.o
+[ 894/2258  8s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/4gnzp6fjrivs.o
+[ 895/2258  7s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/tiaxg54z1g2u.o
+[ 896/2258  7s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/dq2jdfgz12uc.o
+[ 898/2258  0s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/v8wqnvdri698.o
+[ 899/2258  7s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/l8ycpiclw9jy.o
+[ 901/2258  1s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/sz10xriwkc1t.o
+[ 903/2258  0s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/k2hkta9s2jq7.o
+[ 904/2258  5s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/qc148xn7hsdv.o
+[ 906/2258  4s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/mb4logzbala7.o
+[ 907/2258  6s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/sazvx511yejt.o
+[ 909/2258  8s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/nfrr2lmy745g.o
+[ 910/2258  0s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/6ypdznthe318.o
+[ 911/2258  6s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/zehykfu7f2sy.o
+[ 912/2258  6s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/zdqod4av8snb.o
+[ 915/2258  0s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/4o8fak272r9l.o
+[ 916/2258  7s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/93559l06l432.o
+[ 917/2258  6s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/zkb8othppjrz.o
+[ 920/2258  1s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/ah2tq64ye1ih.o
+[ 921/2258  7s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/exvqqjdlyv64.o
+[ 923/2258  0s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/pta8hpkk7cwl.o
+[ 924/2258  0s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/mfeayc4ar0le.o
+[ 925/2258  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/vexb3qllqy83.o
+[ 926/2258  1s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/ovr0iwrnzg7l.o
+[ 928/2258  5s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/er1gm5p3oe83.o
+[ 930/2258 10s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/mag433r1pu4y.o
+[ 931/2258  0s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/7v6xfrgupipz.o
+[ 936/2258  7s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/ngi19w5afeb4.o
+[ 938/2258  1s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/wzvl7hjd1npd.o
+[ 939/2258  0s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/8hteyp9s4xvg.o
+[ 940/2258  7s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/6mbrxg75roqu.o
+[ 942/2258  7s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/miekdgrxq8vo.o
+[ 943/2258  4s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/x6anyi0v0dnm.o
+[ 952/2258  9s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/491feh9oasr4.o
+[ 954/2258 11s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/osnc30t38pr0.o
+[ 956/2258  0s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/w5qpiumcvk35.o
+[ 960/2258  6s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/tj16ngoc9p7h.o
+[ 962/2258  5s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/4ijq4u5t1kmv.o
+[ 963/2258  8s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/bjniyt5ztnun.o
+[ 965/2258  8s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/24z72bz71zy1.o
+[ 966/2258  7s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/pwqn5fugu66b.o
+[ 969/2258  7s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/ye9aj03f0zku.o
+[ 970/2258  6s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/rd01hoxb53qm.o
+[ 971/2258  7s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/f6x1guzv86ut.o
+[ 973/2258  2s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/4mgiqqndb6qg.o
+[ 974/2258  8s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/2zn3mc804gux.o
+[ 975/2258  0s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/s96wx3zn8461.o
+[ 977/2258  9s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/mhk1cygqo27z.o
+[ 979/2258  6s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/eym0xuwx54bs.o
+[ 980/2258  5s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/bkes54oc1wza.o
+[ 981/2258  5s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/5q36oams5m3a.o
+[ 982/2258  7s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/5h03yyc99dpc.o
+[ 984/2258  6s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/yluuupaahqoi.o
+[ 986/2258  0s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/czwstajovgcc.o
+[ 987/2258 11s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/0kjvq87g5lz3.o
+[ 989/2258  7s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/ja1l0ayqfne0.o
+[ 992/2258  0s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/mjovq5gdor8i.o
+[ 993/2258  0s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/knfbmrgah65s.o
+[ 994/2258  0s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/uhqi18c5c4cc.o
+[ 996/2258  8s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/qwya7uk898eg.o
+[ 999/2258  8s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/c1fjgy1fwrbh.o
+[1000/2258  8s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/zcze6sri1jio.o
+[1002/2258  0s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/dwzc1iuq3l52.o
+[1004/2258  7s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/6veunsgpnx4s.o
+[1006/2258 15s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/7nao66gaf03l.o
+[1008/2258  6s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/8vlpp6j8h2mn.o
+[1010/2258  5s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/7q793pd9c9lq.o
+[1011/2258  8s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/btv2vilhspu1.o
+[1012/2258  1s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/pq7gsyejl3y7.o
+[1013/2258  7s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/8wczwh3kpbsa.o
+[1015/2258  7s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/xgj7v7fdzfn0.o
+[1016/2258  0s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/4bea4pzhkjef.o
+[1017/2258  7s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/lau3s0azm6e9.o
+[1019/2258 10s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/juyry7ur73fl.o
+[1022/2258  1s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/xpl44r9gnmzf.o
+[1026/2258  0s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/q8dip5iravj0.o
+[1027/2258  0s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/rk2eyntqojl7.o
+[1028/2258  0s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/lysjkaumkdq0.o
+[1030/2258  0s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/5itenxw6g44p.o
+[1032/2258  6s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/sbq54gle6nog.o
+[1033/2258  8s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/yml410tmozt5.o
+[1034/2258  0s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/9wi8hw6ivim1.o
+[1037/2258  0s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/6tjdv8cr5839.o
+[1038/2258  3s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/ns3m7lsumxxs.o
+[1040/2258  0s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/ljbgaztf2j5e.o
+[1041/2258  6s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/f8qiazgey6vh.o
+[1042/2258  5s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/tkbuswpjygci.o
+[1043/2258  0s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/55hpogwxeb63.o
+[1046/2258  0s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/w1wgala3kbsx.o
+[1047/2258  6s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/ggbzuexc28cx.o
+[1048/2258  2s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/i2wz9nis6aym.o
+[1049/2258  6s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/qxpke63khik3.o
+[1050/2258  7s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/6ghht2joi7rt.o
+[1051/2258  7s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/sibpg6r8mes4.o
+[1053/2258  4s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/tcgncrhisz3t.o
+[1054/2258  0s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/3zs9i0x4ffl4.o
+[1056/2258  7s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/q4obqxx0ts4j.o
+[1059/2258  5s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/j3f2olrwywac.o
+[1061/2258  0s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/qn7gcr6eggzs.o
+[1063/2258  6s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/6n204rqizxvh.o
+[1064/2258  0s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/pq0i7gbxku7j.o
+[1066/2258  0s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/gkyxn740715w.o
+[1067/2258  7s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/d0wwa28u4key.o
+[1068/2258  0s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/vexb3qllqy83.o
+[1070/2258  5s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/ct3pxxb97r25.o
+[1071/2258  6s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/pp53tqnmdg3n.o
+[1074/2258  9s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/4p49fkcoibqj.o
+[1075/2258  7s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/5nud3c0qjvnd.o
+[1076/2258  5s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/7xh8sp5utw77.o
+[1077/2258  9s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/czxz1bzqh906.o
+[1081/2258 10s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/97q0ia80be3j.o
+[1084/2258  0s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/t87b94y6upeq.o
+[1086/2258  0s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/qp5xd0vxf45u.o
+[1087/2258  0s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/ast8rr3bd8v3.o
+[1088/2258  5s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/j1xiazo7je01.o
+[1089/2258 10s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/1ucgoud4m6sf.o
+[1091/2258  6s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/r2efdql3uc2d.o
+[1092/2258  7s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/cscgqmsw0ixi.o
+[1093/2258  7s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/8uufiv0vath0.o
+[1096/2258  6s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/6otac39u6604.o
+[1097/2258  6s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/1syil6rwnw38.o
+[1098/2258  5s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/l9zksi0rk0qk.o
+[1099/2258  0s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/jj3hfnkmnhqz.o
+[1100/2258  6s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/aq0v58f9vtli.o
+[1101/2258  7s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/rc9radezxulz.o
+[1102/2258  6s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/rjubm2ktelpn.o
+[1105/2258  7s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/dsk3r1iogl5m.o
+[1107/2258  0s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/sntoaq3q22mw.o
+[1109/2258  0s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/tha4v1vuggz2.o
+[1110/2258  6s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/gdr8tywh5z6l.o
+[1111/2258  0s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/yu7uvmk49ucb.o
+[1115/2258 13s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/l0mj6hme89an.o
+[1116/2258 10s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/gbity8guls71.o
+[1118/2258  5s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/wzhgle393kbu.o
+[1121/2258  5s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/5wxgto99e41b.o
+[1122/2258  7s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/5g9trntw24jp.o
+[1123/2258 10s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/jv385k1pax10.o
+[1124/2258  0s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/kd6n6c7dwvgr.o
+[1126/2258  6s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/1suw97af8ni5.o
+[1127/2258  7s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/dpba63wmutpp.o
+[1128/2258  6s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/c0o98mi3oi6t.o
+[1131/2258  1s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/iuem6pp1917y.o
+[1134/2258  7s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/6pkkjet7dg6r.o
+[1136/2258  5s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/x71w5tj87ms9.o
+[1139/2258  6s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/k0ew42vms72i.o
+[1140/2258  0s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/4q3vd0aogwc5.o
+[1141/2258  4s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/bc2ym4y5cxqz.o
+[1142/2258  7s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/rwk58byllv3c.o
+[1147/2258  0s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/b9rrtaglh32b.o
+[1148/2258  6s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/kukm0o84iq4h.o
+[1150/2258  0s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/i8bq7t9fj5at.o
+[1151/2258  8s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/uj9tpve4osfm.o
+[1152/2258  5s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/iwmvbhua23yj.o
+[1155/2258 11s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/6fq7lr0bbym6.o
+[1157/2258  5s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/e0ei853g14n1.o
+[1158/2258  8s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/f56r9igj1xp6.o
+[1159/2258  6s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/r4wyrcos9uco.o
+[1160/2258  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/pta8hpkk7cwl.o
+[1161/2258  5s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/106ps80lwnrg.o
+[1164/2258  6s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/7wnps7unrqjj.o
+[1165/2258 17s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/s3dcmgv7hof5.o
+[1168/2258  8s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/kttctdpsbhzu.o
+[1169/2258  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/e1r2hai39wx8.o
+[1171/2258 10s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/hj29ioxspuoh.o
+[1174/2258  7s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/k9hzue55nghh.o
+[1175/2258  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/5k0ez8z8ir0l.o
+[1176/2258  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/yu7uvmk49ucb.o
+[1178/2258  3s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/ns3m7lsumxxs.o
+[1179/2258  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/vsp6nv63f137.o
+[1180/2258  7s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/1tl6gjurfxns.o
+[1181/2258  7s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/gdr8tywh5z6l.o
+[1182/2258  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/uhqi18c5c4cc.o
+[1185/2258  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/w1wgala3kbsx.o
+[1188/2258  8s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/qdseg96jp1ii.o
+[1189/2258  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/em4qsroamyqd.o
+[1190/2258 11s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/djh01p94kcro.o
+[1192/2258  8s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/k9hzue55nghh.o
+[1193/2258  5s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/tkbuswpjygci.o
+[1195/2258 11s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/agbh3pozfgkz.o
+[1197/2258  7s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/pwqn5fugu66b.o
+[1200/2258  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/yn7zps9qnxk0.o
+[1201/2258 15s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/se7h8rogl8r7.o
+[1203/2258  7s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/i2g5fvhsblxk.o
+[1204/2258  7s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/q5flx8gd1196.o
+[1205/2258  6s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/4atplss1h1wr.o
+[1210/2258 10s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/4p49fkcoibqj.o
+[1213/2258  6s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/er1gm5p3oe83.o
+[1214/2258  9s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/82680vq2ysqb.o
+[1215/2258  7s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/5h03yyc99dpc.o
+[1216/2258  6s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/qxpke63khik3.o
+[1217/2258  7s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/rbii31umqlgc.o
+[1218/2258 15s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/7nao66gaf03l.o
+[1219/2258  7s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/btv2vilhspu1.o
+[1220/2258  6s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/ydi1bpk3sqf7.o
+[1222/2258  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/byyh24y3b5uv.o
+[1223/2258  6s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/32880cc3dzfc.o
+[1226/2258  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/65llk5jcurhy.o
+[1227/2258  5s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/5wxgto99e41b.o
+[1228/2258  8s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/bdt8tfiik6vm.o
+[1230/2258  6s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/y6wh0zd9b0bj.o
+[1231/2258  6s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/sazvx511yejt.o
+[1234/2258  8s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/mhk1cygqo27z.o
+[1236/2258  7s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/imebeset31y5.o
+[1237/2258  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/kodann5to2sl.o
+[1238/2258  8s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/nh9ah8onmngr.o
+[1240/2258  5s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/ynce9bdzv8ys.o
+[1241/2258  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/sz10xriwkc1t.o
+[1243/2258 10s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/nk3vild54nal.o
+[1244/2258  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/rk2eyntqojl7.o
+[1245/2258  9s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/0msz3ex5i4b0.o
+[1250/2258  5s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/pp53tqnmdg3n.o
+[1251/2258  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/pq0i7gbxku7j.o
+[1255/2258  9s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/mag433r1pu4y.o
+[1258/2258  7s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/f56r9igj1xp6.o
+[1260/2258  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/v8wqnvdri698.o
+[1261/2258  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/ljbgaztf2j5e.o
+[1264/2258  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/clbiei7n1mof.o
+[1265/2258  8s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/bjniyt5ztnun.o
+[1268/2258 11s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/6fq7lr0bbym6.o
+[1274/2258  6s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/eym0xuwx54bs.o
+[1275/2258  4s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/bkes54oc1wza.o
+[1276/2258  5s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/e0ei853g14n1.o
+[1278/2258  6s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/aq0v58f9vtli.o
+[1279/2258  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/5wrz7wef8oyj.o
+[1280/2258  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/huoz3rhlpfjd.o
+[1281/2258  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/mfeayc4ar0le.o
+[1283/2258  5s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/f8qiazgey6vh.o
+[1285/2258  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/4a9nwr907aai.o
+[1286/2258  1s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/ac8g7sohuxwe.o
+[1291/2258  7s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/lau3s0azm6e9.o
+[1292/2258  5s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/iwmvbhua23yj.o
+[1294/2258  1s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/ah2tq64ye1ih.o
+[1295/2258  1s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/7978fcuzt6pl.o
+[1297/2258  9s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/5xoq0zsmmd7y.o
+[1298/2258 10s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/osnc30t38pr0.o
+[1302/2258  8s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/iln16gvgwsti.o
+[1303/2258  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/mjovq5gdor8i.o
+[1304/2258  6s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/drttkqzb9b0z.o
+[1305/2258  6s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/zehykfu7f2sy.o
+[1307/2258  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/dwzc1iuq3l52.o
+[1308/2258 16s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/s3dcmgv7hof5.o
+[1309/2258  5s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/rd01hoxb53qm.o
+[1313/2258 12s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/xe1nhldokxcq.o
+[1314/2258  6s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/miekdgrxq8vo.o
+[1317/2258  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/czwstajovgcc.o
+[1319/2258  7s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/dpba63wmutpp.o
+[1321/2258  4s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/l3j530id6itr.o
+[1322/2258  5s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/4od088sbb2kw.o
+[1323/2258  4s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/7xh8sp5utw77.o
+[1324/2258  7s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/j2osha8jrn5o.o
+[1326/2258  4s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/mb4logzbala7.o
+[1328/2258 10s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/hj29ioxspuoh.o
+[1329/2258 12s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/urln8v4adsox.o
+[1333/2258  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/q97ckcmpmxr7.o
+[1334/2258  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/5s50kqje2g6t.o
+[1335/2258  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/wvp9vuse2yd0.o
+[1336/2258  8s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/qdseg96jp1ii.o
+[1337/2258  7s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/q4obqxx0ts4j.o
+[1338/2258 10s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/1ucgoud4m6sf.o
+[1340/2258  7s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/xgj7v7fdzfn0.o
+[1345/2258 12s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/l0mj6hme89an.o
+[1348/2258  6s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/1syil6rwnw38.o
+[1350/2258  8s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/m9ouws8oilzb.o
+[1351/2258  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/9wi8hw6ivim1.o
+[1353/2258 10s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/agbh3pozfgkz.o
+[1354/2258  8s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/qwya7uk898eg.o
+[1355/2258  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/ast8rr3bd8v3.o
+[1357/2258  5s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/j1xiazo7je01.o
+[1359/2258  8s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/4gnzp6fjrivs.o
+[1362/2258  7s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/dz5m3qpixb9a.o
+[1364/2258  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/s96wx3zn8461.o
+[1366/2258  9s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/czxz1bzqh906.o
+[1367/2258  7s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/hpwjn2kazbni.o
+[1368/2258  5s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/qc148xn7hsdv.o
+[1369/2258  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/0dd17ey7n7we.o
+[1377/2258  7s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/ja1l0ayqfne0.o
+[1379/2258  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/nq9avf61tdkz.o
+[1382/2258  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/55hpogwxeb63.o
+[1386/2258  7s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/6veunsgpnx4s.o
+[1388/2258  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/aeiunazid77k.o
+[1389/2258  7s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/6ghht2joi7rt.o
+[1390/2258  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/1x2h1m7j1lw5.o
+[1391/2258  1s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/ovr0iwrnzg7l.o
+[1393/2258  6s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/xfsxoww0r6hd.o
+[1395/2258  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/4bea4pzhkjef.o
+[1396/2258  5s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/bs4so714kgpe.o
+[1399/2258 60s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/ee3zfrypt9u2.o
+[1400/2258  6s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/r35ok14f2l70.o
+[1401/2258  1s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/wzvl7hjd1npd.o
+[1402/2258  6s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/dq2jdfgz12uc.o
+[1403/2258  7s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/rwk58byllv3c.o
+[1404/2258  5s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/4ijq4u5t1kmv.o
+[1405/2258  6s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/schfcs4qdxt3.o
+[1406/2258  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/3zs9i0x4ffl4.o
+[1407/2258  6s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/0l1pw3dtbv6c.o
+[1409/2258  6s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/6mbrxg75roqu.o
+[1411/2258  8s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/uj9tpve4osfm.o
+[1412/2258  7s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/rc9radezxulz.o
+[1414/2258  6s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/5g9trntw24jp.o
+[1415/2258  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/t87b94y6upeq.o
+[1417/2258  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/4q3vd0aogwc5.o
+[1419/2258  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/7v6xfrgupipz.o
+[1420/2258  6s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/kukm0o84iq4h.o
+[1421/2258  7s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/cscgqmsw0ixi.o
+[1422/2258  4s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/x71w5tj87ms9.o
+[1424/2258  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/6s1ecf3m6yid.o
+[1425/2258  7s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/yf0kqbns78ph.o
+[1427/2258  7s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/kttctdpsbhzu.o
+[1429/2258  6s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/l8ycpiclw9jy.o
+[1434/2258  6s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/r2efdql3uc2d.o
+[1435/2258  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/psgi5ho7xqef.o
+[1436/2258  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/6ypdznthe318.o
+[1438/2258  1s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/9mualfyljy2h.o
+[1440/2258  4s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/y3ibnhkwlluk.o
+[1442/2258  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/ff5kr79p5b9t.o
+[1443/2258  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/i03muwmesmx7.o
+[1444/2258  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/k2hkta9s2jq7.o
+[1445/2258  5s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/c0o98mi3oi6t.o
+[1447/2258  7s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/l1dtdt5qfjga.o
+[1448/2258  6s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/zkb8othppjrz.o
+[1449/2258  5s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/48a665pc3imh.o
+[1452/2258  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/tha4v1vuggz2.o
+[1453/2258  9s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/jv385k1pax10.o
+[1454/2258  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/i8bq7t9fj5at.o
+[1456/2258  6s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/sbq54gle6nog.o
+[1459/2258  3s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/bc2ym4y5cxqz.o
+[1460/2258  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/6tjdv8cr5839.o
+[1463/2258  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/8hteyp9s4xvg.o
+[1464/2258  7s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/f6x1guzv86ut.o
+[1467/2258  4s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/tcgncrhisz3t.o
+[1468/2258  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/knfbmrgah65s.o
+[1470/2258  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/54h73noernl3.o
+[1471/2258  6s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/xmdh0l3u8wl1.o
+[1472/2258  8s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/zl2hw401wswm.o
+[1473/2258  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/ungg9y0ywkf1.o
+[1475/2258  8s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/2zn3mc804gux.o
+[1478/2258  7s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/jt7hrwbf0uay.o
+[1479/2258  6s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/k0ew42vms72i.o
+[1480/2258  7s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/zcze6sri1jio.o
+[1482/2258  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/4dy3mhsktv1q.o
+[1483/2258 11s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/0kjvq87g5lz3.o
+[1485/2258  9s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/97q0ia80be3j.o
+[1486/2258  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/rch3h0xxbx63.o
+[1487/2258  2s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/92ew2ahuevyf.o
+[1490/2258  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/cvjdvv222x8y.o
+[1491/2258  3s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/ahla2ymac4kt.o
+[1492/2258  9s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/f7obo5i8fg0g.o
+[1493/2258  8s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/c1fjgy1fwrbh.o
+[1497/2258  9s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/vve5iz2wi4vi.o
+[1498/2258  2s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/i2wz9nis6aym.o
+[1503/2258  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/gmi5kvadt40q.o
+[1504/2258  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/1p5nrtemf844.o
+[1505/2258  3s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/48vmuo8rsbn4.o
+[1507/2258  8s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/4e68a7teldcr.o
+[1508/2258  1s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/bksxr84fyzdu.o
+[1509/2258  1s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/pq7gsyejl3y7.o
+[1510/2258  5s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/ct3pxxb97r25.o
+[1511/2258  6s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/juczy9hd3nwd.o
+[1512/2258  6s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/8vlpp6j8h2mn.o
+[1513/2258  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/jj3hfnkmnhqz.o
+[1515/2258 12s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/dyedwf65p23n.o
+[1516/2258 55s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/ee3zfrypt9u2.o
+[1517/2258  7s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/8wczwh3kpbsa.o
+[1521/2258  1s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/yk7njehs3b59.o
+[1523/2258  8s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/7vd2nrtg2zej.o
+[1527/2258  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/w5qpiumcvk35.o
+[1531/2258  5s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/d63gafmbno94.o
+[1532/2258 10s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/gbity8guls71.o
+[1534/2258  7s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/k155befzzg85.o
+[1535/2258  6s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/tj16ngoc9p7h.o
+[1539/2258  6s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/6pkkjet7dg6r.o
+[1540/2258  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/gkyxn740715w.o
+[1544/2258  5s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/q4a4pvafy8nr.o
+[1545/2258  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/5itenxw6g44p.o
+[1546/2258  4s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/x6anyi0v0dnm.o
+[1547/2258  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/zdn0a2gl7z38.o
+[1549/2258  2s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/mu4k02f2qie2.o
+[1550/2258  5s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/5q36oams5m3a.o
+[1551/2258  1s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/1hjbwd1092y1.o
+[1552/2258  7s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/d0wwa28u4key.o
+[1554/2258  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/hy9nuduub9w9.o
+[1555/2258  5s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/mgae8hfjzb3z.o
+[1556/2258  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/kd6n6c7dwvgr.o
+[1558/2258 12s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/se7h8rogl8r7.o
+[1560/2258  6s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/zdqod4av8snb.o
+[1561/2258  6s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/ggbzuexc28cx.o
+[1563/2258  2s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/4mgiqqndb6qg.o
+[1564/2258  7s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/sibpg6r8mes4.o
+[1566/2258  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/b9rrtaglh32b.o
+[1569/2258  7s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/tiaxg54z1g2u.o
+[1570/2258  7s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/5olnaoj3q4s0.o
+[1571/2258  5s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/yluuupaahqoi.o
+[1572/2258  5s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/7wnps7unrqjj.o
+[1573/2258  6s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/k2wfjpyb7pdt.o
+[1578/2258  7s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/93559l06l432.o
+[1583/2258  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/qp5xd0vxf45u.o
+[1584/2258  6s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/1suw97af8ni5.o
+[1585/2258  7s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/nfrr2lmy745g.o
+[1586/2258  9s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/crl6ib9jt9rv.o
+[1588/2258  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/q8dip5iravj0.o
+[1590/2258  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/4o8fak272r9l.o
+[1591/2258  1s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/xpl44r9gnmzf.o
+[1594/2258  5s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/8475cnbmvs0y.o
+[1596/2258  8s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/24z72bz71zy1.o
+[1597/2258  6s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/r4wyrcos9uco.o
+[1598/2258  8s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/7vd2nrtg2zej.o
+[1599/2258  1s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/tyvae4jsu0zi.o
+[1602/2258  9s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/fzci54s1rgr5.o
+[1605/2258  5s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/pqwd116ykp8a.o
+[1608/2258  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/9pya4jz71min.o
+[1610/2258  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/sntoaq3q22mw.o
+[1611/2258  7s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/5nud3c0qjvnd.o
+[1613/2258  6s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/rjubm2ktelpn.o
+[1615/2258  5s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/106ps80lwnrg.o
+[1617/2258  4s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/wzhgle393kbu.o
+[1618/2258  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/f95c7nvsvqc2.o
+[1619/2258  5s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/g7wypk9zvi8k.o
+[1620/2258  6s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/dsk3r1iogl5m.o
+[1621/2258  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/xr7u3m1q8jrx.o
+[1626/2258  2s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/ecxws9lie3sz.o
+[1627/2258  7s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/83xi869e61vy.o
+[1629/2258  1s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/iuem6pp1917y.o
+[1631/2258  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/lysjkaumkdq0.o
+[1633/2258  6s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/uqud1kly5ija.o
+[1634/2258  6s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/cldpevygo8c2.o
+[1639/2258  4s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/5gvmrl6a7k3w.o
+[1642/2258  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/qn7gcr6eggzs.o
+[1646/2258  5s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/l9zksi0rk0qk.o
+[1647/2258  5s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/7q793pd9c9lq.o
+[1648/2258  5s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/in5kl3x5ab4s.o
+[1649/2258  6s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/6n204rqizxvh.o
+[1650/2258  4s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/cr7yi9lyxpb3.o
+[1651/2258  1s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/8yrqo5t7gb35.o
+[1652/2258  6s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/6otac39u6604.o
+[1653/2258  0s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/f95c7nvsvqc2.o
+[1655/2258  6s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/m8xkphpcbcuo.o
+[1656/2258  7s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/491feh9oasr4.o
+[1658/2258  0s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/gmi5kvadt40q.o
+[1659/2258  1s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/ac8g7sohuxwe.o
+[1660/2258  7s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/yml410tmozt5.o
+[1661/2258  5s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/j3f2olrwywac.o
+[1663/2258  7s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/5pcxhz2fydyn.o
+[1664/2258 10s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/djh01p94kcro.o
+[1665/2258  1s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/9mualfyljy2h.o
+[1668/2258  7s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/8uufiv0vath0.o
+[1669/2258  0s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/9pya4jz71min.o
+[1671/2258  7s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/ye9aj03f0zku.o
+[1675/2258  0s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/1p5nrtemf844.o
+[1678/2258  6s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/ngi19w5afeb4.o
+[1679/2258  0s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/1x2h1m7j1lw5.o
+[1684/2258  0s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/i03muwmesmx7.o
+[1688/2258  7s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/1tl6gjurfxns.o
+[1691/2258  5s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/q4a4pvafy8nr.o
+[1692/2258  1s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/1hjbwd1092y1.o
+[1693/2258  7s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/ka981poivpm4.o
+[1694/2258  7s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/exvqqjdlyv64.o
+[1695/2258  2s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/48vmuo8rsbn4.o
+[1696/2258  6s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/uqud1kly5ija.o
+[1697/2258  5s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/in5kl3x5ab4s.o
+[1698/2258 10s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/juyry7ur73fl.o
+[1700/2258  6s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/48a665pc3imh.o
+[1704/2258  1s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/8yrqo5t7gb35.o
+[1706/2258  1s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/bksxr84fyzdu.o
+[1709/2258  6s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/pqwd116ykp8a.o
+[1710/2258  0s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/hy9nuduub9w9.o
+[1711/2258  0s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/5k0ez8z8ir0l.o
+[1712/2258  0s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/ff5kr79p5b9t.o
+[1713/2258  8s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/5pcxhz2fydyn.o
+[1716/2258  0s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/xr7u3m1q8jrx.o
+[1723/2258  7s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/ka981poivpm4.o
+[1724/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/artifacts/Android/il2cppOutput/build/armeabi-v7a/Data/Resources/mscorlib.dll-resources.dat
+[1725/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/artifacts/Android/il2cppOutput/build/armeabi-v7a/Data/Resources/System.Data.dll-resources.dat
+[1726/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/artifacts/Android/il2cppOutput/build/armeabi-v7a/Data/Metadata/global-metadata.dat
+[1734/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.InputLegacyModule_CodeGen.c
+[1735/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.ParticleSystemModule_CodeGen.c
+[1736/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.UnityAnalyticsModule_CodeGen.c
+[1738/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.TextRenderingModule_CodeGen.c
+[1739/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.JSONSerializeModule_CodeGen.c
+[1742/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.XR.Interaction.Toolkit_CodeGen.c
+[1743/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.PropertiesModule_CodeGen.c
+[1744/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.SubsystemsModule_CodeGen.c
+[1745/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.UIElementsModule_CodeGen.c
+[1746/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/System.Runtime.Serialization_CodeGen.c
+[1747/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.AndroidJNIModule_CodeGen.c
+[1751/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__21.cpp
+[1752/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__87.cpp
+[1753/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__40.cpp
+[1754/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__41.cpp
+[1755/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__16.cpp
+[1756/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__37.cpp
+[1757/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__45.cpp
+[1758/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__73.cpp
+[1760/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__34.cpp
+[1761/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__53.cpp
+[1762/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__75.cpp
+[1764/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__35.cpp
+[1765/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__85.cpp
+[1766/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__90.cpp
+[1767/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__19.cpp
+[1768/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__26.cpp
+[1769/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__95.cpp
+[1770/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__52.cpp
+[1771/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__12.cpp
+[1772/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__49.cpp
+[1773/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__17.cpp
+[1774/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__13.cpp
+[1775/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__55.cpp
+[1777/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__50.cpp
+[1778/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__28.cpp
+[1779/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__96.cpp
+[1780/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__60.cpp
+[1782/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__97.cpp
+[1783/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__91.cpp
+[1784/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__48.cpp
+[1785/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__11.cpp
+[1786/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__92.cpp
+[1787/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__77.cpp
+[1788/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__47.cpp
+[1789/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__58.cpp
+[1791/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__25.cpp
+[1792/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__22.cpp
+[1793/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__62.cpp
+[1794/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__72.cpp
+[1795/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__80.cpp
+[1797/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__89.cpp
+[1798/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__61.cpp
+[1799/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__44.cpp
+[1800/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__46.cpp
+[1801/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__18.cpp
+[1802/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__70.cpp
+[1804/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__66.cpp
+[1806/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__56.cpp
+[1807/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__32.cpp
+[1808/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__10.cpp
+[1809/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__24.cpp
+[1810/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__43.cpp
+[1811/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__67.cpp
+[1813/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__38.cpp
+[1814/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__68.cpp
+[1815/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__42.cpp
+[1816/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__88.cpp
+[1817/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__93.cpp
+[1818/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__23.cpp
+[1819/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__63.cpp
+[1820/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__83.cpp
+[1821/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__69.cpp
+[1822/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__65.cpp
+[1823/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__79.cpp
+[1824/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__59.cpp
+[1826/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__57.cpp
+[1827/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__36.cpp
+[1828/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__78.cpp
+[1829/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__82.cpp
+[1830/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__27.cpp
+[1831/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__51.cpp
+[1832/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__86.cpp
+[1833/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__99.cpp
+[1835/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__64.cpp
+[1836/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__76.cpp
+[1837/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__39.cpp
+[1838/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__14.cpp
+[1839/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__31.cpp
+[1840/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__98.cpp
+[1841/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__74.cpp
+[1842/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__71.cpp
+[1844/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__33.cpp
+[1845/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__15.cpp
+[1846/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__30.cpp
+[1847/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__94.cpp
+[1848/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__81.cpp
+[1849/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__29.cpp
+[1850/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__54.cpp
+[1851/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__84.cpp
+[1852/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__20.cpp
+[1854/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/System_CodeGen.c
+[1855/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Il2CppTypeDefinitions.c
+[1856/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Mono.Security_CodeGen.c
+[1857/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/YoutubePlayer_CodeGen.c
+[1859/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Il2CppCCTypeValuesTable.cpp
+[1860/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.Collections_CodeGen.c
+[1861/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/KinoBloom.Runtime_CodeGen.c
+[1863/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.TextMeshPro_CodeGen.c
+[1865/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.InputSystem_CodeGen.c
+[1868/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.Mathematics_CodeGen.c
+[1869/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.XR.Oculus_CodeGen.c
+[1870/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.XR.OpenXR_CodeGen.c
+[1871/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Newtonsoft.Json_CodeGen.c
+[1872/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Nova.UIControls_CodeGen.c
+[1873/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Assembly-CSharp_CodeGen.c
+[1874/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/System.Xml.Linq_CodeGen.c
+[1875/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/System.Numerics_CodeGen.c
+[1876/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Il2CppGenericClassTable.c
+[1881/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/BakeryRuntimeAssembly.cpp
+[1882/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Il2CppCCFieldValuesTable.cpp
+[1884/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Il2CppMetadataRegistration.c
+[1886/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.XR.CoreUtils_CodeGen.c
+[1887/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.Burst.Unsafe_CodeGen.c
+[1889/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Nova_CodeGen.c
+[1917/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__8.cpp
+[1919/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__3.cpp
+[1925/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__1.cpp
+[1926/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__9.cpp
+[1931/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__2.cpp
+[1932/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__4.cpp
+[1933/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__7.cpp
+[1937/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__6.cpp
+[1938/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__5.cpp
+[1939/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/GenericMethods__18.cpp
+[1941/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/GenericMethods__17.cpp
+[1942/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/GenericMethods__11.cpp
+[1943/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/GenericMethods__26.cpp
+[1944/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/GenericMethods__27.cpp
+[1945/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/GenericMethods__32.cpp
+[1946/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/GenericMethods__29.cpp
+[1947/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/GenericMethods__19.cpp
+[1948/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/GenericMethods__20.cpp
+[1949/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/GenericMethods__30.cpp
+[1953/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Assembly-CSharp__1.cpp
+[1954/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/GenericMethods__28.cpp
+[1955/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/GenericMethods__12.cpp
+[1958/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Assembly-CSharp__2.cpp
+[1959/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/GenericMethods__15.cpp
+[1960/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/GenericMethods__25.cpp
+[1961/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/GenericMethods__24.cpp
+[1962/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/GenericMethods__16.cpp
+[1963/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/GenericMethods__13.cpp
+[1964/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/GenericMethods__34.cpp
+[1966/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Assembly-CSharp__3.cpp
+[1967/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/GenericMethods__21.cpp
+[1969/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/GenericMethods__23.cpp
+[1970/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/GenericMethods__31.cpp
+[1971/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/GenericMethods__35.cpp
+[1972/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/GenericMethods__14.cpp
+[1973/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/GenericMethods__10.cpp
+[1974/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/GenericMethods__22.cpp
+[1975/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/GenericMethods__33.cpp
+[1976/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Il2CppInvokerTable.cpp
+[1978/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Assembly-CSharp__4.cpp
+[1979/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Il2CppCCalculateTypeValues.cpp
+[1980/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.UIModule_CodeGen.c
+[1981/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.AIModule_CodeGen.c
+[1982/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.XRModule_CodeGen.c
+[1983/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.VRModule_CodeGen.c
+[1984/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/System.Configuration_CodeGen.c
+[1985/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Il2CppGenericInstDefinitions.c
+[1987/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__124.cpp
+[1988/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__109.cpp
+[1990/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__106.cpp
+[1991/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__115.cpp
+[1994/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__113.cpp
+[1995/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__119.cpp
+[1996/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__114.cpp
+[1997/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__104.cpp
+[1998/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__130.cpp
+[1999/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__107.cpp
+[2000/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__103.cpp
+[2001/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__122.cpp
+[2002/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__121.cpp
+[2003/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__108.cpp
+[2004/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__116.cpp
+[2005/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__129.cpp
+[2007/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__123.cpp
+[2008/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__102.cpp
+[2009/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__100.cpp
+[2010/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__101.cpp
+[2011/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__118.cpp
+[2016/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__110.cpp
+[2017/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__131.cpp
+[2019/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__105.cpp
+[2021/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__132.cpp
+[2022/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__125.cpp
+[2023/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__120.cpp
+[2024/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__126.cpp
+[2025/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__133.cpp
+[2026/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__127.cpp
+[2028/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__128.cpp
+[2029/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__117.cpp
+[2030/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__111.cpp
+[2031/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__112.cpp
+[2033/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/System.Xml_CodeGen.c
+[2038/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Assembly-CSharp.cpp
+[2041/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/GenericMethods__5.cpp
+[2044/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/GenericMethods__7.cpp
+[2045/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/GenericMethods__8.cpp
+[2049/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/GenericMethods__6.cpp
+[2053/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/CFXRRuntime_CodeGen.c
+[2054/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.Burst_CodeGen.c
+[2055/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/System.Core_CodeGen.c
+[2056/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/System.Data_CodeGen.c
+[2058/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/__Generated_CodeGen.c
+[2059/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Il2CppMetadataUsage.c
+[2060/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/GenericMethods__4.cpp
+[2063/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/GenericMethods__9.cpp
+[2065/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Il2CppRgctxTable.c
+[2075/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.XR.Hands.cpp
+[2088/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/CFXRDemo_CodeGen.c
+[2089/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/mscorlib_CodeGen.c
+[2101/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.UI_CodeGen.c
+[2102/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.XR.Hands_CodeGen.c
+[2112/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Il2CppCodeRegistration.cpp
+[2113/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.CoreModule.cpp
+[2114/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Il2CppGenericMethodTable.c
+[2115/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Il2CppInteropDataTable.cpp
+[2117/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.CoreModule__1.cpp
+[2121/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.XR.Management_CodeGen.c
+[2122/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.TerrainModule.cpp
+[2123/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.CoreModule__2.cpp
+[2124/2258  0s] GuidGenerator C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/bin/Data/unity_app_guid
+[2127/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.SharedInternalsModule_CodeGen.c
+[2128/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.UnityWebRequestModule_CodeGen.c
+[2129/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.XR.Hands.Samples.VisualizerSample.cpp
+[2136/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.XR.OpenXR.Features.MockRuntime_CodeGen.c
+[2138/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.TextCoreTextEngineModule_CodeGen.c
+[2139/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.TextCoreFontEngineModule_CodeGen.c
+[2144/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.XR.Interaction.Toolkit.Samples.DeviceSimulator_CodeGen.c
+[2146/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.XR.Interaction.Toolkit.Samples.DeviceSimulator.cpp
+[2147/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.XR.Hands.Samples.VisualizerSample_CodeGen.c
+[2148/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.RenderPipelines.Universal.Runtime_CodeGen.c
+[2149/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Il2CppUnresolvedIndirectCallStubs.cpp
+[2152/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.Physics2DModule_CodeGen.c
+[2153/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.SpatialTracking_CodeGen.c
+[2154/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.AnimationModule_CodeGen.c
+[2155/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/Resources/System.Data.dll-resources.dat
+[2160/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.IMGUIModule_CodeGen.c
+[2161/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.AudioModule_CodeGen.c
+[2162/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.VideoModule_CodeGen.c
+[2163/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Il2CppGenericMethodPointerTable.c
+[2164/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Il2CppGenericAdjustorThunkTable.c
+[2165/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.InputModule_CodeGen.c
+[2168/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/Resources/mscorlib.dll-resources.dat
+[2170/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.CoreModule_CodeGen.c
+[2171/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Il2CppGenericMethodDefinitions.c
+[2173/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Il2CppCCalculateFieldValues2.cpp
+[2176/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.SubsystemsModule.cpp
+[2177/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.XR.Interaction.Toolkit.cpp
+[2178/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Il2CppCCalculateFieldValues1.cpp
+[2181/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Il2CppCCalculateFieldValues3.cpp
+[2184/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.XR.OpenXR.Features.OculusQuestSupport_CodeGen.c
+[2185/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.XR.OpenXR.Features.RuntimeDebugger_CodeGen.c
+[2186/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.UnityWebRequestTextureModule_CodeGen.c
+[2189/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.RenderPipelines.Core.Runtime_CodeGen.c
+[2190/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.XR.OpenXR.Features.MetaQuestSupport_CodeGen.c
+[2192/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.XR.OpenXR.Features.ConformanceAutomation_CodeGen.c
+[2198/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.XR.Interaction.Toolkit__5.cpp
+[2202/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.XR.Interaction.Toolkit__4.cpp
+[2203/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.XR.Interaction.Toolkit__6.cpp
+[2211/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.PhysicsModule_CodeGen.c
+[2212/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.TerrainModule_CodeGen.c
+[2213/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/Metadata/global-metadata.dat
+[2214/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.XR.Interaction.Toolkit.Samples.StarterAssets_CodeGen.c
+[2217/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Il2CppCCalculateTypeValues2.cpp
+[2220/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/BakeryRuntimeAssembly_CodeGen.c
+[2221/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Il2CppCCalculateTypeValues1.cpp
+[2224/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Micosmo.SensorToolkit_CodeGen.c
+[2225/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.VFXModule_CodeGen.c
+[2226/2258  4s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/cr7yi9lyxpb3.o
+[2227/2258 10s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/vve5iz2wi4vi.o
+[2228/2258  6s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/ydi1bpk3sqf7.o
+[2229/2258  8s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/zl2hw401wswm.o
+[2230/2258  7s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/j2osha8jrn5o.o
+[2231/2258 10s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/nk3vild54nal.o
+[2232/2258  7s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/dz5m3qpixb9a.o
+[2233/2258  6s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/k2wfjpyb7pdt.o
+[2234/2258  6s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/0l1pw3dtbv6c.o
+[2235/2258  7s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/imebeset31y5.o
+[2236/2258  6s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/q5flx8gd1196.o
+[2237/2258  8s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/crl6ib9jt9rv.o
+[2238/2258  7s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/f7obo5i8fg0g.o
+[2239/2258  7s] Link_Android_arm64 Library/Bee/artifacts/Android/d8kzr/libil2cpp.so
+[2240/2258  0s] CopyFiles Library/Bee/artifacts/objcopy_5lmi/libil2cpp.dbg.so
+[2241/2258  0s] NdkObjCopy Library/Bee/artifacts/objcopy_5lmi/stripped/libil2cpp.so
+[2242/2258  9s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/urln8v4adsox.o
+[2243/2258  0s] NdkObjCopy Library/Bee/artifacts/objcopy_5lmi/libil2cpp.sym.so
+[2244/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/artifacts/Android/il2cppOutput/build/arm64-v8a/libil2cpp.sym.so
+[2245/2258  0s] NdkObjCopy Library/Bee/artifacts/objcopy_5lmi/libil2cpp.so
+[2246/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/jniLibs/arm64-v8a/libil2cpp.so
+[2247/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/artifacts/Android/il2cppOutput/build/arm64-v8a/libil2cpp.dbg.so
+[2248/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/artifacts/Android/il2cppOutput/build/arm64-v8a/libil2cpp.so
+[2249/2258  5s] Link_Android_arm32 Library/Bee/artifacts/Android/iz17e/libil2cpp.so
+[2250/2258  1s] CopyFiles Library/Bee/artifacts/objcopy_b9ry/libil2cpp.dbg.so
+[2251/2258  0s] NdkObjCopy Library/Bee/artifacts/objcopy_b9ry/stripped/libil2cpp.so
+[2252/2258  0s] NdkObjCopy Library/Bee/artifacts/objcopy_b9ry/libil2cpp.sym.so
+[2253/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/artifacts/Android/il2cppOutput/build/armeabi-v7a/libil2cpp.sym.so
+[2254/2258  0s] NdkObjCopy Library/Bee/artifacts/objcopy_b9ry/libil2cpp.so
+[2255/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/jniLibs/armeabi-v7a/libil2cpp.so
+[2256/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/artifacts/Android/il2cppOutput/build/armeabi-v7a/libil2cpp.dbg.so
+[2257/2258  0s] CopyFiles C:/Users/Lenovo/My First VR Project URP/Library/Bee/artifacts/Android/il2cppOutput/build/armeabi-v7a/libil2cpp.so
+*** Tundra build success (195.20 seconds - 0:03:15), 862 items updated, 2258 evaluated
+Total cache size 267772588
+Total cache size after purge 267772588
+2025-2-16
+Rendering UV GBuffer for Glo_LM0 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Glo_LMA1 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Glo_LMA2 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Done
+Done
+Running ftraceRTX fixpos12 "C:\Users\Lenovo\AppData\Local\Temp\frender" "uvpos_Glo_LM0.lz4" 2 0 0 0
+Running ftraceRTX fixpos12 "C:\Users\Lenovo\AppData\Local\Temp\frender" "uvpos_Glo_LMA1.lz4" 2 0 1 0
+Running ftraceRTX fixpos12 "C:\Users\Lenovo\AppData\Local\Temp\frender" "uvpos_Glo_LMA2.lz4" 2 0 2 0
+Running ftraceRTX ao "C:\Users\Lenovo\AppData\Local\Temp\frender" "Glo_LM0_ao" 8 16 0
+Running ftraceRTX ao "C:\Users\Lenovo\AppData\Local\Temp\frender" "Glo_LMA1_ao" 8 16 1
+Running ftraceRTX ao "C:\Users\Lenovo\AppData\Local\Temp\frender" "Glo_LMA2_ao" 8 16 2
+Running ftraceRTX batchpointlightlegacy "C:\Users\Lenovo\AppData\Local\Temp\frender" "PointBatch_0_0_29" 4 0 0 batchpointlight_0_0_29.bin
+Running ftraceRTX addmul "C:\Users\Lenovo\AppData\Local\Temp\frender" "Glo_LM0" 4 0 0 comp_0.bin
+Running ftraceRTX batchpointlightlegacy "C:\Users\Lenovo\AppData\Local\Temp\frender" "PointBatch_1_0_29" 4 0 1 batchpointlight_1_0_29.bin
+Running ftraceRTX addmul "C:\Users\Lenovo\AppData\Local\Temp\frender" "Glo_LMA1" 4 0 1 comp_1.bin
+Running ftraceRTX batchpointlightlegacy "C:\Users\Lenovo\AppData\Local\Temp\frender" "PointBatch_2_0_29" 4 0 2 batchpointlight_2_0_29.bin
+Running ftraceRTX addmul "C:\Users\Lenovo\AppData\Local\Temp\frender" "Glo_LMA2" 4 0 2 comp_2.bin
+Running ftraceRTX texgi "C:\Users\Lenovo\AppData\Local\Temp\frender" "Glo_LM0_diffuse" 4 16 0 "gi_Glo_LM00.bin" "Glo_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Lenovo\AppData\Local\Temp\frender" "Glo_LMA1_diffuse" 4 16 1 "gi_Glo_LMA10.bin" "Glo_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Lenovo\AppData\Local\Temp\frender" "Glo_LMA2_diffuse" 4 16 2 "gi_Glo_LMA20.bin" "Glo_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Lenovo\AppData\Local\Temp\frender" "Glo_LM0_diffuse" 4 16 0 "gi_Glo_LM01.bin" "Glo_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Lenovo\AppData\Local\Temp\frender" "Glo_LMA1_diffuse" 4 16 1 "gi_Glo_LMA11.bin" "Glo_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Lenovo\AppData\Local\Temp\frender" "Glo_LMA2_diffuse" 4 16 2 "gi_Glo_LMA21.bin" "Glo_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Lenovo\AppData\Local\Temp\frender" "Glo_LM0_diffuse" 4 16 0 "gi_Glo_LM02.bin" "Glo_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Lenovo\AppData\Local\Temp\frender" "Glo_LMA1_diffuse" 4 16 1 "gi_Glo_LMA12.bin" "Glo_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Lenovo\AppData\Local\Temp\frender" "Glo_LMA2_diffuse" 4 16 2 "gi_Glo_LMA22.bin" "Glo_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Lenovo\AppData\Local\Temp\frender" "Glo_LM0_diffuse" 4 16 0 "gi_Glo_LM03.bin" "Glo_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Lenovo\AppData\Local\Temp\frender" "Glo_LMA1_diffuse" 4 16 1 "gi_Glo_LMA13.bin" "Glo_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Lenovo\AppData\Local\Temp\frender" "Glo_LMA2_diffuse" 4 16 2 "gi_Glo_LMA23.bin" "Glo_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Lenovo\AppData\Local\Temp\frender" "Glo_LM0_final" 4 16 0 "gi_Glo_LM04.bin" "Glo_LM0_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Lenovo\AppData\Local\Temp\frender" "Glo_LMA1_final" 4 16 1 "gi_Glo_LMA14.bin" "Glo_LMA1_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Lenovo\AppData\Local\Temp\frender" "Glo_LMA2_final" 4 16 2 "gi_Glo_LMA24.bin" "Glo_LMA2_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX addao "C:\Users\Lenovo\AppData\Local\Temp\frender" "Glo_LM0_final_HDR.lz4" 4 0 0 addao_0.bin
+Running denoiserOIDN2 c "C:\Users\Lenovo\AppData\Local\Temp\frender/Glo_LM0_final_HDR.lz4" "C:\Users\Lenovo\AppData\Local\Temp\frender/Glo_LM0_final_HDR.lz4" 1024 0
+Running seamfixer "C:\Users\Lenovo\AppData\Local\Temp\frender" "0" "Glo_LM0_final_HDR.lz4"
+Running ftraceRTX addao "C:\Users\Lenovo\AppData\Local\Temp\frender" "Glo_LMA1_final_HDR.lz4" 4 0 1 addao_1.bin
+Running denoiserOIDN2 c "C:\Users\Lenovo\AppData\Local\Temp\frender/Glo_LMA1_final_HDR.lz4" "C:\Users\Lenovo\AppData\Local\Temp\frender/Glo_LMA1_final_HDR.lz4" 1024 0
+Running seamfixer "C:\Users\Lenovo\AppData\Local\Temp\frender" "1" "Glo_LMA1_final_HDR.lz4"
+Running ftraceRTX addao "C:\Users\Lenovo\AppData\Local\Temp\frender" "Glo_LMA2_final_HDR.lz4" 4 0 2 addao_2.bin
+Running denoiserOIDN2 c "C:\Users\Lenovo\AppData\Local\Temp\frender/Glo_LMA2_final_HDR.lz4" "C:\Users\Lenovo\AppData\Local\Temp\frender/Glo_LMA2_final_HDR.lz4" 1024 0
+Running seamfixer "C:\Users\Lenovo\AppData\Local\Temp\frender" "2" "Glo_LMA2_final_HDR.lz4"
+Running halffloat2hdr "C:\Users\Lenovo\AppData\Local\Temp\frender/Glo_LM0_final_HDR.lz4" "C:/Users/Lenovo/My First VR Project URP/Assets/BakeryLightmaps/Glo_LM0_final.hdr" 1024
+Running halffloat2hdr "C:\Users\Lenovo\AppData\Local\Temp\frender/Glo_LMA1_final_HDR.lz4" "C:/Users/Lenovo/My First VR Project URP/Assets/BakeryLightmaps/Glo_LMA1_final.hdr" 1024
+Running halffloat2hdr "C:\Users\Lenovo\AppData\Local\Temp\frender/Glo_LMA2_final_HDR.lz4" "C:/Users/Lenovo/My First VR Project URP/Assets/BakeryLightmaps/Glo_LMA2_final.hdr" 1024
+Total cache size 267772588
+Total cache size after purge 267772588
+Symbol file LoadedFromMemory is not a mono symbol file
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+initScene done
+Num alphas of 2048x2048: 2
+Done
+Rendering UV GBuffer for Glo_LM0 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Glo_LMA1 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Glo_LMA2 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Done
+Done
+Running ftraceRTX fixpos12 "C:\Users\Lenovo\AppData\Local\Temp\frender" "uvpos_Glo_LM0.lz4" 2 0 0 0
+Running ftraceRTX fixpos12 "C:\Users\Lenovo\AppData\Local\Temp\frender" "uvpos_Glo_LMA1.lz4" 2 0 1 0
+Running ftraceRTX fixpos12 "C:\Users\Lenovo\AppData\Local\Temp\frender" "uvpos_Glo_LMA2.lz4" 2 0 2 0
+Running ftraceRTX ao "C:\Users\Lenovo\AppData\Local\Temp\frender" "Glo_LM0_ao" 8 16 0
+Running ftraceRTX ao "C:\Users\Lenovo\AppData\Local\Temp\frender" "Glo_LMA1_ao" 8 16 1
+Running ftraceRTX ao "C:\Users\Lenovo\AppData\Local\Temp\frender" "Glo_LMA2_ao" 8 16 2
+Running ftraceRTX batchpointlightlegacy "C:\Users\Lenovo\AppData\Local\Temp\frender" "PointBatch_0_0_29" 4 0 0 batchpointlight_0_0_29.bin
+Running ftraceRTX addmul "C:\Users\Lenovo\AppData\Local\Temp\frender" "Glo_LM0" 4 0 0 comp_0.bin
+Running ftraceRTX batchpointlightlegacy "C:\Users\Lenovo\AppData\Local\Temp\frender" "PointBatch_1_0_29" 4 0 1 batchpointlight_1_0_29.bin
+Running ftraceRTX addmul "C:\Users\Lenovo\AppData\Local\Temp\frender" "Glo_LMA1" 4 0 1 comp_1.bin
+Running ftraceRTX batchpointlightlegacy "C:\Users\Lenovo\AppData\Local\Temp\frender" "PointBatch_2_0_29" 4 0 2 batchpointlight_2_0_29.bin
+Running ftraceRTX addmul "C:\Users\Lenovo\AppData\Local\Temp\frender" "Glo_LMA2" 4 0 2 comp_2.bin
+Running ftraceRTX texgi "C:\Users\Lenovo\AppData\Local\Temp\frender" "Glo_LM0_diffuse" 4 16 0 "gi_Glo_LM00.bin" "Glo_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Lenovo\AppData\Local\Temp\frender" "Glo_LMA1_diffuse" 4 16 1 "gi_Glo_LMA10.bin" "Glo_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Lenovo\AppData\Local\Temp\frender" "Glo_LMA2_diffuse" 4 16 2 "gi_Glo_LMA20.bin" "Glo_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Lenovo\AppData\Local\Temp\frender" "Glo_LM0_diffuse" 4 16 0 "gi_Glo_LM01.bin" "Glo_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Lenovo\AppData\Local\Temp\frender" "Glo_LMA1_diffuse" 4 16 1 "gi_Glo_LMA11.bin" "Glo_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Lenovo\AppData\Local\Temp\frender" "Glo_LMA2_diffuse" 4 16 2 "gi_Glo_LMA21.bin" "Glo_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Lenovo\AppData\Local\Temp\frender" "Glo_LM0_diffuse" 4 16 0 "gi_Glo_LM02.bin" "Glo_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Lenovo\AppData\Local\Temp\frender" "Glo_LMA1_diffuse" 4 16 1 "gi_Glo_LMA12.bin" "Glo_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Lenovo\AppData\Local\Temp\frender" "Glo_LMA2_diffuse" 4 16 2 "gi_Glo_LMA22.bin" "Glo_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Lenovo\AppData\Local\Temp\frender" "Glo_LM0_diffuse" 4 16 0 "gi_Glo_LM03.bin" "Glo_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Lenovo\AppData\Local\Temp\frender" "Glo_LMA1_diffuse" 4 16 1 "gi_Glo_LMA13.bin" "Glo_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Lenovo\AppData\Local\Temp\frender" "Glo_LMA2_diffuse" 4 16 2 "gi_Glo_LMA23.bin" "Glo_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Lenovo\AppData\Local\Temp\frender" "Glo_LM0_final" 4 16 0 "gi_Glo_LM04.bin" "Glo_LM0_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Lenovo\AppData\Local\Temp\frender" "Glo_LMA1_final" 4 16 1 "gi_Glo_LMA14.bin" "Glo_LMA1_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Lenovo\AppData\Local\Temp\frender" "Glo_LMA2_final" 4 16 2 "gi_Glo_LMA24.bin" "Glo_LMA2_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX addao "C:\Users\Lenovo\AppData\Local\Temp\frender" "Glo_LM0_final_HDR.lz4" 4 0 0 addao_0.bin
+Running denoiserOIDN2 c "C:\Users\Lenovo\AppData\Local\Temp\frender/Glo_LM0_final_HDR.lz4" "C:\Users\Lenovo\AppData\Local\Temp\frender/Glo_LM0_final_HDR.lz4" 1024 0
+Running seamfixer "C:\Users\Lenovo\AppData\Local\Temp\frender" "0" "Glo_LM0_final_HDR.lz4"
+Running ftraceRTX addao "C:\Users\Lenovo\AppData\Local\Temp\frender" "Glo_LMA1_final_HDR.lz4" 4 0 1 addao_1.bin
+Running denoiserOIDN2 c "C:\Users\Lenovo\AppData\Local\Temp\frender/Glo_LMA1_final_HDR.lz4" "C:\Users\Lenovo\AppData\Local\Temp\frender/Glo_LMA1_final_HDR.lz4" 1024 0
+Running seamfixer "C:\Users\Lenovo\AppData\Local\Temp\frender" "1" "Glo_LMA1_final_HDR.lz4"
+Running ftraceRTX addao "C:\Users\Lenovo\AppData\Local\Temp\frender" "Glo_LMA2_final_HDR.lz4" 4 0 2 addao_2.bin
+Running denoiserOIDN2 c "C:\Users\Lenovo\AppData\Local\Temp\frender/Glo_LMA2_final_HDR.lz4" "C:\Users\Lenovo\AppData\Local\Temp\frender/Glo_LMA2_final_HDR.lz4" 1024 0
+Running seamfixer "C:\Users\Lenovo\AppData\Local\Temp\frender" "2" "Glo_LMA2_final_HDR.lz4"
+Running halffloat2hdr "C:\Users\Lenovo\AppData\Local\Temp\frender/Glo_LM0_final_HDR.lz4" "C:/Users/Lenovo/My First VR Project URP/Assets/BakeryLightmaps/Glo_LM0_final.hdr" 1024
+Running halffloat2hdr "C:\Users\Lenovo\AppData\Local\Temp\frender/Glo_LMA1_final_HDR.lz4" "C:/Users/Lenovo/My First VR Project URP/Assets/BakeryLightmaps/Glo_LMA1_final.hdr" 1024
+Running halffloat2hdr "C:\Users\Lenovo\AppData\Local\Temp\frender/Glo_LMA2_final_HDR.lz4" "C:/Users/Lenovo/My First VR Project URP/Assets/BakeryLightmaps/Glo_LMA2_final.hdr" 1024
+[OVRPlugin][INFO] OpenXR SDK version 1.0.26[OVRPlugin][INFO] Available Extensions: (39)[OVRPlugin][INFO]  Name=XR_KHR_D3D11_enable SpecVersion=9[OVRPlugin][INFO]  Name=XR_KHR_D3D12_enable SpecVersion=9[OVRPlugin][INFO]  Name=XR_KHR_opengl_enable SpecVersion=10[OVRPlugin][INFO]  Name=XR_KHR_vulkan_enable SpecVersion=8[OVRPlugin][INFO]  Name=XR_KHR_vulkan_enable2 SpecVersion=2[OVRPlugin][INFO]  Name=XR_KHR_composition_layer_depth SpecVersion=6[OVRPlugin][INFO]  Name=XR_KHR_win32_convert_performance_counter_time SpecVersion=1[OVRPlugin][INFO]  Name=XR_KHR_convert_timespec_time SpecVersion=1[OVRPlugin][INFO]  Name=XR_KHR_composition_layer_cube SpecVersion=8[OVRPlugin][INFO]  Name=XR_KHR_composition_layer_cylinder SpecVersion=4[OVRPlugin][INFO]  Name=XR_KHR_composition_layer_equirect SpecVersion=3[OVRPlugin][INFO]  Name=XR_KHR_visibility_mask SpecVersion=2[OVRPlugin][INFO]  Name=XR_KHR_composition_layer_color_scale_bias SpecVersion=5[OVRPlugin][INFO]  Name=XR_EXT_win32_appcontainer_compatible SpecVersion=1[OVRPlugin][INFO]  Name=XR_EXT_debug_utils SpecVersion=5[OVRPlugin][INFO]  Name=XR_OCULUS_recenter_event SpecVersion=1[OVRPlugin][INFO]  Name=XR_OCULUS_audio_device_guid SpecVersion=1[OVRPlugin][INFO]  Name=XR_FB_color_space SpecVersion=3[OVRPlugin][INFO]  Name=XR_FB_display_refresh_rate SpecVersion=1[OVRPlugin][INFO]  Name=XR_META_performance_metrics SpecVersion=2[OVRPlugin][INFO]  Name=XR_META_headset_id SpecVersion=2[OVRPlugin][INFO]  Name=XR_OCULUS_ovrsession_handle SpecVersion=1[OVRPlugin][INFO]  Name=XR_EXT_hand_interaction SpecVersion=1[OVRPlugin][INFO]  Name=XR_EXT_hand_tracking SpecVersion=4[OVRPlugin][INFO]  Name=XR_FB_hand_tracking_aim SpecVersion=2[OVRPlugin][INFO]  Name=XR_FB_hand_tracking_capsules SpecVersion=3[OVRPlugin][INFO]  Name=XR_FB_hand_tracking_mesh SpecVersion=3[OVRPlugin][INFO]  Name=XR_EXT_hand_tracking_data_source SpecVersion=1[OVRPlugin][INFO]  Name=XR_META_simultaneous_hands_and_controllers SpecVersion=1[OVRPlugin][INFO]  Name=XR_EXT_local_floor SpecVersion=1[OVRPlugin][INFO]  Name=XR_EXT_active_action_set_priority SpecVersion=1[OVRPlugin][INFO]  Name=XR_FB_haptic_amplitude_envelope SpecVersion=1[OVRPlugin][INFO]  Name=XR_FB_haptic_pcm SpecVersion=1[OVRPlugin][INFO]  Name=XR_FB_touch_controller_pro SpecVersion=1[OVRPlugin][INFO]  Name=XR_META_touch_controller_plus SpecVersion=1[OVRPlugin][INFO]  Name=XR_FB_touch_controller_proximity SpecVersion=1[OVRPlugin][INFO]  Name=XR_OCULUS_external_camera SpecVersion=1[OVRPlugin][INFO]  Name=XR_META_detached_controllers SpecVersion=1[OVRPlugin][INFO]  Name=XR_LOGITECH_mx_ink_stylus_interaction SpecVersion=1[OVRPlugin][INFO] Unavailable OpenXR extension: XR_EXT_performance_settings[OVRPlugin][INFO] Unavailable OpenXR extension: XR_FB_swapchain_update_state[OVRPlugin][INFO] Unavailable OpenXR extension: XR_FB_swapchain_update_state_vulkan[OVRPlugin][INFO] Unavailable OpenXR extension: XR_FB_foveation[OVRPlugin][INFO] Unavailable OpenXR extension: XR_FB_foveation_configuration[OVRPlugin][INFO] Unavailable OpenXR extension: XR_FB_foveation_vulkan[OVRPlugin][INFO] Unavailable OpenXR extension: XR_META_vulkan_swapchain_create_info[OVRPlugin][INFO] Unavailable OpenXR extension: XR_META_foveation_eye_tracked[OVRPlugin][INFO] Unavailable OpenXR extension: XR_KHR_composition_layer_equirect2[OVRPlugin][INFO] Unavailable OpenXR extension: XR_FB_passthrough[OVRPlugin][INFO] Unavailable OpenXR extension: XR_FB_triangle_mesh[OVRPlugin][INFO] Unavailable OpenXR extension: XR_FB_passthrough_keyboard_hands[OVRPlugin][INFO] Unavailable OpenXR extension: XR_FB_render_model[OVRPlugin][INFO] Unavailable OpenXR extension: XR_FB_keyboard_tracking[OVRPlugin][INFO] Unavailable OpenXR extension: XR_METAX1_virtual_keyboard[OVRPlugin][INFO] Unavailable OpenXR extension: XR_FB_scene[OVRPlugin][INFO] Unavailable OpenXR extension: XR_FB_spatial_entity[OVRPlugin][INFO] Unavailable OpenXR extension: XR_FB_spatial_entity_container[OVRPlugin][INFO] Unavailable OpenXR extension: XR_FB_spatial_entity_query[OVRPlugin][INFO] Unavailable OpenXR extension: XR_FB_spatial_entity_storage[OVRPlugin][INFO] Unavailable OpenXR extension: XR_FB_spatial_entity_storage_batch[OVRPlugin][INFO] Unavailable OpenXR extension: XR_FB_spatial_entity_sharing[OVRPlugin][INFO] Unavailable OpenXR extension: XR_FB_spatial_entity_user[OVRPlugin][INFO] Unavailable OpenXR extension: XR_FB_face_tracking[OVRPlugin][INFO] Unavailable OpenXR extension: XR_FB_eye_tracking_social[OVRPlugin][INFO] Unavailable OpenXR extension: XR_FB_body_tracking[OVRPlugin][INFO] Initialize: xrCreateInstance() succeeded[OVRPlugin][INFO] OpenXR runtime name: Oculus, version 1.104.0[OVRPlugin][INFO] xrGetSystem() failed, which might be caused by a temporarly HMD connectivity issue. xrInstance to be destroyed[OVRPlugin][INFO] OpenXR SDK version 1.0.26[OVRPlugin][INFO] Available Extensions: (39)[OVRPlugin][INFO]  Name=XR_KHR_D3D11_enable SpecVersion=9[OVRPlugin][INFO]  Name=XR_KHR_D3D12_enable SpecVersion=9[OVRPlugin][INFO]  Name=XR_KHR_opengl_enable SpecVersion=10[OVRPlugin][INFO]  Name=XR_KHR_vulkan_enable SpecVersion=8[OVRPlugin][INFO]  Name=XR_KHR_vulkan_enable2 SpecVersion=2[OVRPlugin][INFO]  Name=XR_KHR_composition_layer_depth SpecVersion=6[OVRPlugin][INFO]  Name=XR_KHR_win32_convert_performance_counter_time SpecVersion=1[OVRPlugin][INFO]  Name=XR_KHR_convert_timespec_time SpecVersion=1[OVRPlugin][INFO]  Name=XR_KHR_composition_layer_cube SpecVersion=8[OVRPlugin][INFO]  Name=XR_KHR_composition_layer_cylinder SpecVersion=4[OVRPlugin][INFO]  Name=XR_KHR_composition_layer_equirect SpecVersion=3[OVRPlugin][INFO]  Name=XR_KHR_visibility_mask SpecVersion=2[OVRPlugin][INFO]  Name=XR_KHR_composition_layer_color_scale_bias SpecVersion=5[OVRPlugin][INFO]  Name=XR_EXT_win32_appcontainer_compatible SpecVersion=1[OVRPlugin][INFO]  Name=XR_EXT_debug_utils SpecVersion=5[OVRPlugin][INFO]  Name=XR_OCULUS_recenter_event SpecVersion=1[OVRPlugin][INFO]  Name=XR_OCULUS_audio_device_guid SpecVersion=1[OVRPlugin][INFO]  Name=XR_FB_color_space SpecVersion=3[OVRPlugin][INFO]  Name=XR_FB_display_refresh_rate SpecVersion=1[OVRPlugin][INFO]  Name=XR_META_performance_metrics SpecVersion=2[OVRPlugin][INFO]  Name=XR_META_headset_id SpecVersion=2[OVRPlugin][INFO]  Name=XR_OCULUS_ovrsession_handle SpecVersion=1[OVRPlugin][INFO]  Name=XR_EXT_hand_interaction SpecVersion=1[OVRPlugin][INFO]  Name=XR_EXT_hand_tracking SpecVersion=4[OVRPlugin][INFO]  Name=XR_FB_hand_tracking_aim SpecVersion=2[OVRPlugin][INFO]  Name=XR_FB_hand_tracking_capsules SpecVersion=3[OVRPlugin][INFO]  Name=XR_FB_hand_tracking_mesh SpecVersion=3[OVRPlugin][INFO]  Name=XR_EXT_hand_tracking_data_source SpecVersion=1[OVRPlugin][INFO]  Name=XR_META_simultaneous_hands_and_controllers SpecVersion=1[OVRPlugin][INFO]  Name=XR_EXT_local_floor SpecVersion=1[OVRPlugin][INFO]  Name=XR_EXT_active_action_set_priority SpecVersion=1[OVRPlugin][INFO]  Name=XR_FB_haptic_amplitude_envelope SpecVersion=1[OVRPlugin][INFO]  Name=XR_FB_haptic_pcm SpecVersion=1[OVRPlugin][INFO]  Name=XR_FB_touch_controller_pro SpecVersion=1[OVRPlugin][INFO]  Name=XR_META_touch_controller_plus SpecVersion=1[OVRPlugin][INFO]  Name=XR_FB_touch_controller_proximity SpecVersion=1[OVRPlugin][INFO]  Name=XR_OCULUS_external_camera SpecVersion=1[OVRPlugin][INFO]  Name=XR_META_detached_controllers SpecVersion=1[OVRPlugin][INFO]  Name=XR_LOGITECH_mx_ink_stylus_interaction SpecVersion=1[OVRPlugin][INFO] Unavailable OpenXR extension: XR_EXT_performance_settings[OVRPlugin][INFO] Unavailable OpenXR extension: XR_FB_swapchain_update_state[OVRPlugin][INFO] Unavailable OpenXR extension: XR_FB_swapchain_update_state_vulkan[OVRPlugin][INFO] Unavailable OpenXR extension: XR_FB_foveation[OVRPlugin][INFO] Unavailable OpenXR extension: XR_FB_foveation_configuration[OVRPlugin][INFO] Unavailable OpenXR extension: XR_FB_foveation_vulkan[OVRPlugin][INFO] Unavailable OpenXR extension: XR_META_vulkan_swapchain_create_info[OVRPlugin][INFO] Unavailable OpenXR extension: XR_META_foveation_eye_tracked[OVRPlugin][INFO] Unavailable OpenXR extension: XR_KHR_composition_layer_equirect2[OVRPlugin][INFO] Unavailable OpenXR extension: XR_FB_passthrough[OVRPlugin][INFO] Unavailable OpenXR extension: XR_FB_triangle_mesh[OVRPlugin][INFO] Unavailable OpenXR extension: XR_FB_passthrough_keyboard_hands[OVRPlugin][INFO] Unavailable OpenXR extension: XR_FB_render_model[OVRPlugin][INFO] Unavailable OpenXR extension: XR_FB_keyboard_tracking[OVRPlugin][INFO] Unavailable OpenXR extension: XR_METAX1_virtual_keyboard[OVRPlugin][INFO] Unavailable OpenXR extension: XR_FB_scene[OVRPlugin][INFO] Unavailable OpenXR extension: XR_FB_spatial_entity[OVRPlugin][INFO] Unavailable OpenXR extension: XR_FB_spatial_entity_container[OVRPlugin][INFO] Unavailable OpenXR extension: XR_FB_spatial_entity_query[OVRPlugin][INFO] Unavailable OpenXR extension: XR_FB_spatial_entity_storage[OVRPlugin][INFO] Unavailable OpenXR extension: XR_FB_spatial_entity_storage_batch[OVRPlugin][INFO] Unavailable OpenXR extension: XR_FB_spatial_entity_sharing[OVRPlugin][INFO] Unavailable OpenXR extension: XR_FB_spatial_entity_user[OVRPlugin][INFO] Unavailable OpenXR extension: XR_FB_face_tracking[OVRPlugin][INFO] Unavailable OpenXR extension: XR_FB_eye_tracking_social[OVRPlugin][INFO] Unavailable OpenXR extension: XR_FB_body_tracking[OVRPlugin][INFO] Initialize: xrCreateInstance() succeeded[OVRPlugin][INFO] OpenXR runtime name: Oculus, version 1.104.0[OVRPlugin][INFO] xrGetSystem() failed, which might be caused by a temporarly HMD connectivity issue. xrInstance to be destroyed[OVRPlugin][INFO] OpenXR SDK version 1.0.26[OVRPlugin][INFO] Available Extensions: (39)[OVRPlugin][INFO]  Name=XR_KHR_D3D11_enable SpecVersion=9[OVRPlugin][INFO]  Name=XR_KHR_D3D12_enable SpecVersion=9[OVRPlugin][INFO]  Name=XR_KHR_opengl_enable SpecVersion=10[OVRPlugin][INFO]  Name=XR_KHR_vulkan_enable SpecVersion=8[OVRPlugin][INFO]  Name=XR_KHR_vulkan_enable2 SpecVersion=2[OVRPlugin][INFO]  Name=XR_KHR_composition_layer_depth SpecVersion=6[OVRPlugin][INFO]  Name=XR_KHR_win32_convert_performance_counter_time SpecVersion=1[OVRPlugin][INFO]  Name=XR_KHR_convert_timespec_time SpecVersion=1[OVRPlugin][INFO]  Name=XR_KHR_composition_layer_cube SpecVersion=8[OVRPlugin][INFO]  Name=XR_KHR_composition_layer_cylinder SpecVersion=4[OVRPlugin][INFO]  Name=XR_KHR_composition_layer_equirect SpecVersion=3[OVRPlugin][INFO]  Name=XR_KHR_visibility_mask SpecVersion=2[OVRPlugin][INFO]  Name=XR_KHR_composition_layer_color_scale_bias SpecVersion=5[OVRPlugin][INFO]  Name=XR_EXT_win32_appcontainer_compatible SpecVersion=1[OVRPlugin][INFO]  Name=XR_EXT_debug_utils SpecVersion=5[OVRPlugin][INFO]  Name=XR_OCULUS_recenter_event SpecVersion=1[OVRPlugin][INFO]  Name=XR_OCULUS_audio_device_guid SpecVersion=1[OVRPlugin][INFO]  Name=XR_FB_color_space SpecVersion=3[OVRPlugin][INFO]  Name=XR_FB_display_refresh_rate SpecVersion=1[OVRPlugin][INFO]  Name=XR_META_performance_metrics SpecVersion=2[OVRPlugin][INFO]  Name=XR_META_headset_id SpecVersion=2[OVRPlugin][INFO]  Name=XR_OCULUS_ovrsession_handle SpecVersion=1[OVRPlugin][INFO]  Name=XR_EXT_hand_interaction SpecVersion=1[OVRPlugin][INFO]  Name=XR_EXT_hand_tracking SpecVersion=4[OVRPlugin][INFO]  Name=XR_FB_hand_tracking_aim SpecVersion=2[OVRPlugin][INFO]  Name=XR_FB_hand_tracking_capsules SpecVersion=3[OVRPlugin][INFO]  Name=XR_FB_hand_tracking_mesh SpecVersion=3[OVRPlugin][INFO]  Name=XR_EXT_hand_tracking_data_source SpecVersion=1[OVRPlugin][INFO]  Name=XR_META_simultaneous_hands_and_controllers SpecVersion=1[OVRPlugin][INFO]  Name=XR_EXT_local_floor SpecVersion=1[OVRPlugin][INFO]  Name=XR_EXT_active_action_set_priority SpecVersion=1[OVRPlugin][INFO]  Name=XR_FB_haptic_amplitude_envelope SpecVersion=1[OVRPlugin][INFO]  Name=XR_FB_haptic_pcm SpecVersion=1[OVRPlugin][INFO]  Name=XR_FB_touch_controller_pro SpecVersion=1[OVRPlugin][INFO]  Name=XR_META_touch_controller_plus SpecVersion=1[OVRPlugin][INFO]  Name=XR_FB_touch_controller_proximity SpecVersion=1[OVRPlugin][INFO]  Name=XR_OCULUS_external_camera SpecVersion=1[OVRPlugin][INFO]  Name=XR_META_detached_controllers SpecVersion=1[OVRPlugin][INFO]  Name=XR_LOGITECH_mx_ink_stylus_interaction SpecVersion=1[OVRPlugin][INFO] Unavailable OpenXR extension: XR_EXT_performance_settings[OVRPlugin][INFO] Unavailable OpenXR extension: XR_FB_swapchain_update_state[OVRPlugin][INFO] Unavailable OpenXR extension: XR_FB_swapchain_update_state_vulkan[OVRPlugin][INFO] Unavailable OpenXR extension: XR_FB_foveation[OVRPlugin][INFO] Unavailable OpenXR extension: XR_FB_foveation_configuration[OVRPlugin][INFO] Unavailable OpenXR extension: XR_FB_foveation_vulkan[OVRPlugin][INFO] Unavailable OpenXR extension: XR_META_vulkan_swapchain_create_info[OVRPlugin][INFO] Unavailable OpenXR extension: XR_META_foveation_eye_tracked[OVRPlugin][INFO] Unavailable OpenXR extension: XR_KHR_composition_layer_equirect2[OVRPlugin][INFO] Unavailable OpenXR extension: XR_FB_passthrough[OVRPlugin][INFO] Unavailable OpenXR extension: XR_FB_triangle_mesh[OVRPlugin][INFO] Unavailable OpenXR extension: XR_FB_passthrough_keyboard_hands[OVRPlugin][INFO] Unavailable OpenXR extension: XR_FB_render_model[OVRPlugin][INFO] Unavailable OpenXR extension: XR_FB_keyboard_tracking[OVRPlugin][INFO] Unavailable OpenXR extension: XR_METAX1_virtual_keyboard[OVRPlugin][INFO] Unavailable OpenXR extension: XR_FB_scene[OVRPlugin][INFO] Unavailable OpenXR extension: XR_FB_spatial_entity[OVRPlugin][INFO] Unavailable OpenXR extension: XR_FB_spatial_entity_container[OVRPlugin][INFO] Unavailable OpenXR extension: XR_FB_spatial_entity_query[OVRPlugin][INFO] Unavailable OpenXR extension: XR_FB_spatial_entity_storage[OVRPlugin][INFO] Unavailable OpenXR extension: XR_FB_spatial_entity_storage_batch[OVRPlugin][INFO] Unavailable OpenXR extension: XR_FB_spatial_entity_sharing[OVRPlugin][INFO] Unavailable OpenXR extension: XR_FB_spatial_entity_user[OVRPlugin][INFO] Unavailable OpenXR extension: XR_FB_face_tracking[OVRPlugin][INFO] Unavailable OpenXR extension: XR_FB_eye_tracking_social[OVRPlugin][INFO] Unavailable OpenXR extension: XR_FB_body_tracking[OVRPlugin][INFO] Initialize: xrCreateInstance() succeeded[OVRPlugin][INFO] OpenXR runtime name: Oculus, version 1.104.0[OVRPlugin][INFO] xrGetSystem() failed, which might be caused by a temporarly HMD connectivity issue. xrInstance to be destroyed[OVRPlugin][INFO] OpenXR SDK version 1.0.26[OVRPlugin][INFO] Available Extensions: (39)[OVRPlugin][INFO]  Name=XR_KHR_D3D11_enable SpecVersion=9[OVRPlugin][INFO]  Name=XR_KHR_D3D12_enable SpecVersion=9[OVRPlugin][INFO]  Name=XR_KHR_opengl_enable SpecVersion=10[OVRPlugin][INFO]  Name=XR_KHR_vulkan_enable SpecVersion=8[OVRPlugin][INFO]  Name=XR_KHR_vulkan_enable2 SpecVersion=2[OVRPlugin][INFO]  Name=XR_KHR_composition_layer_depth SpecVersion=6[OVRPlugin][INFO]  Name=XR_KHR_win32_convert_performance_counter_time SpecVersion=1[OVRPlugin][INFO]  Name=XR_KHR_convert_timespec_time SpecVersion=1[OVRPlugin][INFO]  Name=XR_KHR_composition_layer_cube SpecVersion=8[OVRPlugin][INFO]  Name=XR_KHR_composition_layer_cylinder SpecVersion=4[OVRPlugin][INFO]  Name=XR_KHR_composition_layer_equirect SpecVersion=3[OVRPlugin][INFO]  Name=XR_KHR_visibility_mask SpecVersion=2[OVRPlugin][INFO]  Name=XR_KHR_composition_layer_color_scale_bias SpecVersion=5[OVRPlugin][INFO]  Name=XR_EXT_win32_appcontainer_compatible SpecVersion=1[OVRPlugin][INFO]  Name=XR_EXT_debug_utils SpecVersion=5[OVRPlugin][INFO]  Name=XR_OCULUS_recenter_event SpecVersion=1[OVRPlugin][INFO]  Name=XR_OCULUS_audio_device_guid SpecVersion=1[OVRPlugin][INFO]  Name=XR_FB_color_space SpecVersion=3[OVRPlugin][INFO]  Name=XR_FB_display_refresh_rate SpecVersion=1[OVRPlugin][INFO]  Name=XR_META_performance_metrics SpecVersion=2[OVRPlugin][INFO]  Name=XR_META_headset_id SpecVersion=2[OVRPlugin][INFO]  Name=XR_OCULUS_ovrsession_handle SpecVersion=1[OVRPlugin][INFO]  Name=XR_EXT_hand_interaction SpecVersion=1[OVRPlugin][INFO]  Name=XR_EXT_hand_tracking SpecVersion=4[OVRPlugin][INFO]  Name=XR_FB_hand_tracking_aim SpecVersion=2[OVRPlugin][INFO]  Name=XR_FB_hand_tracking_capsules SpecVersion=3[OVRPlugin][INFO]  Name=XR_FB_hand_tracking_mesh SpecVersion=3[OVRPlugin][INFO]  Name=XR_EXT_hand_tracking_data_source SpecVersion=1[OVRPlugin][INFO]  Name=XR_META_simultaneous_hands_and_controllers SpecVersion=1[OVRPlugin][INFO]  Name=XR_EXT_local_floor SpecVersion=1[OVRPlugin][INFO]  Name=XR_EXT_active_action_set_priority SpecVersion=1[OVRPlugin][INFO]  Name=XR_FB_haptic_amplitude_envelope SpecVersion=1[OVRPlugin][INFO]  Name=XR_FB_haptic_pcm SpecVersion=1[OVRPlugin][INFO]  Name=XR_FB_touch_controller_pro SpecVersion=1[OVRPlugin][INFO]  Name=XR_META_touch_controller_plus SpecVersion=1[OVRPlugin][INFO]  Name=XR_FB_touch_controller_proximity SpecVersion=1[OVRPlugin][INFO]  Name=XR_OCULUS_external_camera SpecVersion=1[OVRPlugin][INFO]  Name=XR_META_detached_controllers SpecVersion=1[OVRPlugin][INFO]  Name=XR_LOGITECH_mx_ink_stylus_interaction SpecVersion=1[OVRPlugin][INFO] Unavailable OpenXR extension: XR_EXT_performance_settings[OVRPlugin][INFO] Unavailable OpenXR extension: XR_FB_swapchain_update_state[OVRPlugin][INFO] Unavailable OpenXR extension: XR_FB_swapchain_update_state_vulkan[OVRPlugin][INFO] Unavailable OpenXR extension: XR_FB_foveation[OVRPlugin][INFO] Unavailable OpenXR extension: XR_FB_foveation_configuration[OVRPlugin][INFO] Unavailable OpenXR extension: XR_FB_foveation_vulkan[OVRPlugin][INFO] Unavailable OpenXR extension: XR_META_vulkan_swapchain_create_info[OVRPlugin][INFO] Unavailable OpenXR extension: XR_META_foveation_eye_tracked[OVRPlugin][INFO] Unavailable OpenXR extension: XR_KHR_composition_layer_equirect2[OVRPlugin][INFO] Unavailable OpenXR extension: XR_FB_passthrough[OVRPlugin][INFO] Unavailable OpenXR extension: XR_FB_triangle_mesh[OVRPlugin][INFO] Unavailable OpenXR extension: XR_FB_passthrough_keyboard_hands[OVRPlugin][INFO] Unavailable OpenXR extension: XR_FB_render_model[OVRPlugin][INFO] Unavailable OpenXR extension: XR_FB_keyboard_tracking[OVRPlugin][INFO] Unavailable OpenXR extension: XR_METAX1_virtual_keyboard[OVRPlugin][INFO] Unavailable OpenXR extension: XR_FB_scene[OVRPlugin][INFO] Unavailable OpenXR extension: XR_FB_spatial_entity[OVRPlugin][INFO] Unavailable OpenXR extension: XR_FB_spatial_entity_container[OVRPlugin][INFO] Unavailable OpenXR extension: XR_FB_spatial_entity_query[OVRPlugin][INFO] Unavailable OpenXR extension: XR_FB_spatial_entity_storage[OVRPlugin][INFO] Unavailable OpenXR extension: XR_FB_spatial_entity_storage_batch[OVRPlugin][INFO] Unavailable OpenXR extension: XR_FB_spatial_entity_sharing[OVRPlugin][INFO] Unavailable OpenXR extension: XR_FB_spatial_entity_user[OVRPlugin][INFO] Unavailable OpenXR extension: XR_FB_face_tracking[OVRPlugin][INFO] Unavailable OpenXR extension: XR_FB_eye_tracking_social[OVRPlugin][INFO] Unavailable OpenXR extension: XR_FB_body_tracking[OVRPlugin][INFO] Initialize: xrCreateInstance() succeeded[OVRPlugin][INFO] OpenXR runtime name: Oculus, version 1.104.0[OVRPlugin][INFO] xrGetSystem() succeeded. xrSystemId 20[OVRPlugin][INFO] OpenXR system properties:
+  venderId 4294955582, systemName Oculus Quest2, maxSwapchainImage(4096, 4096), maxLayerCount 16, orientationTracking 1, positionTracking 1[OVRPlugin][INFO] OpenXR hand tracking system properties:
+  hand tracking supported 1[OVRPlugin][INFO] xrEnumerateViewConfigurationViews() found 2 views[OVRPlugin][INFO]   View: Recommended Width=2080 Height=2096 SampleCount=1 Maximum Width=4160 Height=4192 SampleCount=4[OVRPlugin][INFO]   View: Recommended Width=2080 Height=2096 SampleCount=1 Maximum Width=4160 Height=4192 SampleCount=4[OVRPlugin][INFO] [XR_SESSION] XrEventDataSessionStateChanged: state XR_SESSION_STATE_UNKNOWN->XR_SESSION_STATE_IDLE session=72158542949253121 time=152411375260900[OVRPlugin][INFO] [XR_SESSION] XrEventDataSessionStateChanged: state XR_SESSION_STATE_IDLE->XR_SESSION_STATE_READY session=72158542949253121 time=152411375269500[OVRPlugin][INFO] Supported Performance Metrics: /perfmetrics_meta/app/cpu_frametime[OVRPlugin][INFO] Supported Performance Metrics: /perfmetrics_meta/app/gpu_frametime[OVRPlugin][INFO] Supported Performance Metrics: /perfmetrics_meta/compositor/cpu_frametime[OVRPlugin][INFO] Supported Performance Metrics: /perfmetrics_meta/compositor/gpu_frametime[OVRPlugin][INFO] Supported Performance Metrics: /perfmetrics_meta/compositor/dropped_frame_count[OVRPlugin][INFO] Supported Performance Metrics: /perfmetrics_meta/compositor/spacewarp_mode[OVRPlugin][INFO] CompositorOpenXR::Initialize() - succeeded[OVRPlugin][INFO] OVRPlugin 1.83.0 ... initialized[OVRPlugin][INFO] [CompositorOpenXR::SetClientColorDesc] Change colorspace from 0 to 4[OVRPlugin][INFO] [XR_SESSION] XrEventDataSessionStateChanged: state XR_SESSION_STATE_READY->XR_SESSION_STATE_SYNCHRONIZED session=72158542949253121 time=152411986436100[OVRPlugin][INFO] [XR_SESSION] XrEventDataSessionStateChanged: state XR_SESSION_STATE_SYNCHRONIZED->XR_SESSION_STATE_VISIBLE session=72158542949253121 time=152412740207700[OVRPlugin][INFO] [XR_SESSION] XrEventDataSessionStateChanged: state XR_SESSION_STATE_VISIBLE->XR_SESSION_STATE_FOCUSED session=72158542949253121 time=152412740242200[OVRPlugin][INFO] [XR_SESSION] XrEventDataSessionStateChanged: state XR_SESSION_STATE_FOCUSED->XR_SESSION_STATE_VISIBLE session=72158542949253121 time=152438545307200[OVRPlugin][INFO] [XR_SESSION] XrEventDataSessionStateChanged: state XR_SESSION_STATE_VISIBLE->XR_SESSION_STATE_SYNCHRONIZED session=72158542949253121 time=152438545324499[OVRPlugin][INFO] [XR_SESSION] XrEventDataSessionStateChanged: state XR_SESSION_STATE_SYNCHRONIZED->XR_SESSION_STATE_STOPPING session=72158542949253121 time=152438545417700[OVRPlugin][INFO] [XR_SESSION] XrEventDataSessionStateChanged: state XR_SESSION_STATE_STOPPING->XR_SESSION_STATE_IDLE session=72158542949253121 time=152438545498100[OVRPlugin][INFO] OpenXR SDK version 1.0.26[OVRPlugin][INFO] Available Extensions: (39)[OVRPlugin][INFO]  Name=XR_KHR_D3D11_enable SpecVersion=9[OVRPlugin][INFO]  Name=XR_KHR_D3D12_enable SpecVersion=9[OVRPlugin][INFO]  Name=XR_KHR_opengl_enable SpecVersion=10[OVRPlugin][INFO]  Name=XR_KHR_vulkan_enable SpecVersion=8[OVRPlugin][INFO]  Name=XR_KHR_vulkan_enable2 SpecVersion=2[OVRPlugin][INFO]  Name=XR_KHR_composition_layer_depth SpecVersion=6[OVRPlugin][INFO]  Name=XR_KHR_win32_convert_performance_counter_time SpecVersion=1[OVRPlugin][INFO]  Name=XR_KHR_convert_timespec_time SpecVersion=1[OVRPlugin][INFO]  Name=XR_KHR_composition_layer_cube SpecVersion=8[OVRPlugin][INFO]  Name=XR_KHR_composition_layer_cylinder SpecVersion=4[OVRPlugin][INFO]  Name=XR_KHR_composition_layer_equirect SpecVersion=3[OVRPlugin][INFO]  Name=XR_KHR_visibility_mask SpecVersion=2[OVRPlugin][INFO]  Name=XR_KHR_composition_layer_color_scale_bias SpecVersion=5[OVRPlugin][INFO]  Name=XR_EXT_win32_appcontainer_compatible SpecVersion=1[OVRPlugin][INFO]  Name=XR_EXT_debug_utils SpecVersion=5[OVRPlugin][INFO]  Name=XR_OCULUS_recenter_event SpecVersion=1[OVRPlugin][INFO]  Name=XR_OCULUS_audio_device_guid SpecVersion=1[OVRPlugin][INFO]  Name=XR_FB_color_space SpecVersion=3[OVRPlugin][INFO]  Name=XR_FB_display_refresh_rate SpecVersion=1[OVRPlugin][INFO]  Name=XR_META_performance_metrics SpecVersion=2[OVRPlugin][INFO]  Name=XR_META_headset_id SpecVersion=2[OVRPlugin][INFO]  Name=XR_OCULUS_ovrsession_handle SpecVersion=1[OVRPlugin][INFO]  Name=XR_EXT_hand_interaction SpecVersion=1[OVRPlugin][INFO]  Name=XR_EXT_hand_tracking SpecVersion=4[OVRPlugin][INFO]  Name=XR_FB_hand_tracking_aim SpecVersion=2[OVRPlugin][INFO]  Name=XR_FB_hand_tracking_capsules SpecVersion=3[OVRPlugin][INFO]  Name=XR_FB_hand_tracking_mesh SpecVersion=3[OVRPlugin][INFO]  Name=XR_EXT_hand_tracking_data_source SpecVersion=1[OVRPlugin][INFO]  Name=XR_META_simultaneous_hands_and_controllers SpecVersion=1[OVRPlugin][INFO]  Name=XR_EXT_local_floor SpecVersion=1[OVRPlugin][INFO]  Name=XR_EXT_active_action_set_priority SpecVersion=1[OVRPlugin][INFO]  Name=XR_FB_haptic_amplitude_envelope SpecVersion=1[OVRPlugin][INFO]  Name=XR_FB_haptic_pcm SpecVersion=1[OVRPlugin][INFO]  Name=XR_FB_touch_controller_pro SpecVersion=1[OVRPlugin][INFO]  Name=XR_META_touch_controller_plus SpecVersion=1[OVRPlugin][INFO]  Name=XR_FB_touch_controller_proximity SpecVersion=1[OVRPlugin][INFO]  Name=XR_OCULUS_external_camera SpecVersion=1[OVRPlugin][INFO]  Name=XR_META_detached_controllers SpecVersion=1[OVRPlugin][INFO]  Name=XR_LOGITECH_mx_ink_stylus_interaction SpecVersion=1[OVRPlugin][INFO] Unavailable OpenXR extension: XR_EXT_performance_settings[OVRPlugin][INFO] Unavailable OpenXR extension: XR_FB_swapchain_update_state[OVRPlugin][INFO] Unavailable OpenXR extension: XR_FB_swapchain_update_state_vulkan[OVRPlugin][INFO] Unavailable OpenXR extension: XR_FB_foveation[OVRPlugin][INFO] Unavailable OpenXR extension: XR_FB_foveation_configuration[OVRPlugin][INFO] Unavailable OpenXR extension: XR_FB_foveation_vulkan[OVRPlugin][INFO] Unavailable OpenXR extension: XR_META_vulkan_swapchain_create_info[OVRPlugin][INFO] Unavailable OpenXR extension: XR_META_foveation_eye_tracked[OVRPlugin][INFO] Unavailable OpenXR extension: XR_KHR_composition_layer_equirect2[OVRPlugin][INFO] Unavailable OpenXR extension: XR_FB_passthrough[OVRPlugin][INFO] Unavailable OpenXR extension: XR_FB_triangle_mesh[OVRPlugin][INFO] Unavailable OpenXR extension: XR_FB_passthrough_keyboard_hands[OVRPlugin][INFO] Unavailable OpenXR extension: XR_FB_render_model[OVRPlugin][INFO] Unavailable OpenXR extension: XR_FB_keyboard_tracking[OVRPlugin][INFO] Unavailable OpenXR extension: XR_METAX1_virtual_keyboard[OVRPlugin][INFO] Unavailable OpenXR extension: XR_FB_scene[OVRPlugin][INFO] Unavailable OpenXR extension: XR_FB_spatial_entity[OVRPlugin][INFO] Unavailable OpenXR extension: XR_FB_spatial_entity_container[OVRPlugin][INFO] Unavailable OpenXR extension: XR_FB_spatial_entity_query[OVRPlugin][INFO] Unavailable OpenXR extension: XR_FB_spatial_entity_storage[OVRPlugin][INFO] Unavailable OpenXR extension: XR_FB_spatial_entity_storage_batch[OVRPlugin][INFO] Unavailable OpenXR extension: XR_FB_spatial_entity_sharing[OVRPlugin][INFO] Unavailable OpenXR extension: XR_FB_spatial_entity_user[OVRPlugin][INFO] Unavailable OpenXR extension: XR_FB_face_tracking[OVRPlugin][INFO] Unavailable OpenXR extension: XR_FB_eye_tracking_social[OVRPlugin][INFO] Unavailable OpenXR extension: XR_FB_body_tracking[OVRPlugin][INFO] Initialize: xrCreateInstance() succeeded[OVRPlugin][INFO] OpenXR runtime name: Oculus, version 1.104.0[OVRPlugin][INFO] xrGetSystem() succeeded. xrSystemId 20[OVRPlugin][INFO] OpenXR system properties:
+  venderId 4294955582, systemName Oculus Quest2, maxSwapchainImage(4096, 4096), maxLayerCount 16, orientationTracking 1, positionTracking 1[OVRPlugin][INFO] OpenXR hand tracking system properties:
+  hand tracking supported 1[OVRPlugin][INFO] xrEnumerateViewConfigurationViews() found 2 views[OVRPlugin][INFO]   View: Recommended Width=2080 Height=2096 SampleCount=1 Maximum Width=4160 Height=4192 SampleCount=4[OVRPlugin][INFO]   View: Recommended Width=2080 Height=2096 SampleCount=1 Maximum Width=4160 Height=4192 SampleCount=4[OVRPlugin][INFO] [XR_SESSION] XrEventDataSessionStateChanged: state XR_SESSION_STATE_UNKNOWN->XR_SESSION_STATE_IDLE session=72158542949253121 time=152650010305999[OVRPlugin][INFO] [XR_SESSION] XrEventDataSessionStateChanged: state XR_SESSION_STATE_IDLE->XR_SESSION_STATE_READY session=72158542949253121 time=152650010316900[OVRPlugin][INFO] Supported Performance Metrics: /perfmetrics_meta/app/cpu_frametime[OVRPlugin][INFO] Supported Performance Metrics: /perfmetrics_meta/app/gpu_frametime[OVRPlugin][INFO] Supported Performance Metrics: /perfmetrics_meta/compositor/cpu_frametime[OVRPlugin][INFO] Supported Performance Metrics: /perfmetrics_meta/compositor/gpu_frametime[OVRPlugin][INFO] Supported Performance Metrics: /perfmetrics_meta/compositor/dropped_frame_count[OVRPlugin][INFO] Supported Performance Metrics: /perfmetrics_meta/compositor/spacewarp_mode[OVRPlugin][INFO] CompositorOpenXR::Initialize() - succeeded[OVRPlugin][INFO] OVRPlugin 1.83.0 ... initialized[OVRPlugin][INFO] [CompositorOpenXR::SetClientColorDesc] Change colorspace from 0 to 4[OVRPlugin][INFO] [XR_SESSION] XrEventDataSessionStateChanged: state XR_SESSION_STATE_READY->XR_SESSION_STATE_SYNCHRONIZED session=72158542949253121 time=152650565480800[OVRPlugin][INFO] [XR_SESSION] XrEventDataSessionStateChanged: state XR_SESSION_STATE_SYNCHRONIZED->XR_SESSION_STATE_VISIBLE session=72158542949253121 time=152651665385600[OVRPlugin][INFO] [XR_SESSION] XrEventDataSessionStateChanged: state XR_SESSION_STATE_VISIBLE->XR_SESSION_STATE_FOCUSED session=72158542949253121 time=152651665392700[OVRPlugin][INFO] [XR_SESSION] XrEventDataSessionStateChanged: state XR_SESSION_STATE_FOCUSED->XR_SESSION_STATE_VISIBLE session=72158542949253121 time=152693781594100[OVRPlugin][INFO] [XR_SESSION] XrEventDataSessionStateChanged: state XR_SESSION_STATE_VISIBLE->XR_SESSION_STATE_SYNCHRONIZED session=72158542949253121 time=152693781605800[OVRPlugin][INFO] [XR_SESSION] XrEventDataSessionStateChanged: state XR_SESSION_STATE_SYNCHRONIZED->XR_SESSION_STATE_STOPPING session=72158542949253121 time=152693781679900[OVRPlugin][INFO] [XR_SESSION] XrEventDataSessionStateChanged: state XR_SESSION_STATE_STOPPING->XR_SESSION_STATE_IDLE session=72158542949253121 time=152693781746600[OVRPlugin][INFO] [XR_SESSION] XrEventDataSessionStateChanged: state XR_SESSION_STATE_IDLE->XR_SESSION_STATE_READY session=72158542949253121 time=152698096134200[OVRPlugin][INFO] [XR_SESSION] XrEventDataSessionStateChanged: state XR_SESSION_STATE_READY->XR_SESSION_STATE_SYNCHRONIZED session=72158542949253121 time=152698108896600[OVRPlugin][INFO] [XR_SESSION] XrEventDataSessionStateChanged: state XR_SESSION_STATE_SYNCHRONIZED->XR_SESSION_STATE_VISIBLE session=72158542949253121 time=152698213352800[OVRPlugin][INFO] [XR_SESSION] XrEventDataSessionStateChanged: state XR_SESSION_STATE_VISIBLE->XR_SESSION_STATE_FOCUSED session=72158542949253121 time=152698213360700[OVRPlugin][INFO] [XR_SESSION] XrEventDataSessionStateChanged: state XR_SESSION_STATE_FOCUSED->XR_SESSION_STATE_VISIBLE session=72158542949253121 time=152746753794500[OVRPlugin][INFO] [XR_SESSION] XrEventDataSessionStateChanged: state XR_SESSION_STATE_VISIBLE->XR_SESSION_STATE_SYNCHRONIZED session=72158542949253121 time=152746753806000[OVRPlugin][INFO] [XR_SESSION] XrEventDataSessionStateChanged: state XR_SESSION_STATE_SYNCHRONIZED->XR_SESSION_STATE_STOPPING session=72158542949253121 time=152746753891999[OVRPlugin][INFO] [XR_SESSION] XrEventDataSessionStateChanged: state XR_SESSION_STATE_STOPPING->XR_SESSION_STATE_IDLE session=72158542949253121 time=152746753989700

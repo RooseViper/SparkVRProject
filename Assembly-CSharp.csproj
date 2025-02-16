@@ -1082,14 +1082,14 @@
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>C:\Users\Lenovo\My First VR Project URP\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.Searcher.Editor">
+      <HintPath>C:\Users\Lenovo\My First VR Project URP\Library\ScriptAssemblies\Unity.Searcher.Editor.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.AI.Navigation.Editor">
       <HintPath>C:\Users\Lenovo\My First VR Project URP\Library\ScriptAssemblies\Unity.AI.Navigation.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.XR.OpenXR.Features.RuntimeDebugger.Editor">
       <HintPath>C:\Users\Lenovo\My First VR Project URP\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.RuntimeDebugger.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Searcher.Editor">
-      <HintPath>C:\Users\Lenovo\My First VR Project URP\Library\ScriptAssemblies\Unity.Searcher.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.State">
       <HintPath>C:\Users\Lenovo\My First VR Project URP\Library\ScriptAssemblies\Unity.VisualScripting.State.dll</HintPath>

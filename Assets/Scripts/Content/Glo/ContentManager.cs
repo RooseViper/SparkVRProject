@@ -26,7 +26,7 @@ namespace Content.Glo
             var chosenContent = contentTypes.Find(cType => cType.type == contentType);
             for (var i = 0; i < tableContents.Length; i++)
             {
-                tableContents[i].SetTitle(chosenContent.contents[i].title);
+                    tableContents[i].SetTitle(chosenContent.contents[i].title);
                 tableContents[i].SetYear(chosenContent.contents[i].year);
                 tableContents[i].SetMessage(chosenContent.contents[i].message);
                 tableContents[i].SetDisplayUiBlock(chosenContent.contents[i].sprite);
