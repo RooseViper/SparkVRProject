@@ -18,4 +18,5 @@ MonoBehaviour:
   - Assets/Models/Screen_geo.fbx
   - Assets/Models/Lights.fbx
   - Assets/Models/Wall_Frame.fbx
-  modifiedAssetPaddingHash: d6a958ff75f23a06c3f7fc9af166e2a8df4dfff0
+  - Assets/Models/led-ceiling-light/LED Ceiling Light.fbx
+  modifiedAssetPaddingHash: d6a958ff75f23a06c3f7fc9af166e2a8df4dfff07c398033

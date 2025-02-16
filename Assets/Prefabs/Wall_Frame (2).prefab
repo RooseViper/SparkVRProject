@@ -686,6 +686,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: XRCanvas Constant
       objectReference: {fileID: 0}
+    - target: {fileID: 2552190132469614616, guid: 10bc0b30d7d1f1a499f7d50cff817811,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2552190132469614616, guid: 10bc0b30d7d1f1a499f7d50cff817811,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2552190132469614616, guid: 10bc0b30d7d1f1a499f7d50cff817811,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 180
+      objectReference: {fileID: 0}
     - target: {fileID: 5435491550280416864, guid: 10bc0b30d7d1f1a499f7d50cff817811,
         type: 3}
       propertyPath: m_Pivot.x

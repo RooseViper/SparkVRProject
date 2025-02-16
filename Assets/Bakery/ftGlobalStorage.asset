@@ -18,7 +18,8 @@ MonoBehaviour:
   - Assets/Models/Screen_geo.fbx
   - Assets/Models/Lights.fbx
   - Assets/Models/Wall_Frame.fbx
-  modifiedAssetPaddingHash: d6a958ff75f23a06c3f7fc9af166e2a8df4dfff0
+  - Assets/Models/led-ceiling-light/LED Ceiling Light.fbx
+  modifiedAssetPaddingHash: d6a958ff75f23a06c3f7fc9af166e2a8df4dfff07c398033
   modifiedMeshList: []
   modifiedMeshPaddingList: 
   modifiedAssets:
@@ -418,11 +419,16 @@ MonoBehaviour:
     - Wall_Frame_1
     padding: 30000000
     unwrapper: 00000000
+  - meshName:
+    - ' Ceiling Light'
+    padding: 41000000
+    unwrapper: 00000000
   assetList:
   - Assets/Bakery/examples/content/sponza/bush.FBX
   - Assets/Bakery/examples/content/floor_lamp.FBX
   - Assets/Models/Wall_Frame.fbx
-  uvOverlapAssetList: 00000000ffffffff00000000
+  - Assets/Models/led-ceiling-light/LED Ceiling Light.fbx
+  uvOverlapAssetList: 00000000ffffffff0000000000000000
   xatlasWarningShown: 0
   foundCompatibleSetup: 1
   gpuName: NVIDIA GeForce RTX 3070 Laptop GPU
@@ -514,5 +520,5 @@ MonoBehaviour:
   renderSettingsRTPVWidth: 640
   renderSettingsRTPVHeight: 360
   tagOverrides: []
-  modifiedMeshPaddingArray: 30000000
+  modifiedMeshPaddingArray: 41000000
   modifiedMeshUnwrapperArray: 00000000
