@@ -10978,11 +10978,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: XRCanvas Exit Constant (1)
       objectReference: {fileID: 0}
-    - target: {fileID: 999032730046705885, guid: 10bc0b30d7d1f1a499f7d50cff817811,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 1053819871802020039, guid: 10bc0b30d7d1f1a499f7d50cff817811,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -14739,7 +14734,7 @@ MonoBehaviour:
   m_OriginBaseGameObject: {fileID: 1313711679}
   m_CameraFloorOffsetObject: {fileID: 650672841}
   m_RequestedTrackingOriginMode: 1
-  m_CameraYOffset: 1.3
+  m_CameraYOffset: 1.125
 --- !u!4 &1313711681
 Transform:
   m_ObjectHideFlags: 0
@@ -14749,7 +14744,7 @@ Transform:
   m_GameObject: {fileID: 1313711679}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0.7071068, z: -0, w: -0.7071068}
-  m_LocalPosition: {x: 18.71, y: 3.608, z: -24.12}
+  m_LocalPosition: {x: 18.71, y: 3.11, z: -24.12}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -14932,7 +14927,7 @@ CharacterController:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Height: 1.3
+  m_Height: 1.25
   m_Radius: 0.4
   m_SlopeLimit: 30
   m_StepOffset: 0.01
@@ -14952,7 +14947,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_LocomotionProvider: {fileID: 1313711684}
-  m_MinHeight: 1.3
+  m_MinHeight: 1.125
   m_MaxHeight: Infinity
 --- !u!43 &1319346314
 Mesh:
@@ -18041,7 +18036,7 @@ PrefabInstance:
     - target: {fileID: 5435491550280416864, guid: 10bc0b30d7d1f1a499f7d50cff817811,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -3.4060001
+      value: -4.05
       objectReference: {fileID: 0}
     - target: {fileID: 5435491550280416864, guid: 10bc0b30d7d1f1a499f7d50cff817811,
         type: 3}
@@ -19087,7 +19082,7 @@ Transform:
   m_GameObject: {fileID: 1697839341}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 11.56, y: 2.9638987, z: -28.94}
+  m_LocalPosition: {x: 11.56, y: 2.3198986, z: -28.94}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -26407,7 +26402,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: -4.453, y: -2.656}
+  m_AnchoredPosition: {x: -4.453, y: -3.3000002}
   m_SizeDelta: {x: 1744.6006, y: 1535.0409}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &7836185651990899350
