@@ -11,13 +11,13 @@ using UnityEngine.Video;
 public class GameManager : MonoBehaviour
 {
     [SerializeField]private SkyboxObject[] skyboxObjects;
-    [SerializeField] private Transform instructionsCanvas, videosInstructionsCanvas, portableMenuCanvas;
+    [SerializeField] private Transform instructionsCanvas, instructionsCanvas2, videosInstructionsCanvas, portableMenuCanvas;
     [SerializeField] private Image[] displaySkyboxImages;
     public static GameManager Instance => _instance;
     private static GameManager _instance;
     private int skyBoxIndex;
     private bool shadowsOn = true;
-    private Vector3 defaultInstructionsCanvasSize, defaultInstructionsVideoCanvasSize, defaultPortableMenuCanvasSize;
+    private Vector3 defaultInstructionsCanvasSize,defaultInstructionsCanvasSize2, defaultInstructionsVideoCanvasSize, defaultPortableMenuCanvasSize;
     private VideoPlayer intructionsVideoPlayer;
     private void Awake()
     {
@@ -29,9 +29,11 @@ public class GameManager : MonoBehaviour
     {
         Application.targetFrameRate = 60;
        defaultInstructionsCanvasSize = instructionsCanvas.localScale;
+       defaultInstructionsCanvasSize2 = instructionsCanvas2.localScale;
    //   defaultInstructionsVideoCanvasSize = videosInstructionsCanvas.localScale;
        defaultPortableMenuCanvasSize = portableMenuCanvas.localScale;
        instructionsCanvas.localScale = Vector3.zero;
+       instructionsCanvas2.localScale = Vector3.zero;
    //    videosInstructionsCanvas.localScale = Vector3.zero;
        portableMenuCanvas.localScale = Vector3.zero;
        intructionsVideoPlayer = videosInstructionsCanvas.GetComponentInChildren<VideoPlayer>();
@@ -77,6 +79,22 @@ public class GameManager : MonoBehaviour
         else
         {
             LeanTween.scale(instructionsCanvas.gameObject, Vector3.zero, 0.5f).setEaseInOutSine();
+        }
+    }
+    
+    public void ChangeInstructionsCanvas2State(bool expand)
+    {
+        /*if (LeanTween.isTweening(instructionsCanvas2.gameObject))
+        {
+            LeanTween.cancel(instructionsCanvas2.gameObject);
+        }*/
+        if (expand)
+        {
+            LeanTween.scale(instructionsCanvas2.gameObject, defaultInstructionsCanvasSize2, 0.5f).setEaseInOutSine();
+        }
+        else
+        {
+            LeanTween.scale(instructionsCanvas2.gameObject, Vector3.zero, 0.5f).setEaseInOutSine();
         }
     }
     
