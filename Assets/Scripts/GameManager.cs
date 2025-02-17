@@ -29,14 +29,21 @@ public class GameManager : MonoBehaviour
     {
         Application.targetFrameRate = 60;
        defaultInstructionsCanvasSize = instructionsCanvas.localScale;
-       defaultInstructionsVideoCanvasSize = videosInstructionsCanvas.localScale;
+   //   defaultInstructionsVideoCanvasSize = videosInstructionsCanvas.localScale;
        defaultPortableMenuCanvasSize = portableMenuCanvas.localScale;
        instructionsCanvas.localScale = Vector3.zero;
-       videosInstructionsCanvas.localScale = Vector3.zero;
+   //    videosInstructionsCanvas.localScale = Vector3.zero;
        portableMenuCanvas.localScale = Vector3.zero;
        intructionsVideoPlayer = videosInstructionsCanvas.GetComponentInChildren<VideoPlayer>();
+       StartCoroutine(OpenInstructionsCoroutine());
     }
- 
+
+    private IEnumerator OpenInstructionsCoroutine()
+    {
+        yield return new WaitForSeconds(1f);
+        ChangeInstructionsCanvasState(true);
+    }
+
     public void ChangeSkyBox()
     {
         skyBoxIndex++;
