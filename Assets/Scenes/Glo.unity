@@ -3461,6 +3461,19 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+      - m_Target: {fileID: 1313711687}
+        m_TargetAssemblyTypeName: UnityEngine.XR.Interaction.Toolkit.ContinuousMoveProviderBase,
+          Unity.XR.Interaction.Toolkit
+        m_MethodName: set_moveSpeed
+        m_Mode: 4
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 1.25
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
 --- !u!114 &212768444
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4169,14 +4182,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_RaycastTarget: 0
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: ff2eb2903b8b64443923541d566cfcfd, type: 3}
+  m_Sprite: {fileID: 0}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -9849,7 +9862,7 @@ RectTransform:
   m_GameObject: {fileID: 862760385}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: -0.9}
-  m_LocalScale: {x: 0.81144, y: 0.81144, z: 0.81144}
+  m_LocalScale: {x: 0.75406307, y: 0.75406307, z: 0.75406307}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 2037510252}
@@ -9857,8 +9870,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 735, y: 562}
-  m_SizeDelta: {x: 324.4, y: 289.5}
+  m_AnchoredPosition: {x: 7, y: -597}
+  m_SizeDelta: {x: 960.5, y: 289.5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &862760387
 MonoBehaviour:
@@ -12034,7 +12047,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerRig: {fileID: 1313711681}
-  teleportTransform: {fileID: 1948099168}
+  teleportTransformLevel: {fileID: 1948099168}
+  teleportTransformStartScene: {fileID: 1437943661}
 --- !u!1 &996856098
 GameObject:
   m_ObjectHideFlags: 0
@@ -13636,6 +13650,19 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 1313711687}
+        m_TargetAssemblyTypeName: UnityEngine.XR.Interaction.Toolkit.ContinuousMoveProviderBase,
+          Unity.XR.Interaction.Toolkit
+        m_MethodName: set_moveSpeed
+        m_Mode: 4
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 1.25
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
@@ -15445,7 +15472,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_System: {fileID: 1313711683}
-  m_MoveSpeed: 1.25
+  m_MoveSpeed: 0
   m_EnableStrafe: 1
   m_EnableFly: 0
   m_UseGravity: 1
@@ -15960,7 +15987,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -9, y: -584}
+  m_AnchoredPosition: {x: -9, y: -428.99982}
   m_SizeDelta: {x: 803.7, y: 320.4}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1404094606
@@ -16199,6 +16226,37 @@ SphereCollider:
   serializedVersion: 3
   m_Radius: 0.12
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!1 &1437943660
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1437943661}
+  m_Layer: 10
+  m_Name: Starting Start Scene Position
+  m_TagString: Untagged
+  m_Icon: {fileID: 8418204508859773708, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1437943661
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1437943660}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: -0.7071068}
+  m_LocalPosition: {x: 18.71, y: 3.474, z: -24.12}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1459101464
 GameObject:
   m_ObjectHideFlags: 0
@@ -18151,7 +18209,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -32.300415, y: -57.999977}
+  m_AnchoredPosition: {x: -32.300415, y: 97}
   m_SizeDelta: {x: 742.1, y: 444.9}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1541345528
@@ -18462,6 +18520,19 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 1313711687}
+        m_TargetAssemblyTypeName: UnityEngine.XR.Interaction.Toolkit.ContinuousMoveProviderBase,
+          Unity.XR.Interaction.Toolkit
+        m_MethodName: set_moveSpeed
+        m_Mode: 4
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 1.25
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
@@ -22401,7 +22472,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1948099168}
   m_Layer: 0
-  m_Name: Starting Player Position
+  m_Name: Starting Level Position
   m_TagString: Untagged
   m_Icon: {fileID: 8418204508859773708, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
@@ -23619,9 +23690,9 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 6383b54bbbeab4044b280a43461b82ef, type: 3}
-    m_FontSize: 202
-    m_FontStyle: 1
+    m_Font: {fileID: 12800000, guid: 241ff35478d222140b2bfdde52b04828, type: 3}
+    m_FontSize: 123
+    m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 10
     m_MaxSize: 300
@@ -23631,7 +23702,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: X
+  m_Text: Continue
 --- !u!222 &2037510254
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -25097,14 +25168,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_RaycastTarget: 0
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: ff2eb2903b8b64443923541d566cfcfd, type: 3}
+  m_Sprite: {fileID: 0}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -28081,6 +28152,7 @@ SceneRoots:
   - {fileID: 1503078863}
   - {fileID: 1149575278}
   - {fileID: 1697839347}
+  - {fileID: 1437943661}
   - {fileID: 1948099168}
   - {fileID: 112594235}
   - {fileID: 1780846744}

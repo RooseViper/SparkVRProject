@@ -6,7 +6,7 @@ using UnityEngine;
 public class PlayerManager : MonoBehaviour
 {
    public Transform playerRig;
-   [SerializeField] private Transform teleportTransform;
+   [SerializeField] private Transform teleportTransformLevel, teleportTransformStartScene;
    public static PlayerManager Instance => _instance;
    private static PlayerManager _instance;
 
@@ -14,8 +14,24 @@ public class PlayerManager : MonoBehaviour
    {
       _instance = this;
    }
+
+   private void Start()
+   {
+      StartCoroutine(SnapPlayerCoroutine());
+   }
+
+   /// <summary>
+   /// Snaps Player to starting room
+   /// </summary>
+   /// <returns></returns>
+   private IEnumerator SnapPlayerCoroutine()
+   {
+      yield return new WaitForEndOfFrame();
+      playerRig.SetLocalPositionAndRotation(teleportTransformStartScene.position, Quaternion.Euler(teleportTransformStartScene.eulerAngles));
+   }
+
    public void Teleport()
    {
-      playerRig.SetLocalPositionAndRotation(teleportTransform.position, Quaternion.Euler(teleportTransform.eulerAngles));
+      playerRig.SetLocalPositionAndRotation(teleportTransformLevel.position, Quaternion.Euler(teleportTransformLevel.eulerAngles));
    }
 }
