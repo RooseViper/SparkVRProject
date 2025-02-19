@@ -21,7 +21,7 @@ public class ToggleRay : MonoBehaviour
     private void Awake()
     {
         rayInteractor = GetComponent<XRRayInteractor>();
-        SwitchInteractors(false);
+        SwitchInteractors(true);
     }
 
     public void ActivateRay()
