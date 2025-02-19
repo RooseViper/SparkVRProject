@@ -15303,7 +15303,7 @@ MonoBehaviour:
   m_OriginBaseGameObject: {fileID: 1313711679}
   m_CameraFloorOffsetObject: {fileID: 650672841}
   m_RequestedTrackingOriginMode: 1
-  m_CameraYOffset: 1.125
+  m_CameraYOffset: 1.825
 --- !u!4 &1313711681
 Transform:
   m_ObjectHideFlags: 0
@@ -15313,7 +15313,7 @@ Transform:
   m_GameObject: {fileID: 1313711679}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0.7071068, z: -0, w: -0.7071068}
-  m_LocalPosition: {x: 18.71, y: 3.11, z: -24.12}
+  m_LocalPosition: {x: 18.71, y: 3.474, z: -24.12}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -15449,7 +15449,7 @@ MonoBehaviour:
   m_EnableStrafe: 1
   m_EnableFly: 0
   m_UseGravity: 1
-  m_GravityApplicationMode: 0
+  m_GravityApplicationMode: 1
   m_ForwardSource: {fileID: 920921511}
   m_LeftHandMoveAction:
     m_UseReference: 1
@@ -15496,7 +15496,7 @@ CharacterController:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Height: 4
+  m_Height: 2.26
   m_Radius: 0.4
   m_SlopeLimit: 30
   m_StepOffset: 0.01
@@ -15516,7 +15516,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_LocomotionProvider: {fileID: 1313711684}
-  m_MinHeight: 4
+  m_MinHeight: 2.26
   m_MaxHeight: Infinity
 --- !u!43 &1319346314
 Mesh:
