@@ -22880,222 +22880,186 @@ MonoBehaviour:
       audioClip: {fileID: 8300000, guid: 7dd72da6aa812da48b98341ff9079054, type: 3}
   - type: Glo
     contents:
-    - title: Glo Sample
-      year: 2025
-      message: 'Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo!
-        Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo!
-        Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo!
-        Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo!
-        Glo! Glo! Glo! Glo! Glo! '
-      sprite: {fileID: 21300000, guid: d9f092c122e0ba147aec045ecb218147, type: 3}
-      audioClip: {fileID: 8300000, guid: 16fba6d30ed741d4a9fdd6e79ee2f3ac, type: 3}
-    - title: Glo Sample
-      year: 2025
-      message: 'Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo!
-        Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo!
-        Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo!
-        Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo!
-        Glo! Glo! Glo! Glo! Glo! '
-      sprite: {fileID: 21300000, guid: d9f092c122e0ba147aec045ecb218147, type: 3}
-      audioClip: {fileID: 8300000, guid: 16fba6d30ed741d4a9fdd6e79ee2f3ac, type: 3}
-    - title: Glo Sample
-      year: 2025
-      message: 'Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo!
-        Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo!
-        Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo!
-        Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo!
-        Glo! Glo! Glo! Glo! Glo! '
-      sprite: {fileID: 21300000, guid: d9f092c122e0ba147aec045ecb218147, type: 3}
-      audioClip: {fileID: 8300000, guid: 16fba6d30ed741d4a9fdd6e79ee2f3ac, type: 3}
-    - title: Glo Sample
-      year: 2025
-      message: 'Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo!
-        Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo!
-        Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo!
-        Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo!
-        Glo! Glo! Glo! Glo! Glo! '
-      sprite: {fileID: 21300000, guid: d9f092c122e0ba147aec045ecb218147, type: 3}
-      audioClip: {fileID: 8300000, guid: 16fba6d30ed741d4a9fdd6e79ee2f3ac, type: 3}
-    - title: Glo Sample
-      year: 2025
-      message: 'Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo!
-        Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo!
-        Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo!
-        Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo!
-        Glo! Glo! Glo! Glo! Glo! '
-      sprite: {fileID: 21300000, guid: d9f092c122e0ba147aec045ecb218147, type: 3}
-      audioClip: {fileID: 8300000, guid: 16fba6d30ed741d4a9fdd6e79ee2f3ac, type: 3}
-    - title: Glo Sample
-      year: 2025
-      message: 'Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo!
-        Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo!
-        Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo!
-        Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo!
-        Glo! Glo! Glo! Glo! Glo! '
-      sprite: {fileID: 21300000, guid: d9f092c122e0ba147aec045ecb218147, type: 3}
-      audioClip: {fileID: 8300000, guid: 16fba6d30ed741d4a9fdd6e79ee2f3ac, type: 3}
-    - title: Glo Sample
-      year: 2025
-      message: 'Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo!
-        Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo!
-        Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo!
-        Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo!
-        Glo! Glo! Glo! Glo! Glo! '
-      sprite: {fileID: 21300000, guid: d9f092c122e0ba147aec045ecb218147, type: 3}
-      audioClip: {fileID: 8300000, guid: 16fba6d30ed741d4a9fdd6e79ee2f3ac, type: 3}
-    - title: Glo Sample
-      year: 2025
-      message: 'Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo!
-        Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo!
-        Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo!
-        Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo!
-        Glo! Glo! Glo! Glo! Glo! '
-      sprite: {fileID: 21300000, guid: d9f092c122e0ba147aec045ecb218147, type: 3}
-      audioClip: {fileID: 8300000, guid: 16fba6d30ed741d4a9fdd6e79ee2f3ac, type: 3}
-    - title: Glo Sample
-      year: 2025
-      message: 'Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo!
-        Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo!
-        Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo!
-        Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo!
-        Glo! Glo! Glo! Glo! Glo! '
-      sprite: {fileID: 21300000, guid: d9f092c122e0ba147aec045ecb218147, type: 3}
-      audioClip: {fileID: 8300000, guid: 16fba6d30ed741d4a9fdd6e79ee2f3ac, type: 3}
-    - title: Glo Sample
-      year: 2025
-      message: 'Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo!
-        Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo!
-        Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo!
-        Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo!
-        Glo! Glo! Glo! Glo! Glo! '
-      sprite: {fileID: 21300000, guid: d9f092c122e0ba147aec045ecb218147, type: 3}
-      audioClip: {fileID: 8300000, guid: 16fba6d30ed741d4a9fdd6e79ee2f3ac, type: 3}
-    - title: Glo Sample
-      year: 2025
-      message: 'Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo!
-        Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo!
-        Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo!
-        Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo!
-        Glo! Glo! Glo! Glo! Glo! '
-      sprite: {fileID: 21300000, guid: d9f092c122e0ba147aec045ecb218147, type: 3}
-      audioClip: {fileID: 8300000, guid: 16fba6d30ed741d4a9fdd6e79ee2f3ac, type: 3}
-    - title: Glo Sample
-      year: 2025
-      message: 'Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo!
-        Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo!
-        Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo!
-        Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo!
-        Glo! Glo! Glo! Glo! Glo! '
-      sprite: {fileID: 21300000, guid: d9f092c122e0ba147aec045ecb218147, type: 3}
-      audioClip: {fileID: 8300000, guid: 16fba6d30ed741d4a9fdd6e79ee2f3ac, type: 3}
-    - title: Glo Sample
-      year: 2025
-      message: 'Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo!
-        Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo!
-        Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo!
-        Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo!
-        Glo! Glo! Glo! Glo! Glo! '
-      sprite: {fileID: 21300000, guid: d9f092c122e0ba147aec045ecb218147, type: 3}
-      audioClip: {fileID: 8300000, guid: 16fba6d30ed741d4a9fdd6e79ee2f3ac, type: 3}
-    - title: Glo Sample
-      year: 2025
-      message: 'Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo!
-        Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo!
-        Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo!
-        Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo!
-        Glo! Glo! Glo! Glo! Glo! '
-      sprite: {fileID: 21300000, guid: d9f092c122e0ba147aec045ecb218147, type: 3}
-      audioClip: {fileID: 8300000, guid: 16fba6d30ed741d4a9fdd6e79ee2f3ac, type: 3}
-    - title: Glo Sample
-      year: 2025
-      message: 'Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo!
-        Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo!
-        Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo!
-        Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo!
-        Glo! Glo! Glo! Glo! Glo! '
-      sprite: {fileID: 21300000, guid: d9f092c122e0ba147aec045ecb218147, type: 3}
-      audioClip: {fileID: 8300000, guid: 16fba6d30ed741d4a9fdd6e79ee2f3ac, type: 3}
-    - title: Glo Sample
-      year: 2025
-      message: 'Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo!
-        Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo!
-        Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo!
-        Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo!
-        Glo! Glo! Glo! Glo! Glo! '
-      sprite: {fileID: 21300000, guid: d9f092c122e0ba147aec045ecb218147, type: 3}
-      audioClip: {fileID: 8300000, guid: 16fba6d30ed741d4a9fdd6e79ee2f3ac, type: 3}
-    - title: Glo Sample
-      year: 2025
-      message: 'Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo!
-        Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo!
-        Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo!
-        Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo!
-        Glo! Glo! Glo! Glo! Glo! '
-      sprite: {fileID: 21300000, guid: d9f092c122e0ba147aec045ecb218147, type: 3}
-      audioClip: {fileID: 8300000, guid: 16fba6d30ed741d4a9fdd6e79ee2f3ac, type: 3}
-    - title: Glo Sample
-      year: 2025
-      message: 'Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo!
-        Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo!
-        Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo!
-        Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo!
-        Glo! Glo! Glo! Glo! Glo! '
-      sprite: {fileID: 21300000, guid: d9f092c122e0ba147aec045ecb218147, type: 3}
-      audioClip: {fileID: 8300000, guid: 16fba6d30ed741d4a9fdd6e79ee2f3ac, type: 3}
-    - title: Glo Sample
-      year: 2025
-      message: 'Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo!
-        Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo!
-        Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo!
-        Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo!
-        Glo! Glo! Glo! Glo! Glo! '
-      sprite: {fileID: 21300000, guid: d9f092c122e0ba147aec045ecb218147, type: 3}
-      audioClip: {fileID: 8300000, guid: 16fba6d30ed741d4a9fdd6e79ee2f3ac, type: 3}
-    - title: Glo Sample
-      year: 2025
-      message: 'Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo!
-        Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo!
-        Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo!
-        Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo!
-        Glo! Glo! Glo! Glo! Glo! '
-      sprite: {fileID: 21300000, guid: d9f092c122e0ba147aec045ecb218147, type: 3}
-      audioClip: {fileID: 8300000, guid: 16fba6d30ed741d4a9fdd6e79ee2f3ac, type: 3}
-    - title: Glo Sample
-      year: 2025
-      message: 'Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo!
-        Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo!
-        Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo!
-        Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo!
-        Glo! Glo! Glo! Glo! Glo! '
-      sprite: {fileID: 21300000, guid: d9f092c122e0ba147aec045ecb218147, type: 3}
-      audioClip: {fileID: 8300000, guid: 16fba6d30ed741d4a9fdd6e79ee2f3ac, type: 3}
-    - title: Glo Sample
-      year: 2025
-      message: 'Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo!
-        Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo!
-        Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo!
-        Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo!
-        Glo! Glo! Glo! Glo! Glo! '
-      sprite: {fileID: 21300000, guid: d9f092c122e0ba147aec045ecb218147, type: 3}
-      audioClip: {fileID: 8300000, guid: 16fba6d30ed741d4a9fdd6e79ee2f3ac, type: 3}
-    - title: Glo Sample
-      year: 2025
-      message: 'Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo!
-        Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo!
-        Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo!
-        Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo!
-        Glo! Glo! Glo! Glo! Glo! '
-      sprite: {fileID: 21300000, guid: d9f092c122e0ba147aec045ecb218147, type: 3}
-      audioClip: {fileID: 8300000, guid: 16fba6d30ed741d4a9fdd6e79ee2f3ac, type: 3}
-    - title: Glo Sample
-      year: 2025
-      message: 'Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo!
-        Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo!
-        Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo!
-        Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo! Glo!
-        Glo! Glo! Glo! Glo! Glo! '
-      sprite: {fileID: 21300000, guid: d9f092c122e0ba147aec045ecb218147, type: 3}
-      audioClip: {fileID: 8300000, guid: 16fba6d30ed741d4a9fdd6e79ee2f3ac, type: 3}
+    - title: '#1'
+      year: 2002
+      message: "The NCC awarded Globacom Limited (GLO) the fourth Nigerian digital
+        mobile license for US$200 million, along with permission to build the country\u2019s
+        second fixed line network."
+      sprite: {fileID: 0}
+      audioClip: {fileID: 8300000, guid: 048f21f10670c754699cf85e08d0479a, type: 3}
+    - title: '#2'
+      year: 2003
+      message: "Glo Mobile launched in Nigeria, offering affordable rates and pioneering
+        Per Second Billing, earning its chairman the nickname Mr. Per Second. It
+        sponsored the 8th All Africa Games and CHOGM in Abuja and has consistently
+        been Nigeria\u2019s top sports sponsor, supporting national teams, leagues,
+        and activities. "
+      sprite: {fileID: 0}
+      audioClip: {fileID: 8300000, guid: 3cdea0a3f417ecb4cb519a17cc9f2a54, type: 3}
+    - title: '#3'
+      year: 2004
+      message: 'Globacom pioneered General Packet Radio Services (GPRS) in Nigeria
+        and introduced Text2Email. It also launched gateway switches outside Africa
+        to carry international voice and data traffic, making it the first African
+        operator to do so. '
+      sprite: {fileID: 0}
+      audioClip: {fileID: 8300000, guid: 966de34cd800e2e49b2af75c5cd79f2c, type: 3}
+    - title: '#4'
+      year: 2005
+      message: Pioneered mobile banking in Nigeria. Introduced Glo Fleet Manager
+        Vehicle Tracking Solution, Glo Mobile Internet, and Glo Direct. Partnered
+        with the FG to provide free SIMs and directories to government agencies.
+        Supported African talents through the CAF Awards and sponsorship of the Super
+        Eagles and Enyimba FC.
+      sprite: {fileID: 0}
+      audioClip: {fileID: 8300000, guid: ec47c623edbd98e41a7d297207ae8f78, type: 3}
+    - title: '#5'
+      year: 2005
+      message: Globacom partnered with NDDC, NAPEP, and later Shell Petroleum Development
+        Company (SPDC) to create job opportunities for youths in the Niger Delta
+        through call centre packages. The partnership extended to Kwara, Bauchi,
+        Imo, Edo, Niger, Ogun, and Osun.
+      sprite: {fileID: 0}
+      audioClip: {fileID: 8300000, guid: 082e6286751d29e4ea1387637a39ac1f, type: 3}
+    - title: '#6'
+      year: 2006
+      message: 'Glo pioneered Blackberry services supporting push email, mobile phone,
+        text messaging, web browsing, and other wireless information services. '
+      sprite: {fileID: 0}
+      audioClip: {fileID: 8300000, guid: 675f3358de02fad4f87c3e13aafb7275, type: 3}
+    - title: '#7'
+      year: 2007
+      message: Globacom pioneered 3G Plus in Nigeria, enabling faster data, voice,
+        broadband internet, and multimedia service transmission over various frequencies.
+        It revolutionised digital data transfer and relay.
+      sprite: {fileID: 0}
+      audioClip: {fileID: 8300000, guid: 24d6f8273b7cd76449f74e8b9a883146, type: 3}
+    - title: '#8'
+      year: 2008
+      message: "Globacom\u2019s nationwide entertainment project, Rock \u2019n\u2019
+        Rule, aimed to strengthen its bond with the youth. It also launched Broad
+        Access, responsible for laying the fibre optic network and offering fixed
+        line services. Also acquire license in Ghana."
+      sprite: {fileID: 0}
+      audioClip: {fileID: 8300000, guid: a941f5fa10b6fd742b20b88110329301, type: 3}
+    - title: '#9'
+      year: 2009
+      message: Globacom became an official sponsor of  Manchester United FC to show
+        its support for sports talent
+      sprite: {fileID: 0}
+      audioClip: {fileID: 8300000, guid: 7bf3a0a3d7bb34b4e8af3221d905e06d, type: 3}
+    - title: '#10'
+      year: 2010
+      message: "Globacom partnered with CNN to sponsor its popular program, African
+        Voices. With M-Net, organised the music talent discovery reality show \u201CGlo
+        Naija Sings\u201D, launching singers like Boma, Niniola among others. They
+        also completed a high-capacity fibre optic submarine cable from the UK to
+        Nigeria."
+      sprite: {fileID: 0}
+      audioClip: {fileID: 8300000, guid: 1c89efa7f60e1a04fa09da11aad56462, type: 3}
+    - title: '#11'
+      year: '2011 '
+      message: Globacom signed a five-year sponsorship deal with the Nigeria Football
+        Federation worth N2 billion, making it a major partner and official sponsor
+        of the Nigerian national teams.
+      sprite: {fileID: 0}
+      audioClip: {fileID: 8300000, guid: db7f66b0bc0bbad40a568907d54ff749, type: 3}
+    - title: '#12'
+      year: 2012
+      message: "Glo officially launched in Ghana, exciting consumers with its innovative
+        \u201CReserve your number\u201D campaign before opening to subscribers. It
+        also collaborated with MTV on The Big Friday Show and organised Glo Soccer
+        Academy to discover and train talented young footballers in West Africa. "
+      sprite: {fileID: 0}
+      audioClip: {fileID: 8300000, guid: 8a663b2063800604ab1f24206fb9e1e2, type: 3}
+    - title: '#13'
+      year: 2013
+      message: Glo's sponsorship of the Nigerian football projects gave birth to
+        the League Management Committee under which Glo committed the sum of N1.9
+        billion in into the sponsorship of the Nigerian Premier League which was
+        renamed Glo Premier League for the next three years.
+      sprite: {fileID: 0}
+      audioClip: {fileID: 8300000, guid: 1bfa98a720d2c1b4994518c972a68146, type: 3}
+    - title: '#14'
+      year: 2013
+      message: Globacom secured the live broadcast rights of the English Premier
+        League on frontline pay TV, DSTV. They launched Glo Evergreen Series, Glo
+        X-Factor, and organised Glo Slide & Bounce Tour, featuring 15 A-listers in
+        25 cities across Nigeria and Ghana.
+      sprite: {fileID: 0}
+      audioClip: {fileID: 8300000, guid: 70d124baea7826b4e888cd2d43fe6bc5, type: 3}
+    - title: '#15'
+      year: 2015
+      message: Globacom formed a strategic partnership with Vodacome and launched
+        the country's first-ever comprehensive airport Wi-Fi facility in collaboration
+        with the Federal Airports Authority of Nigeria (FAAN).
+      sprite: {fileID: 0}
+      audioClip: {fileID: 8300000, guid: d7c1f0f7558043c4fa6c35479d7daef0, type: 3}
+    - title: '#16'
+      year: 2016
+      message: "Globacom launched the country\u2019s first world-class mobile 4G
+        LTE network simultaneously across 36 states, creating a massive impact."
+      sprite: {fileID: 0}
+      audioClip: {fileID: 8300000, guid: 4966ad37ee8ae9547bbb201568e2bcb8, type: 3}
+    - title: '#17'
+      year: 2017
+      message: "Glo Caf\xE9 was launched to empower subscribers to manage their mobile
+        accounts conveniently. Its flagship shows, Glo Laffta Fest and Glo Mega Music
+        Show, toured 54 locations between April and October. "
+      sprite: {fileID: 0}
+      audioClip: {fileID: 8300000, guid: 125bc0546a0db7244a623b1ff3725bfc, type: 3}
+    - title: '#18'
+      year: 2018
+      message: Globacom partnered with Huawei to provide the Glo 2 fibre optic submarine
+        cable for oil platforms and communities in Nigeria.
+      sprite: {fileID: 0}
+      audioClip: {fileID: 8300000, guid: add253d5fb2aa7849912d60651d4e837, type: 3}
+    - title: '#19'
+      year: 2019
+      message: "Globacom renewed its exclusive sponsorship of CNN\u2019s \u2018African
+        Voices Change Makers\u2019 and won the 2019 World Branding Awards\u2019 Brand
+        of the Year for Telecommunications for Mobile. It also became the brand of
+        the decade in the \u201CPeople Choice\u201D category at ThisDay newspapers\u2019
+        Silver Jubilee awards."
+      sprite: {fileID: 0}
+      audioClip: {fileID: 8300000, guid: bf120b5864be5ca4f8c14fa9ff9b80de, type: 3}
+    - title: '#20'
+      year: '#2020'
+      message: "Glo launched Glo Cloud and proudly features Anthony Joshua as its
+        global ambassador. It also led Nigeria\u2019s fight against Covid-19 by offering
+        affordable data plans. Globacom became Nigeria\u2019s most popular corporate
+        brand, as per Top50 Brands."
+      sprite: {fileID: 0}
+      audioClip: {fileID: 8300000, guid: ad453f2dbc0b48c4f8f7fceb02a4df63, type: 3}
+    - title: '#21'
+      year: 2021
+      message: "Glo Caf\xE9 was rolled out, letting subscribers buy, share, and gift
+        data, borrow credit, recharge accounts, pay bills, access VAS, and more.
+        GLOBACOM launches the GLO TV APP."
+      sprite: {fileID: 0}
+      audioClip: {fileID: 8300000, guid: c4664f9b7bc0ee54eb4acafbd40441cd, type: 3}
+    - title: '#22'
+      year: 2022
+      message: "Globacom boldly enters payment services with Money Master, expands
+        its network with Ceragon, and unveils Tobi Amusan as ambassador. Lagos\u2019
+        Bgirl Cruxxy won Glo Battle of the Year Nigeria, while 619 defended their
+        Breakdance Crew title. "
+      sprite: {fileID: 0}
+      audioClip: {fileID: 8300000, guid: 1b982c741a4f8b44babef07bad09fea6, type: 3}
+    - title: '#23'
+      year: 2023
+      message: "Globacom marks its 20th anniversary, also partnered with Asake, Kizz
+        Daniel, and Chike to inspire Nigeria\u2019s youth. Glo won Marketing Edge\u2019s
+        Telecom Brand of the Year Award, Beacon of ICT Awards, Consumer Value Awards
+        for Data and ISP Brand, and Best of the Year."
+      sprite: {fileID: 0}
+      audioClip: {fileID: 8300000, guid: 93979e868e5565a498cca330c2716c50, type: 3}
+    - title: '#24'
+      year: 2024
+      message: "Globacom launches \u201CGlo Outsource Pro\u201D empowering businesses
+        to efficiently outsource non-core tasks."
+      sprite: {fileID: 0}
+      audioClip: {fileID: 8300000, guid: dceaceb9107aa444a90f51c4dcca98cb, type: 3}
   - type: ChairmanInfo
     contents:
     - title: ChairmanInfo Sample
