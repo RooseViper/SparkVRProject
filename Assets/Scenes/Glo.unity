@@ -487,9 +487,9 @@ MonoBehaviour:
   m_SetLineColorGradient: 1
   m_ValidColorGradient:
     serializedVersion: 2
-    key0: {r: 0.087282196, g: 1, b: 0.003144443, a: 1}
-    key1: {r: 1, g: 1, b: 1, a: 0}
-    key2: {r: 0, g: 0, b: 0, a: 1}
+    key0: {r: 0, g: 1, b: 0, a: 1}
+    key1: {r: 0.51916677, g: 1, b: 0.18553454, a: 1}
+    key2: {r: 0, g: 0, b: 0, a: 0}
     key3: {r: 0, g: 0, b: 0, a: 0}
     key4: {r: 0, g: 0, b: 0, a: 0}
     key5: {r: 0, g: 0, b: 0, a: 0}
@@ -504,7 +504,7 @@ MonoBehaviour:
     ctime6: 0
     ctime7: 0
     atime0: 0
-    atime1: 65535
+    atime1: 62837
     atime2: 65535
     atime3: 0
     atime4: 0
@@ -514,7 +514,7 @@ MonoBehaviour:
     m_Mode: 0
     m_ColorSpace: 0
     m_NumColorKeys: 2
-    m_NumAlphaKeys: 2
+    m_NumAlphaKeys: 3
   m_InvalidColorGradient:
     serializedVersion: 2
     key0: {r: 1, g: 0, b: 0, a: 0}
@@ -1140,6 +1140,134 @@ MonoBehaviour:
   videosInstructionsCanvas: {fileID: 4525678147171353020}
   portableMenuCanvas: {fileID: 720002640}
   displaySkyboxImages: []
+--- !u!1 &97136667
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 97136669}
+  - component: {fileID: 97136668}
+  m_Layer: 0
+  m_Name: WelcomeGloAudio
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!82 &97136668
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 97136667}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 91202bca035506746be31caae84ddd97, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!4 &97136669
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 97136667}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 718382688}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &112594233
 GameObject:
   m_ObjectHideFlags: 1
@@ -1248,11 +1376,11 @@ MonoBehaviour:
   renderSettingsRTPVHDR: 0
   renderSettingsRTPVWidth: 640
   renderSettingsRTPVHeight: 360
-  lastBakeTime: 21
+  lastBakeTime: 17
   enlightenWarningShown: 0
   enlightenWarningShown2: 0
   uniqueLights:
-  - {fileID: 1795821983}
+  - {fileID: 1408074892}
   - {fileID: 1190920469}
   - {fileID: 1208107655}
   - {fileID: 1285342853}
@@ -1271,9 +1399,9 @@ MonoBehaviour:
   - {fileID: 1161006601}
   - {fileID: 1136471992}
   - {fileID: 1052699415}
-  - {fileID: 1408074892}
   - {fileID: 943640828}
   - {fileID: 68919418}
+  - {fileID: 1795821983}
   - {fileID: 16885916}
   - {fileID: 211559403}
   - {fileID: 220016432}
@@ -1301,7 +1429,7 @@ MonoBehaviour:
       e20: 0
       e21: 0
       e22: 1.5155711
-      e23: -62.39564
+      e23: -53.095642
       e30: 0
       e31: 0
       e32: 0
@@ -1882,7 +2010,7 @@ MonoBehaviour:
       e00: 1.5155711
       e01: 0
       e02: 0
-      e03: -2.5336502
+      e03: 8.35635
       e10: 0
       e11: 1.5155711
       e12: 0
@@ -1890,7 +2018,7 @@ MonoBehaviour:
       e20: 0
       e21: 0
       e22: 1.5155711
-      e23: -53.095642
+      e23: -62.39564
       e30: 0
       e31: 0
       e32: 0
@@ -1921,7 +2049,7 @@ MonoBehaviour:
       e20: 0
       e21: 0
       e22: 1.5155711
-      e23: -62.39564
+      e23: -53.095642
       e30: 0
       e31: 0
       e32: 0
@@ -1944,7 +2072,7 @@ MonoBehaviour:
       e00: 1.5155711
       e01: 0
       e02: 0
-      e03: 8.35635
+      e03: -2.5336502
       e10: 0
       e11: 1.5155711
       e12: 0
@@ -1952,7 +2080,7 @@ MonoBehaviour:
       e20: 0
       e21: 0
       e22: 1.5155711
-      e23: -53.095642
+      e23: -62.39564
       e30: 0
       e31: 0
       e32: 0
@@ -2406,52 +2534,52 @@ MonoBehaviour:
     angle: 30
     UID: 36
   implicitGroups:
-  - {fileID: 813414852}
-  - {fileID: 813414852}
-  - {fileID: 813414852}
-  - {fileID: 813414852}
-  - {fileID: 813414852}
-  - {fileID: 813414852}
-  - {fileID: 813414852}
-  - {fileID: 813414852}
-  - {fileID: 813414852}
-  - {fileID: 813414852}
-  - {fileID: 813414852}
-  - {fileID: 813414852}
-  - {fileID: 813414852}
-  - {fileID: 813414852}
-  - {fileID: 763299830}
-  - {fileID: 813414852}
-  - {fileID: 813414852}
-  - {fileID: 813414852}
-  - {fileID: 813414852}
-  - {fileID: 813414852}
-  - {fileID: 813414852}
-  - {fileID: 813414852}
-  - {fileID: 813414852}
-  - {fileID: 813414852}
-  - {fileID: 813414852}
-  - {fileID: 813414852}
-  - {fileID: 813414852}
-  - {fileID: 1647470042}
-  - {fileID: 763299830}
-  - {fileID: 813414852}
-  - {fileID: 813414852}
-  - {fileID: 813414852}
-  - {fileID: 813414852}
-  - {fileID: 813414852}
-  - {fileID: 813414852}
-  - {fileID: 813414852}
-  - {fileID: 813414852}
-  - {fileID: 813414852}
-  - {fileID: 813414852}
-  - {fileID: 813414852}
-  - {fileID: 813414852}
-  - {fileID: 813414852}
-  - {fileID: 813414852}
-  - {fileID: 813414852}
-  - {fileID: 813414852}
-  - {fileID: 813414852}
+  - {fileID: 1880101360}
+  - {fileID: 1880101360}
+  - {fileID: 1880101360}
+  - {fileID: 1880101360}
+  - {fileID: 1880101360}
+  - {fileID: 1880101360}
+  - {fileID: 1880101360}
+  - {fileID: 1880101360}
+  - {fileID: 1880101360}
+  - {fileID: 1880101360}
+  - {fileID: 1880101360}
+  - {fileID: 1880101360}
+  - {fileID: 1880101360}
+  - {fileID: 1880101360}
+  - {fileID: 185353068}
+  - {fileID: 1880101360}
+  - {fileID: 1880101360}
+  - {fileID: 1880101360}
+  - {fileID: 1880101360}
+  - {fileID: 1880101360}
+  - {fileID: 1880101360}
+  - {fileID: 1880101360}
+  - {fileID: 1880101360}
+  - {fileID: 1880101360}
+  - {fileID: 1880101360}
+  - {fileID: 1880101360}
+  - {fileID: 1880101360}
+  - {fileID: 739133807}
+  - {fileID: 185353068}
+  - {fileID: 1880101360}
+  - {fileID: 1880101360}
+  - {fileID: 1880101360}
+  - {fileID: 1880101360}
+  - {fileID: 1880101360}
+  - {fileID: 1880101360}
+  - {fileID: 1880101360}
+  - {fileID: 1880101360}
+  - {fileID: 1880101360}
+  - {fileID: 1880101360}
+  - {fileID: 1880101360}
+  - {fileID: 1880101360}
+  - {fileID: 1880101360}
+  - {fileID: 1880101360}
+  - {fileID: 1880101360}
+  - {fileID: 1880101360}
+  - {fileID: 1880101360}
   implicitGroupedObjects:
   - {fileID: 23362799}
   - {fileID: 149274771}
@@ -2504,7 +2632,7 @@ MonoBehaviour:
     m_Extent: {x: 9.778005, y: 1.7996216, z: 8.813988}
   - m_Center: {x: 2.6999998, y: 4.159066, z: -52.788536}
     m_Extent: {x: 10.280713, y: 1.8028445, z: 15.31218}
-  - m_Center: {x: 2.7, y: 2.3661559, z: -57.82}
+  - m_Center: {x: 2.7, y: 2.3661559, z: -59.353397}
     m_Extent: {x: 10.207293, y: 0.0006442851, z: 10.207293}
   hasEmissive: 010101
   uvBuffOffsets: 
@@ -2636,7 +2764,7 @@ MonoBehaviour:
   - {x: 0.12048884, y: 0.12046124, z: 0.8049881, w: -0.00095185783}
   - {x: 0.16964193, y: 0.16636775, z: 0.79601884, w: 0.24283284}
   - {x: 0.08514409, y: 0.08500635, z: 0.8308991, w: 0.5329961}
-  - {x: 0.98960996, y: 0.98960996, z: 0.005195015, w: 0.005195018}
+  - {x: 0.98961, y: 0.98961, z: 0.0051950146, w: 0.0051950174}
   - {x: 0.5927232, y: 0.5927232, z: 0.0030800763, w: 0.0030800763}
   - {x: 0.11755962, y: 0.110088795, z: 0.2208885, w: 0.5896125}
   - {x: 0.6795918, y: 0.6792094, z: 0.002930202, w: 0.002930194}
@@ -2705,10 +2833,10 @@ MonoBehaviour:
   - {fileID: 0}
   nonBakedRenderers: []
   bakedLights:
-  - {fileID: 1795821986}
   - {fileID: 1408074895}
   - {fileID: 943640831}
   - {fileID: 68919421}
+  - {fileID: 1795821986}
   - {fileID: 16885920}
   - {fileID: 211559406}
   - {fileID: 220016435}
@@ -2765,8 +2893,6 @@ MonoBehaviour:
     rnmMaps2: []
     mapsMode: 
     bakedRenderers:
-    - {fileID: 529907606}
-    - {fileID: 1627172229}
     - {fileID: 23362798}
     - {fileID: 149274773}
     - {fileID: 187804440}
@@ -2776,6 +2902,7 @@ MonoBehaviour:
     - {fileID: 494883837}
     - {fileID: 502859141}
     - {fileID: 524019647}
+    - {fileID: 529907606}
     - {fileID: 735591603}
     - {fileID: 746388100}
     - {fileID: 894729184}
@@ -2785,6 +2912,7 @@ MonoBehaviour:
     - {fileID: 1353529581}
     - {fileID: 1464623135}
     - {fileID: 1526778607}
+    - {fileID: 1627172229}
     - {fileID: 1772462706}
     - {fileID: 1782668382}
     - {fileID: 1798633562}
@@ -2811,10 +2939,8 @@ MonoBehaviour:
     - {fileID: 8215027235287877537}
     - {fileID: 3690526640402387541}
     - {fileID: 5571436264661332771}
-    bakedIDs: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002000000010000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+    bakedIDs: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002000000010000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
     bakedScaleOffset:
-    - {x: 0.056775868, y: 0.056775186, z: 0.1552508, w: 0.7105032}
-    - {x: 0.056775816, y: 0.056775138, z: 0.1552508, w: 0.7717768}
     - {x: 0.088691175, y: 0.088553436, z: 0.8307328, w: 0.44644645}
     - {x: 0.07295657, y: 0.0724214, z: 0.07545868, w: 0.86767596}
     - {x: 0.08306158, y: 0.083349235, z: -0.0012877771, w: 0.6421617}
@@ -2824,6 +2950,7 @@ MonoBehaviour:
     - {x: 0.08306158, y: 0.083349235, z: -0.0012877771, w: 0.72232574}
     - {x: 0.120488815, y: 0.12046122, z: 0.8049881, w: 0.11899948}
     - {x: 0.07295657, y: 0.0724214, z: 0.9250849, w: 0.11863809}
+    - {x: 0.056775868, y: 0.056775186, z: 0.1552508, w: 0.7105032}
     - {x: 0.08261084, y: 0.08289849, z: -0.0012648879, w: 0.8025127}
     - {x: 0.062388256, y: 0.06241436, z: 0.15398891, w: 0.64423054}
     - {x: 0.053293638, y: 0.053319734, z: 0.94067913, w: 0.24098437}
@@ -2833,6 +2960,7 @@ MonoBehaviour:
     - {x: 0.08261083, y: 0.08289849, z: 0.075538404, w: 0.7219468}
     - {x: 0.088691175, y: 0.088553436, z: 0.68422496, w: 0.5465745}
     - {x: 0.053293515, y: 0.05331961, z: 0.7748048, w: 0.5488769}
+    - {x: 0.056775816, y: 0.056775138, z: 0.1552508, w: 0.7717768}
     - {x: 0.08306159, y: 0.083349235, z: 0.91894215, w: 0.4463648}
     - {x: 0.07295657, y: 0.0724214, z: 0.9250849, w: -0.0013132477}
     - {x: 0.08306159, y: 0.083349235, z: 0.9156463, w: 0.5327482}
@@ -3152,6 +3280,50 @@ Transform:
   - {fileID: 1501383267}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &185353068
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec0b4dd729a12d046982652f834580a2, type: 3}
+  m_Name: Glo_LMA1
+  m_EditorClassIdentifier: 
+  resolution: 1024
+  bitmask: 1
+  id: 1
+  sortingID: 1
+  isImplicit: 1
+  area: 0
+  totalVertexCount: 0
+  vertexCounter: 0
+  sceneLodLevel: -1
+  autoResolution: 0
+  sceneName: 
+  tag: -1
+  containsTerrains: 0
+  probes: 0
+  mode: 1
+  renderMode: 1000
+  renderDirMode: 1000
+  atlasPacker: 1000
+  holeFilling: 0
+  computeSSS: 0
+  sssSamples: 16
+  sssDensity: 10
+  sssColor: {r: 1, g: 1, b: 1, a: 1}
+  sssScale: 1
+  fakeShadowBias: 0
+  transparentSelfShadow: 0
+  flipNormal: 0
+  parentName: 
+  overridePath: 
+  fixPos3D: 0
+  voxelSize: {x: 1, y: 1, z: 1}
+  passedFilter: 0
 --- !u!1 &187804438 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6455778170938420708, guid: 748782111ca89ec4b82a406fe85160f3,
@@ -3408,7 +3580,7 @@ MonoBehaviour:
     m_PressedTrigger: Pressed
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
-  m_Interactable: 0
+  m_Interactable: 1
   m_TargetGraphic: {fileID: 212768444}
   m_OnClick:
     m_PersistentCalls:
@@ -3471,6 +3643,18 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 1.25
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 1207036268}
+        m_TargetAssemblyTypeName: AudioManager, Assembly-CSharp
+        m_MethodName: PlayAudioSourceDelayed
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 97136668}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
@@ -4486,6 +4670,134 @@ MeshRenderer:
     type: 3}
   m_PrefabInstance: {fileID: 7558696935283819477}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &342806865
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 342806867}
+  - component: {fileID: 342806866}
+  m_Layer: 0
+  m_Name: WelcomeChairmanAudio
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!82 &342806866
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 342806865}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 33988275ceabbe9418736b74a5147019, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!4 &342806867
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 342806865}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 718382688}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &356655095
 GameObject:
   m_ObjectHideFlags: 0
@@ -8539,6 +8851,8 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1842537008}
+  - {fileID: 97136669}
+  - {fileID: 342806867}
   m_Father: {fileID: 1207036267}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &720002639
@@ -8675,6 +8989,50 @@ MeshRenderer:
     type: 3}
   m_PrefabInstance: {fileID: 7558696935283819477}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &739133807
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec0b4dd729a12d046982652f834580a2, type: 3}
+  m_Name: Glo_LMA2
+  m_EditorClassIdentifier: 
+  resolution: 1024
+  bitmask: 1
+  id: 2
+  sortingID: 2
+  isImplicit: 1
+  area: 0
+  totalVertexCount: 0
+  vertexCounter: 0
+  sceneLodLevel: -1
+  autoResolution: 0
+  sceneName: 
+  tag: -1
+  containsTerrains: 0
+  probes: 0
+  mode: 1
+  renderMode: 1000
+  renderDirMode: 1000
+  atlasPacker: 1000
+  holeFilling: 0
+  computeSSS: 0
+  sssSamples: 16
+  sssDensity: 10
+  sssColor: {r: 1, g: 1, b: 1, a: 1}
+  sssScale: 1
+  fakeShadowBias: 0
+  transparentSelfShadow: 0
+  flipNormal: 0
+  parentName: 
+  overridePath: 
+  fixPos3D: 0
+  voxelSize: {x: 1, y: 1, z: 1}
+  passedFilter: 0
 --- !u!1 &742428170
 GameObject:
   m_ObjectHideFlags: 0
@@ -8842,50 +9200,6 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 746388098}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &763299830
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec0b4dd729a12d046982652f834580a2, type: 3}
-  m_Name: Glo_LMA1
-  m_EditorClassIdentifier: 
-  resolution: 1024
-  bitmask: 1
-  id: 1
-  sortingID: 1
-  isImplicit: 1
-  area: 0
-  totalVertexCount: 0
-  vertexCounter: 0
-  sceneLodLevel: -1
-  autoResolution: 0
-  sceneName: 
-  tag: -1
-  containsTerrains: 0
-  probes: 0
-  mode: 1
-  renderMode: 1000
-  renderDirMode: 1000
-  atlasPacker: 1000
-  holeFilling: 0
-  computeSSS: 0
-  sssSamples: 16
-  sssDensity: 10
-  sssColor: {r: 1, g: 1, b: 1, a: 1}
-  sssScale: 1
-  fakeShadowBias: 0
-  transparentSelfShadow: 0
-  flipNormal: 0
-  parentName: 
-  overridePath: 
-  fixPos3D: 0
-  voxelSize: {x: 1, y: 1, z: 1}
-  passedFilter: 0
 --- !u!1 &763644745
 GameObject:
   m_ObjectHideFlags: 0
@@ -9790,50 +10104,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 811182237}
   m_CullTransparentMesh: 1
---- !u!114 &813414852
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec0b4dd729a12d046982652f834580a2, type: 3}
-  m_Name: Glo_LM0
-  m_EditorClassIdentifier: 
-  resolution: 1024
-  bitmask: 1
-  id: 0
-  sortingID: 0
-  isImplicit: 1
-  area: 3760.7834
-  totalVertexCount: 0
-  vertexCounter: 0
-  sceneLodLevel: -1
-  autoResolution: 0
-  sceneName: 
-  tag: -1
-  containsTerrains: 0
-  probes: 0
-  mode: 1
-  renderMode: 1000
-  renderDirMode: 1000
-  atlasPacker: 1000
-  holeFilling: 0
-  computeSSS: 0
-  sssSamples: 16
-  sssDensity: 10
-  sssColor: {r: 1, g: 1, b: 1, a: 1}
-  sssScale: 1
-  fakeShadowBias: 0
-  transparentSelfShadow: 0
-  flipNormal: 0
-  parentName: 
-  overridePath: 
-  fixPos3D: 0
-  voxelSize: {x: 1, y: 1, z: 1}
-  passedFilter: 0
 --- !u!1 &862760385
 GameObject:
   m_ObjectHideFlags: 0
@@ -13600,7 +13870,7 @@ MonoBehaviour:
     m_PressedTrigger: Pressed
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
-  m_Interactable: 0
+  m_Interactable: 1
   m_TargetGraphic: {fileID: 1177960526}
   m_OnClick:
     m_PersistentCalls:
@@ -13663,6 +13933,18 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 1.25
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 1207036268}
+        m_TargetAssemblyTypeName: AudioManager, Assembly-CSharp
+        m_MethodName: PlayAudioSourceDelayed
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 342806866}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
@@ -19468,50 +19750,6 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 1627172227}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1647470042
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec0b4dd729a12d046982652f834580a2, type: 3}
-  m_Name: Glo_LMA2
-  m_EditorClassIdentifier: 
-  resolution: 1024
-  bitmask: 1
-  id: 2
-  sortingID: 2
-  isImplicit: 1
-  area: 0
-  totalVertexCount: 0
-  vertexCounter: 0
-  sceneLodLevel: -1
-  autoResolution: 0
-  sceneName: 
-  tag: -1
-  containsTerrains: 0
-  probes: 0
-  mode: 1
-  renderMode: 1000
-  renderDirMode: 1000
-  atlasPacker: 1000
-  holeFilling: 0
-  computeSSS: 0
-  sssSamples: 16
-  sssDensity: 10
-  sssColor: {r: 1, g: 1, b: 1, a: 1}
-  sssScale: 1
-  fakeShadowBias: 0
-  transparentSelfShadow: 0
-  flipNormal: 0
-  parentName: 
-  overridePath: 
-  fixPos3D: 0
-  voxelSize: {x: 1, y: 1, z: 1}
-  passedFilter: 0
 --- !u!1 &1648619963
 GameObject:
   m_ObjectHideFlags: 0
@@ -20265,7 +20503,7 @@ Transform:
   m_GameObject: {fileID: 1697839341}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 11.56, y: 2.3198986, z: -28.94}
+  m_LocalPosition: {x: 11.56, y: 2.369, z: -28.94}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -20355,9 +20593,9 @@ MonoBehaviour:
   m_SetLineColorGradient: 1
   m_ValidColorGradient:
     serializedVersion: 2
-    key0: {r: 0.087282196, g: 1, b: 0.003144443, a: 1}
-    key1: {r: 1, g: 1, b: 1, a: 0}
-    key2: {r: 0, g: 0, b: 0, a: 1}
+    key0: {r: 0, g: 1, b: 0, a: 1}
+    key1: {r: 0.51916677, g: 1, b: 0.18553454, a: 1}
+    key2: {r: 0, g: 0, b: 0, a: 0}
     key3: {r: 0, g: 0, b: 0, a: 0}
     key4: {r: 0, g: 0, b: 0, a: 0}
     key5: {r: 0, g: 0, b: 0, a: 0}
@@ -20372,7 +20610,7 @@ MonoBehaviour:
     ctime6: 0
     ctime7: 0
     atime0: 0
-    atime1: 65535
+    atime1: 62837
     atime2: 65535
     atime3: 0
     atime4: 0
@@ -20382,7 +20620,7 @@ MonoBehaviour:
     m_Mode: 0
     m_ColorSpace: 0
     m_NumColorKeys: 2
-    m_NumAlphaKeys: 2
+    m_NumAlphaKeys: 3
   m_InvalidColorGradient:
     serializedVersion: 2
     key0: {r: 1, g: 0, b: 0, a: 0}
@@ -21621,6 +21859,50 @@ MeshRenderer:
     type: 3}
   m_PrefabInstance: {fileID: 370418178}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1880101360
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec0b4dd729a12d046982652f834580a2, type: 3}
+  m_Name: Glo_LM0
+  m_EditorClassIdentifier: 
+  resolution: 1024
+  bitmask: 1
+  id: 0
+  sortingID: 0
+  isImplicit: 1
+  area: 3760.7837
+  totalVertexCount: 0
+  vertexCounter: 0
+  sceneLodLevel: -1
+  autoResolution: 0
+  sceneName: 
+  tag: -1
+  containsTerrains: 0
+  probes: 0
+  mode: 1
+  renderMode: 1000
+  renderDirMode: 1000
+  atlasPacker: 1000
+  holeFilling: 0
+  computeSSS: 0
+  sssSamples: 16
+  sssDensity: 10
+  sssColor: {r: 1, g: 1, b: 1, a: 1}
+  sssScale: 1
+  fakeShadowBias: 0
+  transparentSelfShadow: 0
+  flipNormal: 0
+  parentName: 
+  overridePath: 
+  fixPos3D: 0
+  voxelSize: {x: 1, y: 1, z: 1}
+  passedFilter: 0
 --- !u!1 &1885724195
 GameObject:
   m_ObjectHideFlags: 0
@@ -22885,7 +23167,7 @@ MonoBehaviour:
       message: "The NCC awarded Globacom Limited (GLO) the fourth Nigerian digital
         mobile license for US$200 million, along with permission to build the country\u2019s
         second fixed line network."
-      sprite: {fileID: 0}
+      sprite: {fileID: 21300000, guid: c19538ce7acdc034caa0cc9f377dab01, type: 3}
       audioClip: {fileID: 8300000, guid: 048f21f10670c754699cf85e08d0479a, type: 3}
     - title: '#2'
       year: 2003
@@ -22894,7 +23176,7 @@ MonoBehaviour:
         sponsored the 8th All Africa Games and CHOGM in Abuja and has consistently
         been Nigeria\u2019s top sports sponsor, supporting national teams, leagues,
         and activities. "
-      sprite: {fileID: 0}
+      sprite: {fileID: 21300000, guid: e5b70e9e4b6cb5b48a3501584dea609e, type: 3}
       audioClip: {fileID: 8300000, guid: 3cdea0a3f417ecb4cb519a17cc9f2a54, type: 3}
     - title: '#3'
       year: 2004
@@ -22902,7 +23184,7 @@ MonoBehaviour:
         and introduced Text2Email. It also launched gateway switches outside Africa
         to carry international voice and data traffic, making it the first African
         operator to do so. '
-      sprite: {fileID: 0}
+      sprite: {fileID: 21300000, guid: a1b1ef84ba9bf7c49a2b87d1097e1a1c, type: 3}
       audioClip: {fileID: 8300000, guid: 966de34cd800e2e49b2af75c5cd79f2c, type: 3}
     - title: '#4'
       year: 2005
@@ -22911,7 +23193,7 @@ MonoBehaviour:
         with the FG to provide free SIMs and directories to government agencies.
         Supported African talents through the CAF Awards and sponsorship of the Super
         Eagles and Enyimba FC.
-      sprite: {fileID: 0}
+      sprite: {fileID: 21300000, guid: 49c8c69dc7560614ca30d87ee08000e3, type: 3}
       audioClip: {fileID: 8300000, guid: ec47c623edbd98e41a7d297207ae8f78, type: 3}
     - title: '#5'
       year: 2005
@@ -22919,20 +23201,20 @@ MonoBehaviour:
         Company (SPDC) to create job opportunities for youths in the Niger Delta
         through call centre packages. The partnership extended to Kwara, Bauchi,
         Imo, Edo, Niger, Ogun, and Osun.
-      sprite: {fileID: 0}
+      sprite: {fileID: 21300000, guid: c3dcb4b4236f6884a89c933faee4c965, type: 3}
       audioClip: {fileID: 8300000, guid: 082e6286751d29e4ea1387637a39ac1f, type: 3}
     - title: '#6'
       year: 2006
       message: 'Glo pioneered Blackberry services supporting push email, mobile phone,
         text messaging, web browsing, and other wireless information services. '
-      sprite: {fileID: 0}
+      sprite: {fileID: 21300000, guid: d1d3eee8202f5e24ab13bd72bc9b7bdf, type: 3}
       audioClip: {fileID: 8300000, guid: 675f3358de02fad4f87c3e13aafb7275, type: 3}
     - title: '#7'
       year: 2007
       message: Globacom pioneered 3G Plus in Nigeria, enabling faster data, voice,
         broadband internet, and multimedia service transmission over various frequencies.
         It revolutionised digital data transfer and relay.
-      sprite: {fileID: 0}
+      sprite: {fileID: 21300000, guid: 27c2c11bb2893f14ea5207d0ef58c2f0, type: 3}
       audioClip: {fileID: 8300000, guid: 24d6f8273b7cd76449f74e8b9a883146, type: 3}
     - title: '#8'
       year: 2008
@@ -22940,13 +23222,13 @@ MonoBehaviour:
         Rule, aimed to strengthen its bond with the youth. It also launched Broad
         Access, responsible for laying the fibre optic network and offering fixed
         line services. Also acquire license in Ghana."
-      sprite: {fileID: 0}
+      sprite: {fileID: 21300000, guid: 8e461f0587a4b9c4a968736f03485a20, type: 3}
       audioClip: {fileID: 8300000, guid: a941f5fa10b6fd742b20b88110329301, type: 3}
     - title: '#9'
       year: 2009
       message: Globacom became an official sponsor of  Manchester United FC to show
         its support for sports talent
-      sprite: {fileID: 0}
+      sprite: {fileID: 21300000, guid: ef78f5e97318f47429b200c2bf63e601, type: 3}
       audioClip: {fileID: 8300000, guid: 7bf3a0a3d7bb34b4e8af3221d905e06d, type: 3}
     - title: '#10'
       year: 2010
@@ -22955,14 +23237,14 @@ MonoBehaviour:
         Naija Sings\u201D, launching singers like Boma, Niniola among others. They
         also completed a high-capacity fibre optic submarine cable from the UK to
         Nigeria."
-      sprite: {fileID: 0}
+      sprite: {fileID: 21300000, guid: c6d89c8ca88d85744b8d860f74199059, type: 3}
       audioClip: {fileID: 8300000, guid: 1c89efa7f60e1a04fa09da11aad56462, type: 3}
     - title: '#11'
       year: '2011 '
       message: Globacom signed a five-year sponsorship deal with the Nigeria Football
         Federation worth N2 billion, making it a major partner and official sponsor
         of the Nigerian national teams.
-      sprite: {fileID: 0}
+      sprite: {fileID: 21300000, guid: 38fb472678c95fa419c66d558340d747, type: 3}
       audioClip: {fileID: 8300000, guid: db7f66b0bc0bbad40a568907d54ff749, type: 3}
     - title: '#12'
       year: 2012
@@ -22970,7 +23252,7 @@ MonoBehaviour:
         \u201CReserve your number\u201D campaign before opening to subscribers. It
         also collaborated with MTV on The Big Friday Show and organised Glo Soccer
         Academy to discover and train talented young footballers in West Africa. "
-      sprite: {fileID: 0}
+      sprite: {fileID: 21300000, guid: faa0909d9903e0742bcbdcdd992666a9, type: 3}
       audioClip: {fileID: 8300000, guid: 8a663b2063800604ab1f24206fb9e1e2, type: 3}
     - title: '#13'
       year: 2013
@@ -22978,7 +23260,7 @@ MonoBehaviour:
         the League Management Committee under which Glo committed the sum of N1.9
         billion in into the sponsorship of the Nigerian Premier League which was
         renamed Glo Premier League for the next three years.
-      sprite: {fileID: 0}
+      sprite: {fileID: 21300000, guid: 5cff52df1853d984a9aa8ac65cef3067, type: 3}
       audioClip: {fileID: 8300000, guid: 1bfa98a720d2c1b4994518c972a68146, type: 3}
     - title: '#14'
       year: 2013
@@ -22986,33 +23268,33 @@ MonoBehaviour:
         League on frontline pay TV, DSTV. They launched Glo Evergreen Series, Glo
         X-Factor, and organised Glo Slide & Bounce Tour, featuring 15 A-listers in
         25 cities across Nigeria and Ghana.
-      sprite: {fileID: 0}
+      sprite: {fileID: 21300000, guid: 105895a91a16c6e4597b7bdec35847f1, type: 3}
       audioClip: {fileID: 8300000, guid: 70d124baea7826b4e888cd2d43fe6bc5, type: 3}
     - title: '#15'
       year: 2015
       message: Globacom formed a strategic partnership with Vodacome and launched
         the country's first-ever comprehensive airport Wi-Fi facility in collaboration
         with the Federal Airports Authority of Nigeria (FAAN).
-      sprite: {fileID: 0}
+      sprite: {fileID: 21300000, guid: 4d0f2053f9977654ab07d443823ec9c7, type: 3}
       audioClip: {fileID: 8300000, guid: d7c1f0f7558043c4fa6c35479d7daef0, type: 3}
     - title: '#16'
       year: 2016
       message: "Globacom launched the country\u2019s first world-class mobile 4G
         LTE network simultaneously across 36 states, creating a massive impact."
-      sprite: {fileID: 0}
+      sprite: {fileID: 21300000, guid: 6bd801c0ca4f67c4ea05b629e4f3169c, type: 3}
       audioClip: {fileID: 8300000, guid: 4966ad37ee8ae9547bbb201568e2bcb8, type: 3}
     - title: '#17'
       year: 2017
       message: "Glo Caf\xE9 was launched to empower subscribers to manage their mobile
         accounts conveniently. Its flagship shows, Glo Laffta Fest and Glo Mega Music
         Show, toured 54 locations between April and October. "
-      sprite: {fileID: 0}
+      sprite: {fileID: 21300000, guid: 4f7cec622d8a0014496d7c879cd772d0, type: 3}
       audioClip: {fileID: 8300000, guid: 125bc0546a0db7244a623b1ff3725bfc, type: 3}
     - title: '#18'
       year: 2018
       message: Globacom partnered with Huawei to provide the Glo 2 fibre optic submarine
         cable for oil platforms and communities in Nigeria.
-      sprite: {fileID: 0}
+      sprite: {fileID: 21300000, guid: e8ffb5f466fa37b488c5ce61a806f9e9, type: 3}
       audioClip: {fileID: 8300000, guid: add253d5fb2aa7849912d60651d4e837, type: 3}
     - title: '#19'
       year: 2019
@@ -23021,7 +23303,7 @@ MonoBehaviour:
         of the Year for Telecommunications for Mobile. It also became the brand of
         the decade in the \u201CPeople Choice\u201D category at ThisDay newspapers\u2019
         Silver Jubilee awards."
-      sprite: {fileID: 0}
+      sprite: {fileID: 21300000, guid: 4e59b6942db59d340a52b98b00d3eb47, type: 3}
       audioClip: {fileID: 8300000, guid: bf120b5864be5ca4f8c14fa9ff9b80de, type: 3}
     - title: '#20'
       year: '#2020'
@@ -23029,14 +23311,14 @@ MonoBehaviour:
         global ambassador. It also led Nigeria\u2019s fight against Covid-19 by offering
         affordable data plans. Globacom became Nigeria\u2019s most popular corporate
         brand, as per Top50 Brands."
-      sprite: {fileID: 0}
+      sprite: {fileID: 21300000, guid: b17960143cbf8d348b58ceace9b5a2c1, type: 3}
       audioClip: {fileID: 8300000, guid: ad453f2dbc0b48c4f8f7fceb02a4df63, type: 3}
     - title: '#21'
       year: 2021
       message: "Glo Caf\xE9 was rolled out, letting subscribers buy, share, and gift
         data, borrow credit, recharge accounts, pay bills, access VAS, and more.
         GLOBACOM launches the GLO TV APP."
-      sprite: {fileID: 0}
+      sprite: {fileID: 21300000, guid: 9a2c62832b7a9eb4fb05a7e4faa3c32e, type: 3}
       audioClip: {fileID: 8300000, guid: c4664f9b7bc0ee54eb4acafbd40441cd, type: 3}
     - title: '#22'
       year: 2022
@@ -23044,7 +23326,7 @@ MonoBehaviour:
         its network with Ceragon, and unveils Tobi Amusan as ambassador. Lagos\u2019
         Bgirl Cruxxy won Glo Battle of the Year Nigeria, while 619 defended their
         Breakdance Crew title. "
-      sprite: {fileID: 0}
+      sprite: {fileID: 21300000, guid: 1d12a4cc81813d54db0d0f78eec98ac1, type: 3}
       audioClip: {fileID: 8300000, guid: 1b982c741a4f8b44babef07bad09fea6, type: 3}
     - title: '#23'
       year: 2023
@@ -23052,208 +23334,193 @@ MonoBehaviour:
         Daniel, and Chike to inspire Nigeria\u2019s youth. Glo won Marketing Edge\u2019s
         Telecom Brand of the Year Award, Beacon of ICT Awards, Consumer Value Awards
         for Data and ISP Brand, and Best of the Year."
-      sprite: {fileID: 0}
+      sprite: {fileID: 21300000, guid: 16a932d5a3bba7c4aa898faeb052805b, type: 3}
       audioClip: {fileID: 8300000, guid: 93979e868e5565a498cca330c2716c50, type: 3}
     - title: '#24'
       year: 2024
       message: "Globacom launches \u201CGlo Outsource Pro\u201D empowering businesses
         to efficiently outsource non-core tasks."
-      sprite: {fileID: 0}
+      sprite: {fileID: 21300000, guid: af12c2bc28c58304eaf14e999b763b66, type: 3}
       audioClip: {fileID: 8300000, guid: dceaceb9107aa444a90f51c4dcca98cb, type: 3}
   - type: ChairmanInfo
     contents:
-    - title: ChairmanInfo Sample
-      year: 2025
-      message: 'ChairmanInfo! ChairmanInfo! ChairmanInfo! ChairmanInfo! ChairmanInfo!
-        ChairmanInfo! ChairmanInfo! ChairmanInfo! ChairmanInfo! ChairmanInfo! ChairmanInfo!
-        ChairmanInfo! ChairmanInfo! ChairmanInfo! ChairmanInfo! ChairmanInfo! ChairmanInfo!
-        ChairmanInfo! '
-      sprite: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
-      audioClip: {fileID: 8300000, guid: d306fcf87f5874a5888091cab90ba4a5, type: 3}
-    - title: ChairmanInfo Sample
-      year: 2025
-      message: 'ChairmanInfo! ChairmanInfo! ChairmanInfo! ChairmanInfo! ChairmanInfo!
-        ChairmanInfo! ChairmanInfo! ChairmanInfo! ChairmanInfo! ChairmanInfo! ChairmanInfo!
-        ChairmanInfo! ChairmanInfo! ChairmanInfo! ChairmanInfo! ChairmanInfo! ChairmanInfo!
-        ChairmanInfo! '
-      sprite: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
-      audioClip: {fileID: 8300000, guid: d306fcf87f5874a5888091cab90ba4a5, type: 3}
-    - title: ChairmanInfo Sample
-      year: 2025
-      message: 'ChairmanInfo! ChairmanInfo! ChairmanInfo! ChairmanInfo! ChairmanInfo!
-        ChairmanInfo! ChairmanInfo! ChairmanInfo! ChairmanInfo! ChairmanInfo! ChairmanInfo!
-        ChairmanInfo! ChairmanInfo! ChairmanInfo! ChairmanInfo! ChairmanInfo! ChairmanInfo!
-        ChairmanInfo! '
-      sprite: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
-      audioClip: {fileID: 8300000, guid: d306fcf87f5874a5888091cab90ba4a5, type: 3}
-    - title: ChairmanInfo Sample
-      year: 2025
-      message: 'ChairmanInfo! ChairmanInfo! ChairmanInfo! ChairmanInfo! ChairmanInfo!
-        ChairmanInfo! ChairmanInfo! ChairmanInfo! ChairmanInfo! ChairmanInfo! ChairmanInfo!
-        ChairmanInfo! ChairmanInfo! ChairmanInfo! ChairmanInfo! ChairmanInfo! ChairmanInfo!
-        ChairmanInfo! '
-      sprite: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
-      audioClip: {fileID: 8300000, guid: d306fcf87f5874a5888091cab90ba4a5, type: 3}
-    - title: ChairmanInfo Sample
-      year: 2025
-      message: 'ChairmanInfo! ChairmanInfo! ChairmanInfo! ChairmanInfo! ChairmanInfo!
-        ChairmanInfo! ChairmanInfo! ChairmanInfo! ChairmanInfo! ChairmanInfo! ChairmanInfo!
-        ChairmanInfo! ChairmanInfo! ChairmanInfo! ChairmanInfo! ChairmanInfo! ChairmanInfo!
-        ChairmanInfo! '
-      sprite: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
-      audioClip: {fileID: 8300000, guid: d306fcf87f5874a5888091cab90ba4a5, type: 3}
-    - title: ChairmanInfo Sample
-      year: 2025
-      message: 'ChairmanInfo! ChairmanInfo! ChairmanInfo! ChairmanInfo! ChairmanInfo!
-        ChairmanInfo! ChairmanInfo! ChairmanInfo! ChairmanInfo! ChairmanInfo! ChairmanInfo!
-        ChairmanInfo! ChairmanInfo! ChairmanInfo! ChairmanInfo! ChairmanInfo! ChairmanInfo!
-        ChairmanInfo! '
-      sprite: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
-      audioClip: {fileID: 8300000, guid: d306fcf87f5874a5888091cab90ba4a5, type: 3}
-    - title: ChairmanInfo Sample
-      year: 2025
-      message: 'ChairmanInfo! ChairmanInfo! ChairmanInfo! ChairmanInfo! ChairmanInfo!
-        ChairmanInfo! ChairmanInfo! ChairmanInfo! ChairmanInfo! ChairmanInfo! ChairmanInfo!
-        ChairmanInfo! ChairmanInfo! ChairmanInfo! ChairmanInfo! ChairmanInfo! ChairmanInfo!
-        ChairmanInfo! '
-      sprite: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
-      audioClip: {fileID: 8300000, guid: d306fcf87f5874a5888091cab90ba4a5, type: 3}
-    - title: ChairmanInfo Sample
-      year: 2025
-      message: 'ChairmanInfo! ChairmanInfo! ChairmanInfo! ChairmanInfo! ChairmanInfo!
-        ChairmanInfo! ChairmanInfo! ChairmanInfo! ChairmanInfo! ChairmanInfo! ChairmanInfo!
-        ChairmanInfo! ChairmanInfo! ChairmanInfo! ChairmanInfo! ChairmanInfo! ChairmanInfo!
-        ChairmanInfo! '
-      sprite: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
-      audioClip: {fileID: 8300000, guid: d306fcf87f5874a5888091cab90ba4a5, type: 3}
-    - title: ChairmanInfo Sample
-      year: 2025
-      message: 'ChairmanInfo! ChairmanInfo! ChairmanInfo! ChairmanInfo! ChairmanInfo!
-        ChairmanInfo! ChairmanInfo! ChairmanInfo! ChairmanInfo! ChairmanInfo! ChairmanInfo!
-        ChairmanInfo! ChairmanInfo! ChairmanInfo! ChairmanInfo! ChairmanInfo! ChairmanInfo!
-        ChairmanInfo! '
-      sprite: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
-      audioClip: {fileID: 8300000, guid: d306fcf87f5874a5888091cab90ba4a5, type: 3}
-    - title: ChairmanInfo Sample
-      year: 2025
-      message: 'ChairmanInfo! ChairmanInfo! ChairmanInfo! ChairmanInfo! ChairmanInfo!
-        ChairmanInfo! ChairmanInfo! ChairmanInfo! ChairmanInfo! ChairmanInfo! ChairmanInfo!
-        ChairmanInfo! ChairmanInfo! ChairmanInfo! ChairmanInfo! ChairmanInfo! ChairmanInfo!
-        ChairmanInfo! '
-      sprite: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
-      audioClip: {fileID: 8300000, guid: d306fcf87f5874a5888091cab90ba4a5, type: 3}
-    - title: ChairmanInfo Sample
-      year: 2025
-      message: 'ChairmanInfo! ChairmanInfo! ChairmanInfo! ChairmanInfo! ChairmanInfo!
-        ChairmanInfo! ChairmanInfo! ChairmanInfo! ChairmanInfo! ChairmanInfo! ChairmanInfo!
-        ChairmanInfo! ChairmanInfo! ChairmanInfo! ChairmanInfo! ChairmanInfo! ChairmanInfo!
-        ChairmanInfo! '
-      sprite: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
-      audioClip: {fileID: 8300000, guid: d306fcf87f5874a5888091cab90ba4a5, type: 3}
-    - title: ChairmanInfo Sample
-      year: 2025
-      message: 'ChairmanInfo! ChairmanInfo! ChairmanInfo! ChairmanInfo! ChairmanInfo!
-        ChairmanInfo! ChairmanInfo! ChairmanInfo! ChairmanInfo! ChairmanInfo! ChairmanInfo!
-        ChairmanInfo! ChairmanInfo! ChairmanInfo! ChairmanInfo! ChairmanInfo! ChairmanInfo!
-        ChairmanInfo! '
-      sprite: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
-      audioClip: {fileID: 8300000, guid: d306fcf87f5874a5888091cab90ba4a5, type: 3}
-    - title: ChairmanInfo Sample
-      year: 2025
-      message: 'ChairmanInfo! ChairmanInfo! ChairmanInfo! ChairmanInfo! ChairmanInfo!
-        ChairmanInfo! ChairmanInfo! ChairmanInfo! ChairmanInfo! ChairmanInfo! ChairmanInfo!
-        ChairmanInfo! ChairmanInfo! ChairmanInfo! ChairmanInfo! ChairmanInfo! ChairmanInfo!
-        ChairmanInfo! '
-      sprite: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
-      audioClip: {fileID: 8300000, guid: d306fcf87f5874a5888091cab90ba4a5, type: 3}
-    - title: ChairmanInfo Sample
-      year: 2025
-      message: 'ChairmanInfo! ChairmanInfo! ChairmanInfo! ChairmanInfo! ChairmanInfo!
-        ChairmanInfo! ChairmanInfo! ChairmanInfo! ChairmanInfo! ChairmanInfo! ChairmanInfo!
-        ChairmanInfo! ChairmanInfo! ChairmanInfo! ChairmanInfo! ChairmanInfo! ChairmanInfo!
-        ChairmanInfo! '
-      sprite: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
-      audioClip: {fileID: 8300000, guid: d306fcf87f5874a5888091cab90ba4a5, type: 3}
-    - title: ChairmanInfo Sample
-      year: 2025
-      message: 'ChairmanInfo! ChairmanInfo! ChairmanInfo! ChairmanInfo! ChairmanInfo!
-        ChairmanInfo! ChairmanInfo! ChairmanInfo! ChairmanInfo! ChairmanInfo! ChairmanInfo!
-        ChairmanInfo! ChairmanInfo! ChairmanInfo! ChairmanInfo! ChairmanInfo! ChairmanInfo!
-        ChairmanInfo! '
-      sprite: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
-      audioClip: {fileID: 8300000, guid: d306fcf87f5874a5888091cab90ba4a5, type: 3}
-    - title: ChairmanInfo Sample
-      year: 2025
-      message: 'ChairmanInfo! ChairmanInfo! ChairmanInfo! ChairmanInfo! ChairmanInfo!
-        ChairmanInfo! ChairmanInfo! ChairmanInfo! ChairmanInfo! ChairmanInfo! ChairmanInfo!
-        ChairmanInfo! ChairmanInfo! ChairmanInfo! ChairmanInfo! ChairmanInfo! ChairmanInfo!
-        ChairmanInfo! '
-      sprite: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
-      audioClip: {fileID: 8300000, guid: d306fcf87f5874a5888091cab90ba4a5, type: 3}
-    - title: ChairmanInfo Sample
-      year: 2025
-      message: 'ChairmanInfo! ChairmanInfo! ChairmanInfo! ChairmanInfo! ChairmanInfo!
-        ChairmanInfo! ChairmanInfo! ChairmanInfo! ChairmanInfo! ChairmanInfo! ChairmanInfo!
-        ChairmanInfo! ChairmanInfo! ChairmanInfo! ChairmanInfo! ChairmanInfo! ChairmanInfo!
-        ChairmanInfo! '
-      sprite: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
-      audioClip: {fileID: 8300000, guid: d306fcf87f5874a5888091cab90ba4a5, type: 3}
-    - title: ChairmanInfo Sample
-      year: 2025
-      message: 'ChairmanInfo! ChairmanInfo! ChairmanInfo! ChairmanInfo! ChairmanInfo!
-        ChairmanInfo! ChairmanInfo! ChairmanInfo! ChairmanInfo! ChairmanInfo! ChairmanInfo!
-        ChairmanInfo! ChairmanInfo! ChairmanInfo! ChairmanInfo! ChairmanInfo! ChairmanInfo!
-        ChairmanInfo! '
-      sprite: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
-      audioClip: {fileID: 8300000, guid: d306fcf87f5874a5888091cab90ba4a5, type: 3}
-    - title: ChairmanInfo Sample
-      year: 2025
-      message: 'ChairmanInfo! ChairmanInfo! ChairmanInfo! ChairmanInfo! ChairmanInfo!
-        ChairmanInfo! ChairmanInfo! ChairmanInfo! ChairmanInfo! ChairmanInfo! ChairmanInfo!
-        ChairmanInfo! ChairmanInfo! ChairmanInfo! ChairmanInfo! ChairmanInfo! ChairmanInfo!
-        ChairmanInfo! '
-      sprite: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
-      audioClip: {fileID: 8300000, guid: d306fcf87f5874a5888091cab90ba4a5, type: 3}
-    - title: ChairmanInfo Sample
-      year: 2025
-      message: 'ChairmanInfo! ChairmanInfo! ChairmanInfo! ChairmanInfo! ChairmanInfo!
-        ChairmanInfo! ChairmanInfo! ChairmanInfo! ChairmanInfo! ChairmanInfo! ChairmanInfo!
-        ChairmanInfo! ChairmanInfo! ChairmanInfo! ChairmanInfo! ChairmanInfo! ChairmanInfo!
-        ChairmanInfo! '
-      sprite: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
-      audioClip: {fileID: 8300000, guid: d306fcf87f5874a5888091cab90ba4a5, type: 3}
-    - title: ChairmanInfo Sample
-      year: 2025
-      message: 'ChairmanInfo! ChairmanInfo! ChairmanInfo! ChairmanInfo! ChairmanInfo!
-        ChairmanInfo! ChairmanInfo! ChairmanInfo! ChairmanInfo! ChairmanInfo! ChairmanInfo!
-        ChairmanInfo! ChairmanInfo! ChairmanInfo! ChairmanInfo! ChairmanInfo! ChairmanInfo!
-        ChairmanInfo! '
-      sprite: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
-      audioClip: {fileID: 8300000, guid: d306fcf87f5874a5888091cab90ba4a5, type: 3}
-    - title: ChairmanInfo Sample
-      year: 2025
-      message: 'ChairmanInfo! ChairmanInfo! ChairmanInfo! ChairmanInfo! ChairmanInfo!
-        ChairmanInfo! ChairmanInfo! ChairmanInfo! ChairmanInfo! ChairmanInfo! ChairmanInfo!
-        ChairmanInfo! ChairmanInfo! ChairmanInfo! ChairmanInfo! ChairmanInfo! ChairmanInfo!
-        ChairmanInfo! '
-      sprite: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
-      audioClip: {fileID: 8300000, guid: d306fcf87f5874a5888091cab90ba4a5, type: 3}
-    - title: ChairmanInfo Sample
-      year: 2025
-      message: 'ChairmanInfo! ChairmanInfo! ChairmanInfo! ChairmanInfo! ChairmanInfo!
-        ChairmanInfo! ChairmanInfo! ChairmanInfo! ChairmanInfo! ChairmanInfo! ChairmanInfo!
-        ChairmanInfo! ChairmanInfo! ChairmanInfo! ChairmanInfo! ChairmanInfo! ChairmanInfo!
-        ChairmanInfo! '
-      sprite: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
-      audioClip: {fileID: 8300000, guid: d306fcf87f5874a5888091cab90ba4a5, type: 3}
-    - title: ChairmanInfo Sample
-      year: 2025
-      message: 'ChairmanInfo! ChairmanInfo! ChairmanInfo! ChairmanInfo! ChairmanInfo!
-        ChairmanInfo! ChairmanInfo! ChairmanInfo! ChairmanInfo! ChairmanInfo! ChairmanInfo!
-        ChairmanInfo! ChairmanInfo! ChairmanInfo! ChairmanInfo! ChairmanInfo! ChairmanInfo!
-        ChairmanInfo! '
-      sprite: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
-      audioClip: {fileID: 8300000, guid: d306fcf87f5874a5888091cab90ba4a5, type: 3}
+    - title: '#1 - IN THE BEGINNING'
+      year: 1953
+      message: "Dr. Adenuga, born in 1953 in Ibadan, Nigeria, to Chief Mike Adenuga
+        Sr. and Madam Oyindamola Adenuga, a successful trader and Yeyeoba of ljebuland,
+        attended Ibadan Grammar School and Northwestern State University in Alva,
+        Oklahoma, for his secondary and undergraduate studies, respectively. He later
+        earned a Master\u2019s degree in Business Administration with a focus on
+        Marketing from Pace University in New York."
+      sprite: {fileID: 21300000, guid: 8763738a8b77fd547aaefe6155718206, type: 3}
+      audioClip: {fileID: 8300000, guid: f055272e96a009f4e95f33fad0c2d7d0, type: 3}
+    - title: '#2'
+      year: 1979
+      message: DR. ADENUGA MADE HIS FIRST MILLION IN 1979, AT AGE 26, SELLING LACE
+        MATERIALS AND DISTRIBUTING SOFT DRINKS.
+      sprite: {fileID: 21300000, guid: 2625d02cb31c0cb49b90e737e69c472c, type: 3}
+      audioClip: {fileID: 8300000, guid: 817b6d32824084843825d3acc11a6a52, type: 3}
+    - title: '#3'
+      year: 1984
+      message: He acquired National Oil and Marketing Company Limited, turning it
+        into Consolidated Oil Nigeria Limited, which later became Conoil Producing
+        Limited.The company explores, produces, and sells crude oil. It participated
+        in competitive bidding rounds, won oil blocks, and paid for them.
+      sprite: {fileID: 21300000, guid: 89cb78456b527db4facf0b8c0e99ac49, type: 3}
+      audioClip: {fileID: 8300000, guid: 4ce2a6734ed93094fa9e5de3af5be6f6, type: 3}
+    - title: '#4'
+      year: 1989
+      message: "He ventured into banking by founding Devcom Bank, one of Nigeria's
+        earliest\r\nMerchant Banks.\r"
+      sprite: {fileID: 21300000, guid: 9741070d6ce175f4bb82b70c54ab3825, type: 3}
+      audioClip: {fileID: 8300000, guid: f571ad17459df264eba7ab37ee322c2c, type: 3}
+    - title: '#5'
+      year: 1990
+      message: 'He founded Equitorial Trust Bank in January 1990 as a limited liability
+        company.
+
+        In February of the same year, it was granted a commercial
+        banking license and in March 1990, it commenced banking operations.
+
+'
+      sprite: {fileID: 21300000, guid: 5647225409adc0341b4166237598c81f, type: 3}
+      audioClip: {fileID: 8300000, guid: d0a62bdb54e60f14b9b5fc98c7431bc7, type: 3}
+    - title: '#6'
+      year: 1991
+      message: 'At the age of 38, Adenuga Jr''s Conoil Plc, one of the largest and
+        most profitable oil marketing companies in Nigeria, made history by becoming
+        the first Nigerian company to strike oil and produce it in commercial quantities.
+
+'
+      sprite: {fileID: 21300000, guid: 8956683bb746b784e8328cc2d18f75af, type: 3}
+      audioClip: {fileID: 8300000, guid: 1806377671519404b9455c4c1b6ddf42, type: 3}
+    - title: '#7'
+      year: 2001
+      message: He was issued a conditional GSM licence, which was later revoked.
+        He remained undaunted and kept prospecting for a GSM licence.
+      sprite: {fileID: 21300000, guid: d3400333c6e4e5f46a501f670bc3f2ca, type: 3}
+      audioClip: {fileID: 8300000, guid: 809adf496ede10f43ac2e1b03d876bea, type: 3}
+    - title: '#8'
+      year: 2002
+      message: Dr. Adenuga Jr. won the Second National Operator (SNO) license after
+        bidding for it. He paid the mandatory S20 million deposit fee and gained
+        broader options, including operating as a national carrier, digital mobile
+        lines, an international gateway, and fixed wireless access phones.
+      sprite: {fileID: 21300000, guid: 67df11ab640d97a4cb96019d7d09c167, type: 3}
+      audioClip: {fileID: 8300000, guid: 508b0c59b5c082542a4877b344c94635, type: 3}
+    - title: '#9'
+      year: 2005
+      message: "His Equitorial Trust Bank (ETB) effortlessly met the N25b capital
+        requirement during the 2005 banking consolidation exercise without going
+        to the stock market like many banks at the time. It only merged with Devcom
+        Bank, which was also owned by Dr. Adenuga. The bank was to later merge with
+        Sterling Bank.\r"
+      sprite: {fileID: 21300000, guid: ce76a7dde1bfaa542a946fc7a8ea4120, type: 3}
+      audioClip: {fileID: 8300000, guid: dc9ba636c02a8824a8fcdac3e1ace4b2, type: 3}
+    - title: '#10'
+      year: 2012
+      message: Dr. Adenuga Jr. donated the sum of N500,000,000 to support post-flood
+        disaster management efforts by the Bayelsa State Government.
+      sprite: {fileID: 21300000, guid: 01fdd2edc97971d44be9e3a4be078d47, type: 3}
+      audioClip: {fileID: 8300000, guid: 1237712af9bcd2c4cad75278e334091f, type: 3}
+    - title: '#11'
+      year: 2012
+      message: He was recognized for his excellence when he was named Grand Commander
+        of the Order of the Niger (GCON), the highest national honour for a private
+        individual in Nigeria.
+      sprite: {fileID: 21300000, guid: fb01f73720971ab47841466e07bc91c4, type: 3}
+      audioClip: {fileID: 8300000, guid: f186fd1bb22ef8b42a251b422faa8965, type: 3}
+    - title: '#12'
+      year: 2013
+      message: Dr. Adenuga donated a fully-equipped ICT Centre to Ibadan Grammar
+        School, his alma mater, as part of its Centenary celebrations and Metropolitan
+        College, Onitsha. He extended a similar gesture to Muslim College, ljebu
+        Igbo.
+      sprite: {fileID: 21300000, guid: 1482bcf40a45aab47bdb9c98cce93aea, type: 3}
+      audioClip: {fileID: 8300000, guid: e81e4b9ce3fb228489793b4568392793, type: 3}
+    - title: '#13'
+      year: 2014
+      message: He was recognised as one of the 100 Distinguished and Eminent Nigerians
+        at the Centenary Awards.
+      sprite: {fileID: 21300000, guid: b787a244fb1c3ed408dcb22d808d6f44, type: 3}
+      audioClip: {fileID: 8300000, guid: 5dfda2c7fd92ade4884b7c6aa159662d, type: 3}
+    - title: '#14'
+      year: 2016
+      message: He was awarded Ghana's highest national honour, Companion of the Star
+        of Ghana (CSG), in recognition of his contributions to the growth and development
+        of the country.
+      sprite: {fileID: 21300000, guid: 05cc27124b9976849a6f4505c2f6f8a0, type: 3}
+      audioClip: {fileID: 8300000, guid: b185e419cf4b4234f926eee6df8aaba2, type: 3}
+    - title: '#15'
+      year: 2018
+      message: "He was awarded France's highest national honour, Commander of L\xE9gion
+        d'honneur, by the country's President, Emmanuel Macron, in recognition of
+        his contributions to the growth of the African economy."
+      sprite: {fileID: 21300000, guid: 7808a370b10d31b42ae98af7ec736dd4, type: 3}
+      audioClip: {fileID: 8300000, guid: fc95a3c34086ddf4389a3b47692d7e82, type: 3}
+    - title: '#16'
+      year: 2020
+      message: Dr. Adenuga's Globacom won the Brand of the Year 2020 Award at the
+        World Branding Awards in London. This is the second consecutive year that
+        the company won this award.
+      sprite: {fileID: 21300000, guid: 9a1054dab6b51674292674cbc5d27ef6, type: 3}
+      audioClip: {fileID: 8300000, guid: 8362028464982ce4982582754e799ae3, type: 3}
+    - title: '#16'
+      year: 2020
+      message: Dr. Adenuga's Globacom won the Brand of the Year 2020 Award at the
+        World Branding Awards in London. This is the second consecutive year that
+        the company won this award.
+      sprite: {fileID: 21300000, guid: 9a1054dab6b51674292674cbc5d27ef6, type: 3}
+      audioClip: {fileID: 8300000, guid: 8362028464982ce4982582754e799ae3, type: 3}
+    - title: '#16'
+      year: 2020
+      message: Dr. Adenuga's Globacom won the Brand of the Year 2020 Award at the
+        World Branding Awards in London. This is the second consecutive year that
+        the company won this award.
+      sprite: {fileID: 21300000, guid: 9a1054dab6b51674292674cbc5d27ef6, type: 3}
+      audioClip: {fileID: 8300000, guid: 8362028464982ce4982582754e799ae3, type: 3}
+    - title: '#16'
+      year: 2020
+      message: Dr. Adenuga's Globacom won the Brand of the Year 2020 Award at the
+        World Branding Awards in London. This is the second consecutive year that
+        the company won this award.
+      sprite: {fileID: 21300000, guid: 9a1054dab6b51674292674cbc5d27ef6, type: 3}
+      audioClip: {fileID: 8300000, guid: 8362028464982ce4982582754e799ae3, type: 3}
+    - title: '#16'
+      year: 2020
+      message: Dr. Adenuga's Globacom won the Brand of the Year 2020 Award at the
+        World Branding Awards in London. This is the second consecutive year that
+        the company won this award.
+      sprite: {fileID: 21300000, guid: 9a1054dab6b51674292674cbc5d27ef6, type: 3}
+      audioClip: {fileID: 8300000, guid: 8362028464982ce4982582754e799ae3, type: 3}
+    - title: '#16'
+      year: 2020
+      message: Dr. Adenuga's Globacom won the Brand of the Year 2020 Award at the
+        World Branding Awards in London. This is the second consecutive year that
+        the company won this award.
+      sprite: {fileID: 21300000, guid: 9a1054dab6b51674292674cbc5d27ef6, type: 3}
+      audioClip: {fileID: 8300000, guid: 8362028464982ce4982582754e799ae3, type: 3}
+    - title: '#16'
+      year: 2020
+      message: Dr. Adenuga's Globacom won the Brand of the Year 2020 Award at the
+        World Branding Awards in London. This is the second consecutive year that
+        the company won this award.
+      sprite: {fileID: 21300000, guid: 9a1054dab6b51674292674cbc5d27ef6, type: 3}
+      audioClip: {fileID: 8300000, guid: 8362028464982ce4982582754e799ae3, type: 3}
+    - title: '#16'
+      year: 2020
+      message: Dr. Adenuga's Globacom won the Brand of the Year 2020 Award at the
+        World Branding Awards in London. This is the second consecutive year that
+        the company won this award.
+      sprite: {fileID: 21300000, guid: 9a1054dab6b51674292674cbc5d27ef6, type: 3}
+      audioClip: {fileID: 8300000, guid: 8362028464982ce4982582754e799ae3, type: 3}
+    - title: '#16'
+      year: 2020
+      message: Dr. Adenuga's Globacom won the Brand of the Year 2020 Award at the
+        World Branding Awards in London. This is the second consecutive year that
+        the company won this award.
+      sprite: {fileID: 21300000, guid: 9a1054dab6b51674292674cbc5d27ef6, type: 3}
+      audioClip: {fileID: 8300000, guid: 8362028464982ce4982582754e799ae3, type: 3}
   type: CommunicationHistory
 --- !u!1 &2018890517
 GameObject:
@@ -24493,7 +24760,7 @@ Transform:
   m_GameObject: {fileID: 1022863763864699446}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalPosition: {x: -0, y: 0, z: -1.19}
   m_LocalScale: {x: 1584.282, y: 1584.282, z: 1584.282}
   m_ConstrainProportionsScale: 0
   m_Children: []
