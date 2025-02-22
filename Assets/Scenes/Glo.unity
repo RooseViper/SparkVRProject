@@ -23008,7 +23008,7 @@ MonoBehaviour:
       message: The first patent for a rotary dial was granted to Almon Brown Strowger
         on November 29, 1892. It remained in common usage until it was gradually
         replaced by phones with push-button keypads from the 1980s onwards.
-      sprite: {fileID: 21300000, guid: 7399e3620a1c8084291ee356e3411525, type: 3}
+      sprite: {fileID: 21300000, guid: fecac817ab7aa264295dc9a1866d7d83, type: 3}
       audioClip: {fileID: 8300000, guid: bc41020874312414ca232cbd19876fee, type: 3}
     - title: TELEX
       year: 1933
@@ -23091,7 +23091,7 @@ MonoBehaviour:
         very different to what we know today. Some early models came in their own
         briefcases! The DynaTAC 8000x weighed 790g and was 25cm tall. Today's basic
         feature phones only weigh 10% of that.\r"
-      sprite: {fileID: 21300000, guid: a4e1aa51fff78d146913557ea5dceb0d, type: 3}
+      sprite: {fileID: 21300000, guid: 3f01981f92b9f3843bf398e9515e8a6c, type: 3}
       audioClip: {fileID: 8300000, guid: f1efa071ce4d67f42a51532b88434ed7, type: 3}
     - title: PDAS
       year: 1984
