@@ -425,7 +425,8 @@ MonoBehaviour:
   - Assets/Models/FAN.fbx
   - Assets/Models/Ceiling Fan/Sketchfab_2023_02_21_11_08_44.blend
   - Assets/Models/unseen-wall-lamp/2ndFlr_Walllamp.fbx
-  uvOverlapAssetList: 00000000ffffffff00000000000000000000000001010000010100000000000000000000010100000000000000000000
+  - Assets/Art/Escape Room/Escape_Room.fbx
+  uvOverlapAssetList: 00000000ffffffff0000000000000000000000000101000001010000000000000000000001010000000000000000000001010000
   xatlasWarningShown: 0
   foundCompatibleSetup: 1
   gpuName: NVIDIA GeForce RTX 3070 Laptop GPU
