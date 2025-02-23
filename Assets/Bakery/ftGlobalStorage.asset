@@ -19,7 +19,7 @@ MonoBehaviour:
   - Assets/Models/Lights.fbx
   - Assets/Models/Wall_Frame.fbx
   - Assets/Models/led-ceiling-light/LED Ceiling Light.fbx
-  modifiedAssetPaddingHash: d6a958ff75f23a06c3f7fc9af166e2a8df4dfff07c398033
+  modifiedAssetPaddingHash: d6a958ff1067e2a81e8c3aa2a768e2a81067e2a897c6d890
   modifiedMeshList: []
   modifiedMeshPaddingList: 
   modifiedAssets:
@@ -404,24 +404,24 @@ MonoBehaviour:
     unwrapper: 
   - meshName:
     - Hologram
-    padding: 3c000000
+    padding: 3d000000
     unwrapper: 00000000
   - meshName:
     - Screens
     - Table1
-    padding: 3400000021000000
+    padding: 3500000021000000
     unwrapper: 0000000000000000
   - meshName:
     - Lights_geo
-    padding: 47000000
+    padding: 5b000000
     unwrapper: 00000000
   - meshName:
     - Wall_Frame_1
-    padding: 30000000
+    padding: 3d000000
     unwrapper: 00000000
   - meshName:
     - ' Ceiling Light'
-    padding: 41000000
+    padding: 54000000
     unwrapper: 00000000
   assetList:
   - Assets/Bakery/examples/content/sponza/bush.FBX
@@ -520,5 +520,5 @@ MonoBehaviour:
   renderSettingsRTPVWidth: 640
   renderSettingsRTPVHeight: 360
   tagOverrides: []
-  modifiedMeshPaddingArray: 41000000
+  modifiedMeshPaddingArray: 54000000
   modifiedMeshUnwrapperArray: 00000000

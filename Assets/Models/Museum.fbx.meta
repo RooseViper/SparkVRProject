@@ -141,7 +141,7 @@ ModelImporter:
     animationWrapMode: 0
     extraExposedTransformPaths: []
     extraUserProperties:
-    - '#BAKERY{"meshName":["Hologram"],"padding":[60],"unwrapper":[0]}'
+    - '#BAKERY{"meshName":["Hologram"],"padding":[61],"unwrapper":[0]}'
     clipAnimations: []
     isReadable: 0
   meshes:
