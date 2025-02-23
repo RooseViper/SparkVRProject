@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using Audio;
+using Escape_Room;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
@@ -9,10 +10,11 @@ using UnityEngine.UI;
 public class KeyPad : MonoBehaviour
 {
     [SerializeField] private TMP_Text keypadText;
+    [SerializeField] private Door door;
     private GameObject hiddenDoor; 
     private string codeTyped = "";
     private Coroutine clearKeypadCoroutine;
-    public string SecretCode { get; set; }
+    private const string SecretCode = "9103";
 
     private void Start()
     {
@@ -52,6 +54,7 @@ public class KeyPad : MonoBehaviour
         }
         else if (SecretCode == codeTyped)
         {
+            Escape_Room.Audio.AudioManager.Instance.Play("Door Unlock", doorAudioSource);
             LeanTween.moveLocalY(hiddenDoor, 12.01f, 2.975f).setEaseInOutSine();
             Escape_Room.Audio.AudioManager.Instance.Play("Hidden Wall");
         }
