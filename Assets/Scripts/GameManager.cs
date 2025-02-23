@@ -44,6 +44,8 @@ public class GameManager : MonoBehaviour
     {
         yield return new WaitForSeconds(1f);
         ChangeInstructionsCanvasState(true);
+        var videoPlayers = FindObjectsOfType<VideoPlayer>().ToList();
+        videoPlayers.ForEach(v=> v.Pause());
     }
 
     public void ChangeSkyBox()

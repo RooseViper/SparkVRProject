@@ -41,21 +41,19 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-    <Analyzer Include="C:\Users\Lenovo\My First VR Project URP\Library\PackageCache\com.unity.collab-proxy@2.6.0\Lib\Editor\Unity.Plastic.Newtonsoft.Json.dll" />
-    <Analyzer Include="C:\Users\Lenovo\My First VR Project URP\Library\PackageCache\com.unity.collab-proxy@2.6.0\Lib\Editor\log4netPlastic.dll" />
-    <Analyzer Include="C:\Users\Lenovo\My First VR Project URP\Library\PackageCache\com.unity.collab-proxy@2.6.0\Lib\Editor\Unity.Plastic.Antlr3.Runtime.dll" />
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.3.56f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.SourceGenerators.dll" />
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.3.56f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Tools\Nova\Scripts\Internal\Rendering\ImageDescriptorTypes.cs" />
     <Compile Include="Assets\Tools\Nova\Scripts\Internal\Rendering\RenderSetFilterJob.cs" />
     <Compile Include="Assets\Tools\Nova\Scripts\Internal\InputRouter.cs" />
     <Compile Include="Assets\Tools\Nova\Scripts\Internal\Hierarchy\HierarchyDependency.cs" />
     <Compile Include="Assets\Tools\Nova\Scripts\Internal\Rendering\DrawCallArbitrationJob.cs" />
     <Compile Include="Assets\Tools\Nova\Scripts\Internal\Layouts\LayoutsCalculateBounds.cs" />
     <Compile Include="Assets\Tools\Nova\Scripts\Internal\Rendering\RotationSet.cs" />
-    <Compile Include="Assets\Tools\Nova\Scripts\Internal\IEventTarget.cs" />
     <Compile Include="Assets\Tools\Nova\Scripts\Internal\Rendering\RenderEngineJobsInit.cs" />
+    <Compile Include="Assets\Tools\Nova\Scripts\Internal\IEventTarget.cs" />
     <Compile Include="Assets\Tools\Nova\Scripts\Internal\Rendering\CoplanarSpaceBoundsJob.cs" />
     <Compile Include="Assets\Tools\Nova\Scripts\Internal\Surface.Internal.cs" />
     <Compile Include="Assets\Tools\Nova\Scripts\Internal\Rendering\AccessWrapper.cs" />
@@ -252,8 +250,8 @@
     <Compile Include="Assets\Tools\Nova\Scripts\Internal\Rendering\UIBlock2DDataStore.cs" />
     <Compile Include="Assets\Tools\Nova\Scripts\Internal\Rendering\AABB.cs" />
     <Compile Include="Assets\Tools\Nova\Scripts\Public\Settings\NovaSettings.cs" />
-    <Compile Include="Assets\Tools\Nova\Scripts\AssemblyInfo.cs" />
     <Compile Include="Assets\Tools\Nova\Scripts\Public\DataTypes\RadialFill.cs" />
+    <Compile Include="Assets\Tools\Nova\Scripts\AssemblyInfo.cs" />
     <Compile Include="Assets\Tools\Nova\Scripts\Internal\Rendering\ImageTrackingRunner.cs" />
     <Compile Include="Assets\Tools\Nova\Scripts\Internal\AnimationEngineProxy.cs" />
     <Compile Include="Assets\Tools\Nova\Scripts\Internal\Rendering\CommonData.cs" />
@@ -311,8 +309,8 @@
     <Compile Include="Assets\Tools\Nova\Scripts\Internal\Rendering\SubQuadShaderDataJob.cs" />
     <Compile Include="Assets\Tools\Nova\Scripts\Internal\Utilities\DestroyUtils.cs" />
     <Compile Include="Assets\Tools\Nova\Scripts\Internal\Layouts\LayoutsAutoLayout.cs" />
-    <Compile Include="Assets\Tools\Nova\Scripts\Internal\VirtualUIBlock.cs" />
     <Compile Include="Assets\Tools\Nova\Scripts\Internal\Layout.Internal.cs" />
+    <Compile Include="Assets\Tools\Nova\Scripts\Internal\VirtualUIBlock.cs" />
     <Compile Include="Assets\Tools\Nova\Scripts\Public\Animations\IAnimation.cs" />
     <Compile Include="Assets\Tools\Nova\Scripts\Internal\Rendering\UIBlock3DDataStore.cs" />
     <Compile Include="Assets\Tools\Nova\Scripts\Public\Components\UIBlock2D.cs" />
@@ -351,9 +349,9 @@
     <Compile Include="Assets\Tools\Nova\Scripts\Public\DataTypes\NavNode.cs" />
     <Compile Include="Assets\Tools\Nova\Scripts\Public\Components\UIBlock3D.cs" />
     <Compile Include="Assets\Tools\Nova\Scripts\Internal\Collections\ArrayBuffer.cs" />
+    <Compile Include="Assets\Tools\Nova\Scripts\Internal\Utilities\Extensions\DictionaryExtensions.cs" />
     <Compile Include="Assets\Tools\Nova\Scripts\Public\DataTypes\Alignment.cs" />
     <Compile Include="Assets\Tools\Nova\Scripts\Internal\Utilities\Extensions\NativeReferenceExtensions.cs" />
-    <Compile Include="Assets\Tools\Nova\Scripts\Internal\Utilities\Extensions\DictionaryExtensions.cs" />
     <Compile Include="Assets\Tools\Nova\Scripts\Internal\PrefabStageUtilsImpl.cs" />
     <Compile Include="Assets\Tools\Nova\Scripts\Public\DataBinding\UIBlockExtensions.cs" />
     <Compile Include="Assets\Tools\Nova\Scripts\Internal\Input\SphereToBounds.cs" />
@@ -362,7 +360,6 @@
     <Compile Include="Assets\Tools\Nova\Scripts\Public\Components\SortGroup.cs" />
     <Compile Include="Assets\Tools\Nova\Scripts\Internal\Hierarchy\HierarchyElement.cs" />
     <Compile Include="Assets\Tools\Nova\Scripts\Internal\Rendering\ImageDataStore.cs" />
-    <Compile Include="Assets\Tools\Nova\Scripts\Internal\Rendering\ImageDescriptorTypes.cs" />
     <None Include="Assets\Tools\Nova\Scripts\Nova.asmdef" />
     <Reference Include="UnityEngine">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.56f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
