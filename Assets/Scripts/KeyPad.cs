@@ -54,7 +54,7 @@ public class KeyPad : MonoBehaviour
         }
         else if (SecretCode == codeTyped)
         {
-            Escape_Room.Audio.AudioManager.Instance.Play("Door Unlock", doorAudioSource);
+ ///           Escape_Room.Audio.AudioManager.Instance.Play("Door Unlock", doorAudioSource);
             LeanTween.moveLocalY(hiddenDoor, 12.01f, 2.975f).setEaseInOutSine();
             Escape_Room.Audio.AudioManager.Instance.Play("Hidden Wall");
         }
