@@ -11,7 +11,7 @@ namespace Escape_Room
         public void Open()
         {
             var currentVector3 = transform.localEulerAngles;
-            currentVector3.y = openAngle;
+            currentVector3.z = openAngle;
             LeanTween.rotateLocal(gameObject, currentVector3, speed).setEaseInOutSine();
         }
     }
