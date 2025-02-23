@@ -112,6 +112,7 @@
     <Compile Include="Assets\Scripts\PaintingManager.cs" />
     <Compile Include="Assets\_Course Library\Scripts\Actions\ToggleParticle.cs" />
     <Compile Include="Assets\_Course Library\Scripts\Testing\Notes.cs" />
+    <Compile Include="Assets\Scripts\KeyPad.cs" />
     <Compile Include="Assets\Tools\LeanTween\Examples\Scripts\TestingZLegacy.cs" />
     <Compile Include="Assets\_Course Library\Scripts\Controls\XRLever.cs" />
     <Compile Include="Assets\Tools\LeanTween\Examples\Scripts\GeneralUISpace.cs" />
@@ -159,6 +160,7 @@
     <Compile Include="Assets\Scripts\PlayerManager.cs" />
     <Compile Include="Assets\Tools\LeanTween\Framework\LTSeq.cs" />
     <Compile Include="Assets\Tools\LeanTween\Examples\Scripts\PathSplines.cs" />
+    <Compile Include="Assets\Scripts\KeypadButton.cs" />
     <Compile Include="Assets\Tools\LeanTween\Testing\PerformanceTests.cs" />
     <Compile Include="Assets\_Course Library\Scripts\Conditions\OnPull.cs" />
     <Compile Include="Assets\Tools\LeanTween\Testing\TestingIssue.cs" />

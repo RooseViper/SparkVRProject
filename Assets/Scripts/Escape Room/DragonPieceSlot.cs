@@ -64,12 +64,12 @@ namespace Escape_Room
 
         private IEnumerator OpenDoorCoroutine()
         {
-            yield return new WaitForSeconds(1f);
+            yield return new WaitForSeconds(0.5f);
             Escape_Room.Audio.AudioManager.Instance.Play("Door Unlock", doorAudioSource);
-            yield return new WaitForSeconds(1f);
+            yield return new WaitForSeconds(2f);
             var door = GetComponentInParent<Door>();
-            door.Open();
-            Escape_Room.Audio.AudioManager.Instance.Play("Creaky Door", doorAudioSource);
+            door.OpenYAxis();
+            Escape_Room.Audio.AudioManager.Instance.Play("Open Safe", doorAudioSource);
         }
 
         private void RemoveDragonPiece(SelectExitEventArgs selectExitEventArgs)

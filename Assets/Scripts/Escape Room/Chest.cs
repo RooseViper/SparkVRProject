@@ -19,7 +19,7 @@ namespace Escape_Room
         public void Open()
         {
             LeanTween.rotateAroundLocal(chestDoorObject, Vector3.left, 95f, 2f).setEaseInOutSine();
-            Escape_Room.Audio.AudioManager.Instance.Play("Chest Open", audioSource);
+            Escape_Room.Audio.AudioManager.Instance.Play("Chest OpenZAxis", audioSource);
             Sparks();
         }
 

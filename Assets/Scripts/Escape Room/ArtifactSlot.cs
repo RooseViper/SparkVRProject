@@ -65,8 +65,8 @@ namespace Escape_Room
                 if (allPiecesMatched)
                 {
                     var door = transform.parent.GetComponentInChildren<Door>();
-                    door.Open();
-                    Escape_Room.Audio.AudioManager.Instance.Play("Glassbox Open", glassBoxAudioSource);
+                    door.OpenZAxis();
+                    Escape_Room.Audio.AudioManager.Instance.Play("Glassbox OpenZAxis", glassBoxAudioSource);
                     glassBox.MakePieceInteractable();
                 }
             }
