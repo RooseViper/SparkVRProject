@@ -10,15 +10,14 @@ using UnityEngine.UI;
 public class KeyPad : MonoBehaviour
 {
     [SerializeField] private TMP_Text keypadText;
-    [SerializeField] private Door door;
-    private GameObject hiddenDoor; 
     private string codeTyped = "";
     private Coroutine clearKeypadCoroutine;
     private const string SecretCode = "9108";
+    private AudioSource audioSource;
 
     private void Start()
     {
-        hiddenDoor = transform.parent.gameObject;
+        audioSource = GetComponent<AudioSource>();
     }
 
     public void EnterCode(int numberIndex)
@@ -54,10 +53,15 @@ public class KeyPad : MonoBehaviour
         }
         else if (SecretCode == codeTyped)
         {
- ///           Escape_Room.Audio.AudioManager.Instance.Play("Door Unlock", doorAudioSource);
-            LeanTween.moveLocalY(hiddenDoor, 12.01f, 2.975f).setEaseInOutSine();
-            Escape_Room.Audio.AudioManager.Instance.Play("Hidden Wall");
+            Escape_Room.Audio.AudioManager.Instance.Play("Door Unlock", audioSource);
+            StartCoroutine(EndGameCoroutine());
         }
+    }
+
+    private IEnumerator EndGameCoroutine()
+    {
+        yield return new WaitForSeconds(1f);
+        PlayerManager.Instance.EndgameSucess();
     }
 
 

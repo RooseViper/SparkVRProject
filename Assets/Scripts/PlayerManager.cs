@@ -8,6 +8,8 @@ public class PlayerManager : MonoBehaviour
    public Transform playerRig;
    [SerializeField] private Transform teleportTransform;
    [SerializeField]private Transform teleportBlackRoomTransform;
+   [SerializeField] private GameObject triggerObjectSuccess, triggerObjectFailure;
+   [SerializeField] private AudioSource theEndAudioSource;
    public static PlayerManager Instance => _instance;
    private static PlayerManager _instance;
 
@@ -24,6 +26,9 @@ public class PlayerManager : MonoBehaviour
    public void EndgameSucess()
    {
       playerRig.SetLocalPositionAndRotation(teleportBlackRoomTransform.position, Quaternion.Euler(teleportBlackRoomTransform.eulerAngles));
+      triggerObjectSuccess.SetActive(true);
+      theEndAudioSource.Play();
+      Escape_Room.Audio.AudioManager.Instance.Play("The End");
    }
 
    private IEnumerator WelcomeVoiceCoroutine()
