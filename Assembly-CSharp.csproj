@@ -123,7 +123,6 @@
     <Compile Include="Assets\Tools\Fast Color Grading\URP_Cg\ColorGradingUrpPass.cs" />
     <Compile Include="Assets\_Course Library\Scripts\Actions\CreateTrail.cs" />
     <Compile Include="Assets\_Course Library\Scripts\Actions\TeleportPlayer.cs" />
-    <Compile Include="Assets\Scripts\CubeEater.cs" />
     <Compile Include="Assets\Tools\LeanTween\Framework\LeanTest.cs" />
     <Compile Include="Assets\Tools\LeanTween\Examples\Scripts\TestingUnitTests.cs" />
     <Compile Include="Assets\Tools\LeanTween\Testing\TestingSequencer.cs" />
