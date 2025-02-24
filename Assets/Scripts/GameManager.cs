@@ -71,6 +71,7 @@ public class GameManager : MonoBehaviour
         RestartExperience();
     }
 
+
     public void QuitExperience()=> Application.Quit();
 
     public void RestartExperience() => SceneManager.LoadScene(0);

@@ -6,7 +6,8 @@ using UnityEngine;
 public class PlayerManager : MonoBehaviour
 {
    public Transform playerRig;
-//   [SerializeField] private Transform teleportTransform;
+   [SerializeField] private Transform teleportTransform;
+   [SerializeField]private Transform teleportBlackRoomTransform;
    public static PlayerManager Instance => _instance;
    private static PlayerManager _instance;
 
@@ -16,6 +17,18 @@ public class PlayerManager : MonoBehaviour
    }
    public void Teleport()
    {
-    //  playerRig.SetLocalPositionAndRotation(teleportTransform.position, Quaternion.Euler(teleportTransform.eulerAngles));
+      playerRig.SetLocalPositionAndRotation(teleportTransform.position, Quaternion.Euler(teleportTransform.eulerAngles));
+      StartCoroutine(WelcomeVoiceCoroutine());
+   }
+
+   public void EndgameSucess()
+   {
+      playerRig.SetLocalPositionAndRotation(teleportBlackRoomTransform.position, Quaternion.Euler(teleportBlackRoomTransform.eulerAngles));
+   }
+
+   private IEnumerator WelcomeVoiceCoroutine()
+   {
+      yield return new WaitForSeconds(0.75f);
+      Escape_Room.Audio.AudioManager.Instance.Play("Welcome");
    }
 }

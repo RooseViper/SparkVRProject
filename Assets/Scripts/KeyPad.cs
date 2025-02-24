@@ -14,7 +14,7 @@ public class KeyPad : MonoBehaviour
     private GameObject hiddenDoor; 
     private string codeTyped = "";
     private Coroutine clearKeypadCoroutine;
-    private const string SecretCode = "9103";
+    private const string SecretCode = "9108";
 
     private void Start()
     {

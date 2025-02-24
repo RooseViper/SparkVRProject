@@ -70,6 +70,8 @@ namespace Escape_Room
             var door = GetComponentInParent<Door>();
             door.OpenYAxis();
             Escape_Room.Audio.AudioManager.Instance.Play("Open Safe", doorAudioSource);
+            yield return new WaitForSeconds(1.5f);
+            Escape_Room.Audio.AudioManager.Instance.Play("Find Keypad");
         }
 
         private void RemoveDragonPiece(SelectExitEventArgs selectExitEventArgs)

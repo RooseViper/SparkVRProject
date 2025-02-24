@@ -64,14 +64,23 @@ namespace Escape_Room
                 var allPiecesMatched = artifactSlots.All(slot => slot.index == slot.item.index);
                 if (allPiecesMatched)
                 {
-                    var door = transform.parent.GetComponentInChildren<Door>();
-                    door.OpenZAxis();
-                    Escape_Room.Audio.AudioManager.Instance.Play("Glassbox OpenZAxis", glassBoxAudioSource);
-                    glassBox.MakePieceInteractable();
+                    StartCoroutine(OpenChestCoroutine());
                 }
             }
         }
-        
+
+        private IEnumerator OpenChestCoroutine()
+        {
+            Escape_Room.Audio.AudioManager.Instance.Play("Door Unlock", glassBoxAudioSource);
+            yield return new WaitForSeconds(1f);
+            var door = transform.parent.GetComponentInChildren<Door>();
+            door.OpenZAxis();
+            Escape_Room.Audio.AudioManager.Instance.Play("Glassbox OpenZAxis", glassBoxAudioSource);
+            glassBox.MakePieceInteractable();
+            yield return new WaitForSeconds(2f);
+            Escape_Room.Audio.AudioManager.Instance.Play("Superb");
+        }
+
 
         private void RemoveArtifactPiece(SelectExitEventArgs selectExitEventArgs)
         {

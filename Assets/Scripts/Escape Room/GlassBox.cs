@@ -8,7 +8,7 @@ namespace Escape_Room
     {
         [SerializeField]
         private XRGrabInteractable piece;
-
+        [SerializeField] private GameObject triggerObject;
 
         public void MakePieceInteractable()
         {
@@ -17,6 +17,7 @@ namespace Escape_Room
 
             // Assign the new mask back to the interactionLayers property
             piece.interactionLayers = newLayerMask;
+            triggerObject.SetActive(true);
         }
     }
 }
