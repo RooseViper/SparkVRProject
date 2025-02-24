@@ -7,13 +7,17 @@ public class Shrinker : MonoBehaviour
 {
     private Canvas canvas;
     private Vector3 defaultScale;
+    [SerializeField]private bool shrink;
     private void Start()
     {
         canvas = GetComponent<Canvas>();
         var canvasTransform = canvas.transform;
         defaultScale = canvasTransform.localScale;
         canvasTransform.localScale = Vector3.zero;
-        UnShrink();
+        if (!shrink)
+        {
+            UnShrink();
+        }
     }
 
     // Start is called before the first frame update

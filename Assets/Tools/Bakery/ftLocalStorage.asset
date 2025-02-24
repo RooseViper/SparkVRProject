@@ -18,4 +18,5 @@ MonoBehaviour:
   - Assets/Models/Ceiling Fan/Sketchfab_2023_02_21_11_08_44.blend
   - Assets/Models/unseen-wall-lamp/2ndFlr_Walllamp.fbx
   - Assets/Art/Escape Room/Escape_Room-1.fbx
-  modifiedAssetPaddingHash: d6a958ffb84608c8ecc12491ecc1249126386890
+  - Assets/Art/Escape Room/casino_carpet_4-1K/EscapeRoom_Hallway.fbx
+  modifiedAssetPaddingHash: d6a958ffb84608c8ecc12491ecc1249126386890ff451cb2
