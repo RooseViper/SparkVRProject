@@ -11,13 +11,11 @@ public class CountdownTimer : MonoBehaviour
     private float remainingTime;
     public List<TextMeshProUGUI> timerTexts; // UI Text element to display the timer
 
-    void Start()
+    public void StartCountDown()
     {
         remainingTime = startMinutes * 60; // Convert minutes to seconds
         StartCoroutine(TimerCoroutine());
     }
-
-    public void DeductTime() => remainingTime -= 10f;
 
     private IEnumerator TimerCoroutine()
     {
@@ -26,7 +24,7 @@ public class CountdownTimer : MonoBehaviour
             int minutes = Mathf.FloorToInt(remainingTime / 60);
             int seconds = Mathf.FloorToInt(remainingTime % 60);
 
-            timerTexts.ForEach(timer=> timer.text = string.Format("{0:00}:{1:00}", minutes, seconds));
+            timerTexts.ForEach(timer=> timer.text = $"{minutes:00}:{seconds:00}");
 
             yield return new WaitForSeconds(1f);
             remainingTime--;
@@ -34,6 +32,6 @@ public class CountdownTimer : MonoBehaviour
 
         // Timer has reached zero
         timerTexts.ForEach(timer=> timer.text = "00:00");
-        SceneManager.LoadScene(0);
+        Debug.Log("Done");
     }
 }
