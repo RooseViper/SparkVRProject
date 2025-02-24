@@ -583,7 +583,8 @@ MonoBehaviour:
   - Assets/Models/unseen-wall-lamp/2ndFlr_Walllamp.fbx
   - Assets/Art/Escape Room/Escape_Room.fbx
   - Assets/Art/Escape Room/Escape_Room-1.fbx
-  uvOverlapAssetList: 00000000ffffffff000000000000000000000000010100000101000000000000000000000101000000000000000000000101000001010000
+  - Assets/Art/Escape Room/HintPaper.fbx
+  uvOverlapAssetList: 00000000ffffffff00000000000000000000000001010000010100000000000000000000010100000000000000000000010100000101000000000000
   xatlasWarningShown: 0
   foundCompatibleSetup: 1
   gpuName: NVIDIA GeForce RTX 3070 Laptop GPU
