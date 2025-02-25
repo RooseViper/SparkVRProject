@@ -10,6 +10,7 @@ using UnityEngine.UI;
 public class KeyPad : MonoBehaviour
 {
     [SerializeField] private TMP_Text keypadText;
+    [SerializeField] private Door door;
     private string codeTyped = "";
     private Coroutine clearKeypadCoroutine;
     private const string SecretCode = "9108";
@@ -61,7 +62,8 @@ public class KeyPad : MonoBehaviour
     private IEnumerator EndGameCoroutine()
     {
         yield return new WaitForSeconds(1f);
-        PlayerManager.Instance.EndgameSucess();
+        door.OpenYAxis();
+        Escape_Room.Audio.AudioManager.Instance.Play("Door", door.GetComponent<AudioSource>());
     }
 
 
