@@ -107,6 +107,7 @@
     <Compile Include="Assets\Tools\LeanTween\Examples\Scripts\TestingZLegacyExt.cs" />
     <Compile Include="Assets\_Course Library\Scripts\Testing\TeleportAnchorWithFade.cs" />
     <Compile Include="Assets\_Course Library\Scripts\Actions\SpawnObject.cs" />
+    <Compile Include="Assets\Scripts\ToggleSwitcher.cs" />
     <Compile Include="Assets\Scripts\Shrinker.cs" />
     <Compile Include="Assets\_Course Library\Scripts\Actions\DestroyObject.cs" />
     <Compile Include="Assets\Scripts\AudioManager.cs" />

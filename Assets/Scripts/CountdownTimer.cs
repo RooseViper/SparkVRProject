@@ -11,17 +11,22 @@ public class CountdownTimer : MonoBehaviour
     private float remainingTime;
     public List<TextMeshProUGUI> timerTexts; // UI Text element to display the timer
     private Coroutine timerCoroutine;
+    public void SetStartMinutes(float value) => startMinutes = value;
     public void StartCountDown()
     {
         remainingTime = startMinutes * 60; // Convert minutes to seconds
         timerCoroutine = StartCoroutine(TimerCoroutine());
     }
 
+    public void SetDifficulty(TMP_Dropdown dropdown)
+    {
+        startMinutes = dropdown.value == 0 ? 10 : 5;
+    }
+
     public void StopTimer()
     {
         StopCoroutine(timerCoroutine);
     }
-
     private IEnumerator TimerCoroutine()
     {
         while (remainingTime > 0)
