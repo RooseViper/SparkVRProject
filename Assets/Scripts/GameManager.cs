@@ -12,7 +12,7 @@ public class GameManager : MonoBehaviour
 {
     [SerializeField] private Transform portableMenuCanvas;
     [SerializeField] private CountdownTimer countdownTimer;
-    [SerializeField ]private float fogRate = 0.05f;
+    [SerializeField] private Shrinker failureShrinker;
     public static GameManager Instance => _instance;
     private static GameManager _instance;
     private int skyBoxIndex;
@@ -47,21 +47,18 @@ public class GameManager : MonoBehaviour
     public void LoadInRoom()
     {
         PlayerManager.Instance.Teleport();
-        countdownTimer.StartCountDown();
     }
-
+    public void StartTimer()=> countdownTimer.StartCountDown();
     public void RestartInRoom()
     {
         startInRoom = true;
         RestartExperience();
     }
-    
     public void RestartCompletely()
     {
         startInRoom = false;
         RestartExperience();
     }
-
     public void ChangePortableCanvasCanvasState(bool expand)
     {
         if (LeanTween.isTweening(portableMenuCanvas.gameObject))
@@ -77,7 +74,7 @@ public class GameManager : MonoBehaviour
             LeanTween.scale(portableMenuCanvas.gameObject, Vector3.zero, 0.5f).setEaseInOutSine();
         }
     }
-    public void IncreaseFog()=>   StartCoroutine(IncreaseFogDensity(1f, 12.5f));
+    public void IncreaseFog()=>   StartCoroutine(IncreaseFogDensity(1f, 4f));
     private IEnumerator IncreaseFogDensity(float target, float time)
     {
         var startDensity = RenderSettings.fogDensity; // Current fog density
@@ -92,12 +89,27 @@ public class GameManager : MonoBehaviour
         }
         // Ensure the final density is exactly the target
         RenderSettings.fogDensity = target;
-        RestartExperience();
     }
-
-
+    public void ReverseTime()
+    {
+        var audioSources =  FindObjectsOfType<AudioSource>().ToList();
+        audioSources.ForEach(a=> a.Stop());
+        Escape_Room.Audio.AudioManager.Instance.Play("Reversal");
+        Escape_Room.Audio.AudioManager.Instance.StopAmbience();
+        IncreaseFog();
+        StartCoroutine(ReversalCoroutine());
+    }
+    private IEnumerator ReversalCoroutine()
+    {
+        yield return new WaitForSeconds(4f);
+        PlayerManager.Instance.TeleportToBlackRoom();
+        failureShrinker.UnShrink();
+        yield return new WaitForSeconds(0.25f);
+        Escape_Room.Audio.AudioManager.Instance.Play("Hour of Joy");
+        yield return new WaitForSeconds(7f);
+        RestartInRoom();
+    }
     public void QuitExperience()=> Application.Quit();
-
     private void RestartExperience() => SceneManager.LoadScene(0);
 
 }

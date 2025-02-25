@@ -7,6 +7,8 @@ public class PlayerManager : MonoBehaviour
 {
    public Transform playerRig;
    [SerializeField] private Transform teleportTransform;
+   
+   [SerializeField] private Transform blackRoomTransform;
    public static PlayerManager Instance => _instance;
    private static PlayerManager _instance;
 
@@ -20,9 +22,16 @@ public class PlayerManager : MonoBehaviour
       StartCoroutine(WelcomeVoiceCoroutine());
    }
 
+   public void TeleportToBlackRoom()
+   {
+      playerRig.SetLocalPositionAndRotation(blackRoomTransform.position, Quaternion.Euler(blackRoomTransform.eulerAngles));
+   }
+
    private IEnumerator WelcomeVoiceCoroutine()
    {
       yield return new WaitForSeconds(0.75f);
       Escape_Room.Audio.AudioManager.Instance.Play("Welcome");
+      yield return new WaitForSeconds(7f);
+      GameManager.Instance.StartTimer();
    }
 }

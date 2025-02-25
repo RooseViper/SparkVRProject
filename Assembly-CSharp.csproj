@@ -154,6 +154,7 @@
     <Compile Include="Assets\Tools\LeanTween\Examples\Scripts\PathSplinePerformance.cs" />
     <Compile Include="Assets\_Course Library\Scripts\Actions\ApplyPhysics.cs" />
     <Compile Include="Assets\Tools\LeanTween\Examples\Scripts\PathSplineEndless.cs" />
+    <Compile Include="Assets\Scripts\RotateArrow.cs" />
     <Compile Include="Assets\Tools\SensorToolkit\Integrations\PlayMaker\Actions\SensorGetSignal.cs" />
     <Compile Include="Assets\Tools\LeanTween\Examples\Scripts\PathBezier.cs" />
     <Compile Include="Assets\_Course Library\Scripts\Actions\PlayVideo.cs" />

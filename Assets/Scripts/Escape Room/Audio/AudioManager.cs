@@ -7,6 +7,7 @@ namespace Escape_Room.Audio
     public class AudioManager : MonoBehaviour
     {
         public Sound[] sounds;
+        [SerializeField]private AudioSource ambienceAudioSource;
         public static AudioManager Instance => _instance;
         private static AudioManager _instance;
         
@@ -44,6 +45,8 @@ namespace Escape_Room.Audio
                 sound.audioSource.Play();
             }
         }
+
+        public void StopAmbience() => ambienceAudioSource.Stop();
         
         public void Stop(string name)
         {

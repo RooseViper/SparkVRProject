@@ -47,6 +47,6 @@ public class CountdownTimer : MonoBehaviour
 
         // Timer has reached zero
         timerTexts.ForEach(timer=> timer.text = "00:00");
-        Debug.Log("Done");
+       GameManager.Instance.ReverseTime();
     }
 }
