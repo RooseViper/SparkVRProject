@@ -11,6 +11,7 @@ public class KeyPad : MonoBehaviour
 {
     [SerializeField] private TMP_Text keypadText;
     [SerializeField] private Door door;
+    [SerializeField] private CountdownTimer countdownTimer;
     private string codeTyped = "";
     private Coroutine clearKeypadCoroutine;
     private const string SecretCode = "9108";
@@ -54,6 +55,7 @@ public class KeyPad : MonoBehaviour
         }
         else if (SecretCode == codeTyped)
         {
+            countdownTimer.StopTimer();
             Escape_Room.Audio.AudioManager.Instance.Play("Door Unlock", audioSource);
             StartCoroutine(EndGameCoroutine());
         }
