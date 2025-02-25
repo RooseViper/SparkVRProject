@@ -11,6 +11,7 @@ using UnityEngine.Video;
 public class GameManager : MonoBehaviour
 {
     [SerializeField] private Transform portableMenuCanvas;
+    [SerializeField] private CountdownTimer countdownTimer;
     [SerializeField ]private float fogRate = 0.05f;
     public static GameManager Instance => _instance;
     private static GameManager _instance;
@@ -18,6 +19,7 @@ public class GameManager : MonoBehaviour
     private bool shadowsOn = true;
     private Vector3 defaultPortableMenuCanvasSize;
     private VideoPlayer intructionsVideoPlayer;
+    private static bool startInRoom;
     private void Awake()
     {
         _instance = this;
@@ -30,6 +32,10 @@ public class GameManager : MonoBehaviour
         portableMenuCanvas.localScale = Vector3.zero;
         Application.targetFrameRate = 60;
         ftLightmaps.RefreshFull();
+        if (startInRoom)
+        {
+            LoadInRoom();
+        }
     }
     
     public void ChangeShadowState()
@@ -37,6 +43,24 @@ public class GameManager : MonoBehaviour
         shadowsOn = !shadowsOn;
     }
     public void EnableDisableFPSCounter(TextMeshProUGUI textMeshProUGUI)=>textMeshProUGUI.gameObject.SetActive(!textMeshProUGUI.gameObject.activeInHierarchy);
+
+    public void LoadInRoom()
+    {
+        PlayerManager.Instance.Teleport();
+        countdownTimer.StartCountDown();
+    }
+
+    public void RestartInRoom()
+    {
+        startInRoom = true;
+        RestartExperience();
+    }
+    
+    public void RestartCompletely()
+    {
+        startInRoom = false;
+        RestartExperience();
+    }
 
     public void ChangePortableCanvasCanvasState(bool expand)
     {
@@ -74,6 +98,6 @@ public class GameManager : MonoBehaviour
 
     public void QuitExperience()=> Application.Quit();
 
-    public void RestartExperience() => SceneManager.LoadScene(0);
+    private void RestartExperience() => SceneManager.LoadScene(0);
 
 }
