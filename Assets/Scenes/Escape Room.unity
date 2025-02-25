@@ -8,8 +8,8 @@ OcclusionCullingSettings:
     smallestOccluder: 5
     smallestHole: 0.25
     backfaceThreshold: 100
-  m_SceneGUID: b8dbc430786f88a4d97686fdaf0e9f37
-  m_OcclusionCullingData: {fileID: 36300000, guid: d8fbfe08847ba124eae54ff2e218aa7e,
+  m_SceneGUID: e528b82b94f2cec47a3e88d7cd45872e
+  m_OcclusionCullingData: {fileID: 36300000, guid: e905b512b0f117d4a812bfd4d4ae632f,
     type: 2}
 --- !u!104 &2
 RenderSettings:
@@ -92078,7 +92078,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1149666282}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.51, y: -1.11, z: -8.08}
+  m_LocalPosition: {x: 0.722, y: -1.11, z: -9.96}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -92144,7 +92144,7 @@ MonoBehaviour:
   Sphere:
     Radius: 1
   Box:
-    HalfExtents: {x: 1.25, y: 0.3, z: 1.125}
+    HalfExtents: {x: 4, y: 0.3, z: 3}
   Capsule:
     Radius: 0.6
     Height: 1.75
@@ -163440,7 +163440,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1516817651}
   m_LocalRotation: {x: 0, y: 0.7071068, z: -0, w: -0.7071068}
-  m_LocalPosition: {x: 20.176, y: 2.715, z: -47.857}
+  m_LocalPosition: {x: 18.562, y: 2.715, z: -47.779}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
