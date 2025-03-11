@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 2
   tags:
   - FxTemporaire
+  - projectile
   layers:
   - Default
   - TransparentFX
@@ -15,7 +16,7 @@ TagManager:
   - 
   - 
   - 
-  - 
+  - DynamicPose
   - Player
   - 
   - 
@@ -27,7 +28,7 @@ TagManager:
   - 
   - 
   - Sensor
-  - 
+  - Hand
   - 
   - 
   - 

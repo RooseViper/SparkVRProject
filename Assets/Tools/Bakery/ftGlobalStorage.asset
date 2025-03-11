@@ -583,7 +583,76 @@ MonoBehaviour:
   - Assets/Models/unseen-wall-lamp/2ndFlr_Walllamp.fbx
   - Assets/Art/Escape Room/Escape_Room.fbx
   - Assets/Art/Escape Room/Escape_Room-1.fbx
-  uvOverlapAssetList: 00000000ffffffff000000000000000000000000010100000101000000000000000000000101000000000000000000000101000001010000
+  - Assets/HurricaneVR/TechDemo/Assets/Environment/DemoScene/small_case.fbx
+  - Assets/HurricaneVR/TechDemo/Assets/Interactables/PullLevers/PullLever2.fbx
+  - Assets/HurricaneVR/TechDemo/Assets/Interactables/MeleeWeapons/halfspear.fbx
+  - Assets/HurricaneVR/TechDemo/Assets/Interactables/Props/Backpack/BackPack.fbx
+  - Assets/HurricaneVR/Framework/Models/OculusCustomHands/OculusTouchForQuestAndRiftS_Right.fbx
+  - Assets/HurricaneVR/TechDemo/Assets/Interactables/Guns/pistol.fbx
+  - Assets/HurricaneVR/TechDemo/Assets/Environment/DemoScene/interior.fbx
+  - Assets/HurricaneVR/TechDemo/Assets/Environment/DemoScene/museum_small.fbx
+  - Assets/HurricaneVR/Framework/Models/OculusCustomHands/OculusTouchForQuestAndRiftS_Left.fbx
+  - Assets/HurricaneVR/TechDemo/Assets/Interactables/Props/torch.fbx
+  - Assets/HurricaneVR/Framework/Models/FilledCircle.fbx
+  - Assets/HurricaneVR/TechDemo/Assets/Environment/Pipes/pipe_valve.fbx
+  - Assets/HurricaneVR/Framework/Models/Ring.fbx
+  - Assets/HurricaneVR/TechDemo/Assets/Interactables/Props/Chest.fbx
+  - Assets/HurricaneVR/TechDemo/Assets/Environment/Ladder/LadderRung.fbx
+  - Assets/HurricaneVR/TechDemo/Assets/Interactables/Props/Lock.fbx
+  - Assets/HurricaneVR/TechDemo/Assets/Interactables/PullLevers/PullLever1.fbx
+  - Assets/HurricaneVR/TechDemo/Assets/Interactables/Bow/Arrow.obj
+  - Assets/HurricaneVR/Framework/Models/TeleportMarker.fbx
+  - Assets/HurricaneVR/TechDemo/Assets/Environment/DemoScene/museum_large.fbx
+  - Assets/HurricaneVR/TechDemo/Assets/Environment/DemoScene/exterior.fbx
+  - Assets/HurricaneVR/TechDemo/Assets/Environment/DemoScene/interior_full.fbx
+  - Assets/HurricaneVR/TechDemo/Assets/Interactables/Props/clip_board.fbx
+  - Assets/HurricaneVR/TechDemo/Assets/Interactables/Hurricane Freshener Glass Bottle/Models/hurricane_bottle.fbx
+  - Assets/HurricaneVR/TechDemo/Assets/Interactables/MeleeWeapons/CombatKnife.fbx
+  - Assets/HurricaneVR/TechDemo/Assets/Interactables/Props/chalk_board.fbx
+  - Assets/HurricaneVR/TechDemo/Assets/Interactables/Props/Dummy/body.fbx
+  - Assets/HurricaneVR/TechDemo/Assets/Interactables/Props/Backpack/keyring.fbx
+  - Assets/HurricaneVR/TechDemo/Assets/Interactables/MeleeWeapons/BroadSword.fbx
+  - Assets/HurricaneVR/TechDemo/Assets/Interactables/Guns/ShotgunShell.fbx
+  - Assets/HurricaneVR/TechDemo/Assets/Interactables/Guns/shotgun.fbx
+  - Assets/HurricaneVR/TechDemo/Assets/Interactables/KeyPad/KeyPad.fbx
+  - Assets/HurricaneVR/TechDemo/Assets/Interactables/MeleeWeapons/Spear.fbx
+  - Assets/HurricaneVR/TechDemo/Assets/Interactables/MeleeWeapons/mjolnir.fbx
+  - Assets/HurricaneVR/Framework/Models/OculusCustomHands/OculusCustomRight.fbx
+  - Assets/HurricaneVR/TechDemo/Assets/Interactables/MeleeWeapons/SledgeHammer.fbx
+  - Assets/HurricaneVR/Framework/Models/SocketOval.fbx
+  - Assets/HurricaneVR/TechDemo/Assets/Interactables/Props/Dummy/leg.fbx
+  - Assets/HurricaneVR/TechDemo/Assets/Interactables/Guns/smg.fbx
+  - Assets/HurricaneVR/TechDemo/Assets/Interactables/Buttons/button_base_3.fbx
+  - Assets/HurricaneVR/TechDemo/Assets/Environment/PowerUnit/power_unit_cell.fbx
+  - Assets/HurricaneVR/TechDemo/Assets/Environment/DemoScene/arena.fbx
+  - Assets/HurricaneVR/TechDemo/Assets/Interactables/Bow/Bow.fbx
+  - Assets/HurricaneVR/TechDemo/Assets/Environment/DemoScene/pipe_floor_to_roof.fbx
+  - Assets/HurricaneVR/Framework/Models/ForceGrabRing.fbx
+  - Assets/HurricaneVR/TechDemo/Assets/Interactables/PullLevers/PullLever4.fbx
+  - Assets/HurricaneVR/TechDemo/Assets/Interactables/Props/table.fbx
+  - Assets/HurricaneVR/TechDemo/Assets/Environment/DemoScene/window_frames.fbx
+  - Assets/HurricaneVR/TechDemo/Assets/Environment/Pipes/pipe_90bend.fbx
+  - Assets/HurricaneVR/TechDemo/Assets/Interactables/Props/Dummy/head.fbx
+  - Assets/HurricaneVR/TechDemo/Assets/Interactables/Props/Key.fbx
+  - Assets/HurricaneVR/TechDemo/Assets/Interactables/Props/Dummy/arm.fbx
+  - Assets/HurricaneVR/TechDemo/Assets/Environment/Pipes/pipe_endcap.fbx
+  - Assets/HurricaneVR/TechDemo/Assets/Interactables/PullLevers/PullLever3.fbx
+  - Assets/HurricaneVR/TechDemo/Assets/Interactables/Hurricane Freshener Glass Bottle/Models/hurricane_bottle_cells.fbx
+  - Assets/HurricaneVR/Framework/Models/OculusCustomHands/Quest2_controller_r.fbx
+  - Assets/HurricaneVR/TechDemo/Assets/Interactables/Props/crow_bar.fbx
+  - Assets/HurricaneVR/Framework/Models/OculusCustomHands/OculusCustomLeft.fbx
+  - Assets/HurricaneVR/Framework/Models/OculusCustomHands/Quest2_controller_l.fbx
+  - Assets/HurricaneVR/TechDemo/Assets/Environment/PowerUnit/power_unit.fbx
+  - Assets/Tools/HurricaneVR/TechDemo/Assets/Environment/DemoScene/small_case.fbx
+  - Assets/Tools/HurricaneVR/TechDemo/Assets/Environment/DemoScene/museum_small.fbx
+  - Assets/Tools/HurricaneVR/TechDemo/Assets/Environment/DemoScene/museum_large.fbx
+  - Assets/Tools/HurricaneVR/TechDemo/Assets/Interactables/Props/Dummy/body.fbx
+  - Assets/Tools/HurricaneVR/TechDemo/Assets/Interactables/Props/Dummy/leg.fbx
+  - Assets/Tools/HurricaneVR/TechDemo/Assets/Interactables/Buttons/button_base_3.fbx
+  - Assets/Tools/HurricaneVR/TechDemo/Assets/Environment/DemoScene/window_frames.fbx
+  - Assets/Tools/HurricaneVR/TechDemo/Assets/Interactables/Props/Dummy/head.fbx
+  - Assets/Tools/HurricaneVR/TechDemo/Assets/Interactables/Props/Dummy/arm.fbx
+  uvOverlapAssetList: 00000000ffffffff000000000000000000000000010100000101000000000000000000000101000000000000000000000101000001010000010100000101000000000000000000000000000001010000000000000101000000000000010100000000000001010000010100000101000001010000010100000101000001010000010100000101000000000000010100000101000001010000010100000101000001010000000000000101000000000000000000000101000001010000010100000000000001010000010100000101000001010000010100000101000000000000000000000101000001010000010100000101000001010000010100000101000001010000010100000101000001010000010100000000000001010000000000000000000001010000010100000101000001010000010100000101000001010000010100000101000001010000
   xatlasWarningShown: 0
   foundCompatibleSetup: 1
   gpuName: NVIDIA GeForce RTX 3070 Laptop GPU

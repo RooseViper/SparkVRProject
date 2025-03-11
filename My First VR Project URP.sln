@@ -1,6 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HurricaneVR.Framework", "HurricaneVR.Framework.csproj", "{d69dada5-900e-5e4c-4d18-22efc59bfda2}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OmniShade", "OmniShade.csproj", "{b12c67d4-b896-5703-0d4e-bea139ca9c48}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{d0df82dc-17e1-918f-2a24-519c051341dd}"
@@ -22,6 +24,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CFXR.WelcomeScreen", "CFXR.WelcomeScreen.csproj", "{22c155ad-d468-0205-4ae3-e695d5bb34e0}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.XR.Hands.Samples.VisualizerSample", "Unity.XR.Hands.Samples.VisualizerSample.csproj", "{f2ccd8bc-88dc-ce0a-b2b5-8b6ba3379dd5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HurricaneVR.Editor", "HurricaneVR.Editor.csproj", "{103d5c10-0b21-eace-ac7e-c8ae505f2d37}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OmniShade.Editor", "OmniShade.Editor.csproj", "{dd4396bb-0288-3167-0dd3-3fd64da90181}"
 EndProject
@@ -48,6 +52,8 @@ Global
 		Debug|Any CPU = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{d69dada5-900e-5e4c-4d18-22efc59bfda2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{d69dada5-900e-5e4c-4d18-22efc59bfda2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{b12c67d4-b896-5703-0d4e-bea139ca9c48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{b12c67d4-b896-5703-0d4e-bea139ca9c48}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{d0df82dc-17e1-918f-2a24-519c051341dd}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -70,6 +76,8 @@ Global
 		{22c155ad-d468-0205-4ae3-e695d5bb34e0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{f2ccd8bc-88dc-ce0a-b2b5-8b6ba3379dd5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{f2ccd8bc-88dc-ce0a-b2b5-8b6ba3379dd5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{103d5c10-0b21-eace-ac7e-c8ae505f2d37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{103d5c10-0b21-eace-ac7e-c8ae505f2d37}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{dd4396bb-0288-3167-0dd3-3fd64da90181}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{dd4396bb-0288-3167-0dd3-3fd64da90181}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{b3171b86-c65d-6a46-e060-daccdd275a6c}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
