@@ -15563,6 +15563,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: sliding_door_setup
       objectReference: {fileID: 0}
+    - target: {fileID: 8744666785163252726, guid: 00105550540b4434e9c0e79e69faf23c,
+        type: 3}
+      propertyPath: Key
+      value: 413
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
