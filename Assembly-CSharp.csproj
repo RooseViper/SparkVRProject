@@ -166,6 +166,7 @@
     <Compile Include="Assets\Tools\HurricaneVR\TechDemo\Shaders\Scripts\DemoValveLock.cs" />
     <Compile Include="Assets\_Course Library\Scripts\Conditions\OnCollision.cs" />
     <Compile Include="Assets\Tools\LeanTween\Examples\Scripts\PathSplinePerformance.cs" />
+    <Compile Include="Assets\Scripts\SocketRemover.cs" />
     <Compile Include="Assets\_Course Library\Scripts\Actions\ApplyPhysics.cs" />
     <Compile Include="Assets\Tools\LeanTween\Examples\Scripts\PathSplineEndless.cs" />
     <Compile Include="Assets\Tools\SensorToolkit\Integrations\PlayMaker\Actions\SensorGetSignal.cs" />

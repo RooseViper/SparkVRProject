@@ -51,6 +51,11 @@ namespace Escape_Room
             {
                 item = attachedArtifact;
                 item.MakeKinematic();
+                var socketRemover = attachedArtifact.GetComponent<SocketRemover>();
+                if (socketRemover != null)
+                {
+                    socketRemover.SetSocket(xrSocketInteractor);
+                }
             }
 
             if (index != attachedArtifact.index)

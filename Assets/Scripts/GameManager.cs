@@ -29,13 +29,6 @@ public class GameManager : MonoBehaviour
         defaultPortableMenuCanvasSize = portableMenuCanvas.localScale;
         portableMenuCanvas.localScale = Vector3.zero;
         Application.targetFrameRate = 60;
-        foreach (var obj in FindObjectsOfType<GameObject>())
-        {
-            if (obj.layer == 20)
-            {
-                Debug.Log(obj.name);
-            }
-        }
         ftLightmaps.RefreshFull();
     }
     

@@ -49,6 +49,11 @@ namespace Escape_Room
             {
                 item = attachedDragonPiece;
                 item.MakeKinematic();
+                var socketRemover = attachedDragonPiece.GetComponent<SocketRemover>();
+                if (socketRemover != null)
+                {
+                    socketRemover.SetSocket(xrSocketInteractor);
+                }
             }
             var dragonPieceSlots = transform.parent.GetComponentsInChildren<DragonPieceSlot>();
             var allSlotsFilled = dragonPieceSlots.All(slot => slot.HasPiece);
