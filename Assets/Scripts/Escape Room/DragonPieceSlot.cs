@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Linq;
+using HurricaneVR.Framework.Components;
 using UnityEngine;
 using UnityEngine.XR.Interaction.Toolkit;
 
@@ -72,9 +73,8 @@ namespace Escape_Room
             yield return new WaitForSeconds(1f);
             Escape_Room.Audio.AudioManager.Instance.Play("Door Unlock", doorAudioSource);
             yield return new WaitForSeconds(1f);
-            var door = GetComponentInParent<Door>();
-            door.Open();
-            Escape_Room.Audio.AudioManager.Instance.Play("Creaky Door", doorAudioSource);
+            var door = GetComponentInParent<HVRPhysicsDoor>();
+            door.Unlock();
         }
 
         private void RemoveDragonPiece(SelectExitEventArgs selectExitEventArgs)

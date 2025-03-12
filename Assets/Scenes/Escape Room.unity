@@ -113921,7 +113921,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 4294967295
   m_InteractionLayers:
-    m_Bits: 0
+    m_Bits: 1073741824
   m_DistanceCalculationMode: 1
   m_SelectMode: 0
   m_FocusMode: 1
@@ -134063,7 +134063,7 @@ MonoBehaviour:
   Axis: 4
   Mass: 10
   DisableGravity: 1
-  StartLocked: 0
+  StartLocked: 1
   ConnectedBody: {fileID: 0}
   CloseAngle: 2.5
   CloseOverTime: 0.25
