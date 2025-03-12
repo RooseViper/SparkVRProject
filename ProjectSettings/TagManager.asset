@@ -15,9 +15,8 @@ TagManager:
   - UI
   - 
   - 
-  - 
-  - DynamicPose
   - Player
+  - DynamicPose
   - 
   - 
   - 
@@ -27,11 +26,12 @@ TagManager:
   - 
   - 
   - 
-  - Sensor
+  - 
+  - Grabbable
   - Hand
   - 
   - 
-  - 
+  - Sensor
   - PostProcessing
   - 
   - 
