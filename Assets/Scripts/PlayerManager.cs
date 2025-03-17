@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using HurricaneVR.Framework.Core.Player;
 using UnityEngine;
 
 public class PlayerManager : MonoBehaviour
@@ -14,8 +15,5 @@ public class PlayerManager : MonoBehaviour
    {
       _instance = this;
    }
-   public void Teleport()
-   {
-    //  playerRig.SetLocalPositionAndRotation(teleportTransform.position, Quaternion.Euler(teleportTransform.eulerAngles));
-   }
+
 }

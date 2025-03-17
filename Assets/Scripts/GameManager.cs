@@ -10,7 +10,7 @@ using UnityEngine.Video;
 
 public class GameManager : MonoBehaviour
 {
-    [SerializeField] private Transform portableMenuCanvas;
+   // [SerializeField] private Transform portableMenuCanvas;
     [SerializeField ]private float fogRate = 0.05f;
     public static GameManager Instance => _instance;
     private static GameManager _instance;
@@ -26,8 +26,8 @@ public class GameManager : MonoBehaviour
     // Start is called before the first frame update
     private void Start()
     {
-        defaultPortableMenuCanvasSize = portableMenuCanvas.localScale;
-        portableMenuCanvas.localScale = Vector3.zero;
+     //   defaultPortableMenuCanvasSize = portableMenuCanvas.localScale;
+   //     portableMenuCanvas.localScale = Vector3.zero;
         Application.targetFrameRate = 60;
         ftLightmaps.RefreshFull();
     }
@@ -40,7 +40,7 @@ public class GameManager : MonoBehaviour
 
     public void ChangePortableCanvasCanvasState(bool expand)
     {
-        if (LeanTween.isTweening(portableMenuCanvas.gameObject))
+        /*if (LeanTween.isTweening(portableMenuCanvas.gameObject))
         {
             LeanTween.cancel(portableMenuCanvas.gameObject);
         }
@@ -51,7 +51,7 @@ public class GameManager : MonoBehaviour
         else
         {
             LeanTween.scale(portableMenuCanvas.gameObject, Vector3.zero, 0.5f).setEaseInOutSine();
-        }
+        }*/
     }
     public void IncreaseFog()=>   StartCoroutine(IncreaseFogDensity(1f, 12.5f));
     private IEnumerator IncreaseFogDensity(float target, float time)

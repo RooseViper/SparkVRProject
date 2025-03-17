@@ -40,7 +40,7 @@ public class ThemeManager : MonoBehaviour
         {
             constantVideoPlayers[i].clip = isPolitical ? constantPoliticalClips[i] : constantTourismClips[i];
         }
-        PlayerManager.Instance.Teleport();
+      //  PlayerManager.Instance.Teleport();
         toggleRays.ToList().ForEach(ray=> ray.DeactivateRay());
         audioSource.Play();
     }
