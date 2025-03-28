@@ -29,7 +29,7 @@ TagManager:
   - 
   - Grabbable
   - Hand
-  - 
+  - Enemy
   - 
   - Sensor
   - PostProcessing
