@@ -336,6 +336,12 @@
     <Reference Include="Mono.Cecil">
       <HintPath>C:\Users\Lenovo\My First VR Project URP\Library\PackageCache\com.unity.nuget.mono-cecil@1.11.4\Mono.Cecil.dll</HintPath>
     </Reference>
+    <Reference Include="BehaviorDesigner.Runtime">
+      <HintPath>C:\Users\Lenovo\My First VR Project URP\Assets\Behavior Designer\Runtime\BehaviorDesigner.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="BehaviorDesigner.Editor">
+      <HintPath>C:\Users\Lenovo\My First VR Project URP\Assets\Behavior Designer\Editor\BehaviorDesigner.Editor.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.Android.Types">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.4f1\Editor\Data\PlaybackEngines\AndroidPlayer\Unity.Android.Types.dll</HintPath>
     </Reference>

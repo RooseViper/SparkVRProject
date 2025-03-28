@@ -387,6 +387,12 @@
     <Reference Include="Mono.Cecil">
       <HintPath>C:\Users\Lenovo\My First VR Project URP\Library\PackageCache\com.unity.nuget.mono-cecil@1.11.4\Mono.Cecil.dll</HintPath>
     </Reference>
+    <Reference Include="BehaviorDesigner.Runtime">
+      <HintPath>C:\Users\Lenovo\My First VR Project URP\Assets\Behavior Designer\Runtime\BehaviorDesigner.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="BehaviorDesigner.Editor">
+      <HintPath>C:\Users\Lenovo\My First VR Project URP\Assets\Behavior Designer\Editor\BehaviorDesigner.Editor.dll</HintPath>
+    </Reference>
     <Reference Include="nunit.framework">
       <HintPath>C:\Users\Lenovo\My First VR Project URP\Library\PackageCache\com.unity.ext.nunit@1.0.6\net35\unity-custom\nunit.framework.dll</HintPath>
     </Reference>

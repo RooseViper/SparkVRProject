@@ -45,18 +45,29 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.3.4f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Behavior Designer Movement\Editor\Object Drawers\CanHearObjectDrawer.cs" />
     <Compile Include="Assets\Tools\LeanTween\Editor\LeanTweenDocumentationEditor.cs" />
     <Compile Include="Assets\_Course Library\Source Files\Editor\XRButtonEditor.cs" />
     <Compile Include="Assets\TutorialInfo\Scripts\Editor\ReadmeEditor.cs" />
+    <Compile Include="Assets\Behavior Designer\Editor\BehaviorTreeInspector.cs" />
+    <Compile Include="Assets\Behavior Designer Movement\Editor\Object Drawers\MovementObjectDrawerUtility.cs" />
+    <Compile Include="Assets\Behavior Designer\Editor\ExternalBehaviorTreeInspector.cs" />
     <Compile Include="Assets\_Course Library\Source Files\Editor\XRSliderEditor.cs" />
+    <Compile Include="Assets\Behavior Designer\Editor\Object Drawers\StackedActionDrawer.cs" />
     <Compile Include="Assets\_Course Library\Source Files\Editor\XRKnobEditor.cs" />
     <Compile Include="Assets\_Course Library\Source Files\Editor\XRJoystickEditor.cs" />
+    <Compile Include="Assets\Behavior Designer\Editor\Object Drawers\StackedConditionalDrawer.cs" />
+    <Compile Include="Assets\Behavior Designer\Editor\Object Drawers\FloatSliderDrawer.cs" />
+    <Compile Include="Assets\Behavior Designer Movement\Editor\Object Drawers\CanSeeObjectDrawer.cs" />
+    <Compile Include="Assets\Behavior Designer\Editor\Object Drawers\IntSliderDrawer.cs" />
+    <Compile Include="Assets\Behavior Designer Movement\Editor\Object Drawers\WithinDistanceDrawer.cs" />
     <Compile Include="Assets\_Course Library\Source Files\Editor\XRLeverEditor.cs" />
     <None Include="Assets\Editor\x64\Bakery\shaderSrc\ftrace.cginc" />
     <None Include="Assets\Editor\x64\Bakery\shaderSrc\ftTransformFarSphere.compute" />
     <None Include="Assets\Editor\x64\Bakery\ftAtlas.shader" />
     <None Include="Assets\Editor\x64\Bakery\shaderSrc\ftCullFarSphere.compute" />
     <None Include="Assets\Editor\x64\Bakery\ftChecker.shader" />
+    <None Include="Assets\Behavior Designer\Editor\GridShader.shader" />
     <None Include="Assets\Editor\x64\Bakery\ftProjection.shader" />
     <Reference Include="UnityEngine">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.4f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
@@ -354,6 +365,12 @@
     </Reference>
     <Reference Include="Mono.Cecil">
       <HintPath>C:\Users\Lenovo\My First VR Project URP\Library\PackageCache\com.unity.nuget.mono-cecil@1.11.4\Mono.Cecil.dll</HintPath>
+    </Reference>
+    <Reference Include="BehaviorDesigner.Runtime">
+      <HintPath>C:\Users\Lenovo\My First VR Project URP\Assets\Behavior Designer\Runtime\BehaviorDesigner.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="BehaviorDesigner.Editor">
+      <HintPath>C:\Users\Lenovo\My First VR Project URP\Assets\Behavior Designer\Editor\BehaviorDesigner.Editor.dll</HintPath>
     </Reference>
     <Reference Include="nunit.framework">
       <HintPath>C:\Users\Lenovo\My First VR Project URP\Library\PackageCache\com.unity.ext.nunit@1.0.6\net35\unity-custom\nunit.framework.dll</HintPath>
