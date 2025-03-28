@@ -285,7 +285,7 @@ Material:
     - _SmoothnessTextureChannel: 0
     - _SourceBlend: 1
     - _Specular: 1
-    - _SpecularBrightness: 0.3
+    - _SpecularBrightness: 1
     - _SpecularHair: 0
     - _SpecularHighlights: 1
     - _SpecularSmoothness: 11

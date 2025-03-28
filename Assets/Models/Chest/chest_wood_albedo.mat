@@ -286,7 +286,7 @@ Material:
     - _SpecularBrightness: 1
     - _SpecularHair: 0
     - _SpecularHighlights: 1
-    - _SpecularSmoothness: 20
+    - _SpecularSmoothness: 168
     - _SpecularUV: 0
     - _SrcBlend: 1
     - _SrcBlendAlpha: 1

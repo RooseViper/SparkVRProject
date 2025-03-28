@@ -19,4 +19,5 @@ MonoBehaviour:
   - Assets/Models/unseen-wall-lamp/2ndFlr_Walllamp.fbx
   - Assets/Art/Escape Room/Escape_Room-1.fbx
   - Assets/Tools/HurricaneVR/TechDemo/Assets/Interactables/Doors/sliding_door.fbx
-  modifiedAssetPaddingHash: d6a958ffb84608c8ecc12491ecc124912638689002910101
+  - Assets/Models/TvStand/model.dae
+  modifiedAssetPaddingHash: d6a958ffb84608c8ecc12491ecc124912638689002910101bb39cd17

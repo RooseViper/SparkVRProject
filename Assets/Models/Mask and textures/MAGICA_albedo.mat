@@ -20,6 +20,7 @@ Material:
   - NORMAL_MAP
   - OUTLINE_PASS_DISABLED
   - SHADOWS_ENABLED
+  - SPECULAR
   - _DETAILBLEND_MULTIPLY
   - _DETAILUV_UV1
   - _HEIGHTCOLORSBLEND_ALPHA_BLEND
@@ -250,11 +251,11 @@ Material:
     - _ShadowsEnabled: 1
     - _SmoothnessTextureChannel: 0
     - _SourceBlend: 1
-    - _Specular: 0
-    - _SpecularBrightness: 1
+    - _Specular: 1
+    - _SpecularBrightness: 0.4
     - _SpecularHair: 0
     - _SpecularHighlights: 1
-    - _SpecularSmoothness: 20
+    - _SpecularSmoothness: 100
     - _SpecularUV: 0
     - _SrcBlend: 1
     - _TransparencyMaskAmount: 1
