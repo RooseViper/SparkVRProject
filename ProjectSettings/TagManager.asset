@@ -6,6 +6,7 @@ TagManager:
   tags:
   - FxTemporaire
   - projectile
+  - Wood
   layers:
   - Default
   - TransparentFX
