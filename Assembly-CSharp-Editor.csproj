@@ -349,6 +349,12 @@
     <Reference Include="Unity.VisualScripting.TextureAssets">
       <HintPath>C:\Users\Lenovo\My First VR Project URP\Library\PackageCache\com.unity.visualscripting@1.9.1\Editor\VisualScripting.Core\EditorAssetResources\Unity.VisualScripting.TextureAssets.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.Collections.LowLevel.ILSupport">
+      <HintPath>C:\Users\Lenovo\My First VR Project URP\Library\PackageCache\com.unity.collections@1.5.1\Unity.Collections.LowLevel.ILSupport\Unity.Collections.LowLevel.ILSupport.dll</HintPath>
+    </Reference>
+    <Reference Include="Mono.Cecil">
+      <HintPath>C:\Users\Lenovo\My First VR Project URP\Library\PackageCache\com.unity.nuget.mono-cecil@1.11.4\Mono.Cecil.dll</HintPath>
+    </Reference>
     <Reference Include="nunit.framework">
       <HintPath>C:\Users\Lenovo\My First VR Project URP\Library\PackageCache\com.unity.ext.nunit@1.0.6\net35\unity-custom\nunit.framework.dll</HintPath>
     </Reference>
@@ -802,8 +808,14 @@
     <Reference Include="Unity.XR.Management.Editor">
       <HintPath>C:\Users\Lenovo\My First VR Project URP\Library\ScriptAssemblies\Unity.XR.Management.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.Collections">
+      <HintPath>C:\Users\Lenovo\My First VR Project URP\Library\ScriptAssemblies\Unity.Collections.dll</HintPath>
+    </Reference>
     <Reference Include="PPv2URPConverters">
       <HintPath>C:\Users\Lenovo\My First VR Project URP\Library\ScriptAssemblies\PPv2URPConverters.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Collections.Editor">
+      <HintPath>C:\Users\Lenovo\My First VR Project URP\Library\ScriptAssemblies\Unity.Collections.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.XR.CoreUtils.Editor">
       <HintPath>C:\Users\Lenovo\My First VR Project URP\Library\ScriptAssemblies\Unity.XR.CoreUtils.Editor.dll</HintPath>
@@ -961,9 +973,21 @@
       <Project>{a40f6c06-2a4e-eda3-6364-7e1fa4fcfab1}</Project>
       <Name>Micosmo.SensorToolkit</Name>
     </ProjectReference>
+    <ProjectReference Include="DrawingPackageToolsEditor.csproj">
+      <Project>{1253e4fe-60e7-fe11-f35d-b41b8485df30}</Project>
+      <Name>DrawingPackageToolsEditor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Drawing.csproj">
+      <Project>{13f45826-625b-e090-8859-c16610ed74f6}</Project>
+      <Name>Drawing</Name>
+    </ProjectReference>
     <ProjectReference Include="Micosmo.SensorToolkit.Editor.csproj">
       <Project>{2e04222a-bd03-05b6-6b06-4eeb8762702b}</Project>
       <Name>Micosmo.SensorToolkit.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="AstarPathfindingProject.csproj">
+      <Project>{816fbce6-a164-da92-cc08-1c1c0e613fa7}</Project>
+      <Name>AstarPathfindingProject</Name>
     </ProjectReference>
     <ProjectReference Include="OmniShade.csproj">
       <Project>{b12c67d4-b896-5703-0d4e-bea139ca9c48}</Project>
@@ -985,6 +1009,10 @@
       <Project>{fc72a0ab-c57c-ee00-3a74-172ba78ac922}</Project>
       <Name>Unity.XR.Interaction.Toolkit.Samples.StarterAssets.Editor</Name>
     </ProjectReference>
+    <ProjectReference Include="AstarPathfindingProjectEditor.csproj">
+      <Project>{362c0469-a665-673d-0644-3e8ad698f0b3}</Project>
+      <Name>AstarPathfindingProjectEditor</Name>
+    </ProjectReference>
     <ProjectReference Include="Unity.XR.Interaction.Toolkit.Samples.DeviceSimulator.csproj">
       <Project>{8c50bddb-72aa-80da-aaa7-7fb498efe88e}</Project>
       <Name>Unity.XR.Interaction.Toolkit.Samples.DeviceSimulator</Name>
@@ -993,6 +1021,10 @@
       <Project>{91c164f0-f9ee-d53c-66e5-ac4017ff44fa}</Project>
       <Name>CFXRRuntime</Name>
     </ProjectReference>
+    <ProjectReference Include="PackageTools.csproj">
+      <Project>{f96ca851-e18c-086a-95c7-6441a21b4470}</Project>
+      <Name>PackageTools</Name>
+    </ProjectReference>
     <ProjectReference Include="ToonyColorsPro.Demo.Editor.csproj">
       <Project>{2ac2a9a2-8d90-dc40-8836-65b295806046}</Project>
       <Name>ToonyColorsPro.Demo.Editor</Name>
@@ -1000,6 +1032,10 @@
     <ProjectReference Include="CFXRDemo.csproj">
       <Project>{d20cb5a7-a6df-dcec-7c2c-b736c8f5961b}</Project>
       <Name>CFXRDemo</Name>
+    </ProjectReference>
+    <ProjectReference Include="andywiecko.BurstTriangulator.csproj">
+      <Project>{54787e01-cda1-614e-355f-c83b6eef6f26}</Project>
+      <Name>andywiecko.BurstTriangulator</Name>
     </ProjectReference>
     <ProjectReference Include="HurricaneVR.Framework.csproj">
       <Project>{d69dada5-900e-5e4c-4d18-22efc59bfda2}</Project>
@@ -1024,6 +1060,14 @@
     <ProjectReference Include="CFXREditor.csproj">
       <Project>{c9bb1e1c-c4b6-e1c2-9ffd-749d35894ab8}</Project>
       <Name>CFXREditor</Name>
+    </ProjectReference>
+    <ProjectReference Include="DrawingEditor.csproj">
+      <Project>{2d85e668-c3ee-8c2e-40b3-3f1d4b98779c}</Project>
+      <Name>DrawingEditor</Name>
+    </ProjectReference>
+    <ProjectReference Include="AstarPackageToolsEditor.csproj">
+      <Project>{eb9f9682-31c6-54d1-688c-cc5fc152271e}</Project>
+      <Name>AstarPackageToolsEditor</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
