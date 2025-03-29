@@ -66,6 +66,7 @@ namespace Escape_Room
                     var countdownTimer = FindObjectOfType<CountdownTimer>();
                     if(countdownTimer == null)return;
                     if(countdownTimer.gameOver)return;
+                    countdownTimer.StopTimer();
                     StartCoroutine(OpenDoorCoroutine());
                 }
             }
