@@ -228,8 +228,8 @@
     <Compile Include="Assets\Tools\HurricaneVR\Framework\Scripts\Components\IGunHitHandler.cs" />
     <Compile Include="Assets\Tools\HurricaneVR\Framework\Scripts\Weapons\Guns\HVRCockingHandle.cs" />
     <Compile Include="Assets\Tools\HurricaneVR\Framework\Scripts\Shared\HVRGrabHaptics.cs" />
-    <Compile Include="Assets\Tools\HurricaneVR\Framework\Scripts\Core\HandPoser\HVRPhysicsPoser.cs" />
     <Compile Include="Assets\Tools\HurricaneVR\Framework\Scripts\Core\Player\HVRCanvasFade.cs" />
+    <Compile Include="Assets\Tools\HurricaneVR\Framework\Scripts\Core\HandPoser\HVRPhysicsPoser.cs" />
     <Compile Include="Assets\Tools\HurricaneVR\Framework\Scripts\Core\HandPoser\HVRHandTrigger.cs" />
     <Compile Include="Assets\Tools\HurricaneVR\Framework\Scripts\Core\HVRRequireOtherGrabbable.cs" />
     <Compile Include="Assets\Tools\HurricaneVR\Framework\Scripts\Weapons\Guns\HVRGunPart.cs" />
@@ -529,6 +529,9 @@
     <Reference Include="Unity.VisualScripting.YamlDotNet">
       <HintPath>C:\Users\Lenovo\My First VR Project URP\Library\PackageCache\com.unity.visualscripting@1.9.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.Collections.LowLevel.ILSupport">
+      <HintPath>C:\Users\Lenovo\My First VR Project URP\Library\PackageCache\com.unity.collections@1.5.1\Unity.Collections.LowLevel.ILSupport\Unity.Collections.LowLevel.ILSupport.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.Plastic.Antlr3.Runtime">
       <HintPath>C:\Users\Lenovo\My First VR Project URP\Library\PackageCache\com.unity.collab-proxy@2.2.0\Lib\Editor\PlasticSCM\Unity.Plastic.Antlr3.Runtime.dll</HintPath>
     </Reference>
@@ -550,20 +553,17 @@
     <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
       <HintPath>C:\Users\Lenovo\My First VR Project URP\Library\PackageCache\com.unity.visualscripting@1.9.1\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
     </Reference>
+    <Reference Include="BehaviorDesigner.Runtime">
+      <HintPath>C:\Users\Lenovo\My First VR Project URP\Assets\Behavior Designer\Runtime\BehaviorDesigner.Runtime.dll</HintPath>
+    </Reference>
     <Reference Include="Newtonsoft.Json">
       <HintPath>C:\Users\Lenovo\My First VR Project URP\Library\PackageCache\com.unity.nuget.newtonsoft-json@3.2.1\Runtime\Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.TextureAssets">
       <HintPath>C:\Users\Lenovo\My First VR Project URP\Library\PackageCache\com.unity.visualscripting@1.9.1\Editor\VisualScripting.Core\EditorAssetResources\Unity.VisualScripting.TextureAssets.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.Collections.LowLevel.ILSupport">
-      <HintPath>C:\Users\Lenovo\My First VR Project URP\Library\PackageCache\com.unity.collections@1.5.1\Unity.Collections.LowLevel.ILSupport\Unity.Collections.LowLevel.ILSupport.dll</HintPath>
-    </Reference>
     <Reference Include="Mono.Cecil">
       <HintPath>C:\Users\Lenovo\My First VR Project URP\Library\PackageCache\com.unity.nuget.mono-cecil@1.11.4\Mono.Cecil.dll</HintPath>
-    </Reference>
-    <Reference Include="BehaviorDesigner.Runtime">
-      <HintPath>C:\Users\Lenovo\My First VR Project URP\Assets\Behavior Designer\Runtime\BehaviorDesigner.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="BehaviorDesigner.Editor">
       <HintPath>C:\Users\Lenovo\My First VR Project URP\Assets\Behavior Designer\Editor\BehaviorDesigner.Editor.dll</HintPath>

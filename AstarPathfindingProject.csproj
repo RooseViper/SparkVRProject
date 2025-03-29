@@ -187,8 +187,8 @@
     <Compile Include="Packages\com.arongranberg.astar\Graphs\Navmesh\TileBuilder.cs" />
     <Compile Include="Packages\com.arongranberg.astar\Core\ECS\Jobs\JobManagedOffMeshLinkTransition.cs" />
     <Compile Include="Packages\com.arongranberg.astar\Core\Pathfinding\HeuristicObjective.cs" />
-    <Compile Include="Packages\com.arongranberg.astar\Pathfinders\ConstantPath.cs" />
     <Compile Include="Packages\com.arongranberg.astar\Core\Pathfinding\PathReturnQueue.cs" />
+    <Compile Include="Packages\com.arongranberg.astar\Pathfinders\ConstantPath.cs" />
     <Compile Include="Packages\com.arongranberg.astar\Graphs\Nodes\TriangleMeshNode.cs" />
     <Compile Include="Packages\com.arongranberg.astar\Utilities\PathTracer.cs" />
     <Compile Include="Packages\com.arongranberg.astar\Graphs\Navmesh\Jobs\JobWriteNodeConnections.cs" />
@@ -224,8 +224,8 @@
     <Compile Include="Packages\com.arongranberg.astar\Core\RVO\RVOObstacleCache.cs" />
     <Compile Include="Packages\com.arongranberg.astar\Core\Collections\SlabAllocator.cs" />
     <Compile Include="Packages\com.arongranberg.astar\Graphs\Grid\GridAdjacencyMapper.cs" />
-    <Compile Include="Packages\com.arongranberg.astar\Core\Pathfinding\GlobalNodeStorage.cs" />
     <Compile Include="Packages\com.arongranberg.astar\Core\RVO\RVOAgent.cs" />
+    <Compile Include="Packages\com.arongranberg.astar\Core\Pathfinding\GlobalNodeStorage.cs" />
     <Compile Include="Packages\com.arongranberg.astar\Modifiers\RaycastModifier.cs" />
     <Compile Include="Packages\com.arongranberg.astar\Core\ECS\Jobs\JobStartOffMeshLinkTransition.cs" />
     <Compile Include="Packages\com.arongranberg.astar\Core\Misc\NodeLink.cs" />

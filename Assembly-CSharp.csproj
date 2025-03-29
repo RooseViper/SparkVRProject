@@ -66,9 +66,9 @@
     <Compile Include="Assets\Behavior Designer Movement\Scripts\Tasks\NavMeshGroupMovement.cs" />
     <Compile Include="Assets\Behavior Designer\Runtime\Tasks\Unity\AudioSource\GetTimeSamples.cs" />
     <Compile Include="Assets\Tools\Youtube Player\3.3.1\PlayVideo\VideoPlayerProgress.cs" />
+    <Compile Include="Assets\Behavior Designer\Runtime\Tasks\Unity\Animator\GetStringToHash.cs" />
     <Compile Include="Assets\Behavior Designer\Runtime\Tasks\Unity\ParticleSystem\Play.cs" />
     <Compile Include="Assets\Tools\SensorToolkit\Integrations\PlayMaker\Actions\SensorGetLineOfSightResult.cs" />
-    <Compile Include="Assets\Behavior Designer\Runtime\Tasks\Unity\Animator\GetStringToHash.cs" />
     <Compile Include="Assets\Tools\SensorToolkit\Integrations\PlayMaker\Actions\SensorGetDetectionRayHit.cs" />
     <Compile Include="Assets\Behavior Designer\Runtime\Tasks\Unity\Transform\GetLocalEulerAngles.cs" />
     <Compile Include="Assets\Scripts\Escape Room\GlassBox.cs" />
@@ -100,9 +100,9 @@
     <Compile Include="Assets\Behavior Designer\Runtime\Tasks\Unity\CapsuleCollider\GetRadius.cs" />
     <Compile Include="Assets\Tools\Fast Color Grading\URP_Cg\ColorGradingUrp.cs" />
     <Compile Include="Assets\Behavior Designer\Runtime\Tasks\Unity\Rigidbody2D\GetRigidbodyType.cs" />
-    <Compile Include="Assets\Behavior Designer\Runtime\Tasks\Unity\Quaternion\Dot.cs" />
     <Compile Include="Assets\Behavior Designer\Runtime\Tasks\Unity\Rigidbody2D\SetVelocity.cs" />
     <Compile Include="Assets\Behavior Designer Movement\Integrations\Astar Pathfinding Project\Tasks\IAstarAIMovement.cs" />
+    <Compile Include="Assets\Behavior Designer\Runtime\Tasks\Unity\Quaternion\Dot.cs" />
     <Compile Include="Assets\Behavior Designer\Runtime\Variables\SharedColor.cs" />
     <Compile Include="Assets\Behavior Designer\Runtime\Tasks\Unity\AudioSource\PlayDelayed.cs" />
     <Compile Include="Assets\_Course Library\Scripts\Actions\ToggleInterface.cs" />
@@ -110,9 +110,10 @@
     <Compile Include="Assets\Tools\_Creepy_Cat\3D Games Effects Pack Free\Example_02\InstanceExample.cs" />
     <Compile Include="Assets\Behavior Designer Movement\Integrations\Astar Pathfinding Project\Tasks\Evade.cs" />
     <Compile Include="Assets\Behavior Designer\Runtime\Tasks\Unity\ParticleSystem\SetMaxParticles.cs" />
-    <Compile Include="Assets\Scripts\Escape Room\Audio\MusicFader.cs" />
     <Compile Include="Assets\Behavior Designer\Runtime\Tasks\Unity\Math\IntOperator.cs" />
+    <Compile Include="Assets\Scripts\Escape Room\Audio\MusicFader.cs" />
     <Compile Include="Assets\Tools\Youtube Player\3.3.1\PlayFromScript\PlayFromScript.cs" />
+    <Compile Include="Assets\Scripts\VideoSequencePlayer.cs" />
     <Compile Include="Assets\Behavior Designer\Runtime\Tasks\Unity\Rigidbody2D\MoveRotation.cs" />
     <Compile Include="Assets\Behavior Designer\Runtime\Tasks\Unity\Rigidbody\AddRelativeForce.cs" />
     <Compile Include="Assets\Behavior Designer\Runtime\Variables\SharedUInt.cs" />
@@ -127,8 +128,8 @@
     <Compile Include="Assets\Scripts\Escape Room\Audio\GameAudioSource.cs" />
     <Compile Include="Assets\_Course Library\Scripts\Conditions\OnJoystickMove.cs" />
     <Compile Include="Assets\Behavior Designer\Runtime\Variables\SharedVector4.cs" />
-    <Compile Include="Assets\Tools\LeanTween\Examples\Scripts\PathBezier2d.cs" />
     <Compile Include="Assets\Behavior Designer\Runtime\Tasks\Actions\RestartBehaviorTree.cs" />
+    <Compile Include="Assets\Tools\LeanTween\Examples\Scripts\PathBezier2d.cs" />
     <Compile Include="Assets\Behavior Designer\Runtime\Tasks\Decorators\UntilFailure.cs" />
     <Compile Include="Assets\Behavior Designer\Runtime\Tasks\Unity\Rigidbody\SetDrag.cs" />
     <Compile Include="Assets\Tools\LeanTween\Testing\TestingIssue2.cs" />
@@ -150,8 +151,8 @@
     <Compile Include="Assets\Behavior Designer Movement\Integrations\Astar Pathfinding Project\Tasks\Search.cs" />
     <Compile Include="Assets\Behavior Designer Movement\Scripts\Tasks\Follow.cs" />
     <Compile Include="Assets\Behavior Designer\Runtime\Tasks\Unity\Animator\GetDeltaRotation.cs" />
-    <Compile Include="Assets\Behavior Designer\Runtime\Tasks\Unity\ParticleSystem\SetStartLifetime.cs" />
     <Compile Include="Assets\Behavior Designer\Runtime\Tasks\Unity\Rigidbody\UseGravity.cs" />
+    <Compile Include="Assets\Behavior Designer\Runtime\Tasks\Unity\ParticleSystem\SetStartLifetime.cs" />
     <Compile Include="Assets\Behavior Designer\Runtime\Tasks\Unity\Math\RandomInt.cs" />
     <Compile Include="Assets\Tools\LeanTween\Examples\Scripts\PathSpline.cs" />
     <Compile Include="Assets\Behavior Designer\Runtime\Tasks\Unity\SharedVariables\CompareSharedFloat.cs" />
@@ -161,8 +162,8 @@
     <Compile Include="Assets\Tools\SensorToolkit\Integrations\PlayMaker\Actions\SteeringSensorSeek.cs" />
     <Compile Include="Assets\_Course Library\Scripts\Testing\DisplayFPS.cs" />
     <Compile Include="Assets\Behavior Designer\Runtime\Tasks\Unity\SharedVariables\SetSharedGameObject.cs" />
-    <Compile Include="Assets\Behavior Designer\Runtime\Variables\SharedFloat.cs" />
     <Compile Include="Assets\Behavior Designer\Runtime\Object Drawers\IntSliderAttribute.cs" />
+    <Compile Include="Assets\Behavior Designer\Runtime\Variables\SharedFloat.cs" />
     <Compile Include="Assets\Scripts\Escape Room\DragonPieceSlot.cs" />
     <Compile Include="Assets\Behavior Designer\Runtime\Tasks\Unity\Quaternion\FromToRotation.cs" />
     <Compile Include="Assets\_Course Library\Scripts\Actions\RotateObject.cs" />
@@ -185,8 +186,8 @@
     <Compile Include="Assets\Behavior Designer\Runtime\Tasks\Unity\CharacterController\SetHeight.cs" />
     <Compile Include="Assets\Behavior Designer\Runtime\Tasks\Conditionals\HasReceivedEvent.cs" />
     <Compile Include="Assets\Tools\LeanTween\Testing\Testing248.cs" />
-    <Compile Include="Assets\Behavior Designer\Runtime\Tasks\Unity\ParticleSystem\GetMaxParticles.cs" />
     <Compile Include="Assets\Behavior Designer\Runtime\Variables\SharedBehaviour.cs" />
+    <Compile Include="Assets\Behavior Designer\Runtime\Tasks\Unity\ParticleSystem\GetMaxParticles.cs" />
     <Compile Include="Assets\Behavior Designer\Runtime\Tasks\Unity\Vector3\GetRightVector.cs" />
     <Compile Include="Assets\Scripts\SkyboxObject.cs" />
     <Compile Include="Assets\_Course Library\Scripts\Actions\ManuallySelectObject.cs" />
@@ -201,14 +202,14 @@
     <Compile Include="Assets\Behavior Designer\Runtime\Tasks\Unity\Rigidbody\SetRotation.cs" />
     <Compile Include="Assets\Behavior Designer\Runtime\Tasks\Unity\PlayerPrefs\GetInt.cs" />
     <Compile Include="Assets\Scripts\Escape Room\ArtifactSlot.cs" />
-    <Compile Include="Assets\Behavior Designer\Runtime\Tasks\Unity\Transform\GetLocalRotation.cs" />
     <Compile Include="Assets\Behavior Designer\Runtime\Tasks\Unity\Animator\CrossFade.cs" />
+    <Compile Include="Assets\Behavior Designer\Runtime\Tasks\Unity\Transform\GetLocalRotation.cs" />
     <Compile Include="Assets\_Course Library\Scripts\Actions\ToggleVisibility.cs" />
     <Compile Include="Assets\Behavior Designer\Runtime\Tasks\Unity\Rigidbody2D\WakeUp.cs" />
     <Compile Include="Assets\Behavior Designer\Runtime\Tasks\Unity\Input\GetMousePosition.cs" />
     <Compile Include="Assets\Behavior Designer\Runtime\Tasks\Unity\Vector3\GetVector2.cs" />
-    <Compile Include="Assets\_Course Library\Scripts\Actions\SetParticleRate.cs" />
     <Compile Include="Assets\Behavior Designer\Runtime\Tasks\Decorators\Inverter.cs" />
+    <Compile Include="Assets\_Course Library\Scripts\Actions\SetParticleRate.cs" />
     <Compile Include="Assets\Behavior Designer\Runtime\Tasks\Unity\Transform\LookAt.cs" />
     <Compile Include="Assets\Tools\LeanTween\Examples\Scripts\GeneralCameraShake.cs" />
     <Compile Include="Assets\Behavior Designer\Runtime\Variables\SharedBool.cs" />
@@ -230,12 +231,12 @@
     <Compile Include="Assets\Behavior Designer\Runtime\Tasks\Unity\Transform\SetParent.cs" />
     <Compile Include="Assets\Tools\LeanTween\Testing\Scripts\LeanPool.cs" />
     <Compile Include="Assets\Behavior Designer\Runtime\Tasks\Unity\Rigidbody2D\GetLinearVelocity.cs" />
-    <Compile Include="Assets\Behavior Designer\Runtime\Tasks\Unity\SharedVariables\SharedTransformToGameObject.cs" />
     <Compile Include="Assets\Behavior Designer\Runtime\Tasks\Decorators\ConditionalEvaluator.cs" />
+    <Compile Include="Assets\Behavior Designer\Runtime\Tasks\Unity\SharedVariables\SharedTransformToGameObject.cs" />
     <Compile Include="Assets\Tools\SensorToolkit\Integrations\PlayMaker\Actions\SensorGetDetections.cs" />
     <Compile Include="Assets\Behavior Designer\Runtime\Tasks\Unity\Rigidbody\GetDrag.cs" />
-    <Compile Include="Assets\Behavior Designer\Runtime\Tasks\Unity\GameObject\GetTag.cs" />
     <Compile Include="Assets\Behavior Designer\Runtime\Tasks\Unity\Timeline\IsPaused.cs" />
+    <Compile Include="Assets\Behavior Designer\Runtime\Tasks\Unity\GameObject\GetTag.cs" />
     <Compile Include="Assets\Behavior Designer\Runtime\Variables\SharedMaterial.cs" />
     <Compile Include="Assets\Tools\LeanTween\Examples\Scripts\GeneralEventsListeners.cs" />
     <Compile Include="Assets\Behavior Designer\Runtime\Tasks\Unity\SphereCollider\SetCenter.cs" />
@@ -255,8 +256,8 @@
     <Compile Include="Assets\Behavior Designer\Runtime\Tasks\Unity\Animation\PlayQueued.cs" />
     <Compile Include="Assets\Behavior Designer\Runtime\Variables\SharedHumanBodyBones.cs" />
     <Compile Include="Assets\Behavior Designer Movement\Scripts\Tasks\MoveTowards.cs" />
-    <Compile Include="Assets\Behavior Designer\Runtime\Tasks\Conditionals\Physics\HasExitedCollision2D.cs" />
     <Compile Include="Assets\Behavior Designer\Runtime\Tasks\Unity\Rigidbody2D\GetVelocity.cs" />
+    <Compile Include="Assets\Behavior Designer\Runtime\Tasks\Conditionals\Physics\HasExitedCollision2D.cs" />
     <Compile Include="Assets\Behavior Designer\Runtime\Tasks\Unity\Vector3\GetSqrMagnitude.cs" />
     <Compile Include="Assets\Tools\HurricaneVR\TechDemo\Shaders\Scripts\DemoLeverDisplay.cs" />
     <Compile Include="Assets\Behavior Designer\Runtime\Tasks\Unity\SharedVariables\SetSharedObjectList.cs" />
@@ -288,8 +289,8 @@
     <Compile Include="Assets\Behavior Designer\Runtime\Tasks\Unity\Animator\SetFloatParameter.cs" />
     <Compile Include="Assets\Behavior Designer\Runtime\Tasks\Unity\SharedVariables\CompareSharedTransform.cs" />
     <Compile Include="Assets\Behavior Designer Movement\Integrations\Astar Pathfinding Project\Tasks\Queue.cs" />
-    <Compile Include="Assets\Behavior Designer\Runtime\Tasks\Unity\Behaviour\SetEnabled.cs" />
     <Compile Include="Assets\Behavior Designer\Runtime\Tasks\Unity\PlayerPrefs\Save.cs" />
+    <Compile Include="Assets\Behavior Designer\Runtime\Tasks\Unity\Behaviour\SetEnabled.cs" />
     <Compile Include="Assets\Behavior Designer\Runtime\Tasks\Unity\SharedVariables\SetSharedQuaternion.cs" />
     <Compile Include="Assets\Behavior Designer\Runtime\Tasks\Unity\Rigidbody2D\MovePosition.cs" />
     <Compile Include="Assets\_Course Library\Scripts\Controls\XRButton.cs" />
@@ -324,9 +325,9 @@
     <Compile Include="Assets\Behavior Designer\Runtime\Tasks\Unity\Light\SetIntensity.cs" />
     <Compile Include="Assets\Behavior Designer Movement\Scripts\GroupMovement.cs" />
     <Compile Include="Assets\Behavior Designer Movement\Scripts\Tasks\NavMeshMovement.cs" />
+    <Compile Include="Assets\Behavior Designer\Runtime\Tasks\Unity\ParticleSystem\Clear.cs" />
     <Compile Include="Assets\Behavior Designer\Runtime\Tasks\Unity\Transform\GetRightVector.cs" />
     <Compile Include="Assets\Behavior Designer\Runtime\Variables\SharedCollider.cs" />
-    <Compile Include="Assets\Behavior Designer\Runtime\Tasks\Unity\ParticleSystem\Clear.cs" />
     <Compile Include="Assets\Behavior Designer\Runtime\Tasks\Unity\Animator\GetFloatParameter.cs" />
     <Compile Include="Assets\Behavior Designer\Runtime\Tasks\Unity\SharedVariables\CompareSharedQuaternion.cs" />
     <Compile Include="Assets\Behavior Designer\Runtime\Tasks\Unity\Rigidbody2D\SetAngularDamping.cs" />
@@ -346,9 +347,9 @@
     <Compile Include="Assets\Scripts\Shrinker.cs" />
     <Compile Include="Assets\Tools\HurricaneVR\TechDemo\Shaders\Scripts\DemoHolsterOrientation.cs" />
     <Compile Include="Assets\_Course Library\Scripts\Actions\DestroyObject.cs" />
+    <Compile Include="Assets\Behavior Designer\Runtime\Tasks\Unity\Transform\Translate.cs" />
     <Compile Include="Assets\Tools\HurricaneVR\TechDemo\Shaders\Scripts\DemoKeyHologram.cs" />
     <Compile Include="Assets\Scripts\AudioManager.cs" />
-    <Compile Include="Assets\Behavior Designer\Runtime\Tasks\Unity\Transform\Translate.cs" />
     <Compile Include="Assets\Tools\HurricaneVR\TechDemo\Shaders\Scripts\DemoBackpack.cs" />
     <Compile Include="Assets\Behavior Designer\Runtime\Tasks\Unity\Rigidbody2D\SetLinearVelocity.cs" />
     <Compile Include="Assets\Behavior Designer\Runtime\Tasks\Unity\SharedVariables\CompareSharedObject.cs" />
@@ -361,31 +362,31 @@
     <Compile Include="Assets\Behavior Designer\Runtime\Tasks\Unity\Behaviour\GetEnabled.cs" />
     <Compile Include="Assets\Behavior Designer\Runtime\Tasks\Unity\GameObject\CompareLayer.cs" />
     <Compile Include="Assets\Behavior Designer\Runtime\Tasks\Unity\PlayerPrefs\HasKey.cs" />
-    <Compile Include="Assets\Behavior Designer\Runtime\Tasks\Unity\Vector3\RotateTowards.cs" />
     <Compile Include="Assets\Behavior Designer\Runtime\Tasks\Unity\ParticleSystem\Simulate.cs" />
-    <Compile Include="Assets\Behavior Designer\Runtime\Tasks\Unity\Rigidbody\GetAngularDamping.cs" />
+    <Compile Include="Assets\Behavior Designer\Runtime\Tasks\Unity\Vector3\RotateTowards.cs" />
     <Compile Include="Assets\Scripts\FootSteps.cs" />
+    <Compile Include="Assets\Behavior Designer\Runtime\Tasks\Unity\Rigidbody\GetAngularDamping.cs" />
     <Compile Include="Assets\Scripts\PaintingManager.cs" />
     <Compile Include="Assets\Behavior Designer\Runtime\Tasks\Conditionals\Physics\HasEnteredCollision2D.cs" />
     <Compile Include="Assets\Behavior Designer\Runtime\Tasks\Unity\Rigidbody\AddExplosionForce.cs" />
     <Compile Include="Assets\Behavior Designer\Runtime\Tasks\Unity\Light\GetCookieSize.cs" />
+    <Compile Include="Assets\Behavior Designer\Runtime\Tasks\Unity\SharedVariables\CompareSharedVector4.cs" />
     <Compile Include="Assets\Behavior Designer\Runtime\Tasks\Unity\AudioSource\SetScheduledEndTime.cs" />
     <Compile Include="Assets\_Course Library\Scripts\Actions\ToggleParticle.cs" />
-    <Compile Include="Assets\Behavior Designer\Runtime\Tasks\Unity\SharedVariables\CompareSharedVector4.cs" />
     <Compile Include="Assets\Behavior Designer\Runtime\Tasks\Unity\SphereCollider\GetCenter.cs" />
     <Compile Include="Assets\_Course Library\Scripts\Testing\Notes.cs" />
     <Compile Include="Assets\Behavior Designer\Runtime\Tasks\Unity\Vector2\GetVector3.cs" />
     <Compile Include="Assets\Behavior Designer\Runtime\Tasks\Unity\Animator\SetLayerWeight.cs" />
     <Compile Include="Assets\Behavior Designer\Runtime\Tasks\Unity\Transform\GetEulerAngles.cs" />
     <Compile Include="Assets\Behavior Designer\Runtime\Tasks\Unity\AudioSource\IsPlaying.cs" />
+    <Compile Include="Assets\Behavior Designer\Runtime\Tasks\Unity\Vector2\GetSqrMagnitude.cs" />
     <Compile Include="Assets\Tools\HurricaneVR\TechDemo\Shaders\Scripts\DemoSocketFilter.cs" />
     <Compile Include="Assets\Tools\LeanTween\Examples\Scripts\TestingZLegacy.cs" />
-    <Compile Include="Assets\Behavior Designer\Runtime\Tasks\Unity\Vector2\GetSqrMagnitude.cs" />
     <Compile Include="Assets\Behavior Designer\Runtime\Tasks\Unity\Rigidbody\SetCenterOfMass.cs" />
     <Compile Include="Assets\Behavior Designer\Runtime\Tasks\Unity\Transform\GetLocalScale.cs" />
     <Compile Include="Assets\Behavior Designer\Runtime\Tasks\Unity\AudioSource\GetIgnoreListenerVolume.cs" />
-    <Compile Include="Assets\Behavior Designer\Runtime\Tasks\Unity\ParticleSystem\SetPlaybackSpeed.cs" />
     <Compile Include="Assets\Behavior Designer\Runtime\Tasks\Unity\Math\BoolOperator.cs" />
+    <Compile Include="Assets\Behavior Designer\Runtime\Tasks\Unity\ParticleSystem\SetPlaybackSpeed.cs" />
     <Compile Include="Assets\Behavior Designer\Runtime\Tasks\Unity\Animator\GetGravityWeight.cs" />
     <Compile Include="Assets\Behavior Designer Movement\Scripts\Tasks\WithinDistance.cs" />
     <Compile Include="Assets\Behavior Designer\Runtime\Tasks\Unity\Quaternion\Slerp.cs" />
@@ -422,13 +423,12 @@
     <Compile Include="Assets\Behavior Designer\Runtime\Tasks\Unity\NavMeshAgent\Move.cs" />
     <Compile Include="Assets\Behavior Designer\Runtime\Tasks\Unity\Physics2D\Linecast.cs" />
     <Compile Include="Assets\Behavior Designer\Runtime\Tasks\Composites\Sequence.cs" />
-    <Compile Include="Assets\Behavior Designer\Runtime\Tasks\Unity\Timeline\Play.cs" />
     <Compile Include="Assets\Behavior Designer\Runtime\Variables\SharedVector3.cs" />
+    <Compile Include="Assets\Behavior Designer\Runtime\Tasks\Unity\Timeline\Play.cs" />
     <Compile Include="Assets\Behavior Designer\Runtime\Tasks\Unity\NavMeshAgent\SetIsStopped.cs" />
     <Compile Include="Assets\Behavior Designer\Runtime\Tasks\Unity\Time\SetTimeScale.cs" />
     <Compile Include="Assets\_Course Library\Scripts\Actions\TeleportPlayer.cs" />
     <Compile Include="Assets\Behavior Designer\Runtime\Tasks\Unity\Rigidbody\GetMass.cs" />
-    <Compile Include="Assets\Scripts\CubeEater.cs" />
     <Compile Include="Assets\Behavior Designer\Runtime\Tasks\Unity\GameObject\ActiveSelf.cs" />
     <Compile Include="Assets\HurricaneVR\Framework\Scripts\ControllerInput\InputSystem\HVRInputActions.cs" />
     <Compile Include="Assets\Behavior Designer\Runtime\Tasks\Unity\Collider\SetEnabled.cs" />
@@ -541,8 +541,8 @@
     <Compile Include="Assets\_Course Library\Scripts\Conditions\OnCollision.cs" />
     <Compile Include="Assets\Tools\LeanTween\Examples\Scripts\PathSplinePerformance.cs" />
     <Compile Include="Assets\Behavior Designer\Runtime\Tasks\Unity\Input\GetAxisRaw.cs" />
-    <Compile Include="Assets\Scripts\SocketRemover.cs" />
     <Compile Include="Assets\Behavior Designer\Runtime\Tasks\Unity\Time\GetTime.cs" />
+    <Compile Include="Assets\Scripts\SocketRemover.cs" />
     <Compile Include="Assets\Behavior Designer\Runtime\Tasks\Unity\Input\IsKeyDown.cs" />
     <Compile Include="Assets\Behavior Designer\Runtime\Tasks\Actions\StopBehaviorTree.cs" />
     <Compile Include="Assets\Behavior Designer\Runtime\Tasks\Decorators\ReturnFailure.cs" />
@@ -562,8 +562,8 @@
     <Compile Include="Assets\Behavior Designer\Runtime\Tasks\Unity\AudioSource\GetMaxDistance.cs" />
     <Compile Include="Assets\Behavior Designer Movement\Integrations\Astar Pathfinding Project\Tasks\IAstarAIGroupMovement.cs" />
     <Compile Include="Assets\Behavior Designer\Runtime\Tasks\Unity\Rigidbody2D\GetLinearDamping.cs" />
-    <Compile Include="Assets\Behavior Designer\Runtime\Tasks\Unity\SphereCollider\GetRadius.cs" />
     <Compile Include="Assets\Behavior Designer\Runtime\Tasks\Unity\Light\GetColor.cs" />
+    <Compile Include="Assets\Behavior Designer\Runtime\Tasks\Unity\SphereCollider\GetRadius.cs" />
     <Compile Include="Assets\Behavior Designer\Runtime\Tasks\Unity\Debug\DrawLine.cs" />
     <Compile Include="Assets\Behavior Designer\Runtime\Tasks\Unity\Time\GetTimeScale.cs" />
     <Compile Include="Assets\Behavior Designer\Runtime\Tasks\Unity\AudioSource\SetIgnoreListenerPause.cs" />
@@ -602,9 +602,9 @@
     <Compile Include="Assets\Behavior Designer\Runtime\Tasks\Unity\GameObject\SetActive.cs" />
     <Compile Include="Assets\Tools\LeanTween\Testing\TestingIssue.cs" />
     <Compile Include="Assets\Tools\LeanTween\Framework\LTDescrOptional.cs" />
-    <Compile Include="Assets\Behavior Designer\Runtime\Tasks\Unity\Vector2\Normalize.cs" />
     <Compile Include="Assets\Behavior Designer\Runtime\Tasks\Unity\Animator\SetLookAtPosition.cs" />
     <Compile Include="Assets\Behavior Designer\Runtime\Tasks\Unity\Transform\SetRightVector.cs" />
+    <Compile Include="Assets\Behavior Designer\Runtime\Tasks\Unity\Vector2\Normalize.cs" />
     <Compile Include="Assets\Tools\LeanTween\Testing\TestingRotate.cs" />
     <Compile Include="Assets\_Course Library\Scripts\Actions\PlayQuickSound.cs" />
     <Compile Include="Assets\Behavior Designer\Runtime\Tasks\Unity\AudioSource\SetIgnoreListenerVolume.cs" />
@@ -627,8 +627,8 @@
     <Compile Include="Assets\Behavior Designer\Runtime\Tasks\Unity\Quaternion\LookRotation.cs" />
     <Compile Include="Assets\Behavior Designer\Runtime\Tasks\Unity\Physics2D\Circlecast.cs" />
     <Compile Include="Assets\_Course Library\Scripts\Conditions\OnTrigger.cs" />
-    <Compile Include="Assets\Behavior Designer\Runtime\Tasks\Unity\Rigidbody2D\SetLinearDamping.cs" />
     <Compile Include="Assets\Behavior Designer\Runtime\Tasks\Unity\Math\BoolComparison.cs" />
+    <Compile Include="Assets\Behavior Designer\Runtime\Tasks\Unity\Rigidbody2D\SetLinearDamping.cs" />
     <Compile Include="Assets\Scripts\OldManAi.cs" />
     <Compile Include="Assets\Behavior Designer\Runtime\Tasks\Unity\ParticleSystem\GetTime.cs" />
     <Compile Include="Assets\_Course Library\Scripts\Actions\PlayContinuousSound.cs" />
@@ -639,9 +639,9 @@
     <Compile Include="Assets\Behavior Designer\Runtime\Tasks\Unity\PlayerPrefs\SetInt.cs" />
     <Compile Include="Assets\Behavior Designer\Runtime\Tasks\Unity\Debug\LogValue.cs" />
     <Compile Include="Assets\Tools\LeanTween\Testing\TestingMaxTweens.cs" />
-    <Compile Include="Assets\Tools\HurricaneVR\TechDemo\Shaders\Scripts\DemoSlidingDoor.cs" />
-    <Compile Include="Assets\Behavior Designer\Runtime\Tasks\Conditionals\RandomProbability.cs" />
     <Compile Include="Assets\Behavior Designer\Runtime\Tasks\Unity\Input\GetAcceleration.cs" />
+    <Compile Include="Assets\Behavior Designer\Runtime\Tasks\Conditionals\RandomProbability.cs" />
+    <Compile Include="Assets\Tools\HurricaneVR\TechDemo\Shaders\Scripts\DemoSlidingDoor.cs" />
     <Compile Include="Assets\Behavior Designer\Runtime\Tasks\Unity\SharedVariables\CompareSharedVector3.cs" />
     <Compile Include="Assets\_Course Library\Scripts\Actions\SetInteractionLayer.cs" />
     <Compile Include="Assets\Scripts\Escape Room\Audio\AudioSourcePlayer.cs" />
@@ -657,20 +657,20 @@
     <Compile Include="Assets\Behavior Designer\Runtime\Tasks\Unity\CharacterController\SimpleMove.cs" />
     <Compile Include="Assets\Tools\SensorToolkit\Integrations\PlayMaker\Actions\SensorListenDetectionEvents.cs" />
     <Compile Include="Assets\_Course Library\Scripts\Actions\LookAtPlayer.cs" />
+    <Compile Include="Assets\Behavior Designer\Runtime\Tasks\Unity\Timeline\IsPlaying.cs" />
     <Compile Include="Assets\Behavior Designer\Runtime\Tasks\Unity\AudioSource\SetSpread.cs" />
     <Compile Include="Assets\Behavior Designer\Runtime\Tasks\Unity\GameObject\SetTag.cs" />
-    <Compile Include="Assets\Behavior Designer\Runtime\Tasks\Unity\Timeline\IsPlaying.cs" />
     <Compile Include="Assets\Behavior Designer\Runtime\Tasks\Unity\Renderer\SetMaterial.cs" />
     <Compile Include="Assets\Behavior Designer\Runtime\Tasks\Unity\String\Format.cs" />
-    <Compile Include="Assets\Behavior Designer\Runtime\Tasks\Unity\Transform\SetLocalRotation.cs" />
     <Compile Include="Assets\Behavior Designer\Runtime\Tasks\Unity\Animation\Rewind.cs" />
     <Compile Include="Assets\Behavior Designer\Runtime\Tasks\Unity\Transform\GetLocalPosition.cs" />
+    <Compile Include="Assets\Behavior Designer\Runtime\Tasks\Unity\Transform\SetLocalRotation.cs" />
     <Compile Include="Assets\Tools\HurricaneVR\TechDemo\Shaders\Scripts\DemoLock.cs" />
     <Compile Include="Assets\Behavior Designer\Runtime\Tasks\Unity\Light\SetCullingMask.cs" />
     <Compile Include="Assets\Tools\LeanTween\Examples\Scripts\GeneralSimpleUI.cs" />
     <Compile Include="Assets\Behavior Designer\Runtime\Tasks\Unity\Animation\GetAnimatePhysics.cs" />
-    <Compile Include="Assets\Behavior Designer\Runtime\Tasks\Unity\NavMeshAgent\Warp.cs" />
     <Compile Include="Assets\Behavior Designer Movement\Scripts\Tasks\Search.cs" />
+    <Compile Include="Assets\Behavior Designer\Runtime\Tasks\Unity\NavMeshAgent\Warp.cs" />
     <Compile Include="Assets\Behavior Designer\Runtime\Tasks\Unity\Animator\GetApplyRootMotion.cs" />
     <Compile Include="Assets\Scripts\VideoScreen.cs" />
     <Compile Include="Assets\Behavior Designer\Runtime\Tasks\Unity\AudioSource\GetLoop.cs" />
@@ -708,10 +708,10 @@
     <Compile Include="Assets\Behavior Designer\Runtime\Tasks\Unity\Transform\SetForwardVector.cs" />
     <Compile Include="Assets\Behavior Designer\Runtime\Tasks\Unity\AudioSource\SetPriority.cs" />
     <Compile Include="Assets\Behavior Designer\Runtime\Tasks\Unity\Rigidbody\MoveRotation.cs" />
-    <Compile Include="Assets\Behavior Designer\Runtime\Tasks\Unity\ParticleSystem\SetLoop.cs" />
     <Compile Include="Assets\Behavior Designer\Runtime\Tasks\Unity\Input\IsButtonUp.cs" />
-    <Compile Include="Assets\Behavior Designer\Runtime\Tasks\Unity\Time\GetDeltaTime.cs" />
+    <Compile Include="Assets\Behavior Designer\Runtime\Tasks\Unity\ParticleSystem\SetLoop.cs" />
     <Compile Include="Assets\Behavior Designer\Runtime\Tasks\Unity\Animator\Play.cs" />
+    <Compile Include="Assets\Behavior Designer\Runtime\Tasks\Unity\Time\GetDeltaTime.cs" />
     <Compile Include="Assets\Behavior Designer\Runtime\Tasks\Unity\Vector3\GetMagnitude.cs" />
     <Compile Include="Assets\Behavior Designer\Runtime\Tasks\Unity\BoxCollider2D\GetSize.cs" />
     <Compile Include="Assets\Behavior Designer\Runtime\Tasks\Actions\StackedAction.cs" />
@@ -748,12 +748,13 @@
     <Compile Include="Assets\Behavior Designer\Runtime\Tasks\Unity\AudioSource\GetMinDistance.cs" />
     <Compile Include="Assets\Behavior Designer\Runtime\Tasks\Actions\BehaviorTreeReference.cs" />
     <Compile Include="Assets\Behavior Designer\Runtime\Tasks\Unity\Rigidbody2D\SetDrag.cs" />
+    <Compile Include="Assets\Scripts\Gate.cs" />
     <Compile Include="Assets\Behavior Designer\Runtime\Tasks\Unity\BoxCollider\SetCenter.cs" />
     <Compile Include="Assets\Behavior Designer\Runtime\Tasks\Unity\AudioSource\GetVolume.cs" />
     <Compile Include="Assets\Scripts\VideoInfo.cs" />
     <Compile Include="Assets\Behavior Designer\Runtime\Tasks\Unity\Transform\SetLocalScale.cs" />
-    <Compile Include="Assets\Tools\LeanTween\Examples\Scripts\GeneralEasingTypes.cs" />
     <Compile Include="Assets\Behavior Designer\Runtime\Tasks\Actions\SendEvent.cs" />
+    <Compile Include="Assets\Tools\LeanTween\Examples\Scripts\GeneralEasingTypes.cs" />
     <Compile Include="Assets\Behavior Designer\Runtime\Tasks\Unity\Input\IsMouseDown.cs" />
     <Compile Include="Assets\Behavior Designer\Runtime\Tasks\Unity\Rigidbody2D\GetPosition.cs" />
     <Compile Include="Assets\_Course Library\Scripts\Actions\ConvertValueToHue.cs" />
@@ -761,8 +762,8 @@
     <Compile Include="Assets\Behavior Designer\Runtime\Tasks\Unity\Rigidbody2D\Sleep.cs" />
     <Compile Include="Assets\Behavior Designer\Runtime\Tasks\Unity\Rigidbody\AddForce.cs" />
     <Compile Include="Assets\Behavior Designer\Runtime\Tasks\Unity\CharacterController\GetSlopeLimit.cs" />
-    <Compile Include="Assets\Tools\SensorToolkit\Integrations\PlayMaker\Actions\SteeringSensorConfigure.cs" />
     <Compile Include="Assets\Behavior Designer\Runtime\Tasks\Unity\AudioSource\SetVelocityUpdateMode.cs" />
+    <Compile Include="Assets\Tools\SensorToolkit\Integrations\PlayMaker\Actions\SteeringSensorConfigure.cs" />
     <Compile Include="Assets\Behavior Designer\Runtime\Tasks\Unity\Math\FloatAbs.cs" />
     <Compile Include="Assets\Behavior Designer\Runtime\Tasks\Unity\Rigidbody2D\AddTorque.cs" />
     <Compile Include="Assets\Behavior Designer\Runtime\Tasks\Unity\SphereCollider\SetRadius.cs" />
@@ -803,8 +804,8 @@
     <Compile Include="Assets\Scripts\Escape Room\Door.cs" />
     <Compile Include="Assets\Behavior Designer\Runtime\Tasks\Actions\Wait.cs" />
     <Compile Include="Assets\Behavior Designer\Runtime\Tasks\Unity\Quaternion\Lerp.cs" />
-    <Compile Include="Assets\_Course Library\Scripts\Testing\TeleportAreaWithFade.cs" />
     <Compile Include="Assets\Behavior Designer\Runtime\Tasks\Unity\Animator\SetSpeed.cs" />
+    <Compile Include="Assets\_Course Library\Scripts\Testing\TeleportAreaWithFade.cs" />
     <Compile Include="Assets\Behavior Designer\Runtime\Tasks\Unity\Vector3\MoveTowards.cs" />
     <Compile Include="Assets\Behavior Designer\Runtime\Tasks\Unity\Rigidbody\GetAngularDrag.cs" />
     <Compile Include="Assets\Behavior Designer\Runtime\Tasks\Unity\Math\SetInt.cs" />
@@ -1114,20 +1115,20 @@
     <Reference Include="UnityEditor.UnityConnectModule">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.4f1\Editor\Data\Managed\UnityEngine\UnityEditor.UnityConnectModule.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.Collections.LowLevel.ILSupport">
+      <HintPath>C:\Users\Lenovo\My First VR Project URP\Library\PackageCache\com.unity.collections@1.5.1\Unity.Collections.LowLevel.ILSupport\Unity.Collections.LowLevel.ILSupport.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
       <HintPath>C:\Users\Lenovo\My First VR Project URP\Library\PackageCache\com.unity.visualscripting@1.9.1\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="BehaviorDesigner.Runtime">
+      <HintPath>C:\Users\Lenovo\My First VR Project URP\Assets\Behavior Designer\Runtime\BehaviorDesigner.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Newtonsoft.Json">
       <HintPath>C:\Users\Lenovo\My First VR Project URP\Library\PackageCache\com.unity.nuget.newtonsoft-json@3.2.1\Runtime\Newtonsoft.Json.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.Collections.LowLevel.ILSupport">
-      <HintPath>C:\Users\Lenovo\My First VR Project URP\Library\PackageCache\com.unity.collections@1.5.1\Unity.Collections.LowLevel.ILSupport\Unity.Collections.LowLevel.ILSupport.dll</HintPath>
-    </Reference>
     <Reference Include="Mono.Cecil">
       <HintPath>C:\Users\Lenovo\My First VR Project URP\Library\PackageCache\com.unity.nuget.mono-cecil@1.11.4\Mono.Cecil.dll</HintPath>
-    </Reference>
-    <Reference Include="BehaviorDesigner.Runtime">
-      <HintPath>C:\Users\Lenovo\My First VR Project URP\Assets\Behavior Designer\Runtime\BehaviorDesigner.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Android.Types">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.4f1\Editor\Data\PlaybackEngines\AndroidPlayer\Unity.Android.Types.dll</HintPath>
@@ -1567,11 +1568,11 @@
     <Reference Include="Unity.Collections">
       <HintPath>C:\Users\Lenovo\My First VR Project URP\Library\ScriptAssemblies\Unity.Collections.dll</HintPath>
     </Reference>
-    <Reference Include="PPv2URPConverters">
-      <HintPath>C:\Users\Lenovo\My First VR Project URP\Library\ScriptAssemblies\PPv2URPConverters.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.Collections.Editor">
       <HintPath>C:\Users\Lenovo\My First VR Project URP\Library\ScriptAssemblies\Unity.Collections.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="PPv2URPConverters">
+      <HintPath>C:\Users\Lenovo\My First VR Project URP\Library\ScriptAssemblies\PPv2URPConverters.dll</HintPath>
     </Reference>
     <Reference Include="Unity.XR.CoreUtils.Editor">
       <HintPath>C:\Users\Lenovo\My First VR Project URP\Library\ScriptAssemblies\Unity.XR.CoreUtils.Editor.dll</HintPath>
@@ -1588,9 +1589,6 @@
     <Reference Include="Unity.VSCode.Editor">
       <HintPath>C:\Users\Lenovo\My First VR Project URP\Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.XR.OpenXR.Features.OculusQuestSupport">
-      <HintPath>C:\Users\Lenovo\My First VR Project URP\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.OculusQuestSupport.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.XR.Oculus.Editor">
       <HintPath>C:\Users\Lenovo\My First VR Project URP\Library\ScriptAssemblies\Unity.XR.Oculus.Editor.dll</HintPath>
     </Reference>
@@ -1599,6 +1597,9 @@
     </Reference>
     <Reference Include="Unity.RenderPipelines.Universal.Editor">
       <HintPath>C:\Users\Lenovo\My First VR Project URP\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.XR.OpenXR.Features.OculusQuestSupport">
+      <HintPath>C:\Users\Lenovo\My First VR Project URP\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.OculusQuestSupport.dll</HintPath>
     </Reference>
     <Reference Include="Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary">
       <HintPath>C:\Users\Lenovo\My First VR Project URP\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll</HintPath>
@@ -1645,11 +1646,11 @@
     <Reference Include="Unity.VisualScripting.Core.Editor">
       <HintPath>C:\Users\Lenovo\My First VR Project URP\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.UI">
-      <HintPath>C:\Users\Lenovo\My First VR Project URP\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.XR.Hands.Editor">
       <HintPath>C:\Users\Lenovo\My First VR Project URP\Library\ScriptAssemblies\Unity.XR.Hands.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>C:\Users\Lenovo\My First VR Project URP\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.XR.LegacyInputHelpers">
       <HintPath>C:\Users\Lenovo\My First VR Project URP\Library\ScriptAssemblies\UnityEditor.XR.LegacyInputHelpers.dll</HintPath>

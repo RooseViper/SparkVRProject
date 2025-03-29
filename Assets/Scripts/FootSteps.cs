@@ -42,9 +42,7 @@ public class FootSteps : MonoBehaviour
    public void TriggerChase()
    {
        var oldManAi = GetComponentInParent<OldManAi>();
-       Debug.Log("11");
        if(oldManAi == null)return;
-       Debug.Log("22");
        oldManAi.Chase();
    }
 }

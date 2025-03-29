@@ -63,6 +63,9 @@ namespace Escape_Room
                 var allPiecesMatched = dragonPieceSlots.All(slot => slot.index == slot.item.index);
                 if (allPiecesMatched)
                 {
+                    var countdownTimer = FindObjectOfType<CountdownTimer>();
+                    if(countdownTimer == null)return;
+                    if(countdownTimer.gameOver)return;
                     StartCoroutine(OpenDoorCoroutine());
                 }
             }
