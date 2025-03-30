@@ -9,6 +9,7 @@ using UnityEngine.UI;
 public class CountdownTimer : MonoBehaviour
 {
     [SerializeField] private GameObject countDownObj;
+    [SerializeField] private TMP_Dropdown dropdown;
     [SerializeField] private Gate gate;
     public bool gameOver;
     public float startMinutes = 1; // Start time in minutes
@@ -19,13 +20,14 @@ public class CountdownTimer : MonoBehaviour
     public void StartCountDown()
     {
         countDownObj.SetActive(true);
+        SetDifficulty();
         remainingTime = startMinutes * 60; // Convert minutes to seconds
         timerCoroutine = StartCoroutine(TimerCoroutine());
     }
 
-    public void SetDifficulty(TMP_Dropdown dropdown)
+    private void SetDifficulty()
     {
-        startMinutes = dropdown.value == 0 ? 10 : 5;
+        startMinutes = dropdown.value == 0 ? 10f : 0.2f;
     }
 
     public void StopTimer()
